@@ -1,9 +1,11 @@
 <template>
-<path
-  :d="`M ${startPos.x} ${startPos.y}
+<g>
+  <path
+    :d="`M ${startPos.x} ${startPos.y}
   C ${control1Pos.x} ${control1Pos.y} ${control2Pos.x} ${control2Pos.y} ${endPos.x} ${endPos.y}`"
-  :class="['arc', type]" fill="none"
-  :marker-end="`url(#triangle-${type})`"></path>
+    :class="['arc', type]" fill="none"
+    :marker-end="`url(#triangle-${type})`"></path>
+</g>
 </template>
 
 <script>

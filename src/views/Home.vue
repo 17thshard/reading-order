@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div class="home">
+  <CircleDiagram :entries="entries"/>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import CircleDiagram from '@/components/CircleDiagram.vue';
+import loader from '@/loader';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    CircleDiagram,
+  },
+  data() {
+    return {
+      entries: {},
+    };
+  },
+  async mounted() {
+    const result = await (await fetch('/data.json')).json();
+    this.entries = loader(result);
   },
 };
 </script>

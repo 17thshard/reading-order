@@ -1,12 +1,16 @@
-import { shallowMount } from '@vue/test-utils';
-import HelloWorld from '@/components/HelloWorld.vue';
+import { calcDepth } from '@/loader';
 
-describe('HelloWorld.vue', () => {
-  it('renders props.msg when passed', () => {
-    const msg = 'new message';
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg },
-    });
-    expect(wrapper.text()).toMatch(msg);
+describe('calcDepth', () => {
+  it('calculates 1', () => {
+    expect(calcDepth([{}])).toBe(1);
+  });
+  it('calculates 2', () => {
+    expect(calcDepth([[{}]])).toBe(2);
+  });
+  it('calculates 2 mixed', () => {
+    expect(calcDepth([[{}], []])).toBe(2);
+  });
+  it('calculates 3 mixed', () => {
+    expect(calcDepth([[{}], [[{}]]])).toBe(3);
   });
 });

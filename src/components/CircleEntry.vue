@@ -12,7 +12,6 @@ export default {
   name: 'CircleEntry',
   props: {
     angle: Number,
-    text: String,
     radius: {
       type: Number,
       default: 200,
@@ -20,10 +19,10 @@ export default {
   },
   computed: {
     sign() {
-      return this.angle > 180 ? 1 : -1;
+      return (((this.angle % 360) + 360) % 360) > 180 ? 1 : -1;
     },
     anchor() {
-      return this.angle > 180 ? 'end' : 'start';
+      return (((this.angle % 360) + 360) % 360) > 180 ? 'end' : 'start';
     },
   },
 };
