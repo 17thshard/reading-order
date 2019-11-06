@@ -10,7 +10,7 @@
     <path :d="path" class="arc-foreground" fill="none" stroke="white"
           :stroke-width="type.width" marker-end="url(#triangle-mask)"></path>
   </mask>
-  <g :mask="`url(#arc-path-${start}.${end})`" v-if="highlight">
+  <g class="arc-shine-container" :mask="`url(#arc-path-${start}.${end})`" v-if="highlight">
     <rect :x="shineRectangle.x" :y="shineRectangle.y"
           :width="shineRectangle.width" :height="shineRectangle.height"
           :fill="`url(#shine-${shineAxis})`"
@@ -157,6 +157,10 @@ export default {
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-duration: 5s;
+
+    &-container {
+      pointer-events: none;
+    }
 
     &-x {
       animation-name: shine-x;
