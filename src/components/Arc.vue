@@ -1,5 +1,5 @@
 <template>
-<g :class="['arc', {'arc-active': type.active}]">
+<g :class="['arc', {'arc-active': type.active, 'arc-nodes-active': nodesActive}]">
   <path
     :d="`M ${startPos.x} ${startPos.y}
     C ${control1Pos.x} ${control1Pos.y} ${control2Pos.x} ${control2Pos.y} ${endPos.x} ${endPos.y}`"
@@ -23,6 +23,7 @@ export default {
       type: Number,
       default: 200,
     },
+    nodesActive: Boolean,
   },
   computed: {
     styles() {
@@ -80,6 +81,10 @@ export default {
   opacity: 0;
 
   &-active {
+    opacity: 0.4;
+  }
+
+  &-nodes-active {
     opacity: 1;
   }
 
