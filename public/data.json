@@ -53,7 +53,7 @@
         {
             "id": "unpublished",
             "description": "Unpublished",
-            "color": "#606060"
+            "color": "#505050"
         },
         {
             "id": "uncanonical",
@@ -416,20 +416,16 @@
             }
         ],
         [
-            [
-                {
-                    "id": "jas",
-                    "title": "Jasnah deleted scene",
-                    "categories": [ "short-story", "uncanonical" ]
-                }
-            ],
-            [
-                {
-                    "id": "trav",
-                    "title": "The Traveler reading",
-                    "categories": [ "short-story", "uncanonical" ]
-                }
-            ]
+            {
+                "id": "jas",
+                "title": "Jasnah deleted scene",
+                "categories": [ "short-story", "uncanonical" ]
+            },
+            {
+                "id": "trav",
+                "title": "The Traveler reading",
+                "categories": [ "short-story", "uncanonical" ]
+            }
         ]
     ]
 }
