@@ -42,7 +42,10 @@ export default ({ 'base-separation': baseSeparation, books: nested, connections 
     0,
   );
 
-  const connectionTypes = connections.reduce((acc, c) => ({ ...acc, [c.id]: c }), {});
+  const connectionTypes = connections.reduce((acc, c) => ({
+    ...acc,
+    [c.id]: { ...c, active: true },
+  }), {});
 
   return { books, connectionTypes };
 };

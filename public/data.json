@@ -3,23 +3,27 @@
     "connections": [
         {
             "id": "major",
+            "description": "Major Connections",
             "color": "#770000",
             "width": 2
         },
         {
             "id": "significant",
+            "description": "Significant Connections",
             "color": "#a0470d",
             "width": 2,
             "dash": "4 2"
         },
         {
             "id": "minor",
+            "description": "Minor Connections",
             "color": "#a09713",
             "width": 2,
             "dash": "3"
         },
         {
             "id": "easter-eggs",
+            "description": "Easter Eggs",
             "color": "#4d4d4d",
             "width": 1,
             "dash": "2"
