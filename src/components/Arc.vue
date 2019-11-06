@@ -3,8 +3,8 @@
   <path
     :d="`M ${startPos.x} ${startPos.y}
   C ${control1Pos.x} ${control1Pos.y} ${control2Pos.x} ${control2Pos.y} ${endPos.x} ${endPos.y}`"
-    :class="['arc', type]" fill="none"
-    :marker-end="`url(#triangle-${type})`"></path>
+    class="'arc'" fill="none" :style="styles"
+    :marker-end="`url(#triangle-${type.id})`"></path>
 </g>
 </template>
 
@@ -14,13 +14,20 @@ export default {
   props: {
     start: Number,
     end: Number,
-    type: String,
+    type: Object,
     radius: {
       type: Number,
       default: 200,
     },
   },
   computed: {
+    styles() {
+      return {
+        stroke: this.type.color,
+        strokeWidth: this.type.width,
+        strokeDasharray: this.type.dash,
+      };
+    },
     startPos() {
       const startRadians = Math.PI * (this.start - 90 - 1.5 * this.signedSeparation) / 180;
       return {
@@ -56,30 +63,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-.arc {
-  &.major {
-    stroke: #770000;
-    stroke-width: 2;
-  }
-
-  &.significant {
-    stroke: #a0470d;
-    stroke-width: 2;
-    stroke-dasharray: 4 2;
-  }
-
-  &.minor {
-    stroke: #a09713;
-    stroke-width: 2;
-    stroke-dasharray: 3 3;
-  }
-
-  &.easter-eggs {
-    stroke: #4d4d4d;
-    stroke-width: 1;
-    stroke-dasharray: 2;
-  }
-}
-</style>

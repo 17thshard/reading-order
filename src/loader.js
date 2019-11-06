@@ -27,7 +27,7 @@ const walk = (entries, f, inc, maxDepth, depth, totalAngle) => {
   return localAngle + (terminal ? maxDepth - depth + 1 : 1) * inc;
 };
 
-export default ({ 'base-separation': baseSeparation, books: nested }) => {
+export default ({ 'base-separation': baseSeparation, books: nested, connections }) => {
   const books = {};
   const maxDepth = calcDepth(nested);
 
@@ -42,5 +42,7 @@ export default ({ 'base-separation': baseSeparation, books: nested }) => {
     0,
   );
 
-  return books;
+  const connectionTypes = connections.reduce((acc, c) => ({ ...acc, [c.id]: c }), {});
+
+  return { books, connectionTypes };
 };

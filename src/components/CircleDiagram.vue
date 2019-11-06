@@ -2,33 +2,14 @@
 <div class="circle-diagram">
   <svg class="circular" viewBox="0 0 1000 1000">
     <defs>
-      <marker id="triangle-easter-eggs" viewBox="0 0 10 10"
+      <marker :id="`triangle-${typeId}`" viewBox="0 0 10 10"
               refX="5" refY="5"
               markerUnits="strokeWidth"
               markerWidth="4" markerHeight="4"
-              orient="auto">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#4d4d4d"/>
-      </marker>
-      <marker id="triangle-major" viewBox="0 0 10 10"
-              refX="5" refY="5"
-              markerUnits="strokeWidth"
-              markerWidth="4" markerHeight="4"
-              orient="auto">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#770000"/>
-      </marker>
-      <marker id="triangle-significant" viewBox="0 0 10 10"
-              refX="5" refY="5"
-              markerUnits="strokeWidth"
-              markerWidth="4" markerHeight="4"
-              orient="auto">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#a0470d"/>
-      </marker>
-      <marker id="triangle-minor" viewBox="0 0 10 10"
-              refX="5" refY="5"
-              markerUnits="strokeWidth"
-              markerWidth="3" markerHeight="3"
-              orient="auto">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#a09713"/>
+              orient="auto"
+              v-for="(type, typeId) in connectionTypes"
+              :key="typeId">
+        <path d="M 0 0 L 10 5 L 0 10 z" :fill="type.color"/>
       </marker>
     </defs>
     <CircleEntry :angle="entry.angle" :radius="300" :class="entry.classes || []"
@@ -54,14 +35,17 @@ export default {
       type: Object,
       required: true,
     },
+    connectionTypes: Object,
   },
   computed: {
     connections() {
-      return Object.values(this.entries).flatMap(e => (e.connections || []).map(c => ({
-        start: e.angle,
-        end: this.entries[c.target].angle,
-        type: c.type,
-      })));
+      return Object.values(this.entries)
+        .flatMap(e => (e.connections || [])
+          .map(c => ({
+            start: e.angle,
+            end: this.entries[c.target].angle,
+            type: this.connectionTypes[c.type],
+          })));
     },
   },
 };

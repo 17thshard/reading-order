@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-  <CircleDiagram :entries="entries"/>
+  <CircleDiagram :entries="entries" :connection-types="connectionTypes"/>
 </div>
 </template>
 
@@ -16,11 +16,14 @@ export default {
   data() {
     return {
       entries: {},
+      connectionTypes: {},
     };
   },
   async mounted() {
     const result = await (await fetch('/data.json')).json();
-    this.entries = loader(result);
+    const { books, connectionTypes } = loader(result);
+    this.entries = books;
+    this.connectionTypes = connectionTypes;
   },
 };
 </script>

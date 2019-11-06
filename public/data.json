@@ -1,5 +1,30 @@
 {
     "base-separation": 4,
+    "connections": [
+        {
+            "id": "major",
+            "color": "#770000",
+            "width": 2
+        },
+        {
+            "id": "significant",
+            "color": "#a0470d",
+            "width": 2,
+            "dash": "4 2"
+        },
+        {
+            "id": "minor",
+            "color": "#a09713",
+            "width": 2,
+            "dash": "3"
+        },
+        {
+            "id": "easter-eggs",
+            "color": "#4d4d4d",
+            "width": 1,
+            "dash": "2"
+        }
+    ],
     "books": [
         [
             [
@@ -236,6 +261,7 @@
                     "title": "White Sand Volume 1",
                     "classes": [ "phase2" ],
                     "connections": [
+                        { "target": "wok", "type": "easter-eggs" },
                         { "target": "ob", "type": "minor" }
                     ]
                 },
@@ -265,7 +291,7 @@
                     "title": "Shadows for Silence in the Forests of Hell",
                     "classes": [ "short-story", "anytime" ],
                     "connections": [
-                        { "target": "mb.sh1", "type": "major" }
+                        { "target": "mb.sh1", "type": "minor" }
                     ]
                 }
             ],
