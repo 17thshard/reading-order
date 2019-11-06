@@ -69,19 +69,27 @@ export default {
   overflow: visible;
 
   .phase1 {
-    fill: #43ff71;
+    fill: #00b02b;
+  }
+
+  .phase1b {
+    fill: #7bb088;
   }
 
   .phase2 {
-    fill: #47cbff;
+    fill: #0094d4;
   }
 
-  .anytime {
-    fill: #ff6f62;
+  .phase2b {
+    fill: #94c1d4;
   }
 
   .unpublished {
-    fill: #b4b4b4;
+    fill: #606060;
+  }
+
+  .uncanonical {
+    fill: #614c3a;
   }
 
   .short-story {

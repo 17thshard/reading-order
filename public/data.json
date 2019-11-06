@@ -18,7 +18,7 @@
             "id": "minor",
             "description": "Minor Connections",
             "color": "#a09713",
-            "width": 2,
+            "width": 1,
             "dash": "3"
         },
         {
@@ -48,7 +48,7 @@
                 {
                     "id": "hoe",
                     "title": "The Hope of Elantris",
-                    "classes": [ "phase1", "short-story" ]
+                    "classes": [ "phase1b", "short-story" ]
                 },
                 {
                     "id": "elantris2",
@@ -77,6 +77,11 @@
                     "classes": [ "phase1" ]
                 },
                 {
+                    "id": "tem",
+                    "title": "  The Eleventh Metal",
+                    "classes": [ "short-story", "phase1b" ]
+                },
+                {
                     "id": "mb1.2",
                     "title": "The Well of Ascension",
                     "classes": [ "phase1" ]
@@ -90,13 +95,7 @@
                         { "target": "wok", "type": "easter-eggs" },
                         { "target": "wor", "type": "easter-eggs" },
                         { "target": "ob", "type": "significant" },
-                        { "target": "au", "type": "major" }
                     ]
-                },
-                {
-                    "id": "tem",
-                    "title": "The Eleventh Metal",
-                    "classes": [ "short-story", "anytime" ]
                 }
             ],
             [
@@ -104,6 +103,11 @@
                     "id": "mb2.1",
                     "title": "The Alloy of Law",
                     "classes": [ "phase2" ]
+                },
+                {
+                    "id": "jak",
+                    "title": "  Allomancer Jak and the Pits of Eltania",
+                    "classes": [ "short-story", "phase2b" ]
                 },
                 {
                     "id": "mb2.2",
@@ -115,26 +119,23 @@
                     "title": "Bands of Mourning",
                     "classes": [ "phase2" ],
                     "connections": [
-                        { "target": "mb.sh1", "type": "major" },
-                        { "target": "ws2", "type": "significant" }
+                        { "target": "mb.sh1", "type": "major" }
                     ]
                 },
                 {
                     "id": "mb2.4",
                     "title": "The Lost Metal",
                     "classes": [ "unpublished" ]
-                },
-                {
-                    "id": "jak",
-                    "title": "Allomancer Jak and the Pits of Eltania",
-                    "classes": [ "short-story", "anytime" ]
                 }
             ],
             [
                 {
                     "id": "mb.sh1",
                     "title": "Mistborn: Secret History",
-                    "classes": [ "short-story", "phase2" ]
+                    "classes": [ "short-story", "phase2" ],
+                    "connections": [
+                        { "target": "trav", "type": "minor" }
+                    ]
                 },
                 {
                     "id": "mb.sh2",
@@ -202,11 +203,15 @@
                 {
                     "id": "wor",
                     "title": "Words of Radiance",
-                    "classes": [ "phase2" ]
+                    "classes": [ "phase2" ],
+                    "connections": [
+                        { "target": "jas", "type": "minor" }
+                        { "target": "trav", "type": "minor" }
+                    ]
                 },
                 {
                     "id": "ed",
-                    "title": "Edgedancer",
+                    "title": "  Edgedancer",
                     "classes": [ "short-story", "phase2" ]
                 },
                 {
@@ -218,6 +223,16 @@
                     "id": "sa4",
                     "title": "Stormlight Archive 4",
                     "classes": [ "unpublished" ]
+                },
+                {
+                    "id": "ln",
+                    "title": "  Lunamor novella",
+                    "classes": [ "short-story", "unpublished" ]
+                },
+                {
+                    "id": "wan",
+                    "title": "  Wandersail",
+                    "classes": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "sa5",
@@ -272,7 +287,10 @@
                 {
                     "id": "ws2",
                     "title": "White Sand Volume 2",
-                    "classes": [ "phase2" ]
+                    "classes": [ "phase2" ],
+                    "connections": [
+                        { "target": "mb2.3", "type": "significant" }
+                    ]
                 },
                 {
                     "id": "ws3",
@@ -293,7 +311,7 @@
                 {
                     "id": "sfsitfoh",
                     "title": "Shadows for Silence in the Forests of Hell",
-                    "classes": [ "short-story", "anytime" ],
+                    "classes": [ "short-story", "phase1b" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "minor" }
                     ]
@@ -311,7 +329,7 @@
             {
                 "id": "sod1",
                 "title": "Sixth of the Dusk",
-                "classes": [ "short-story", "anytime" ],
+                "classes": [ "short-story", "phase1b" ],
                 "connections": [
                     { "target": "ob", "type": "easter-eggs" }
                 ]
@@ -327,13 +345,6 @@
                 "id": "aon",
                 "title": "Aether of Night",
                 "classes": [ "unpublished" ]
-            }
-        ],
-        [
-            {
-                "id": "silverlight",
-                "title": "Silverlight novella",
-                "classes": [ "short-story", "unpublished" ]
             }
         ],
         [
@@ -355,10 +366,33 @@
         ],
         [
             {
+                "id": "silverlight",
+                "title": "Silverlight novella",
+                "classes": [ "short-story", "unpublished" ]
+            }
+        ],
+        [
+            {
                 "id": "au",
                 "title": "Arcanum unbounded essays",
                 "classes": [ "short-story", "phase2" ]
             }
+        ],
+        [
+            [
+                {
+                    "id": "jas",
+                    "title": "Jasnah deleted scene",
+                    "classes": [ "short-story", "uncanonical" ]
+                }
+            ],
+            [
+                {
+                    "id": "trav",
+                    "title": "The Traveler reading",
+                    "classes": [ "short-story", "uncanonical" ]
+                }
+            ]
         ]
     ]
 }
