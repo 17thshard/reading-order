@@ -261,12 +261,12 @@
                     "categories": [ "unpublished" ]
                 },
                 {
-                    "id": "ln",
+                    "id": "lunamor",
                     "title": "- Lunamor novella",
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
-                    "id": "wan",
+                    "id": "wandersail",
                     "title": "- Wandersail",
                     "categories": [ "short-story", "unpublished" ]
                 },
@@ -336,7 +336,7 @@
             ],
             [
                 {
-                    "id": "darkside-gn",
+                    "id": "darkside",
                     "title": "Darkside graphic novels",
                     "categories": [ "unpublished" ]
                 }
@@ -345,7 +345,7 @@
         [
             [
                 {
-                    "id": "sfsitfoh",
+                    "id": "sfs",
                     "title": "Shadows for Silence",
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
