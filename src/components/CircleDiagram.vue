@@ -34,7 +34,8 @@
       <CircleEntry
         :entry="entry" :angle="entry.angle" :radius="300"
         :mute="selectedEntry !== null && id !== selectedEntry
-               && !incomingConnections[id].includes(selectedEntry)"
+               && !incomingConnections[id].includes(selectedEntry)
+               && !(entry.connections || []).some((e) => e.target === selectedEntry)"
         @select="selectedEntry = id"
         @unselect="selectedEntry = null"
         :key="id"
