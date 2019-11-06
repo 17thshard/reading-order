@@ -23,7 +23,7 @@ export default {
     };
   },
   async mounted() {
-    const result = await (await fetch('/data.json')).json();
+    const result = await (await fetch('./data.json')).json();
     const { books, connectionTypes } = loader(result);
     this.entries = books;
     this.connectionTypes = connectionTypes;
