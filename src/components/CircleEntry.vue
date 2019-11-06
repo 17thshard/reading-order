@@ -34,7 +34,7 @@ export default {
       return {
         fill: merged.color,
         fontStyle: merged.style,
-        opacity: this.entry.active ? 1 : 0.2,
+        opacity: this.entry.active ? 1 : 0.4,
       };
     },
   },
