@@ -12,13 +12,13 @@
         <path d="M 0 0 L 10 5 L 0 10 z" :fill="type.color"/>
       </marker>
     </defs>
-    <CircleEntry :angle="entry.angle" :radius="300" :class="entry.classes || []"
-                 v-for="(entry, id) in entries" :key="id">
+    <CircleEntry :entry="entry" :angle="entry.angle" :radius="300" :key="id"
+                 v-for="(entry, id) in entries">
       {{entry.title}}
     </CircleEntry>
-    <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type"
-         v-for="c in connections"
-         :key="`${c.start}.${c.end}`"></Arc>
+    <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type" :nodes-active="c.nodesActive"
+         :key="`${c.start}.${c.end}`"
+         v-for="c in connections"></Arc>
   </svg>
 </div>
 </template>
@@ -45,6 +45,7 @@ export default {
             start: e.angle,
             end: this.entries[c.target].angle,
             type: this.connectionTypes[c.type],
+            nodesActive: e.active && this.entries[c.target].active,
           })));
     },
   },

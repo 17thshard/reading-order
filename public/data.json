@@ -29,13 +29,50 @@
             "dash": "2"
         }
     ],
+    "categories": [
+        {
+            "id": "phase1",
+            "description": "Phase 1a",
+            "color": "#00b02b"
+        },
+        {
+            "id": "phase1b",
+            "description": "Phase 1b",
+            "color": "#7bb088"
+        },
+        {
+            "id": "phase2",
+            "description": "Phase 2a",
+            "color": "#0094d4"
+        },
+        {
+            "id": "phase2b",
+            "description": "Phase 2b",
+            "color": "#94c1d4"
+        },
+        {
+            "id": "unpublished",
+            "description": "Unpublished",
+            "color": "#606060"
+        },
+        {
+            "id": "uncanonical",
+            "description": "Uncanonical",
+            "color": "#614c3a"
+        },
+        {
+            "id": "short-story",
+            "description": "Short stories and novellas",
+            "style": "italic"
+        }
+    ],
     "books": [
         [
             [
                 {
                     "id": "elantris",
                     "title": "Elantris",
-                    "classes": [ "phase1" ],
+                    "categories": [ "phase1" ],
                     "connections": [
                         { "target": "tes", "type": "easter-eggs" },
                         { "target": "mb1.1", "type": "easter-eggs" },
@@ -48,24 +85,24 @@
                 {
                     "id": "hoe",
                     "title": "The Hope of Elantris",
-                    "classes": [ "phase1b", "short-story" ]
+                    "categories": [ "phase1b", "short-story" ]
                 },
                 {
                     "id": "elantris2",
                     "title": "Elantris 2",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "elantris3",
                     "title": "Elantris 3",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
                     "id": "tes",
                     "title": "The Emperor's Soul",
-                    "classes": [ "phase1", "short-story" ]
+                    "categories": [ "phase1", "short-story" ]
                 }
             ]
         ],
@@ -74,27 +111,27 @@
                 {
                     "id": "mb1.1",
                     "title": "Mistborn: The Final Empire",
-                    "classes": [ "phase1" ]
+                    "categories": [ "phase1" ]
                 },
                 {
                     "id": "tem",
                     "title": "  The Eleventh Metal",
-                    "classes": [ "short-story", "phase1b" ]
+                    "categories": [ "short-story", "phase1b" ]
                 },
                 {
                     "id": "mb1.2",
                     "title": "The Well of Ascension",
-                    "classes": [ "phase1" ]
+                    "categories": [ "phase1" ]
                 },
                 {
                     "id": "mb1.3",
                     "title": "The Hero of Ages",
-                    "classes": [ "phase1" ],
+                    "categories": [ "phase1" ],
                     "connections": [
                         { "target": "tem", "type": "minor" },
                         { "target": "wok", "type": "easter-eggs" },
                         { "target": "wor", "type": "easter-eggs" },
-                        { "target": "ob", "type": "significant" },
+                        { "target": "ob", "type": "significant" }
                     ]
                 }
             ],
@@ -102,22 +139,22 @@
                 {
                     "id": "mb2.1",
                     "title": "The Alloy of Law",
-                    "classes": [ "phase2" ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "jak",
                     "title": "  Allomancer Jak and the Pits of Eltania",
-                    "classes": [ "short-story", "phase2b" ]
+                    "categories": [ "short-story", "phase2b" ]
                 },
                 {
                     "id": "mb2.2",
                     "title": "Shadows of Self",
-                    "classes": [ "phase2" ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "mb2.3",
                     "title": "Bands of Mourning",
-                    "classes": [ "phase2" ],
+                    "categories": [ "phase2" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "major" }
                     ]
@@ -125,14 +162,14 @@
                 {
                     "id": "mb2.4",
                     "title": "The Lost Metal",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
                     "id": "mb.sh1",
                     "title": "Mistborn: Secret History",
-                    "classes": [ "short-story", "phase2" ],
+                    "categories": [ "short-story", "phase2" ],
                     "connections": [
                         { "target": "trav", "type": "minor" }
                     ]
@@ -140,41 +177,41 @@
                 {
                     "id": "mb.sh2",
                     "title": "Mistborn: Secret History 2",
-                    "classes": [ "short-story", "unpublished" ]
+                    "categories": [ "short-story", "unpublished" ]
                 }
             ],
             [
                 {
                     "id": "mb3.1",
                     "title": "Mistborn Era 3.1",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "mb3.2",
                     "title": "Mistborn Era 3.2",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "mb3.3",
                     "title": "Mistborn Era 3.3",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
                     "id": "mb4.1",
                     "title": "Mistborn Era 4.1",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "mb4.2",
                     "title": "Mistborn Era 4.2",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "mb4.3",
                     "title": "Mistborn Era 4.3",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ]
         ],
@@ -182,7 +219,7 @@
             {
                 "id": "wb",
                 "title": "Warbreaker",
-                "classes": [ "phase1" ],
+                "categories": [ "phase1" ],
                 "connections": [
                     { "target": "wor", "type": "major" }
                 ]
@@ -190,7 +227,7 @@
             {
                 "id": "nb",
                 "title": "Nightblood",
-                "classes": [ "unpublished" ]
+                "categories": [ "unpublished" ]
             }
         ],
         [
@@ -198,78 +235,78 @@
                 {
                     "id": "wok",
                     "title": "The Way of Kings",
-                    "classes": [ "phase2" ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "wor",
                     "title": "Words of Radiance",
-                    "classes": [ "phase2" ],
+                    "categories": [ "phase2" ],
                     "connections": [
-                        { "target": "jas", "type": "minor" }
+                        { "target": "jas", "type": "minor" },
                         { "target": "trav", "type": "minor" }
                     ]
                 },
                 {
                     "id": "ed",
                     "title": "  Edgedancer",
-                    "classes": [ "short-story", "phase2" ]
+                    "categories": [ "short-story", "phase2" ]
                 },
                 {
                     "id": "ob",
                     "title": "Oathbringer",
-                    "classes": [ "phase2" ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "sa4",
                     "title": "Stormlight Archive 4",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "ln",
                     "title": "  Lunamor novella",
-                    "classes": [ "short-story", "unpublished" ]
+                    "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "wan",
                     "title": "  Wandersail",
-                    "classes": [ "short-story", "unpublished" ]
+                    "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "sa5",
                     "title": "Stormlight Archive 5",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa6",
                     "title": "Stormlight Archive 7",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa7",
                     "title": "Stormlight Archive 7",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa8",
                     "title": "Stormlight Archive 8",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa9",
                     "title": "Stormlight Archive 9",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa10",
                     "title": "Stormlight Archive 10",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
                     "id": "sd",
                     "title": "Silence Divine",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ]
         ],
@@ -278,7 +315,7 @@
                 {
                     "id": "ws1",
                     "title": "White Sand Volume 1",
-                    "classes": [ "phase2" ],
+                    "categories": [ "phase2" ],
                     "connections": [
                         { "target": "wok", "type": "easter-eggs" },
                         { "target": "ob", "type": "minor" }
@@ -287,7 +324,7 @@
                 {
                     "id": "ws2",
                     "title": "White Sand Volume 2",
-                    "classes": [ "phase2" ],
+                    "categories": [ "phase2" ],
                     "connections": [
                         { "target": "mb2.3", "type": "significant" }
                     ]
@@ -295,14 +332,14 @@
                 {
                     "id": "ws3",
                     "title": "White Sand Volume 3",
-                    "classes": [ "phase2" ]
+                    "categories": [ "phase2" ]
                 }
             ],
             [
                 {
                     "id": "darkside-gn",
                     "title": "Darkside graphic novels",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ]
         ],
@@ -311,7 +348,7 @@
                 {
                     "id": "sfsitfoh",
                     "title": "Shadows for Silence in the Forests of Hell",
-                    "classes": [ "short-story", "phase1b" ],
+                    "categories": [ "short-story", "phase1b" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "minor" }
                     ]
@@ -321,7 +358,7 @@
                 {
                     "id": "dust-brigade",
                     "title": "The Dust Brigade",
-                    "classes": [ "unpublished" ]
+                    "categories": [ "unpublished" ]
                 }
             ]
         ],
@@ -329,7 +366,7 @@
             {
                 "id": "sod1",
                 "title": "Sixth of the Dusk",
-                "classes": [ "short-story", "phase1b" ],
+                "categories": [ "short-story", "phase1b" ],
                 "connections": [
                     { "target": "ob", "type": "easter-eggs" }
                 ]
@@ -337,45 +374,45 @@
             {
                 "id": "sod2",
                 "title": "Sixth of the Dusk sequel",
-                "classes": [ "short-story", "unpublished" ]
+                "categories": [ "short-story", "unpublished" ]
             }
         ],
         [
             {
                 "id": "aon",
                 "title": "Aether of Night",
-                "classes": [ "unpublished" ]
+                "categories": [ "unpublished" ]
             }
         ],
         [
             {
                 "id": "ds1",
                 "title": "Dragonsteel 1",
-                "classes": [ "unpublished" ]
+                "categories": [ "unpublished" ]
             },
             {
                 "id": "ds2",
                 "title": "Dragonsteel 2",
-                "classes": [ "unpublished" ]
+                "categories": [ "unpublished" ]
             },
             {
                 "id": "ds3",
                 "title": "Dragonsteel 3",
-                "classes": [ "unpublished" ]
+                "categories": [ "unpublished" ]
             }
         ],
         [
             {
                 "id": "silverlight",
                 "title": "Silverlight novella",
-                "classes": [ "short-story", "unpublished" ]
+                "categories": [ "short-story", "unpublished" ]
             }
         ],
         [
             {
                 "id": "au",
                 "title": "Arcanum unbounded essays",
-                "classes": [ "short-story", "phase2" ]
+                "categories": [ "short-story", "phase2" ]
             }
         ],
         [
@@ -383,14 +420,14 @@
                 {
                     "id": "jas",
                     "title": "Jasnah deleted scene",
-                    "classes": [ "short-story", "uncanonical" ]
+                    "categories": [ "short-story", "uncanonical" ]
                 }
             ],
             [
                 {
                     "id": "trav",
                     "title": "The Traveler reading",
-                    "classes": [ "short-story", "uncanonical" ]
+                    "categories": [ "short-story", "uncanonical" ]
                 }
             ]
         ]

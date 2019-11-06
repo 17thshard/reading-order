@@ -1,4 +1,4 @@
-export const calcDepth = (books) => {
+const calcDepth = (books) => {
   if (books.length === 0) {
     return 0;
   }
@@ -27,14 +27,39 @@ const walk = (entries, f, inc, maxDepth, depth, totalAngle) => {
   return localAngle + (terminal ? maxDepth - depth + 1 : 1) * inc;
 };
 
-export default ({ 'base-separation': baseSeparation, books: nested, connections }) => {
+export default (
+  {
+    'base-separation': baseSeparation,
+    books: nested,
+    connections,
+    categories,
+  },
+) => {
   const books = {};
   const maxDepth = calcDepth(nested);
 
+  const connectionTypes = connections.reduce((acc, c) => ({
+    ...acc,
+    [c.id]: { ...c, active: true },
+  }), {});
+
+  const groupedCategories = categories.reduce((acc, c) => ({
+    ...acc,
+    [c.id]: { ...c, active: true },
+  }), {});
+
   walk(
     nested,
-    (b, acc) => {
-      books[b.id] = { ...b, angle: acc };
+    (b, angle) => {
+      const bookCategories = b.categories.map(c => groupedCategories[c]);
+      books[b.id] = {
+        ...b,
+        categories: bookCategories,
+        angle,
+        get active() {
+          return bookCategories.reduce((active, c) => active && c.active, true);
+        },
+      };
     },
     baseSeparation,
     maxDepth,
@@ -42,10 +67,5 @@ export default ({ 'base-separation': baseSeparation, books: nested, connections 
     0,
   );
 
-  const connectionTypes = connections.reduce((acc, c) => ({
-    ...acc,
-    [c.id]: { ...c, active: true },
-  }), {});
-
-  return { books, connectionTypes };
+  return { books, connectionTypes, categories: groupedCategories };
 };
