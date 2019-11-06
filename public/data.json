@@ -32,22 +32,22 @@
     "categories": [
         {
             "id": "phase1",
-            "description": "Phase 1a",
+            "description": "Phase 1 - Essential",
             "color": "#00b02b"
         },
         {
             "id": "phase1b",
-            "description": "Phase 1b",
+            "description": "Phase 1 - Secondary",
             "color": "#7bb088"
         },
         {
             "id": "phase2",
-            "description": "Phase 2a",
+            "description": "Phase 2 - Essential",
             "color": "#0094d4"
         },
         {
             "id": "phase2b",
-            "description": "Phase 2b",
+            "description": "Phase 2 - Secondary",
             "color": "#94c1d4"
         },
         {
@@ -62,7 +62,7 @@
         },
         {
             "id": "short-story",
-            "description": "Short stories and novellas",
+            "description": "Italics = short stories and novellas",
             "style": "italic"
         }
     ],
@@ -84,7 +84,7 @@
                 },
                 {
                     "id": "hoe",
-                    "title": "The Hope of Elantris",
+                    "title": "- The Hope of Elantris",
                     "categories": [ "phase1b", "short-story" ]
                 },
                 {
@@ -115,7 +115,7 @@
                 },
                 {
                     "id": "tem",
-                    "title": "  The Eleventh Metal",
+                    "title": "- The Eleventh Metal",
                     "categories": [ "short-story", "phase1b" ]
                 },
                 {
@@ -128,7 +128,6 @@
                     "title": "The Hero of Ages",
                     "categories": [ "phase1" ],
                     "connections": [
-                        { "target": "tem", "type": "minor" },
                         { "target": "wok", "type": "easter-eggs" },
                         { "target": "wor", "type": "easter-eggs" },
                         { "target": "ob", "type": "significant" }
@@ -143,7 +142,7 @@
                 },
                 {
                     "id": "jak",
-                    "title": "  Allomancer Jak and the Pits of Eltania",
+                    "title": "- Allomancer Jak",
                     "categories": [ "short-story", "phase2b" ]
                 },
                 {
@@ -248,7 +247,7 @@
                 },
                 {
                     "id": "ed",
-                    "title": "  Edgedancer",
+                    "title": "- Edgedancer",
                     "categories": [ "short-story", "phase2" ]
                 },
                 {
@@ -263,12 +262,12 @@
                 },
                 {
                     "id": "ln",
-                    "title": "  Lunamor novella",
+                    "title": "- Lunamor novella",
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "wan",
-                    "title": "  Wandersail",
+                    "title": "- Wandersail",
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
@@ -347,7 +346,7 @@
             [
                 {
                     "id": "sfsitfoh",
-                    "title": "Shadows for Silence in the Forests of Hell",
+                    "title": "Shadows for Silence",
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "minor" }
@@ -364,7 +363,7 @@
         ],
         [
             {
-                "id": "sod1",
+                "id": "sotd1",
                 "title": "Sixth of the Dusk",
                 "categories": [ "short-story", "phase1b" ],
                 "connections": [
@@ -372,7 +371,7 @@
                 ]
             },
             {
-                "id": "sod2",
+                "id": "sotd2",
                 "title": "Sixth of the Dusk sequel",
                 "categories": [ "short-story", "unpublished" ]
             }
@@ -411,21 +410,23 @@
         [
             {
                 "id": "au",
-                "title": "Arcanum unbounded essays",
+                "title": "Arcanum Unbounded essays",
                 "categories": [ "short-story", "phase2" ]
             }
         ],
         [
-            {
-                "id": "jas",
-                "title": "Jasnah deleted scene",
-                "categories": [ "short-story", "uncanonical" ]
-            },
-            {
-                "id": "trav",
-                "title": "The Traveler reading",
-                "categories": [ "short-story", "uncanonical" ]
-            }
+            [
+                {
+                    "id": "jasnah",
+                    "title": "Jasnah deleted scene",
+                    "categories": [ "short-story", "uncanonical" ]
+                },
+                {
+                    "id": "traveler",
+                    "title": "The Traveler reading",
+                    "categories": [ "short-story", "uncanonical" ]
+                }
+            ]
         ]
     ]
 }
