@@ -1,6 +1,6 @@
 <template>
 <g class="circle-entry" :transform="`translate(500, 500) rotate(${angle})`">
-  <text alignment-baseline="central" :text-anchor="anchor" :style="styles"
+  <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
         :transform="`translate(0, -${radius}) rotate(${sign * 90}) `">
     <slot></slot>
   </text>
