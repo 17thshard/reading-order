@@ -2,7 +2,7 @@
 <g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
    :transform="`translate(500, 500) rotate(${angle})`">
   <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
-        :transform="`translate(0, -${radius}) rotate(${sign * 90}) `"
+        :transform="`translate(0, -${radius + (entry.padding || 0)}) rotate(${sign * 90}) `"
         @mouseover="select" @mouseout="unselect">
     <slot></slot>
   </text>

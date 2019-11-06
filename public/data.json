@@ -85,7 +85,8 @@
                 },
                 {
                     "id": "hoe",
-                    "title": "- The Hope of Elantris",
+                    "title": "The Hope of Elantris",
+                    "padding": 10,
                     "publication": 2,
                     "categories": [ "phase1b", "short-story" ]
                 },
@@ -119,7 +120,8 @@
                 },
                 {
                     "id": "tem",
-                    "title": "- The Eleventh Metal",
+                    "title": "The Eleventh Metal",
+                    "padding": 10,
                     "publication": 9,
                     "categories": [ "short-story", "phase1b" ]
                 },
@@ -150,7 +152,8 @@
                 },
                 {
                     "id": "jak",
-                    "title": "- Allomancer Jak",
+                    "title": "Allomancer Jak",
+                    "padding": 10,
                     "publication": 14,
                     "categories": [ "short-story", "phase2b" ]
                 },
@@ -183,7 +186,7 @@
                     "publication": 17,
                     "categories": [ "short-story", "phase2" ],
                     "connections": [
-                        { "target": "trav", "type": "minor" }
+                        { "target": "traveler", "type": "minor" }
                     ]
                 },
                 {
@@ -231,7 +234,7 @@
             {
                 "id": "wb",
                 "title": "Warbreaker",
-                    "publication": 6,
+                "publication": 6,
                 "categories": [ "phase1" ],
                 "connections": [
                     { "target": "wor", "type": "major" }
@@ -257,13 +260,14 @@
                     "publication": 12,
                     "categories": [ "phase2" ],
                     "connections": [
-                        { "target": "jas", "type": "minor" },
-                        { "target": "trav", "type": "minor" }
+                        { "target": "jasnah", "type": "minor" },
+                        { "target": "traveler", "type": "minor" }
                     ]
                 },
                 {
                     "id": "ed",
-                    "title": "- Edgedancer",
+                    "title": "Edgedancer",
+                    "padding": 10,
                     "publication": 20,
                     "categories": [ "short-story", "phase2" ]
                 },
@@ -281,12 +285,14 @@
                 },
                 {
                     "id": "lunamor",
-                    "title": "- Lunamor novella",
+                    "title": "Lunamor novella",
+                    "padding": 10,
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "wandersail",
-                    "title": "- Wandersail",
+                    "title": "Wandersail",
+                    "padding": 10,
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
@@ -388,7 +394,7 @@
             {
                 "id": "sotd1",
                 "title": "Sixth of the Dusk",
-                    "publication": 13,
+                "publication": 13,
                 "categories": [ "short-story", "phase1b" ],
                 "connections": [
                     { "target": "ob", "type": "easter-eggs" }
@@ -435,7 +441,7 @@
             {
                 "id": "au",
                 "title": "Arcanum Unbounded essays",
-                    "publication": 19,
+                "publication": 19,
                 "categories": [ "short-story", "phase2" ]
             }
         ],
