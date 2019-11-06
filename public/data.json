@@ -379,18 +379,20 @@
             }
         ],
         [
-            {
-                "id": "jas",
-                "title": "Jasnah deleted scene",
-                "classes": [ "short-story", "uncanonical" ]
-            }
-        ],
-        [
-            {
-                "id": "trav",
-                "title": "The Traveler reading",
-                "classes": [ "short-story", "uncanonical" ]
-            }
+            [
+                {
+                    "id": "jas",
+                    "title": "Jasnah deleted scene",
+                    "classes": [ "short-story", "uncanonical" ]
+                }
+            ],
+            [
+                {
+                    "id": "trav",
+                    "title": "The Traveler reading",
+                    "classes": [ "short-story", "uncanonical" ]
+                }
+            ]
         ]
     ]
 }
