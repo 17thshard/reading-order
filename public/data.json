@@ -18,7 +18,7 @@
             "id": "minor",
             "description": "Minor Connections",
             "color": "#a09713",
-            "width": 2,
+            "width": 1,
             "dash": "3"
         },
         {
