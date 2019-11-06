@@ -1,5 +1,8 @@
 <template>
-<g :class="['arc', {'arc-nodes-inactive': !nodesActive, 'arc-inactive': !type.active}]">
+<g :class="[
+  'arc',
+  {'arc-nodes-inactive': !nodesActive, 'arc-inactive': !type.active, 'arc-muted': mute}
+]">
   <path :d="path" class="arc-background" fill="none" :style="bgStyles"></path>
   <path :d="path" class="arc-foreground" fill="none" :style="styles"
         :marker-end="`url(#triangle-${type.id})`"></path>
@@ -7,7 +10,7 @@
     <path :d="path" class="arc-foreground" fill="none" stroke="white"
           :stroke-width="type.width" marker-end="url(#triangle-mask)"></path>
   </mask>
-  <g :mask="`url(#arc-path-${start}.${end})`">
+  <g :mask="`url(#arc-path-${start}.${end})`" v-if="highlight">
     <rect :x="shineRectangle.x" :y="shineRectangle.y"
           :width="shineRectangle.width" :height="shineRectangle.height"
           :fill="`url(#shine-${shineAxis})`"
@@ -29,6 +32,8 @@ export default {
       default: 200,
     },
     nodesActive: Boolean,
+    mute: Boolean,
+    highlight: Boolean,
   },
   computed: {
     styles() {
@@ -123,7 +128,11 @@ export default {
   opacity: 1;
 
   &-nodes-inactive {
-    opacity: 0.4;
+    opacity: 0.1;
+  }
+
+  &-muted {
+    opacity: 0.1;
   }
 
   &-inactive {

@@ -31,12 +31,21 @@
       </linearGradient>
     </defs>
     <g class="svg-pan-zoom_viewport">
-      <CircleEntry :entry="entry" :angle="entry.angle" :radius="300" :key="id"
-                   v-for="(entry, id) in entries">
+      <CircleEntry
+        :entry="entry" :angle="entry.angle" :radius="300"
+        :mute="selectedEntry !== null && id !== selectedEntry
+               && !incomingConnections[id].includes(selectedEntry)"
+        @select="selectedEntry = id"
+        @unselect="selectedEntry = null"
+        :key="id"
+        v-for="(entry, id) in entries">
         {{entry.title}}
       </CircleEntry>
-      <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type"
-           :nodes-active="c.nodesActive"
+      <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type" :nodes-active="c.nodesActive"
+           :mute="selectedEntry !== null
+                  && selectedEntry !== c.startId && selectedEntry !== c.endId"
+           :highlight="selectedEntry !== null
+                       && (selectedEntry === c.startId || selectedEntry === c.endId)"
            :key="`${c.start}.${c.end}`"
            v-for="c in connections"></Arc>
     </g>
@@ -59,11 +68,31 @@ export default {
     },
     connectionTypes: Object,
   },
+  data() {
+    return {
+      selectedEntry: null,
+    };
+  },
   computed: {
+    incomingConnections() {
+      const connections = {};
+
+      Object.values(this.entries).forEach((e) => {
+        connections[e.id] = connections[e.id] || [];
+
+        (e.connections || []).forEach((c) => {
+          connections[c.target] = [...(connections[c.target] || []), e.id];
+        });
+      });
+
+      return connections;
+    },
     connections() {
       return Object.values(this.entries)
         .flatMap(e => (e.connections || [])
           .map(c => ({
+            startId: e.id,
+            endId: c.target,
             start: e.angle,
             end: this.entries[c.target].angle,
             type: this.connectionTypes[c.type],
