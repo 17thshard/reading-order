@@ -88,6 +88,10 @@ export default {
     fill: #606060;
   }
 
+  .uncanonical {
+    fill: #606060;
+  }
+
   .short-story {
     font-style: italic;
   }
