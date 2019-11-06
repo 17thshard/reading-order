@@ -1,8 +1,9 @@
 <template>
 <div class="legend">
+  <h1>Cosmere Reading Guide</h1>
   <div class="legend-intro">
     <p>Books are grouped by series and by system.</p>
-    <p>Recommended reading order is indicated by book colors. See phase key. Read books in a
+    <p>Recommended reading order is indicated by book colors. See categories key. Read books in a
       specific series in order unless coloring indicates otherwise.</p>
     <p>Arrows provide additional recommendations and guidance.</p>
   </div>
@@ -35,18 +36,26 @@ export default {
 
 <style lang="scss">
 .legend {
-  display: grid;
-  width: 60%;
   margin: 0 auto;
   grid-template-columns: 2fr 1fr 1fr;
   font-family: sans-serif;
+  position: fixed;
+  left: 0;
+  width: 450px;
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 10;
+
+  h1 {
+    margin: 0 0 0.5rem;
+  }
 
   h2 {
-    margin: 0;
+    margin: 1rem 0 0;
   }
 
   &-intro p {
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     margin: 0;
 
     &:first-child {

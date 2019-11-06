@@ -1,6 +1,7 @@
 <template>
-<div class="circle-diagram">
-  <svg class="circular" viewBox="0 0 1000 1000">
+<SvgPanZoom class="circle-diagram" :dbl-click-zoom-enabled="false"
+            :prevent-mouse-events-default="false">
+  <svg class="circle-diagram-svg" viewBox="0 0 1000 1000">
     <defs>
       <marker :id="`triangle-${typeId}`" viewBox="0 0 10 10"
               refX="5" refY="5"
@@ -12,24 +13,28 @@
         <path d="M 0 0 L 10 5 L 0 10 z" :fill="type.color"/>
       </marker>
     </defs>
-    <CircleEntry :entry="entry" :angle="entry.angle" :radius="300" :key="id"
-                 v-for="(entry, id) in entries">
-      {{entry.title}}
-    </CircleEntry>
-    <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type" :nodes-active="c.nodesActive"
-         :key="`${c.start}.${c.end}`"
-         v-for="c in connections"></Arc>
+    <g class="svg-pan-zoom_viewport">
+      <CircleEntry :entry="entry" :angle="entry.angle" :radius="300" :key="id"
+                   v-for="(entry, id) in entries">
+        {{entry.title}}
+      </CircleEntry>
+      <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type"
+           :nodes-active="c.nodesActive"
+           :key="`${c.start}.${c.end}`"
+           v-for="c in connections"></Arc>
+    </g>
   </svg>
-</div>
+</SvgPanZoom>
 </template>
 
 <script>
+import SvgPanZoom from 'vue-svg-pan-zoom';
 import CircleEntry from '@/components/CircleEntry.vue';
 import Arc from '@/components/Arc.vue';
 
 export default {
   name: 'CircleDiagram',
-  components: { CircleEntry, Arc },
+  components: { SvgPanZoom, CircleEntry, Arc },
   props: {
     entries: {
       type: Object,
@@ -54,47 +59,15 @@ export default {
 
 <style lang="scss">
 .circle-diagram {
-  width: 50%;
-  padding-bottom: 50%;
-  height: 0;
-  margin: 0 auto;
   position: relative;
   font-family: serif;
-}
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: stretch;
 
-.circular {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  overflow: visible;
-
-  .phase1 {
-    fill: #00b02b;
-  }
-
-  .phase1b {
-    fill: #7bb088;
-  }
-
-  .phase2 {
-    fill: #0094d4;
-  }
-
-  .phase2b {
-    fill: #94c1d4;
-  }
-
-  .unpublished {
-    fill: #606060;
-  }
-
-  .uncanonical {
-    fill: #614c3a;
-  }
-
-  .short-story {
-    font-style: italic;
+  &-svg {
+    flex-grow: 1;
   }
 }
 </style>
