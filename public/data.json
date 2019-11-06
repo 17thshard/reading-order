@@ -72,6 +72,7 @@
                 {
                     "id": "elantris",
                     "title": "Elantris",
+                    "publication": 1,
                     "categories": [ "phase1" ],
                     "connections": [
                         { "target": "tes", "type": "easter-eggs" },
@@ -85,6 +86,7 @@
                 {
                     "id": "hoe",
                     "title": "- The Hope of Elantris",
+                    "publication": 2,
                     "categories": [ "phase1b", "short-story" ]
                 },
                 {
@@ -102,6 +104,7 @@
                 {
                     "id": "tes",
                     "title": "The Emperor's Soul",
+                    "publication": 10,
                     "categories": [ "phase1", "short-story" ]
                 }
             ]
@@ -111,21 +114,25 @@
                 {
                     "id": "mb1.1",
                     "title": "Mistborn: The Final Empire",
+                    "publication": 3,
                     "categories": [ "phase1" ]
                 },
                 {
                     "id": "tem",
                     "title": "- The Eleventh Metal",
+                    "publication": 9,
                     "categories": [ "short-story", "phase1b" ]
                 },
                 {
                     "id": "mb1.2",
                     "title": "The Well of Ascension",
+                    "publication": 4,
                     "categories": [ "phase1" ]
                 },
                 {
                     "id": "mb1.3",
                     "title": "The Hero of Ages",
+                    "publication": 5,
                     "categories": [ "phase1" ],
                     "connections": [
                         { "target": "wok", "type": "easter-eggs" },
@@ -138,21 +145,25 @@
                 {
                     "id": "mb2.1",
                     "title": "The Alloy of Law",
+                    "publication": 8,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "jak",
                     "title": "- Allomancer Jak",
+                    "publication": 14,
                     "categories": [ "short-story", "phase2b" ]
                 },
                 {
                     "id": "mb2.2",
                     "title": "Shadows of Self",
+                    "publication": 15,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "mb2.3",
                     "title": "Bands of Mourning",
+                    "publication": 16,
                     "categories": [ "phase2" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "major" }
@@ -161,6 +172,7 @@
                 {
                     "id": "mb2.4",
                     "title": "The Lost Metal",
+                    "publication": 25,
                     "categories": [ "unpublished" ]
                 }
             ],
@@ -168,6 +180,7 @@
                 {
                     "id": "mb.sh1",
                     "title": "Mistborn: Secret History",
+                    "publication": 17,
                     "categories": [ "short-story", "phase2" ],
                     "connections": [
                         { "target": "trav", "type": "minor" }
@@ -218,6 +231,7 @@
             {
                 "id": "wb",
                 "title": "Warbreaker",
+                    "publication": 6,
                 "categories": [ "phase1" ],
                 "connections": [
                     { "target": "wor", "type": "major" }
@@ -234,11 +248,13 @@
                 {
                     "id": "wok",
                     "title": "The Way of Kings",
+                    "publication": 7,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "wor",
                     "title": "Words of Radiance",
+                    "publication": 12,
                     "categories": [ "phase2" ],
                     "connections": [
                         { "target": "jas", "type": "minor" },
@@ -248,16 +264,19 @@
                 {
                     "id": "ed",
                     "title": "- Edgedancer",
+                    "publication": 20,
                     "categories": [ "short-story", "phase2" ]
                 },
                 {
                     "id": "ob",
                     "title": "Oathbringer",
+                    "publication": 21,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "sa4",
                     "title": "Stormlight Archive 4",
+                    "publication": 24,
                     "categories": [ "unpublished" ]
                 },
                 {
@@ -314,6 +333,7 @@
                 {
                     "id": "ws1",
                     "title": "White Sand Volume 1",
+                    "publication": 18,
                     "categories": [ "phase2" ],
                     "connections": [
                         { "target": "wok", "type": "easter-eggs" },
@@ -323,6 +343,7 @@
                 {
                     "id": "ws2",
                     "title": "White Sand Volume 2",
+                    "publication": 22,
                     "categories": [ "phase2" ],
                     "connections": [
                         { "target": "mb2.3", "type": "significant" }
@@ -331,6 +352,7 @@
                 {
                     "id": "ws3",
                     "title": "White Sand Volume 3",
+                    "publication": 23,
                     "categories": [ "phase2" ]
                 }
             ],
@@ -347,6 +369,7 @@
                 {
                     "id": "sfs",
                     "title": "Shadows for Silence",
+                    "publication": 11,
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
                         { "target": "mb.sh1", "type": "minor" }
@@ -365,6 +388,7 @@
             {
                 "id": "sotd1",
                 "title": "Sixth of the Dusk",
+                    "publication": 13,
                 "categories": [ "short-story", "phase1b" ],
                 "connections": [
                     { "target": "ob", "type": "easter-eggs" }
@@ -411,6 +435,7 @@
             {
                 "id": "au",
                 "title": "Arcanum Unbounded essays",
+                    "publication": 19,
                 "categories": [ "short-story", "phase2" ]
             }
         ],
@@ -419,11 +444,13 @@
                 {
                     "id": "jasnah",
                     "title": "Jasnah deleted scene",
+                    "publication": 12.5,
                     "categories": [ "short-story", "uncanonical" ]
                 },
                 {
                     "id": "traveler",
                     "title": "The Traveler reading",
+                    "publication": 22.5,
                     "categories": [ "short-story", "uncanonical" ]
                 }
             ]
