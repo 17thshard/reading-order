@@ -1,5 +1,5 @@
 <template>
-<g :class="['arc', {'arc-active': type.active, 'arc-nodes-active': nodesActive}]">
+<g :class="['arc', {'arc-nodes-inactive': !nodesActive, 'arc-inactive': !type.active}]">
   <path
     :d="`M ${startPos.x} ${startPos.y}
     C ${control1Pos.x} ${control1Pos.y} ${control2Pos.x} ${control2Pos.y} ${endPos.x} ${endPos.y}`"
@@ -78,14 +78,14 @@ export default {
 <style lang="scss">
 .arc {
   transition: opacity 0.2s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 
-  &-active {
+  &-nodes-inactive {
     opacity: 0.4;
   }
 
-  &-nodes-active {
-    opacity: 1;
+  &-inactive {
+    opacity: 0;
   }
 
   &-background {
