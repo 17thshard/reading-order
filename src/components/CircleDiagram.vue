@@ -89,7 +89,7 @@ export default {
   }
 
   .uncanonical {
-    fill: #606060;
+    fill: #614c3a;
   }
 
   .short-story {
