@@ -76,7 +76,7 @@
                 {
                     "id": "elantris",
                     "title": "Elantris",
-					"series": "Elantris",
+		            "series": "Elantris",
 					"world": "Sel",
 					"system": "Selish System",
                     "publication": 1,
