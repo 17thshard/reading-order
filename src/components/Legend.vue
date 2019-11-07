@@ -6,6 +6,8 @@
     <p>Recommended reading order is indicated by book colors. See categories key. Read books in a
       specific series in order unless coloring indicates otherwise.</p>
     <p>Arrows provide additional recommendations and guidance.</p>
+    <input id="sort-by-publication" type="checkbox" @input="$emit('switch', $event.target.checked)">
+    <label for="sort-by-publication">Sort by publication order</label>
   </div>
   <div class="legend-connections">
     <h2>Arrows</h2>

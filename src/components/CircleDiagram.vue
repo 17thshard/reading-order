@@ -33,13 +33,13 @@
     <g class="svg-pan-zoom_viewport">
       <CircleEntry
         :entry="entry" :angle="entry.angle" :radius="300"
-        :mute="selectedEntry !== null && id !== selectedEntry
-               && !incomingConnections[id].includes(selectedEntry)
+        :mute="selectedEntry !== null && entry.id !== selectedEntry
+               && !incomingConnections[entry.id].includes(selectedEntry)
                && !(entry.connections || []).some((e) => e.target === selectedEntry)"
-        @select="selectedEntry = id"
+        @select="selectedEntry = entry.id"
         @unselect="selectedEntry = null"
-        :key="id"
-        v-for="(entry, id) in entries">
+        :key="entry.id"
+        v-for="entry in entries">
         {{entry.title}}
       </CircleEntry>
       <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type" :nodes-active="c.nodesActive"
@@ -47,7 +47,7 @@
                   && selectedEntry !== c.startId && selectedEntry !== c.endId"
            :highlight="selectedEntry !== null
                        && (selectedEntry === c.startId || selectedEntry === c.endId)"
-           :key="`${c.start}.${c.end}`"
+           :key="`${c.startId}.${c.endId}`"
            v-for="c in connections"></Arc>
     </g>
   </svg>
