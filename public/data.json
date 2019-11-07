@@ -677,7 +677,7 @@
                     "id": "wsp",
                     "title": "White Sand (prose)",
                     "publication": 12.6,
-                    "categories": [ "novel", "uncanonical" ]
+                    "categories": [ "novel", "uncanonical" ],
                     "connections": [
                         { "target": "ws1", "type": "minor", "description": "The White Sand graphic novels are based on the prose version." }
                     ]
