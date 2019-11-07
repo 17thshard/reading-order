@@ -54,7 +54,6 @@ export default {
 <style lang="scss">
 .legend {
   font-family: sans-serif;
-  padding: 1rem;
   z-index: 10;
 
   h1 {
@@ -101,6 +100,10 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &-connections {
+    padding-bottom: 1rem;
   }
 }
 </style>
