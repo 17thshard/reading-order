@@ -571,6 +571,7 @@
                     "categories": [ "novella", "phase1b" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a silver knife from Threnody." },
+                        { "target": "sa3", "type": "egg", "description": "The silvery chain in Celebrant is from Threnody." },
                         { "target": "msh", "type": "minor", "description": "Kelsier causes the Ire to suspect Shades from Threnody are nearby." },
                         { "target": "au", "type": "minor", "description": "The Threnodite System essay discusses the history of Threnody." }
                     ]
