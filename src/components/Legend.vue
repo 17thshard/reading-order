@@ -2,10 +2,12 @@
 <div class="legend">
   <h1>Cosmere Reading Guide</h1>
   <div class="legend-intro">
-    <p>Books are grouped by series and by system.</p>
-    <p>Recommended reading order is indicated by book colors. See categories key. Read books in a
-      specific series in order unless coloring indicates otherwise.</p>
-    <p>Arrows provide additional recommendations and guidance.</p>
+    <p>This reading guide exists to (1) illustrate how the cosmere fits together, (2) provide reading order guidance, (3) show connections between stories, and (4) provide awareness of unpublished works.</p>
+    <p>(1) Books are grouped by series, world, and star system by default, and are listed in the clockwise direction.</p>
+    <p>(2) There is no 'right way' to read the Cosmere. This method strives to balance publication order while grouping series together and allowing flexibility for the reader. Read the 'Essential' works in each phase before moving on to the next phase. Stories in a series should be read in the order listed. 'Secondary' books can be read during their phase or skipped until a later time.</p>
+    <p>(3) Arrows illustrate connections between story. The 'target' includes some reference to the first. Different arrow styles note the significance of any references (to the story and to the greater cosmere), and can be taken as additional reading order advice. Hover mouse on books to highlight related arrows. Hover mouse on arrows to see details.</p>
+    <p>(4) Unpublished books may or may not be eventually published.</p>
+    <p>Click arrows and categories in the keys below to control visibility.</p>
   </div>
   <div class="legend-connections">
     <h2>Arrows</h2>
