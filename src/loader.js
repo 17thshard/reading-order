@@ -67,5 +67,28 @@ export default (
     0,
   );
 
-  return { books, connectionTypes, categories: groupedCategories };
+  const flatBooks = Object.values(books);
+  flatBooks.sort((a, b) => {
+    if (a.publication !== undefined && b.publication !== undefined) {
+      return a.publication - b.publication;
+    }
+
+    if (a.publication !== undefined) {
+      return -1;
+    }
+
+    return 1;
+  });
+
+  const sortedBooks = flatBooks.reduce((acc, b, i) => ({
+    ...acc,
+    [b.id]: {
+      ...b,
+      angle: i * baseSeparation + (b.publication === undefined ? baseSeparation * 2 : 0),
+    },
+  }), {});
+
+  return {
+    books, sortedBooks, connectionTypes, categories: groupedCategories,
+  };
 };

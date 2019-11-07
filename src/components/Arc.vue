@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import { TweenLite } from 'gsap/TweenLite';
+
 export default {
   name: 'Arc',
   props: {
@@ -34,6 +36,12 @@ export default {
     nodesActive: Boolean,
     mute: Boolean,
     highlight: Boolean,
+  },
+  data() {
+    return {
+      renderedStart: ((this.start % 360) + 360) % 360,
+      renderedEnd: ((this.end % 360) + 360) % 360,
+    };
   },
   computed: {
     styles() {
@@ -50,21 +58,21 @@ export default {
       };
     },
     startPos() {
-      const startRadians = Math.PI * (this.start - 90 - 1.5 * this.signedSeparation) / 180;
+      const startRadians = Math.PI * (this.renderedStart - 90 - 1.5 * this.signedSeparation) / 180;
       return {
         x: Math.cos(startRadians) * this.radius + 500,
         y: Math.sin(startRadians) * this.radius + 500,
       };
     },
     endPos() {
-      const endRadians = Math.PI * (this.end - 90 - 1.5 * this.signedSeparation) / 180;
+      const endRadians = Math.PI * (this.renderedEnd - 90 - 1.5 * this.signedSeparation) / 180;
       return {
         x: Math.cos(endRadians) * this.radius + 500,
         y: Math.sin(endRadians) * this.radius + 500,
       };
     },
     signedSeparation() {
-      return (this.end - this.start) / 360;
+      return (this.renderedEnd - this.renderedStart) / 360;
     },
     separation() {
       return Math.abs(this.signedSeparation) ** 0.7;
@@ -117,6 +125,22 @@ export default {
         width,
         height: 20,
       };
+    },
+  },
+  watch: {
+    start(newStart) {
+      TweenLite.to(
+        this.$data,
+        1,
+        { renderedStart: ((newStart % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+      );
+    },
+    end(newEnd) {
+      TweenLite.to(
+        this.$data,
+        1,
+        { renderedEnd: ((newEnd % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+      );
     },
   },
 };

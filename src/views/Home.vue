@@ -1,7 +1,11 @@
 <template>
 <div class="home">
-  <Legend :connection-types="Object.values(connectionTypes)"
-          :categories="Object.values(categories)"></Legend>
+  <Legend
+    :connection-types="Object.values(connectionTypes)"
+    :categories="Object.values(categories)"
+    @switch="changeEntries"
+  >
+  </Legend>
   <CircleDiagram :entries="entries" :connection-types="connectionTypes"/>
 </div>
 </template>
@@ -20,16 +24,27 @@ export default {
   data() {
     return {
       entries: {},
+      books: {},
+      sortedBooks: {},
       connectionTypes: {},
       categories: {},
     };
   },
   async mounted() {
     const result = await (await fetch('./data.json')).json();
-    const { books, connectionTypes, categories } = loader(result);
+    const {
+      books, sortedBooks, connectionTypes, categories,
+    } = loader(result);
     this.entries = books;
+    this.books = books;
+    this.sortedBooks = sortedBooks;
     this.connectionTypes = connectionTypes;
     this.categories = categories;
+  },
+  methods: {
+    changeEntries(sortedBooks) {
+      this.entries = sortedBooks ? this.sortedBooks : this.books;
+    },
   },
 };
 </script>
