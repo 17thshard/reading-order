@@ -4,12 +4,14 @@
         {
             "id": "major",
             "description": "Major Connections",
+            "description2": "There is at least one major connection between the books which will enhance your understanding of the plot and the Cosmere. Reading in this order is highly recommended, and reading out of order may be spoilery.",
             "color": "#770000",
             "width": 2
         },
         {
             "id": "significant",
             "description": "Significant Connections",
+            "description2": "There is at least one significant connection between the books which may enhance your understanding of the plot and the Cosmere. Reading in this order is recommended.",
             "color": "#a0470d",
             "width": 2,
             "dash": "4 2"
@@ -17,13 +19,15 @@
         {
             "id": "minor",
             "description": "Minor Connections",
+            "description2": "There is at least one minor connection between the books which may enhance your understanding of the plot and Cosmere in a small way.",
             "color": "#a09713",
             "width": 1,
             "dash": "3"
         },
         {
-            "id": "easter-eggs",
+            "id": "egg",
             "description": "Easter Eggs",
+            "description2": "There is at least one subtle reference between the books which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
             "color": "#4d4d4d",
             "width": 1,
             "dash": "2"
@@ -72,32 +76,42 @@
                 {
                     "id": "elantris",
                     "title": "Elantris",
+					"series": "Elantris",
+					"world": "Sel",
+					"system": "Selish System",
                     "publication": 1,
                     "categories": [ "phase1" ],
                     "connections": [
-                        { "target": "tes", "type": "easter-eggs" },
-                        { "target": "mb1.1", "type": "easter-eggs" },
-                        { "target": "mb.sh1", "type": "significant" },
-                        { "target": "wb", "type": "easter-eggs" },
-                        { "target": "wok", "type": "easter-eggs" },
-                        { "target": "ob", "type": "minor" }
+                        { "target": "tes", "type": "minor", "description": "There are mentions of Svorden, Teod, and Sycla. When escaping the palace, Shai runs into a Derethi priest (wearing red armor). When she steals the painting she inscribes an Aon Reo in its place." },
+                        { "target": "msh", "type": "significant", "description": "The Ire are Elantrians. Their symbol is Aon Ire." },
+                        { "target": "sa1", "type": "egg", "description": "Galladon appears in Interlude I-1 as 'Grump'. Note his use of 'sule' (friend) and 'kolo' (understand) as well as the Dula word 'kayana' (crazy). Also, Aona and Skai are mentioned in the Chapter 22 epigraph." },
+                        { "target": "au", "type": "minor", "description": "The nature of Sel's magic is discussed in the Selish System essay." }
                     ]
                 },
                 {
-                    "id": "hoe",
+                    "id": "thoe",
                     "title": "The Hope of Elantris",
-                    "padding": 10,
+					"series": "Elantris",
+					"world": "Sel",
+					"system": "Selish System",
+                    "padding": 12,
                     "publication": 2,
                     "categories": [ "phase1b", "short-story" ]
                 },
                 {
                     "id": "elantris2",
                     "title": "Elantris 2",
+					"series": "Elantris",
+					"world": "Sel",
+					"system": "Selish System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "elantris3",
                     "title": "Elantris 3",
+					"series": "Elantris",
+					"world": "Sel",
+					"system": "Selish System",
                     "categories": [ "unpublished" ]
                 }
             ],
@@ -105,231 +119,338 @@
                 {
                     "id": "tes",
                     "title": "The Emperor's Soul",
+					"world": "Sel",
+					"system": "Selish System",
                     "publication": 10,
-                    "categories": [ "phase1", "short-story" ]
+                    "categories": [ "phase1", "short-story" ],
+                    "connections": [
+                        { "target": "imperial-fool", "type": "minor", "description": "A deleted prologue that contains some canonical elements." },
+                        { "target": "au", "type": "minor", "description": "The nature of Sel's magic is discussed in the Selish System essay." }
+					]
                 }
             ]
         ],
         [
             [
                 {
-                    "id": "mb1.1",
+                    "id": "mb1",
                     "title": "Mistborn: The Final Empire",
+					"series": "Mistborn Era 1",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 3,
                     "categories": [ "phase1" ]
                 },
                 {
-                    "id": "tem",
+                    "id": "11m",
                     "title": "The Eleventh Metal",
-                    "padding": 10,
+					"series": "Mistborn Era 1",
+					"world": "Scadrial",
+					"system": "Scadrian System",
+                    "padding": 12,
                     "publication": 9,
                     "categories": [ "short-story", "phase1b" ]
                 },
                 {
-                    "id": "mb1.2",
+                    "id": "mb2",
                     "title": "The Well of Ascension",
+					"series": "Mistborn Era 1",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 4,
                     "categories": [ "phase1" ]
                 },
                 {
-                    "id": "mb1.3",
+                    "id": "mb3",
                     "title": "The Hero of Ages",
+					"series": "Mistborn Era 1",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 5,
                     "categories": [ "phase1" ],
                     "connections": [
-                        { "target": "wok", "type": "easter-eggs" },
-                        { "target": "wor", "type": "easter-eggs" },
-                        { "target": "ob", "type": "significant" }
+                        { "target": "sa1", "type": "egg", "description": "Ruin's vessel, Ati, is mentioned in the Chapter 18 epigraph." },
+                        { "target": "sa2", "type": "egg", "description": "Hoid uses emotional Allomancy in Chapter 45." },
+                        { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed/Harmony to Hoid." },
+                        { "target": "au", "type": "major", "description": "The Scadrian System essay discusses the events that occurred in The Hero of Ages." }
                     ]
                 }
             ],
             [
                 {
-                    "id": "mb2.1",
+                    "id": "mb4",
                     "title": "The Alloy of Law",
+					"series": "Mistborn Era 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 8,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "jak",
                     "title": "Allomancer Jak",
-                    "padding": 10,
+					"series": "Mistborn Era 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
+                    "padding": 12,
                     "publication": 14,
                     "categories": [ "short-story", "phase2b" ]
                 },
                 {
-                    "id": "mb2.2",
+                    "id": "mb5",
                     "title": "Shadows of Self",
+					"series": "Mistborn Era 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 15,
                     "categories": [ "phase2" ]
                 },
                 {
-                    "id": "mb2.3",
-                    "title": "Bands of Mourning",
+                    "id": "mb6",
+                    "title": "The Bands of Mourning",
+					"series": "Mistborn Era 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 16,
                     "categories": [ "phase2" ],
                     "connections": [
-                        { "target": "mb.sh1", "type": "major" }
+                        { "target": "msh", "type": "major", "description": "Kelsier's survival is revealed in The Bands of Mourning." }
                     ]
                 },
                 {
-                    "id": "mb2.4",
-                    "title": "The Lost Metal",
+                    "id": "mb7",
+                    "title": "[The Lost Metal] (2021)",
+					"series": "Mistborn Era 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 25,
-                    "categories": [ "unpublished" ]
+                    "categories": [ "phase2" ]
                 }
             ],
             [
                 {
-                    "id": "mb.sh1",
+                    "id": "msh",
                     "title": "Mistborn: Secret History",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "publication": 17,
                     "categories": [ "short-story", "phase2" ],
                     "connections": [
-                        { "target": "traveler", "type": "minor" }
+                        { "target": "traveler", "type": "major", "description": "Hoid and Frost discuss the events of Hero of Ages (and Mistborn: Secret History)." }
                     ]
                 },
                 {
-                    "id": "mb.sh2",
+                    "id": "msh2",
                     "title": "Mistborn: Secret History 2",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "short-story", "unpublished" ]
                 }
             ],
             [
                 {
-                    "id": "mb3.1",
-                    "title": "Mistborn Era 3.1",
+                    "id": "mb8",
+                    "title": "Mistborn Era 3 Book 1",
+					"series": "Mistborn Era 3",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 },
                 {
-                    "id": "mb3.2",
-                    "title": "Mistborn Era 3.2",
+                    "id": "mb9",
+                    "title": "Mistborn Era 3 Book 2",
+					"series": "Mistborn Era 3",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 },
                 {
-                    "id": "mb3.3",
-                    "title": "Mistborn Era 3.3",
+                    "id": "mb10",
+                    "title": "Mistborn Era 3 Book 3",
+					"series": "Mistborn Era 3",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
-                    "id": "mb4.1",
-                    "title": "Mistborn Era 4.1",
+                    "id": "mb11",
+                    "title": "Mistborn Era 4 Book 1",
+					"series": "Mistborn Era 4",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 },
                 {
-                    "id": "mb4.2",
-                    "title": "Mistborn Era 4.2",
+                    "id": "mb12",
+                    "title": "Mistborn Era 4 Book 2",
+					"series": "Mistborn Era 4",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 },
                 {
-                    "id": "mb4.3",
-                    "title": "Mistborn Era 4.3",
+                    "id": "mb13",
+                    "title": "Mistborn Era 4 Book 3",
+					"series": "Mistborn Era 4",
+					"world": "Scadrial",
+					"system": "Scadrian System",
                     "categories": [ "unpublished" ]
                 }
             ]
         ],
         [
-            {
-                "id": "wb",
-                "title": "Warbreaker",
-                "publication": 6,
-                "categories": [ "phase1" ],
-                "connections": [
-                    { "target": "wor", "type": "major" }
-                ]
-            },
-            {
-                "id": "nb",
-                "title": "Nightblood",
-                "categories": [ "unpublished" ]
-            }
+			[
+				{
+					"id": "wb",
+					"title": "Warbreaker",
+					"series": "Warbreaker",
+					"world": "Nalthis",
+					"system": "Nalthian System",
+					"publication": 6,
+					"categories": [ "phase1" ],
+					"connections": [
+						{ "target": "sa2", "type": "significant", "description": "Zahel is Vasher. Szeth's new Shardblade is Nightblood." },
+						{ "target": "sa3", "type": "major", "description": "Azure is Vivenna. Nightblood and Vasher make significant appearances. Nightblood mentions other characters from Nalthis." }
+					]
+				},
+				{
+					"id": "nb",
+					"title": "Nightblood",
+					"series": "Warbreaker",
+					"world": "Nalthis",
+					"system": "Nalthian System",
+					"categories": [ "unpublished" ]
+				}
+			]
         ],
         [
             [
                 {
-                    "id": "wok",
+                    "id": "sa1",
                     "title": "The Way of Kings",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "publication": 7,
                     "categories": [ "phase2" ]
                 },
                 {
-                    "id": "wor",
+                    "id": "sa2",
                     "title": "Words of Radiance",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "publication": 12,
                     "categories": [ "phase2" ],
                     "connections": [
-                        { "target": "jasnah", "type": "minor" },
-                        { "target": "traveler", "type": "minor" }
+                        { "target": "jasnah", "type": "major", "descrioption": "A deleted scene about Jasnah that contains some canonical elements." },
+                        { "target": "traveler", "type": "significant", "description": "The author of the Part 4 epigraphs is Frost the dragon, who speaks with Hoid."},
+                        { "target": "au", "type": "minor", "description": "The Rosharan System essay covers details about Roshar and makes mentions of Odium's past."}
                     ]
                 },
                 {
-                    "id": "ed",
+                    "id": "sa2.5",
                     "title": "Edgedancer",
-                    "padding": 10,
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
+                    "padding": 12,
                     "publication": 20,
                     "categories": [ "short-story", "phase2" ]
                 },
                 {
-                    "id": "ob",
+                    "id": "sa3",
                     "title": "Oathbringer",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "publication": 21,
                     "categories": [ "phase2" ]
                 },
                 {
                     "id": "sa4",
-                    "title": "Stormlight Archive 4",
+                    "title": "[The Rhythm of War] (2020)",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "publication": 24,
-                    "categories": [ "unpublished" ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "lunamor",
                     "title": "Lunamor novella",
-                    "padding": 10,
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
+                    "padding": 12,
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "wandersail",
                     "title": "Wandersail",
-                    "padding": 10,
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
+                    "padding": 12,
                     "categories": [ "short-story", "unpublished" ]
                 },
                 {
                     "id": "sa5",
                     "title": "Stormlight Archive 5",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa6",
-                    "title": "Stormlight Archive 7",
+                    "title": "Stormlight Archive 6",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa7",
                     "title": "Stormlight Archive 7",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa8",
                     "title": "Stormlight Archive 8",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa9",
                     "title": "Stormlight Archive 9",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 },
                 {
                     "id": "sa10",
                     "title": "Stormlight Archive 10",
+					"series": "Stormlight Archive",
+					"world": "Roshar",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 }
             ],
             [
                 {
-                    "id": "sd",
-                    "title": "Silence Divine",
+                    "id": "tsd",
+                    "title": "The Silence Divine",
+					"world": "Ashyn",
+					"system": "Rosharan System",
                     "categories": [ "unpublished" ]
                 }
             ]
@@ -339,33 +460,47 @@
                 {
                     "id": "ws1",
                     "title": "White Sand Volume 1",
+					"series": "White Sand",
+					"world": "Taldain",
+					"system": "Taldain System",
                     "publication": 18,
-                    "categories": [ "phase2" ],
-                    "connections": [
-                        { "target": "wok", "type": "easter-eggs" },
-                        { "target": "ob", "type": "minor" }
-                    ]
+                    "categories": [ "phase2" ]
                 },
                 {
                     "id": "ws2",
                     "title": "White Sand Volume 2",
+					"series": "White Sand",
+					"world": "Taldain",
+					"system": "Taldain System",
                     "publication": 22,
                     "categories": [ "phase2" ],
                     "connections": [
-                        { "target": "mb2.3", "type": "significant" }
+                        { "target": "mb1", "type": "egg", "description": "Trell the foreman is connected to Trelagism." },
+                        { "target": "mb4", "type": "minor", "description": "Trell the foreman is connected to the god Trell." },
                     ]
                 },
                 {
                     "id": "ws3",
                     "title": "White Sand Volume 3",
+					"series": "White Sand",
+					"world": "Taldain",
+					"system": "Taldain System",
                     "publication": 23,
-                    "categories": [ "phase2" ]
+                    "categories": [ "phase2" ],
+                    "connections": [
+                        { "target": "sa1", "type": "egg", "description": "Baon appears in Interlude I-1 as 'Blunt'." },
+                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a vial of sand from Taldain." },
+                        { "target": "sa3", "type": "egg", "description": "Wit has a jar of black sand from Taldain in Chapter 67, which turns white after Shallan Lightweaves." },
+                        { "target": "au", "type": "minor", "description": "The Taldain System essay discusses Taldain and sand mastery." }
+                    ]
                 }
             ],
             [
                 {
                     "id": "darkside",
                     "title": "Darkside graphic novels",
+					"world": "Taldain",
+					"system": "Taldain System",
                     "categories": [ "unpublished" ]
                 }
             ]
@@ -375,78 +510,120 @@
                 {
                     "id": "sfs",
                     "title": "Shadows for Silence",
+					"world": "Threnody",
+					"system": "Threnodite System",
                     "publication": 11,
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
-                        { "target": "mb.sh1", "type": "minor" }
+                        { "target": "msh", "type": "minor", "description": "Kelsier causes the Ire to suspect Shades from Threnody are nearby." },
+                        { "target": "au", "type": "minor", "description": "The Threnodite System essay discusses the history of Threnody." }
                     ]
                 }
             ],
             [
                 {
-                    "id": "dust-brigade",
+                    "id": "db",
                     "title": "The Dust Brigade",
+					"world": "Threnody",
+					"system": "Threnodite System",
                     "categories": [ "unpublished" ]
                 }
             ]
         ],
         [
-            {
-                "id": "sotd1",
-                "title": "Sixth of the Dusk",
-                "publication": 13,
-                "categories": [ "short-story", "phase1b" ],
-                "connections": [
-                    { "target": "ob", "type": "easter-eggs" }
-                ]
-            },
-            {
-                "id": "sotd2",
-                "title": "Sixth of the Dusk sequel",
-                "categories": [ "short-story", "unpublished" ]
-            }
+            [
+				{
+					"id": "sotd",
+					"title": "Sixth of the Dusk",
+					"series": "Sixth of the Dusk",
+					"world": "First of the Sun",
+					"system": "Drominad System",
+					"publication": 13,
+					"categories": [ "short-story", "phase1b" ],
+					"connections": [
+						{ "target": "sa3", "type": "egg", "description": "Mraize's chicken, mentioned in Chapter 22, is an Aviar." },
+						{ "target": "au", "type": "minor", "description": "The Taldain System essay discusses Taldain and sand mastery." }
+					]
+				},
+				{
+					"id": "sotd2",
+					"title": "Sixth of the Dusk sequel",
+					"series": "Sixth of the Dusk",
+					"world": "First of the Sun",
+					"system": "Drominad System",
+					"categories": [ "short-story", "unpublished" ]
+				}
+			]
         ],
         [
-            {
-                "id": "aon",
-                "title": "Aether of Night",
-                "categories": [ "unpublished" ]
-            }
-        ],
-        [
-            {
-                "id": "ds1",
-                "title": "Dragonsteel 1",
-                "categories": [ "unpublished" ]
-            },
-            {
-                "id": "ds2",
-                "title": "Dragonsteel 2",
-                "categories": [ "unpublished" ]
-            },
-            {
-                "id": "ds3",
-                "title": "Dragonsteel 3",
-                "categories": [ "unpublished" ]
-            }
-        ],
-        [
-            {
-                "id": "silverlight",
-                "title": "Silverlight novella",
-                "categories": [ "short-story", "unpublished" ]
-            }
-        ],
-        [
-            {
-                "id": "au",
-                "title": "Arcanum Unbounded essays",
-                "publication": 19,
-                "categories": [ "short-story", "phase2" ]
-            }
+			[
+				{
+					"id": "ds1",
+					"title": "Dragonsteel 1",
+					"series": "Dragonsteel",
+					"world": "Yolen",
+					"system": "Yolish System",
+					"categories": [ "unpublished" ]
+				},
+				{
+					"id": "ds2",
+					"title": "Dragonsteel 2",
+					"series": "Dragonsteel",
+					"world": "Yolen",
+					"system": "Yolish System",
+					"categories": [ "unpublished" ]
+				},
+				{
+					"id": "ds3",
+					"title": "Dragonsteel 3",
+					"series": "Dragonsteel",
+					"world": "Yolen",
+					"system": "Yolish System",
+					"categories": [ "unpublished" ]
+				}
+			]
         ],
         [
             [
+				{
+					"id": "aon",
+					"title": "Aether of Night",
+					"world": "Unknown",
+					"system": "Unknown",
+					"categories": [ "unpublished" ],
+					"connections": [
+						{ "target": "sa3", "type": "egg", "description": "Mraize mentions his suit was stained with aether." }
+					]
+				}
+			]
+        ],
+        [
+			[
+				{
+					"id": "silverlight",
+					"title": "Silverlight novella",
+					"categories": [ "short-story", "unpublished" ]
+				}
+			]
+        ],
+        [
+			[
+				{
+					"id": "au",
+					"title": "Arcanum Unbounded essays",
+					"publication": 19,
+					"categories": [ "short-story", "phase2" ]
+				}
+			]
+        ],
+        [
+            [
+                {
+                    "id": "imperial-fool",
+                    "title": "Imperial Fool",
+                    "publication": 10.5,
+                    "categories": [ "short-story", "uncanonical" ]
+                },
                 {
                     "id": "jasnah",
                     "title": "Jasnah deleted scene",
@@ -455,7 +632,7 @@
                 },
                 {
                     "id": "traveler",
-                    "title": "The Traveler reading",
+                    "title": "The Traveler",
                     "publication": 22.5,
                     "categories": [ "short-story", "uncanonical" ]
                 }
