@@ -30,7 +30,7 @@
         <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
       </linearGradient>
     </defs>
-    <g class="svg-pan-zoom_viewport">
+    <transition-group name="fade" tag="g" class="svg-pan-zoom_viewport">
       <CircleEntry
         :entry="entry" :angle="entry.angle" :radius="300"
         :mute="selectedEntry !== null && entry.id !== selectedEntry
@@ -49,7 +49,7 @@
                        && (selectedEntry === c.startId || selectedEntry === c.endId)"
            :key="`${c.startId}.${c.endId}`"
            v-for="c in connections"></Arc>
-    </g>
+    </transition-group>
   </svg>
 </SvgPanZoom>
 </template>
@@ -91,6 +91,7 @@ export default {
     connections() {
       return Object.values(this.entries)
         .flatMap(e => (e.connections || [])
+          .filter(c => this.entries[c.target] !== undefined)
           .map(c => ({
             startId: e.id,
             endId: c.target,
@@ -116,5 +117,13 @@ export default {
   &-svg {
     flex-grow: 1;
   }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0 !important;
 }
 </style>

@@ -67,24 +67,18 @@ export default (
     0,
   );
 
-  const flatBooks = Object.values(books);
-  flatBooks.sort((a, b) => {
-    if (a.publication !== undefined && b.publication !== undefined) {
-      return a.publication - b.publication;
-    }
-
-    if (a.publication !== undefined) {
-      return -1;
-    }
-
-    return 1;
-  });
+  const flatBooks = Object.values(books).filter(b => b.publication !== undefined);
+  flatBooks.sort((a, b) => a.publication - b.publication);
 
   const sortedBooks = flatBooks.reduce((acc, b, i) => ({
     ...acc,
     [b.id]: {
       ...b,
-      angle: i * baseSeparation + (b.publication === undefined ? baseSeparation * 2 : 0),
+      angle: i * (360 / (flatBooks.length + 1)),
+      padding: 0,
+      get active() {
+        return b.categories.reduce((active, c) => active && c.active, true);
+      },
     },
   }), {});
 

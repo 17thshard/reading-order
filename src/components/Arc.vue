@@ -72,7 +72,7 @@ export default {
       };
     },
     signedSeparation() {
-      return (this.renderedEnd - this.renderedStart) / 360;
+      return ((this.renderedEnd - this.renderedStart) % 180) / 360;
     },
     separation() {
       return Math.abs(this.signedSeparation) ** 0.7;
