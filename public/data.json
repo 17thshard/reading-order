@@ -85,6 +85,7 @@
                         { "target": "tes", "type": "minor", "description": "There are mentions of Svorden, Teod, and Sycla. When escaping the palace, Shai runs into a Derethi priest (wearing red armor). When she steals the painting she inscribes an Aon Reo in its place." },
                         { "target": "msh", "type": "significant", "description": "The Ire are Elantrians. Their symbol is Aon Ire." },
                         { "target": "sa1", "type": "egg", "description": "Galladon appears in Interlude I-1 as 'Grump'. Note his use of 'sule' (friend) and 'kolo' (understand) as well as the Dula word 'kayana' (crazy). Also, Aona and Skai are mentioned in the Chapter 22 epigraph." },
+                        { "target": "sa3", "type": "minor", "description": "Riino, the lighthouse owner in Chapter 97, is the Elantrian Raoden and Galladon lowered into the mountain lake." },
                         { "target": "au", "type": "minor", "description": "The nature of Sel's magic is discussed in the Selish System essay." }
                     ]
                 },
@@ -169,9 +170,10 @@
                     "publication": 5,
                     "categories": [ "phase1" ],
                     "connections": [
-                        { "target": "sa1", "type": "egg", "description": "Ruin's vessel, Ati, is mentioned in the Chapter 18 epigraph." },
+                        { "target": "wb", "type": "egg", "description": "Lemex's nurse is a Terriswoman." },
+                        { "target": "sa1", "type": "egg", "description": "Demoux appears in Interlude I-1 as 'Thinker'; Ishikk mishears his name as 'Temoo'. Ruin's vessel, Ati, is mentioned in the Chapter 18 epigraph. Felt worked for the Ventures on Scadrial." },
                         { "target": "sa2", "type": "egg", "description": "Hoid uses emotional Allomancy in Chapter 45." },
-                        { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed/Harmony to Hoid." },
+                        { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed/Harmony to Hoid. Felt reveals he is from another world." },
                         { "target": "au", "type": "major", "description": "The Scadrian System essay discusses the events that occurred in The Hero of Ages." }
                     ]
                 }
@@ -214,6 +216,7 @@
                     "publication": 16,
                     "categories": [ "phase2" ],
                     "connections": [
+                        { "target": "sa2", "type": "egg", "description": "Iyatil is from Southern Scadrial." },
                         { "target": "msh", "type": "major", "description": "Kelsier's survival is revealed in The Bands of Mourning." }
                     ]
                 },
@@ -312,7 +315,7 @@
                     "categories": [ "phase1" ],
                     "connections": [
                         { "target": "sa2", "type": "significant", "description": "Zahel is Vasher. Szeth's new Shardblade is Nightblood. Mraize's collection in Chapter 43 includes a Tear of Edgli flower." },
-                        { "target": "sa3", "type": "major", "description": "Azure is Vivenna. Nightblood and Vasher make significant appearances. Nightblood mentions other characters from Nalthis." }
+                        { "target": "sa3", "type": "major", "description": "Azure is Vivenna; she uses Awakening. Nightblood and Vasher make significant appearances. Nightblood mentions Denth, Shashara, and Vivenna by name. A painting from the Court of the Gods appears in Chapter 102. Riino mentions Heightenings. Hoid uses Awakening in the Epilogue." }
                     ]
                 },
                 {
@@ -518,6 +521,7 @@
                     "publication": 11,
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
+                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a silver knife from Threnody." },
                         { "target": "msh", "type": "minor", "description": "Kelsier causes the Ire to suspect Shades from Threnody are nearby." },
                         { "target": "au", "type": "minor", "description": "The Threnodite System essay discusses the history of Threnody." }
                     ]
@@ -544,7 +548,7 @@
                     "publication": 13,
                     "categories": [ "short-story", "phase1b" ],
                     "connections": [
-                        { "target": "sa3", "type": "egg", "description": "Mraize's chicken, mentioned in Chapter 22, is an Aviar." },
+                        { "target": "sa3", "type": "minor", "description": "Mraize's chicken, mentioned in Chapter 22, is an Aviar. Patji is referenced obliquely in Autonomy's letter to Hoid in the Part 2 epigraphs." },
                         { "target": "au", "type": "minor", "description": "The Taldain System essay discusses Taldain and sand mastery." }
                     ]
                 },
