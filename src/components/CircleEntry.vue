@@ -1,7 +1,9 @@
 <template>
-<g class="circle-entry" :transform="`translate(500, 500) rotate(${angle})`">
-  <text alignment-baseline="central" :text-anchor="anchor" :style="styles"
-        :transform="`translate(0, -${radius}) rotate(${sign * 90}) `">
+<g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
+   :transform="`translate(500, 500) rotate(${angle})`">
+  <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
+        :transform="`translate(0, -${radius + (entry.padding || 0)}) rotate(${sign * 90}) `"
+        @mouseover="select" @mouseout="unselect">
     <slot></slot>
   </text>
 </g>
@@ -17,6 +19,7 @@ export default {
       type: Number,
       default: 200,
     },
+    mute: Boolean,
   },
   computed: {
     sign() {
@@ -34,8 +37,15 @@ export default {
       return {
         fill: merged.color,
         fontStyle: merged.style,
-        opacity: this.entry.active ? 1 : 0.4,
       };
+    },
+  },
+  methods: {
+    select() {
+      this.$nextTick(() => this.$emit('select'));
+    },
+    unselect() {
+      this.$nextTick(() => this.$emit('unselect'));
     },
   },
 };
@@ -43,8 +53,18 @@ export default {
 
 <style lang="scss">
 .circle-entry {
-  text {
-    transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+
+  text:hover {
+    cursor: pointer;
+  }
+
+  &-inactive {
+    opacity: 0.2;
+  }
+
+  &-muted {
+    opacity: 0.2;
   }
 }
 </style>

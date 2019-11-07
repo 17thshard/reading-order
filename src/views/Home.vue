@@ -33,3 +33,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.home {
+  display: flex;
+  margin: 0 auto;
+  align-items: stretch;
+  height: 100vh;
+}
+</style>
