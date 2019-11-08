@@ -182,7 +182,10 @@
                     "world": "Scadrial",
                     "system": "Scadrian System",
                     "publication": 4,
-                    "categories": [ "phase1", "novel" ]
+                    "categories": [ "phase1", "novel" ],
+                    "connections": [
+                        { "target": "wb", "type": "egg", "description": "Lemex's nurse is a Terriswoman." }
+                    ]
                 },
                 {
                     "id": "mb3",
@@ -193,9 +196,7 @@
                     "publication": 5,
                     "categories": [ "phase1", "novel" ],
                     "connections": [
-                        { "target": "wb", "type": "egg", "description": "Lemex's nurse is a Terriswoman." },
                         { "target": "sa1", "type": "egg", "description": "Demoux appears in Interlude I-1 as 'Thinker'; Ishikk mishears his name as 'Temoo'. Ruin's vessel, Ati, is mentioned in the Chapter 18 epigraph. Felt worked for the Ventures on Scadrial." },
-                        { "target": "sa2", "type": "egg", "description": "Hoid uses emotional Allomancy in Chapter 45." },
                         { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed/Harmony to Hoid. Felt reveals he is from another world." },
                         { "target": "au", "type": "major", "description": "The Scadrian System essay discusses the events that occurred in The Hero of Ages." }
                     ]
@@ -262,6 +263,7 @@
                     "publication": 17,
                     "categories": [ "novella", "phase2" ],
                     "connections": [
+                        { "target": "sa2", "type": "egg", "description": "With powers gained from the lerasium he took, Hoid uses emotional Allomancy in Chapter 45." },
                         { "target": "traveler", "type": "major", "description": "Hoid and Frost discuss the events of Hero of Ages (and Mistborn: Secret History)." }
                     ]
                 },
@@ -372,7 +374,7 @@
                     "categories": [ "phase2", "novel" ],
                     "connections": [
                         { "target": "jasnah", "type": "major", "descrioption": "A deleted scene about Jasnah that contains some canonical elements." },
-                        { "target": "traveler", "type": "significant", "description": "The author of the Part 4 epigraphs is Frost the dragon, who speaks with Hoid."},
+                        { "target": "traveler", "type": "minor", "description": "The author of the Part 4 epigraphs is Frost the dragon, who speaks with Hoid."},
                         { "target": "au", "type": "minor", "description": "The Rosharan System essay covers details about Roshar and makes mentions of Odium's past."}
                     ]
                 },
