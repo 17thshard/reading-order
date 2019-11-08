@@ -1,5 +1,6 @@
 <template>
-<SvgPanZoom class="circle-diagram" :dbl-click-zoom-enabled="false">
+<SvgPanZoom class="circle-diagram" :dbl-click-zoom-enabled="false"
+            :custom-events-handler="panEventHandler">
   <svg class="circle-diagram-svg" viewBox="0 0 1000 1000">
     <defs>
       <marker :id="`triangle-${typeId}`" viewBox="0 0 10 10"
@@ -56,6 +57,7 @@
 </template>
 
 <script>
+import Hammer from 'hammerjs';
 import SvgPanZoom from 'vue-svg-pan-zoom';
 import CircleEntry from '@/components/CircleEntry.vue';
 import Arc from '@/components/Arc.vue';
@@ -71,8 +73,53 @@ export default {
     connectionTypes: Object,
   },
   data() {
+    const panEventHandler = {
+      haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
+      init(options) {
+        const { instance } = options;
+        let initialScale = 1;
+        let pannedX = 0;
+        let pannedY = 0;
+        this.hammer = Hammer(options.svgElement, {
+          inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput,
+        });
+        // Enable pinch
+        this.hammer.get('pinch').set({ enable: true });
+
+        // Handle pan
+        this.hammer.on('panstart panmove', (ev) => {
+          // On pan start reset panned variables
+          if (ev.type === 'panstart') {
+            pannedX = 0;
+            pannedY = 0;
+          }
+          // Pan only the difference
+          instance.panBy({ x: ev.deltaX - pannedX, y: ev.deltaY - pannedY });
+          pannedX = ev.deltaX;
+          pannedY = ev.deltaY;
+        });
+        // Handle pinch
+        this.hammer.on('pinchstart pinchmove', (ev) => {
+          // On pinch start remember initial zoom
+          if (ev.type === 'pinchstart') {
+            initialScale = instance.getZoom();
+            instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y });
+          }
+          instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y });
+        });
+        // Prevent moving the page on some devices when panning over SVG
+        options.svgElement.addEventListener('touchmove', (e) => {
+          e.preventDefault();
+        });
+      },
+      destroy() {
+        this.hammer.destroy();
+      },
+    };
+
     return {
       selectedEntry: null,
+      panEventHandler,
     };
   },
   computed: {
