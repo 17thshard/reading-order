@@ -1,6 +1,5 @@
 <template>
-<SvgPanZoom class="circle-diagram" :dbl-click-zoom-enabled="false"
-            :prevent-mouse-events-default="false">
+<SvgPanZoom class="circle-diagram" :dbl-click-zoom-enabled="false">
   <svg class="circle-diagram-svg" viewBox="0 0 1000 1000">
     <defs>
       <marker :id="`triangle-${typeId}`" viewBox="0 0 10 10"
