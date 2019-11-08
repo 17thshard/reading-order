@@ -2,7 +2,7 @@
 <g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
   <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
-        :transform="`translate(0, -${radius + (entry.padding || 0)}) rotate(${sign * 90}) `"
+        :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
         @mouseover="select" @mouseout="unselect">
     <slot></slot>
   </text>
@@ -26,6 +26,7 @@ export default {
   data() {
     return {
       renderedAngle: ((this.angle % 360) + 360) % 360,
+      renderedPadding: this.entry.padding || 0,
     };
   },
   computed: {
@@ -53,6 +54,13 @@ export default {
         this.$data,
         1,
         { renderedAngle: ((newAngle % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+      );
+    },
+    'entry.padding': function handle(newPadding) {
+      TweenLite.to(
+        this.$data,
+        1,
+        { renderedPadding: newPadding || 0, ease: 'Power1.easeInOut' },
       );
     },
   },

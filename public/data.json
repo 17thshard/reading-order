@@ -4,14 +4,14 @@
         {
             "id": "major",
             "description": "Major Connections",
-            "description2": "There is at least one major connection between the books which will enhance your understanding of the plot and the Cosmere. Reading in this order is highly recommended, and reading out of order may be spoilery.",
+            "details": "There is at least one major connection between the books which will enhance your understanding of the plot and the Cosmere. Reading in this order is highly recommended, and reading out of order may be spoilery.",
             "color": "#770000",
             "width": 2
         },
         {
             "id": "significant",
             "description": "Significant Connections",
-            "description2": "There is at least one significant connection between the books which may enhance your understanding of the plot and the Cosmere. Reading in this order is recommended.",
+            "details": "There is at least one significant connection between the books which may enhance your understanding of the plot and the Cosmere. Reading in this order is recommended.",
             "color": "#a0470d",
             "width": 2,
             "dash": "4 2"
@@ -19,7 +19,7 @@
         {
             "id": "minor",
             "description": "Minor Connections",
-            "description2": "There is at least one minor connection between the books which may enhance your understanding of the plot and Cosmere in a small way.",
+            "details": "There is at least one minor connection between the books which may enhance your understanding of the plot and Cosmere in a small way.",
             "color": "#a09713",
             "width": 1,
             "dash": "3"
@@ -27,7 +27,7 @@
         {
             "id": "egg",
             "description": "Easter Eggs",
-            "description2": "There is at least one subtle reference between the books which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
+            "details": "There is at least one subtle reference between the books which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
             "color": "#4d4d4d",
             "width": 1,
             "dash": "2"
@@ -37,59 +37,59 @@
         {
             "id": "phase1",
             "description": "Phase 1 - Essential",
-            "description2": "Essential Phase 1 works should be read before moving to Phase 2.",
+            "details": "Essential Phase 1 works should be read before moving to Phase 2.",
             "color": "#00b02b"
         },
         {
             "id": "phase1b",
             "description": "Phase 1 - Secondary",
-            "description2": "Secondary Phase 1 works may be read during Phase 1 or anytime after.",
+            "details": "Secondary Phase 1 works may be read during Phase 1 or anytime after.",
             "color": "#7bb088"
         },
         {
             "id": "phase2",
             "description": "Phase 2 - Essential",
-            "description2": "Essential Phase 2 works should be read after all essential Phase 1 works and before moving to Phase 3.",
+            "details": "Essential Phase 2 works should be read after all essential Phase 1 works and before moving to Phase 3.",
             "color": "#0094d4"
         },
         {
             "id": "phase2b",
             "description": "Phase 2 - Secondary",
-            "description2": "Secondary Phase 2 works may be read during Phase 2 or anytime after.",
+            "details": "Secondary Phase 2 works may be read during Phase 2 or anytime after.",
             "color": "#8abdd4"
         },
         {
             "id": "plan",
             "description": "Unpublished - Future Plans",
-            "description2": "Includes all planned, future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
+            "details": "Includes all planned, future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
             "color": "#505050"
         },
         {
             "id": "uncanonical",
             "description": "Unpublished - Uncanonical",
-            "description2": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
+            "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
             "color": "#735a45"
         },
         {
             "id": "novel",
             "description": "Novels",
-            "description2": "Full novels."
+            "details": "Full novels."
         },
         {
             "id": "graphic",
             "description": "Graphic Novels",
-            "description2": "Graphic novels."
+            "details": "Graphic novels."
         },
         {
             "id": "novella",
             "description": "Novellas",
-            "description2": "Novellas.",
+            "details": "Novellas.",
             "style": "italic"
         },
         {
             "id": "short",
             "description": "Short Stories",
-            "description2": "Short stories.",
+            "details": "Short stories.",
             "style": "italic"
         }
     ],
@@ -677,7 +677,7 @@
                     "id": "wsp",
                     "title": "White Sand (prose)",
                     "publication": 12.6,
-                    "categories": [ "novel", "uncanonical" ]
+                    "categories": [ "novel", "uncanonical" ],
                     "connections": [
                         { "target": "ws1", "type": "minor", "description": "The White Sand graphic novels are based on the prose version." }
                     ]
