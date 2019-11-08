@@ -31,6 +31,8 @@
       </linearGradient>
     </defs>
     <transition-group name="fade" tag="g" class="svg-pan-zoom_viewport">
+      <image x="300" y="300" width="400" height="400" opacity="0.05"
+             xlink:href="@/assets/cosmere.svg" key="cosmere-logo"/>
       <CircleEntry
         :entry="entry" :angle="entry.angle" :radius="300"
         :mute="selectedEntry !== null && entry.id !== selectedEntry
