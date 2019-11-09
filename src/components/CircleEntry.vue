@@ -3,12 +3,19 @@
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
   <Tooltip
     :text="tooltipText"
-    :options="{autoHide: false, offset: 10, placement: tooltipPosition}"
+    :options="{
+      autoHide: false,
+      offset: 10,
+      placement: tooltipPosition,
+      hideOnTargetClick: false,
+    }"
     :follow-mouse="true"
+    :disabled="mute"
   >
     <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
           :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
-          @mouseover="select" @mouseout="unselect">
+          v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
+          @mouseover="select" @mouseout="unselect" @click="toggle">
       <slot></slot>
     </text>
   </Tooltip>
@@ -19,6 +26,18 @@
 import { TweenLite } from 'gsap/TweenLite';
 import Tooltip from '@/components/Tooltip.vue';
 import { normalizeAngle, quadrant } from '@/utils';
+
+function anyComponent(node, f) {
+  if (f(node)) {
+    return true;
+  }
+
+  if (node.$parent === undefined) {
+    return false;
+  }
+
+  return anyComponent(node.$parent, f);
+}
 
 export default {
   name: 'CircleEntry',
@@ -36,6 +55,7 @@ export default {
     return {
       renderedAngle: normalizeAngle(this.angle),
       renderedPadding: this.entry.padding || 0,
+      clicked: false,
     };
   },
   computed: {
@@ -86,11 +106,47 @@ export default {
     },
   },
   methods: {
+    toggle() {
+      if (!this.entry.active) {
+        return;
+      }
+
+      this.clicked = !this.clicked;
+
+      if (this.clicked) {
+        this.$emit('select', true);
+      } else {
+        this.$emit('unselect');
+      }
+    },
     select() {
-      this.$nextTick(() => this.$emit('select'));
+      if (!this.entry.active) {
+        return;
+      }
+
+      if (!this.clicked) {
+        this.$emit('select', false);
+      }
     },
     unselect() {
-      this.$nextTick(() => this.$emit('unselect'));
+      if (!this.clicked) {
+        this.$emit('unselect');
+      }
+    },
+    handleOutsideClick() {
+      if (this.clicked) {
+        this.clicked = false;
+        this.unselect();
+      }
+    },
+    shouldNotClose(target) {
+      // eslint-disable-next-line no-underscore-dangle
+      const component = target.__vue__;
+      if (this.clicked && component) {
+        return anyComponent(component, node => (node.$props || {}).mute === false);
+      }
+
+      return false;
     },
   },
 };
@@ -110,6 +166,7 @@ export default {
 
   &-muted {
     opacity: 0.2;
+    pointer-events: none;
   }
 }
 </style>

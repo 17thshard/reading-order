@@ -10,18 +10,21 @@ export default {
       type: Boolean,
       default: () => false,
     },
+    disabled: Boolean,
   },
   render() {
     try {
       this.$slots.default[0].data.directives = this.$slots.default[0].data.directives || [];
-      this.$slots.default[0].data.directives.push({
-        name: 'tooltip',
-        value: {
-          content: this.text,
-          ...this.options,
-          popperOptions: { ...(this.popperOptions || {}), onCreate: this.onPopperCreate },
-        },
-      });
+      if (!this.disabled) {
+        this.$slots.default[0].data.directives.push({
+          name: 'tooltip',
+          value: {
+            content: this.text,
+            ...this.options,
+            popperOptions: { ...(this.popperOptions || {}), onCreate: this.onPopperCreate },
+          },
+        });
+      }
       return this.$slots.default[0];
     } catch (e) {
       throw new Error('Tooltip can only render one, and exactly one child component.');

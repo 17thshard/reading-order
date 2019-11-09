@@ -37,9 +37,10 @@
         :entry="entry" :angle="entry.angle" :radius="300"
         :mute="selectedEntry !== null && entry.id !== selectedEntry
                && !incomingConnections[entry.id].includes(selectedEntry)
-               && !(entry.connections || []).some((e) => e.target === selectedEntry)"
-        @select="selectedEntry = entry.id"
-        @unselect="selectedEntry = null"
+               && !(entry.connections || [])
+                    .some(c => connectionTypes[c.type].active && c.target === selectedEntry)"
+        @select="select(entry.id, $event)"
+        @unselect="unselect(entry.id)"
         :key="entry.id"
         v-for="entry in entries">
         {{entry.title}}
@@ -119,6 +120,7 @@ export default {
 
     return {
       selectedEntry: null,
+      selectionLock: false,
       panEventHandler,
     };
   },
@@ -129,7 +131,7 @@ export default {
       Object.values(this.entries).forEach((e) => {
         connections[e.id] = connections[e.id] || [];
 
-        (e.connections || []).forEach((c) => {
+        (e.connections || []).filter(c => this.connectionTypes[c.type].active).forEach((c) => {
           connections[c.target] = [...(connections[c.target] || []), e.id];
         });
       });
@@ -149,6 +151,24 @@ export default {
             type: this.connectionTypes[c.type],
             nodesActive: e.active && this.entries[c.target].active,
           })));
+    },
+  },
+  methods: {
+    select(entry, lock) {
+      if (this.selectionLock && entry !== this.selectedEntry) {
+        return;
+      }
+
+      this.selectedEntry = entry;
+      this.selectionLock = lock;
+    },
+    unselect(entry) {
+      if (this.selectionLock && entry !== this.selectedEntry) {
+        return;
+      }
+
+      this.selectedEntry = null;
+      this.selectionLock = false;
     },
   },
 };

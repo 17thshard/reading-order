@@ -9,8 +9,14 @@
 ]">
   <Tooltip
     :text="connection.description"
-    :options="{autoHide: false, offset: 5}"
+    :options="{
+      autoHide: false,
+      offset: 5,
+      hideOnTargetClick: false,
+      toggle: 'click hover',
+    }"
     :follow-mouse="true"
+    :disabled="mute"
   >
     <path
       :d="path" class="arc-background" fill="none" :style="bgStyles"
@@ -75,7 +81,7 @@ export default {
     bgStyles() {
       return {
         stroke: this.connection.type.color,
-        strokeWidth: this.connection.type.width * 6,
+        strokeWidth: 10,
       };
     },
     startPos() {
@@ -188,6 +194,7 @@ export default {
 
   &-muted {
     opacity: 0.1;
+    pointer-events: none;
   }
 
   &-inactive {
