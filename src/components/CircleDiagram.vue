@@ -50,6 +50,7 @@
                   && selectedEntry !== c.startId && selectedEntry !== c.endId"
            :highlight="selectedEntry !== null
                        && (selectedEntry === c.startId || selectedEntry === c.endId)"
+           :explain="explainConnections"
            :key="`${c.startId}.${c.endId}`"
            v-for="c in connections"></Arc>
     </transition-group>
@@ -72,6 +73,7 @@ export default {
       required: true,
     },
     connectionTypes: Object,
+    explainConnections: Boolean,
   },
   data() {
     const panEventHandler = {

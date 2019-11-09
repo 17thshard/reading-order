@@ -37,9 +37,17 @@
     <div class="legend-keys-content">
       <div class="legend-options">
         <h2>Options</h2>
-        <input id="sort-by-publication" type="checkbox"
-               @input="$emit('switch', $event.target.checked)">
-        <label for="sort-by-publication">Sort by publication order</label>
+        <span class="legend-options-item">
+          <input id="sort-by-publication" type="checkbox"
+                 @input="$emit('switch', $event.target.checked)">
+          <label for="sort-by-publication">Sort by publication order</label>
+        </span>
+        <span class="legend-options-item">
+          <input id="show-connection-explanations" type="checkbox"
+                 :checked="explainConnections"
+                 @input="$emit('toggleExplanations', $event.target.checked)">
+          <label for="show-connection-explanations">Explain connection details</label>
+        </span>
       </div>
 
       <div class="legend-connections">
@@ -67,6 +75,7 @@ export default {
   props: {
     connectionTypes: Array,
     categories: Array,
+    explainConnections: Boolean,
   },
   data() {
     return {
@@ -156,10 +165,15 @@ export default {
     }
   }
 
-  &-connections, &-categories {
+  &-options, &-connections, &-categories {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &-options-item {
+    display: flex;
+    align-items: center;
   }
 
   @media (max-width: 1000px) {

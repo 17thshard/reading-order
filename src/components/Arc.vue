@@ -8,7 +8,10 @@
   }
 ]">
   <Tooltip
-    :text="connection.description"
+    :text="explain
+      ? connection.description
+      : 'Spoilers ahead! Enable connection details in the options to the right to see them!'
+    "
     :options="{
       autoHide: false,
       offset: 5,
@@ -61,6 +64,7 @@ export default {
     },
     mute: Boolean,
     highlight: Boolean,
+    explain: Boolean,
   },
   data() {
     return {
