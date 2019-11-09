@@ -1,19 +1,27 @@
 <template>
 <g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
-  <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
-        :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
-        @mouseover="select" @mouseout="unselect">
-    <slot></slot>
-  </text>
+  <Tooltip
+    :text="tooltipText"
+    :options="{autoHide: false, offset: 5}"
+    :follow-mouse="true"
+  >
+    <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
+          :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
+          @mouseover="select" @mouseout="unselect">
+      <slot></slot>
+    </text>
+  </Tooltip>
 </g>
 </template>
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
+import Tooltip from '@/components/Tooltip.vue';
 
 export default {
   name: 'CircleEntry',
+  components: { Tooltip },
   props: {
     entry: Object,
     angle: Number,
@@ -46,6 +54,13 @@ export default {
         fill: merged.color,
         fontStyle: merged.style,
       };
+    },
+    tooltipText() {
+      return `
+      <strong>Series:</strong> ${this.entry.series || 'None'}<br>
+      <strong>World:</strong> ${this.entry.world || 'None'}<br>
+      <strong>System:</strong> ${this.entry.system || 'None'}
+      `;
     },
   },
   watch: {

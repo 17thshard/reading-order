@@ -7,17 +7,17 @@
     'arc-muted': mute
   }
 ]">
-  <path
-    :d="path" class="arc-background" fill="none" :style="bgStyles"
-    v-tooltip="{
-      content: connection.description,
-      autoHide: false,
-      trigger: 'hover',
-      popperOptions: { onCreate: onPopperCreate }
-    }"
-    @mouseover="beginLocalHighlight"
-    @mouseout="endLocalHighlight"
-  ></path>
+  <Tooltip
+    :text="connection.description"
+    :options="{autoHide: false, offset: 5}"
+    :follow-mouse="true"
+  >
+    <path
+      :d="path" class="arc-background" fill="none" :style="bgStyles"
+      @mouseover="beginLocalHighlight"
+      @mouseout="endLocalHighlight"
+    ></path>
+  </Tooltip>
   <path :d="path" class="arc-foreground" fill="none" :style="styles"
         :marker-end="`url(#triangle-${connection.type.id})`"></path>
   <mask :id="`arc-path-${renderedStart}.${renderedEnd}`">
@@ -37,9 +37,11 @@
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
+import Tooltip from '@/components/Tooltip.vue';
 
 export default {
   name: 'Arc',
+  components: { Tooltip },
   props: {
     connection: Object,
     radius: {
@@ -158,28 +160,8 @@ export default {
     },
   },
   methods: {
-    onPopperCreate({ instance }) {
-      this.popper = instance;
-      instance.reference = {
-        getBoundingClientRect: () => ({
-          top: this.mousePos.pageY,
-          right: this.mousePos.pageX,
-          bottom: this.mousePos.pageY,
-          left: this.mousePos.pageX,
-          width: 0,
-          height: 0,
-        }),
-        clientWidth: 0,
-        clientHeight: 0,
-      };
-      instance.update();
-    },
-    beginLocalHighlight({ pageX, pageY }) {
+    beginLocalHighlight() {
       this.localHighlight = true;
-      this.mousePos = { pageX, pageY };
-      if (this.popper) {
-        this.popper.scheduleUpdate();
-      }
     },
     endLocalHighlight() {
       this.localHighlight = false;
