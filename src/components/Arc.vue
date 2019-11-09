@@ -194,6 +194,7 @@ export default {
 
   &-nodes-inactive {
     opacity: 0.1;
+    pointer-events: none;
   }
 
   &-muted {
@@ -203,6 +204,7 @@ export default {
 
   &-inactive {
     opacity: 0;
+    pointer-events: none;
   }
 
   &-background {
