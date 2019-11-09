@@ -22,7 +22,8 @@
             "details": "There is at least one minor connection between the books which may enhance your understanding of the plot and Cosmere in a small way.",
             "color": "#a09713",
             "width": 1,
-            "dash": "3"
+            "dash": "3",
+            "activeByDefault": false
         },
         {
             "id": "egg",
@@ -30,7 +31,8 @@
             "details": "There is at least one subtle reference between the books which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
             "color": "#4d4d4d",
             "width": 1,
-            "dash": "2"
+            "dash": "2",
+            "activeByDefault": false
         }
     ],
     "categories": [

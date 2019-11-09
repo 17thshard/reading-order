@@ -40,12 +40,12 @@ export default (
 
   const connectionTypes = connections.reduce((acc, c) => ({
     ...acc,
-    [c.id]: { ...c, active: true },
+    [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
   }), {});
 
   const groupedCategories = categories.reduce((acc, c) => ({
     ...acc,
-    [c.id]: { ...c, active: true },
+    [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
   }), {});
 
   walk(
