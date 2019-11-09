@@ -3,7 +3,7 @@
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
   <Tooltip
     :text="tooltipText"
-    :options="{autoHide: false, offset: 5}"
+    :options="{autoHide: false, offset: 10, placement: tooltipPosition}"
     :follow-mouse="true"
   >
     <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
@@ -18,6 +18,7 @@
 <script>
 import { TweenLite } from 'gsap/TweenLite';
 import Tooltip from '@/components/Tooltip.vue';
+import { normalizeAngle, quadrant } from '@/utils';
 
 export default {
   name: 'CircleEntry',
@@ -33,7 +34,7 @@ export default {
   },
   data() {
     return {
-      renderedAngle: ((this.angle % 360) + 360) % 360,
+      renderedAngle: normalizeAngle(this.angle),
       renderedPadding: this.entry.padding || 0,
     };
   },
@@ -55,6 +56,11 @@ export default {
         fontStyle: merged.style,
       };
     },
+    tooltipPosition() {
+      const index = quadrant(normalizeAngle(this.renderedAngle + 45));
+      const positions = ['top', 'right', 'bottom', 'left'];
+      return positions[index];
+    },
     tooltipText() {
       return `
       <strong>Series:</strong> ${this.entry.series || 'None'}<br>
@@ -68,7 +74,7 @@ export default {
       TweenLite.to(
         this.$data,
         1,
-        { renderedAngle: ((newAngle % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedAngle: normalizeAngle(newAngle), ease: 'Power1.easeInOut' },
       );
     },
     'entry.padding': function handle(newPadding) {

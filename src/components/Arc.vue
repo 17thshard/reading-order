@@ -38,6 +38,11 @@
 <script>
 import { TweenLite } from 'gsap/TweenLite';
 import Tooltip from '@/components/Tooltip.vue';
+import { angleDifference, normalizeAngle } from '@/utils';
+
+function invertSeparation(separation) {
+  return separation - Math.sign(separation);
+}
 
 export default {
   name: 'Arc',
@@ -53,8 +58,8 @@ export default {
   },
   data() {
     return {
-      renderedStart: ((this.connection.start % 360) + 360) % 360,
-      renderedEnd: ((this.connection.end % 360) + 360) % 360,
+      renderedStart: normalizeAngle(this.connection.start),
+      renderedEnd: normalizeAngle(this.connection.end),
       localHighlight: false,
       mousePos: { pageX: 0, pageY: 0 },
     };
@@ -74,21 +79,23 @@ export default {
       };
     },
     startPos() {
-      const startRadians = Math.PI * (this.renderedStart - 90 - 1.5 * this.signedSeparation) / 180;
+      const offset = 1.5 * invertSeparation(this.signedSeparation);
+      const startRadians = Math.PI * (this.renderedStart - 90 - offset) / 180;
       return {
         x: Math.cos(startRadians) * this.radius + 500,
         y: Math.sin(startRadians) * this.radius + 500,
       };
     },
     endPos() {
-      const endRadians = Math.PI * (this.renderedEnd - 90 - 1.5 * this.signedSeparation) / 180;
+      const offset = 1.5 * invertSeparation(this.signedSeparation);
+      const endRadians = Math.PI * (this.renderedEnd - 90 + offset) / 180;
       return {
         x: Math.cos(endRadians) * this.radius + 500,
         y: Math.sin(endRadians) * this.radius + 500,
       };
     },
     signedSeparation() {
-      return ((this.renderedEnd - this.renderedStart) % 180) / 360;
+      return angleDifference(this.renderedStart, this.renderedEnd) / 180;
     },
     separation() {
       return Math.abs(this.signedSeparation) ** 0.7;
@@ -148,14 +155,14 @@ export default {
       TweenLite.to(
         this.$data,
         1,
-        { renderedStart: ((newStart % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedStart: normalizeAngle(newStart), ease: 'Power1.easeInOut' },
       );
     },
     'connection.end': function handle(newEnd) {
       TweenLite.to(
         this.$data,
         1,
-        { renderedEnd: ((newEnd % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedEnd: normalizeAngle(newEnd), ease: 'Power1.easeInOut' },
       );
     },
   },
