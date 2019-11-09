@@ -1,14 +1,16 @@
 <template>
 <div :class="['connection-preview', {'connection-preview-active': type.active}]"
-     v-tooltip="type.details"
-     @click="type.active = !type.active">
-  <svg width="15" height="10" viewBox="0 0 15 5" class="connection-preview-icon">
-    <line x1="0" y1="3" x2="15" y2="3"
-          :stroke="type.color"
-          :stroke-width="type.width"
-          :stroke-dasharray="type.dash"></line>
-  </svg>
-  {{type.description}}
+     v-tooltip="type.details">
+  <input type="checkbox" :id="`chk-connection-${type.id}`" v-model="type.active">
+  <label :for="`chk-connection-${type.id}`">
+    <svg width="15" height="10" viewBox="0 0 15 5" class="connection-preview-icon">
+      <line x1="0" y1="3" x2="15" y2="3"
+            :stroke="type.color"
+            :stroke-width="type.width"
+            :stroke-dasharray="type.dash"></line>
+    </svg>
+    {{type.description}}
+  </label>
 </div>
 </template>
 
@@ -28,7 +30,7 @@ export default {
   opacity: 0.4;
   padding: 0.125rem;
 
-  &:hover {
+  input, label {
     cursor: pointer;
   }
 
@@ -37,7 +39,7 @@ export default {
   }
 
   &-icon {
-    margin-right: 0.25rem;
+    margin: 0 0.25rem;
   }
 }
 </style>
