@@ -1,5 +1,6 @@
 module.exports = {
   publicPath: '/reading-order/',
+  productionSourceMap: false,
   pwa: {
     name: 'Cosmere Reading Order',
     themeColor: '#3A69CF',
