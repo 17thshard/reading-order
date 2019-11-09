@@ -1,19 +1,47 @@
 <template>
 <g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
-  <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
-        :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
-        @mouseover="select" @mouseout="unselect">
-    <slot></slot>
-  </text>
+  <Tooltip
+    :text="tooltipText"
+    :options="{
+      autoHide: false,
+      offset: 10,
+      placement: tooltipPosition,
+      hideOnTargetClick: false,
+    }"
+    :follow-mouse="true"
+    :disabled="mute"
+  >
+    <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
+          :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
+          v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
+          @mouseover="select" @mouseout="unselect" @click="toggle">
+      <slot></slot>
+    </text>
+  </Tooltip>
 </g>
 </template>
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
+import Tooltip from '@/components/Tooltip.vue';
+import { normalizeAngle, quadrant } from '@/utils';
+
+function anyComponent(node, f) {
+  if (f(node)) {
+    return true;
+  }
+
+  if (node.$parent === undefined) {
+    return false;
+  }
+
+  return anyComponent(node.$parent, f);
+}
 
 export default {
   name: 'CircleEntry',
+  components: { Tooltip },
   props: {
     entry: Object,
     angle: Number,
@@ -25,8 +53,9 @@ export default {
   },
   data() {
     return {
-      renderedAngle: ((this.angle % 360) + 360) % 360,
+      renderedAngle: normalizeAngle(this.angle),
       renderedPadding: this.entry.padding || 0,
+      clicked: false,
     };
   },
   computed: {
@@ -47,13 +76,25 @@ export default {
         fontStyle: merged.style,
       };
     },
+    tooltipPosition() {
+      const index = quadrant(normalizeAngle(this.renderedAngle + 45));
+      const positions = ['top', 'right', 'bottom', 'left'];
+      return positions[index];
+    },
+    tooltipText() {
+      return `
+      <strong>Series:</strong> ${this.entry.series || 'None'}<br>
+      <strong>World:</strong> ${this.entry.world || 'None'}<br>
+      <strong>System:</strong> ${this.entry.system || 'None'}
+      `;
+    },
   },
   watch: {
     angle(newAngle) {
       TweenLite.to(
         this.$data,
         1,
-        { renderedAngle: ((newAngle % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedAngle: normalizeAngle(newAngle), ease: 'Power1.easeInOut' },
       );
     },
     'entry.padding': function handle(newPadding) {
@@ -65,11 +106,47 @@ export default {
     },
   },
   methods: {
+    toggle() {
+      if (!this.entry.active) {
+        return;
+      }
+
+      this.clicked = !this.clicked;
+
+      if (this.clicked) {
+        this.$emit('select', true);
+      } else {
+        this.$emit('unselect');
+      }
+    },
     select() {
-      this.$nextTick(() => this.$emit('select'));
+      if (!this.entry.active) {
+        return;
+      }
+
+      if (!this.clicked) {
+        this.$emit('select', false);
+      }
     },
     unselect() {
-      this.$nextTick(() => this.$emit('unselect'));
+      if (!this.clicked) {
+        this.$emit('unselect');
+      }
+    },
+    handleOutsideClick() {
+      if (this.clicked) {
+        this.clicked = false;
+        this.unselect();
+      }
+    },
+    shouldNotClose(target) {
+      // eslint-disable-next-line no-underscore-dangle
+      const component = target.__vue__;
+      if (this.clicked && component) {
+        return anyComponent(component, node => (node.$props || {}).mute === false);
+      }
+
+      return false;
     },
   },
 };
@@ -89,6 +166,7 @@ export default {
 
   &-muted {
     opacity: 0.2;
+    pointer-events: none;
   }
 }
 </style>

@@ -1,16 +1,40 @@
 <template>
 <g :class="[
   'arc',
-  {'arc-nodes-inactive': !nodesActive, 'arc-inactive': !type.active, 'arc-muted': mute}
+  {
+    'arc-nodes-inactive': !connection.nodesActive,
+    'arc-inactive': !connection.type.active,
+    'arc-muted': mute
+  }
 ]">
-  <path :d="path" class="arc-background" fill="none" :style="bgStyles"></path>
+  <Tooltip
+    :text="explain
+      ? connection.description
+      : 'Spoilers ahead! Enable connection details in the options to the right to see them!'
+    "
+    :options="{
+      autoHide: false,
+      offset: 5,
+      hideOnTargetClick: false,
+      toggle: 'click hover',
+    }"
+    :follow-mouse="true"
+    :disabled="mute"
+  >
+    <path
+      :d="path" class="arc-background" fill="none" :style="bgStyles"
+      @mouseover="beginLocalHighlight"
+      @mouseout="endLocalHighlight"
+    ></path>
+  </Tooltip>
   <path :d="path" class="arc-foreground" fill="none" :style="styles"
-        :marker-end="`url(#triangle-${type.id})`"></path>
-  <mask :id="`arc-path-${start}.${end}`">
+        :marker-end="`url(#triangle-${connection.type.id})`"></path>
+  <mask :id="`arc-path-${renderedStart}.${renderedEnd}`">
     <path :d="path" class="arc-foreground" fill="none" stroke="white"
-          :stroke-width="type.width" marker-end="url(#triangle-mask)"></path>
+          :stroke-width="connection.type.width" marker-end="url(#triangle-mask)"></path>
   </mask>
-  <g class="arc-shine-container" :mask="`url(#arc-path-${start}.${end})`" v-if="highlight">
+  <g class="arc-shine-container" :mask="`url(#arc-path-${renderedStart}.${renderedEnd})`"
+     v-if="highlight || localHighlight">
     <rect :x="shineRectangle.x" :y="shineRectangle.y"
           :width="shineRectangle.width" :height="shineRectangle.height"
           :fill="`url(#shine-${shineAxis})`"
@@ -22,57 +46,66 @@
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
+import Tooltip from '@/components/Tooltip.vue';
+import { angleDifference, normalizeAngle } from '@/utils';
+
+function invertSeparation(separation) {
+  return separation - Math.sign(separation);
+}
 
 export default {
   name: 'Arc',
+  components: { Tooltip },
   props: {
-    start: Number,
-    end: Number,
-    type: Object,
+    connection: Object,
     radius: {
       type: Number,
       default: 200,
     },
-    nodesActive: Boolean,
     mute: Boolean,
     highlight: Boolean,
+    explain: Boolean,
   },
   data() {
     return {
-      renderedStart: ((this.start % 360) + 360) % 360,
-      renderedEnd: ((this.end % 360) + 360) % 360,
+      renderedStart: normalizeAngle(this.connection.start),
+      renderedEnd: normalizeAngle(this.connection.end),
+      localHighlight: false,
+      mousePos: { pageX: 0, pageY: 0 },
     };
   },
   computed: {
     styles() {
       return {
-        stroke: this.type.color,
-        strokeWidth: this.type.width,
-        strokeDasharray: this.type.dash,
+        stroke: this.connection.type.color,
+        strokeWidth: this.connection.type.width,
+        strokeDasharray: this.connection.type.dash,
       };
     },
     bgStyles() {
       return {
-        stroke: this.type.color,
-        strokeWidth: this.type.width * 4,
+        stroke: this.connection.type.color,
+        strokeWidth: 10,
       };
     },
     startPos() {
-      const startRadians = Math.PI * (this.renderedStart - 90 - 1.5 * this.signedSeparation) / 180;
+      const offset = 1.5 * invertSeparation(this.signedSeparation);
+      const startRadians = Math.PI * (this.renderedStart - 90 - offset) / 180;
       return {
         x: Math.cos(startRadians) * this.radius + 500,
         y: Math.sin(startRadians) * this.radius + 500,
       };
     },
     endPos() {
-      const endRadians = Math.PI * (this.renderedEnd - 90 - 1.5 * this.signedSeparation) / 180;
+      const offset = 1.5 * invertSeparation(this.signedSeparation);
+      const endRadians = Math.PI * (this.renderedEnd - 90 + offset) / 180;
       return {
         x: Math.cos(endRadians) * this.radius + 500,
         y: Math.sin(endRadians) * this.radius + 500,
       };
     },
     signedSeparation() {
-      return ((this.renderedEnd - this.renderedStart) % 180) / 360;
+      return angleDifference(this.renderedStart, this.renderedEnd) / 180;
     },
     separation() {
       return Math.abs(this.signedSeparation) ** 0.7;
@@ -128,19 +161,27 @@ export default {
     },
   },
   watch: {
-    start(newStart) {
+    'connection.start': function handle(newStart) {
       TweenLite.to(
         this.$data,
         1,
-        { renderedStart: ((newStart % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedStart: normalizeAngle(newStart), ease: 'Power1.easeInOut' },
       );
     },
-    end(newEnd) {
+    'connection.end': function handle(newEnd) {
       TweenLite.to(
         this.$data,
         1,
-        { renderedEnd: ((newEnd % 360) + 360) % 360, ease: 'Power1.easeInOut' },
+        { renderedEnd: normalizeAngle(newEnd), ease: 'Power1.easeInOut' },
       );
+    },
+  },
+  methods: {
+    beginLocalHighlight() {
+      this.localHighlight = true;
+    },
+    endLocalHighlight() {
+      this.localHighlight = false;
     },
   },
 };
@@ -153,14 +194,17 @@ export default {
 
   &-nodes-inactive {
     opacity: 0.1;
+    pointer-events: none;
   }
 
   &-muted {
     opacity: 0.1;
+    pointer-events: none;
   }
 
   &-inactive {
     opacity: 0;
+    pointer-events: none;
   }
 
   &-background {

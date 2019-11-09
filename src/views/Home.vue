@@ -3,10 +3,16 @@
   <Legend
     :connection-types="Object.values(connectionTypes)"
     :categories="Object.values(categories)"
+    :explain-connections="explainConnections"
     @switch="changeEntries"
+    @toggleExplanations="toggleExplanations"
   >
   </Legend>
-  <CircleDiagram :entries="entries" :connection-types="connectionTypes"/>
+  <CircleDiagram
+    :entries="entries"
+    :connection-types="connectionTypes"
+    :explain-connections="explainConnections"
+  />
 </div>
 </template>
 
@@ -28,6 +34,7 @@ export default {
       sortedBooks: {},
       connectionTypes: {},
       categories: {},
+      explainConnections: window.localStorage.getItem('explainConnections') === 'true',
     };
   },
   async mounted() {
@@ -44,6 +51,10 @@ export default {
   methods: {
     changeEntries(sortedBooks) {
       this.entries = sortedBooks ? this.sortedBooks : this.books;
+    },
+    toggleExplanations(value) {
+      this.explainConnections = value;
+      window.localStorage.setItem('explainConnections', value);
     },
   },
 };
