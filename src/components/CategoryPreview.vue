@@ -1,6 +1,6 @@
 <template>
 <div :class="['category-preview', {'category-preview-active': category.active}]"
-     :style="styles"
+     :style="styles" v-tooltip="category.details"
      @click="category.active = !category.active">
   {{category.description}}
 </div>

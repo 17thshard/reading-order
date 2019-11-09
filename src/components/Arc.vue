@@ -1,16 +1,31 @@
 <template>
 <g :class="[
   'arc',
-  {'arc-nodes-inactive': !nodesActive, 'arc-inactive': !type.active, 'arc-muted': mute}
+  {
+    'arc-nodes-inactive': !connection.nodesActive,
+    'arc-inactive': !connection.type.active,
+    'arc-muted': mute
+  }
 ]">
-  <path :d="path" class="arc-background" fill="none" :style="bgStyles"></path>
+  <path
+    :d="path" class="arc-background" fill="none" :style="bgStyles"
+    v-tooltip="{
+      content: connection.description,
+      autoHide: false,
+      trigger: 'hover',
+      popperOptions: { onCreate: onPopperCreate }
+    }"
+    @mouseover="beginLocalHighlight"
+    @mouseout="endLocalHighlight"
+  ></path>
   <path :d="path" class="arc-foreground" fill="none" :style="styles"
-        :marker-end="`url(#triangle-${type.id})`"></path>
-  <mask :id="`arc-path-${start}.${end}`">
+        :marker-end="`url(#triangle-${connection.type.id})`"></path>
+  <mask :id="`arc-path-${renderedStart}.${renderedEnd}`">
     <path :d="path" class="arc-foreground" fill="none" stroke="white"
-          :stroke-width="type.width" marker-end="url(#triangle-mask)"></path>
+          :stroke-width="connection.type.width" marker-end="url(#triangle-mask)"></path>
   </mask>
-  <g class="arc-shine-container" :mask="`url(#arc-path-${start}.${end})`" v-if="highlight">
+  <g class="arc-shine-container" :mask="`url(#arc-path-${renderedStart}.${renderedEnd})`"
+     v-if="highlight || localHighlight">
     <rect :x="shineRectangle.x" :y="shineRectangle.y"
           :width="shineRectangle.width" :height="shineRectangle.height"
           :fill="`url(#shine-${shineAxis})`"
@@ -26,35 +41,34 @@ import { TweenLite } from 'gsap/TweenLite';
 export default {
   name: 'Arc',
   props: {
-    start: Number,
-    end: Number,
-    type: Object,
+    connection: Object,
     radius: {
       type: Number,
       default: 200,
     },
-    nodesActive: Boolean,
     mute: Boolean,
     highlight: Boolean,
   },
   data() {
     return {
-      renderedStart: ((this.start % 360) + 360) % 360,
-      renderedEnd: ((this.end % 360) + 360) % 360,
+      renderedStart: ((this.connection.start % 360) + 360) % 360,
+      renderedEnd: ((this.connection.end % 360) + 360) % 360,
+      localHighlight: false,
+      mousePos: { pageX: 0, pageY: 0 },
     };
   },
   computed: {
     styles() {
       return {
-        stroke: this.type.color,
-        strokeWidth: this.type.width,
-        strokeDasharray: this.type.dash,
+        stroke: this.connection.type.color,
+        strokeWidth: this.connection.type.width,
+        strokeDasharray: this.connection.type.dash,
       };
     },
     bgStyles() {
       return {
-        stroke: this.type.color,
-        strokeWidth: this.type.width * 4,
+        stroke: this.connection.type.color,
+        strokeWidth: this.connection.type.width * 6,
       };
     },
     startPos() {
@@ -128,19 +142,47 @@ export default {
     },
   },
   watch: {
-    start(newStart) {
+    'connection.start': function handle(newStart) {
       TweenLite.to(
         this.$data,
         1,
         { renderedStart: ((newStart % 360) + 360) % 360, ease: 'Power1.easeInOut' },
       );
     },
-    end(newEnd) {
+    'connection.end': function handle(newEnd) {
       TweenLite.to(
         this.$data,
         1,
         { renderedEnd: ((newEnd % 360) + 360) % 360, ease: 'Power1.easeInOut' },
       );
+    },
+  },
+  methods: {
+    onPopperCreate({ instance }) {
+      this.popper = instance;
+      instance.reference = {
+        getBoundingClientRect: () => ({
+          top: this.mousePos.pageY,
+          right: this.mousePos.pageX,
+          bottom: this.mousePos.pageY,
+          left: this.mousePos.pageX,
+          width: 0,
+          height: 0,
+        }),
+        clientWidth: 0,
+        clientHeight: 0,
+      };
+      instance.update();
+    },
+    beginLocalHighlight({ pageX, pageY }) {
+      this.localHighlight = true;
+      this.mousePos = { pageX, pageY };
+      if (this.popper) {
+        this.popper.scheduleUpdate();
+      }
+    },
+    endLocalHighlight() {
+      this.localHighlight = false;
     },
   },
 };

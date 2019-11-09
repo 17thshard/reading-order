@@ -1,5 +1,6 @@
 <template>
 <div :class="['connection-preview', {'connection-preview-active': type.active}]"
+     v-tooltip="type.details"
      @click="type.active = !type.active">
   <svg width="15" height="10" viewBox="0 0 15 5" class="connection-preview-icon">
     <line x1="0" y1="3" x2="15" y2="3"

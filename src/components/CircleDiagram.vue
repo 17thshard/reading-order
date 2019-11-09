@@ -44,7 +44,7 @@
         v-for="entry in entries">
         {{entry.title}}
       </CircleEntry>
-      <Arc :start="c.start" :end="c.end" :radius="290" :type="c.type" :nodes-active="c.nodesActive"
+      <Arc :connection="c" :radius="290"
            :mute="selectedEntry !== null
                   && selectedEntry !== c.startId && selectedEntry !== c.endId"
            :highlight="selectedEntry !== null
@@ -141,6 +141,7 @@ export default {
         .flatMap(e => (e.connections || [])
           .filter(c => this.entries[c.target] !== undefined)
           .map(c => ({
+            description: c.description,
             startId: e.id,
             endId: c.target,
             start: e.angle,

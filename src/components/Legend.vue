@@ -22,11 +22,7 @@
         to the greater cosmere), and can be taken as additional reading order advice. Hover mouse on
         books to highlight related arrows. Hover mouse on arrows to see details.</p>
       <p>(4) Unpublished books may or may not be eventually published.</p>
-      <p>Click arrows and categories in the keys below to control visibility.</p>
-
-      <input id="sort-by-publication" type="checkbox"
-             @input="$emit('switch', $event.target.checked)">
-      <label for="sort-by-publication">Sort by publication order</label>
+      <p>Click arrows and categories in the keys to the right to control visibility.</p>
     </div>
 
     <div class="legend-intro-close" @click="introToggled = false">
@@ -39,6 +35,13 @@
     </div>
 
     <div class="legend-keys-content">
+      <div class="legend-options">
+        <h2>Options</h2>
+        <input id="sort-by-publication" type="checkbox"
+               @input="$emit('switch', $event.target.checked)">
+        <label for="sort-by-publication">Sort by publication order</label>
+      </div>
+
       <div class="legend-connections">
         <h2>Arrows</h2>
         <ConnectionPreview :type="type" :key="type.id" v-for="type in connectionTypes">
@@ -84,7 +87,7 @@ export default {
   }
 
   h2 {
-    margin: 0;
+    margin: 0.5rem 0;
   }
 
   &-intro, &-keys {
@@ -157,10 +160,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  &-connections {
-    padding-bottom: 1rem;
   }
 
   @media (max-width: 1000px) {
