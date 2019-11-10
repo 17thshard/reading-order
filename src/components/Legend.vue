@@ -38,15 +38,26 @@
       <div class="legend-options">
         <h2>Options</h2>
         <span class="legend-options-item">
-          <input id="sort-by-publication" type="checkbox"
-                 @input="$emit('switch', $event.target.checked)">
-          <label for="sort-by-publication">Sort by publication order</label>
+          <label for="sort">Order by</label>
+          <select id="sort" v-model="selectedSort">
+            <option :value="null" :selected="selectedSort === null">Series</option>
+            <option
+              :value="sort" :selected="selectedSort === sort"
+              :key="sort.id"
+              v-for="sort in sortedBooks"
+            >
+              {{sort.description}}
+            </option>
+          </select>
         </span>
         <span class="legend-options-item">
           <input id="show-connection-explanations" type="checkbox"
                  :checked="explainConnections"
                  @input="$emit('toggleExplanations', $event.target.checked)">
-          <label for="show-connection-explanations">Explain connection details</label>
+          <label for="show-connection-explanations">
+            Explain connection details<br>
+            <small>Might contain spoilers!</small>
+          </label>
         </span>
       </div>
 
@@ -76,12 +87,23 @@ export default {
     connectionTypes: Array,
     categories: Array,
     explainConnections: Boolean,
+    sortedBooks: Array,
   },
   data() {
     return {
       introToggled: false,
       keysToggled: false,
+      selectedSort: null,
     };
+  },
+  watch: {
+    selectedSort(newSort) {
+      if (newSort === null) {
+        this.$emit('sort', false);
+      } else {
+        this.$emit('sort', newSort.books);
+      }
+    },
   },
 };
 </script>
@@ -174,6 +196,22 @@ export default {
   &-options-item {
     display: flex;
     align-items: center;
+
+    label {
+      margin: 0.2rem;
+    }
+
+    select {
+      margin-left: 0.125rem;
+    }
+
+    input[type="checkbox"] {
+      margin: 0.2rem;
+
+      & + label {
+        margin: 0;
+      }
+    }
   }
 
   @media (max-width: 1000px) {

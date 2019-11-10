@@ -4,7 +4,8 @@
     :connection-types="Object.values(connectionTypes)"
     :categories="Object.values(categories)"
     :explain-connections="explainConnections"
-    @switch="changeEntries"
+    :sorted-books="sortedBooks"
+    @sort="sort"
     @toggleExplanations="toggleExplanations"
   >
   </Legend>
@@ -31,7 +32,7 @@ export default {
     return {
       entries: {},
       books: {},
-      sortedBooks: {},
+      sortedBooks: [],
       connectionTypes: {},
       categories: {},
       explainConnections: window.localStorage.getItem('explainConnections') === 'true',
@@ -40,17 +41,17 @@ export default {
   async mounted() {
     const result = await (await fetch('./data.json')).json();
     const {
-      books, sortedBooks, connectionTypes, categories,
+      books, sorted, connectionTypes, categories,
     } = loader(result);
     this.entries = books;
     this.books = books;
-    this.sortedBooks = sortedBooks;
+    this.sortedBooks = sorted;
     this.connectionTypes = connectionTypes;
     this.categories = categories;
   },
   methods: {
-    changeEntries(sortedBooks) {
-      this.entries = sortedBooks ? this.sortedBooks : this.books;
+    sort(books) {
+      this.entries = books === false ? this.books : books;
     },
     toggleExplanations(value) {
       this.explainConnections = value;

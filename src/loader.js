@@ -1,4 +1,4 @@
-const calcDepth = (books) => {
+function calcDepth(books) {
   if (books.length === 0) {
     return 0;
   }
@@ -8,9 +8,9 @@ const calcDepth = (books) => {
   }
 
   return Math.max(...books.map(sub => calcDepth(sub))) + 1;
-};
+}
 
-const walk = (entries, f, inc, maxDepth, depth, totalAngle) => {
+function walk(entries, f, inc, maxDepth, depth, totalAngle) {
   let localAngle = 0;
   let terminal = false;
 
@@ -25,7 +25,24 @@ const walk = (entries, f, inc, maxDepth, depth, totalAngle) => {
   });
 
   return localAngle + (terminal ? maxDepth - depth + 1 : 1) * inc;
-};
+}
+
+function sortBooks(books, field) {
+  const flatBooks = books.filter(b => b.sorting !== undefined && b.sorting[field] !== undefined);
+  flatBooks.sort((a, b) => a.sorting[field] - b.sorting[field]);
+
+  return flatBooks.reduce((acc, b, i) => ({
+    ...acc,
+    [b.id]: {
+      ...b,
+      angle: i * (360 / (flatBooks.length + 1)),
+      padding: 0,
+      get active() {
+        return b.categories.reduce((active, c) => active && c.active, true);
+      },
+    },
+  }), {});
+}
 
 export default (
   {
@@ -33,6 +50,7 @@ export default (
     books: nested,
     connections,
     categories,
+    sorting,
   },
 ) => {
   const books = {};
@@ -67,22 +85,10 @@ export default (
     0,
   );
 
-  const flatBooks = Object.values(books).filter(b => b.publication !== undefined);
-  flatBooks.sort((a, b) => a.publication - b.publication);
-
-  const sortedBooks = flatBooks.reduce((acc, b, i) => ({
-    ...acc,
-    [b.id]: {
-      ...b,
-      angle: i * (360 / (flatBooks.length + 1)),
-      padding: 0,
-      get active() {
-        return b.categories.reduce((active, c) => active && c.active, true);
-      },
-    },
-  }), {});
+  const flatBooks = Object.values(books);
+  const sorted = sorting.map(s => ({ ...s, books: sortBooks(flatBooks, s.id) }));
 
   return {
-    books, sortedBooks, connectionTypes, categories: groupedCategories,
+    books, sorted, connectionTypes, categories: groupedCategories,
   };
 };
