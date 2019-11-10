@@ -95,10 +95,10 @@ export default {
   z-index: 10000;
 
   .tooltip-inner {
-    background: black;
-    color: white;
-    border-radius: 16px;
-    padding: 5px 10px 4px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #b4b4b4;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
     max-width: 20rem;
   }
 
@@ -108,7 +108,7 @@ export default {
     border-style: solid;
     position: absolute;
     margin: 5px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
   }
 

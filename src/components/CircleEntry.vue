@@ -82,11 +82,15 @@ export default {
       return positions[index];
     },
     tooltipText() {
-      return `
-      <strong>Series:</strong> ${this.entry.series || 'None'}<br>
-      <strong>World:</strong> ${this.entry.world || 'None'}<br>
-      <strong>System:</strong> ${this.entry.system || 'None'}
-      `;
+      return [
+        this.entry.title2,
+        `<strong>Series:</strong> ${this.entry.series || 'None'}`,
+        `<strong>World:</strong> ${this.entry.world || 'None'}`,
+        `<strong>System:</strong> ${this.entry.system || 'None'}`,
+        this.entry.au !== undefined || this.entry.link !== undefined ? '' : undefined,
+        this.entry.au,
+        this.entry.link,
+      ].filter(e => e !== undefined).join('<br>');
     },
   },
   watch: {
