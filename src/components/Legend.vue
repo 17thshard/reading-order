@@ -1,6 +1,9 @@
 <template>
 <div class="legend">
-  <div :class="['legend-intro', {'legend-intro-open': introToggled}]">
+  <div
+    :class="['legend-intro', {'legend-intro-open': introToggled}]"
+    v-closable="{handler: () => { if (this.introToggled) this.introToggled = false; }}"
+  >
     <div class="legend-intro-toggle" @click="introToggled = !introToggled">
       info
     </div>
@@ -29,7 +32,10 @@
       x
     </div>
   </div>
-  <div :class="['legend-keys', {'legend-keys-open': keysToggled}]">
+  <div
+    :class="['legend-keys', {'legend-keys-open': keysToggled}]"
+    v-closable="{handler: () => { if (this.keysToggled) this.keysToggled = false; }}"
+  >
     <div class="legend-keys-toggle" @click="keysToggled = !keysToggled">
       legend
     </div>
