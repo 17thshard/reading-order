@@ -101,43 +101,51 @@
                 {
                     "id": "elantris",
                     "title": "Elantris",
+                    "title2": "<a href='https://coppermind.net/wiki/Elantris'>Elantris</a>",
                     "series": "Elantris",
-                    "world": "Sel",
-                    "system": "Selish System",
+                    "world": "<a href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                     "publication": 1,
+                    "chronology": 4,
                     "categories": [ "phase1", "novel"  ],
                     "connections": [
-                        { "target": "tes", "type": "minor", "description": "There are mentions of Svorden, Teod, and Sycla. When escaping the palace, Shai runs into a Derethi priest (wearing red armor). When she steals the painting she inscribes an Aon Reo in its place." },
+                        { "target": "tes", "type": "minor", "description": "The map in Elantris refers to 'Rose Barbarians'. There are mentions of Svorden, Teod, and Sycla. When escaping the palace, Shai runs into a Derethi priest (wearing red armor). When she steals the painting she inscribes an Aon Reo in its place." },
                         { "target": "msh", "type": "significant", "description": "The Ire are Elantrians. Their symbol is Aon Ire." },
                         { "target": "sa1", "type": "egg", "description": "Galladon appears in Interlude I-1 as 'Grump'. Note his use of 'sule' (friend) and 'kolo' (understand) as well as the Dula word 'kayana' (crazy). Also, Aona and Skai are mentioned in the Chapter 22 epigraph." },
                         { "target": "sa3", "type": "minor", "description": "Riino, the lighthouse owner in Chapter 97, is the Elantrian Raoden and Galladon lowered into the mountain lake." },
-                        { "target": "au", "type": "minor", "description": "The nature of Sel's magic is discussed in the Selish System essay." }
+                        { "target": "au", "type": "minor", "description": "The nature of <a href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay." }
                     ]
                 },
                 {
                     "id": "thoe",
                     "title": "The Hope of Elantris",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Hope_of_Elantris'>The Hope of Elantris</a>",
                     "series": "Elantris",
-                    "world": "Sel",
-                    "system": "Selish System",
+                    "world": "<a href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                    "au": "Included in Arcanum Unbounded.",
+                    "link": "<a href='https://brandonsanderson.com/elantris-the-hope-of-elantris'>Full text on Brandon's website</a>",
                     "padding": 12,
                     "publication": 2,
+                    "chronology": 5,
                     "categories": [ "phase1b", "short" ]
                 },
                 {
                     "id": "elantris2",
                     "title": "Elantris 2",
+                    "title2": "<a href='https://coppermind.net/wiki/Elantris_sequel'>Elantris 2</a>",
                     "series": "Elantris",
-                    "world": "Sel",
-                    "system": "Selish System",
+                    "world": "<a href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "elantris3",
-                    "title": "Elantris 3",
+                    "title": "Elantris 2",
+                    "title2": "<a href='https://coppermind.net/wiki/Elantris_finale'>Elantris 3</a>",
                     "series": "Elantris",
-                    "world": "Sel",
-                    "system": "Selish System",
+                    "world": "<a href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ],
@@ -145,13 +153,16 @@
                 {
                     "id": "tes",
                     "title": "The Emperor's Soul",
-                    "world": "Sel",
-                    "system": "Selish System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Emperor's_Soul>The Emperor's Soul</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "publication": 10,
+                    "chronology": 6,
                     "categories": [ "phase1", "novella" ],
                     "connections": [
                         { "target": "imperial-fool", "type": "minor", "description": "A deleted prologue that contains some canonical elements." },
-                        { "target": "au", "type": "minor", "description": "The nature of Sel's magic is discussed in the Selish System essay." }
+                        { "target": "au", "type": "minor", "description": "The nature of <a href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay." }
                     ]
                 }
             ]
@@ -161,45 +172,55 @@
                 {
                     "id": "mb1",
                     "title": "Mistborn: The Final Empire",
-                    "series": "Mistborn Era 1",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Mistborn:_The_Final_Empire'>Mistborn: The Final Empire</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 3,
+                    "chronology": 8,
                     "categories": [ "phase1", "novel" ]
                 },
                 {
                     "id": "11m",
                     "title": "The Eleventh Metal",
-                    "series": "Mistborn Era 1",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Eleventh_Metal'>The Eleventh Metal</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "padding": 12,
                     "publication": 9,
+                    "chronology": 7,
                     "categories": [ "short", "phase1b" ]
                 },
                 {
                     "id": "mb2",
                     "title": "The Well of Ascension",
-                    "series": "Mistborn Era 1",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Well_of_Ascension>The Well of Ascension</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 4,
-                    "categories": [ "phase1", "novel" ]
+                    "chronology": 9,
+                    "categories": [ "phase1", "novel" ],
+                    "connections": [
+                        { "target": "wb", "type": "egg", "description": "Lemex's nurse is a Terriswoman." }
+                    ]
                 },
                 {
                     "id": "mb3",
                     "title": "The Hero of Ages",
-                    "series": "Mistborn Era 1",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 5,
+                    "chronology": 10,
                     "categories": [ "phase1", "novel" ],
                     "connections": [
-                        { "target": "wb", "type": "egg", "description": "Lemex's nurse is a Terriswoman." },
-                        { "target": "sa1", "type": "egg", "description": "Demoux appears in Interlude I-1 as 'Thinker'; Ishikk mishears his name as 'Temoo'. Ruin's vessel, Ati, is mentioned in the Chapter 18 epigraph. Felt worked for the Ventures on Scadrial." },
-                        { "target": "sa2", "type": "egg", "description": "Hoid uses emotional Allomancy in Chapter 45." },
-                        { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed/Harmony to Hoid. Felt reveals he is from another world." },
-                        { "target": "au", "type": "major", "description": "The Scadrian System essay discusses the events that occurred in The Hero of Ages." }
+                        { "target": "sa1", "type": "egg", "description": "Demoux appears in Interlude I-1 as 'Thinker'; Ishikk mishears his name as 'Temoo'. Ruin's ves<a href='https://coppermind.net/wiki/Sel'>Sel</a>, Ati, is mentioned in the Chapter 18 epigraph. Felt worked for the Ventures on <a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>." },
+                        { "target": "sa3", "type": "significant", "description": "The Part 2 epigraphs include a letter from Sazed to Hoid. Felt reveals he is from another world." },
+                        { "target": "au", "type": "major", "description": "The <a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a> essay discusses the events that occurred in The Hero of Ages." }
                     ]
                 }
             ],
@@ -207,51 +228,62 @@
                 {
                     "id": "mb4",
                     "title": "The Alloy of Law",
-                    "series": "Mistborn Era 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Alloy_of_Law'>The Alloy of Law</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 8,
+                    "chronology": 17,
                     "categories": [ "phase2", "novel" ]
                 },
                 {
                     "id": "jak",
                     "title": "Allomancer Jak",
-                    "series": "Mistborn Era 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Allomancer_Jak_and_the_Pits_of_Eltania'>Allomancer Jak and the Pits of Eltania</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "padding": 12,
                     "publication": 13,
+                    "chronology": 16.9,
                     "categories": [ "short", "phase2b" ]
                 },
                 {
                     "id": "mb5",
                     "title": "Shadows of Self",
-                    "series": "Mistborn Era 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Shadows_of_Self'>Shadows of Self</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 15,
+                    "chronology": 18,
                     "categories": [ "phase2", "novel" ]
                 },
                 {
                     "id": "mb6",
                     "title": "The Bands of Mourning",
-                    "series": "Mistborn Era 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Bands_of_Mourning'>The Bands of Mourning</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 16,
+                    "chronology": 19,
                     "categories": [ "phase2", "novel" ],
                     "connections": [
-                        { "target": "sa2", "type": "egg", "description": "Iyatil is from Southern Scadrial." },
+                        { "target": "sa2", "type": "egg", "description": "Iyatil is from Southern <a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>." },
                         { "target": "msh", "type": "major", "description": "Kelsier's survival is revealed in The Bands of Mourning." }
                     ]
                 },
                 {
                     "id": "mb7",
                     "title": "The Lost Metal (2021)",
-                    "series": "Mistborn Era 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title": "<a href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal/a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "publication": 25,
+                    "chronology": 20,
                     "categories": [ "plan", "novel" ]
                 }
             ],
@@ -259,19 +291,26 @@
                 {
                     "id": "msh",
                     "title": "Mistborn: Secret History",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "publication": 17,
+                    "chronology": 8.5,
                     "categories": [ "novella", "phase2" ],
                     "connections": [
+                        { "target": "sa2", "type": "egg", "description": "With powers gained from the lerasium he took, Hoid uses emotional Allomancy in Chapter 45." },
                         { "target": "traveler", "type": "major", "description": "Hoid and Frost discuss the events of Hero of Ages (and Mistborn: Secret History)." }
                     ]
                 },
                 {
                     "id": "msh2",
                     "title": "Mistborn: Secret History 2",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn: Secret History 2",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "novella", "plan" ]
                 }
             ],
@@ -279,25 +318,28 @@
                 {
                     "id": "mb8",
                     "title": "Mistborn Era 3 Book 1",
-                    "series": "Mistborn Era 3",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 3 Book 1",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "mb9",
                     "title": "Mistborn Era 3 Book 2",
-                    "series": "Mistborn Era 3",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 3 Book 2",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "mb10",
                     "title": "Mistborn Era 3 Book 3",
-                    "series": "Mistborn Era 3",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 3 Book 3",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ],
@@ -305,25 +347,28 @@
                 {
                     "id": "mb11",
                     "title": "Mistborn Era 4 Book 1",
-                    "series": "Mistborn Era 4",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 4 Book 1",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "mb12",
                     "title": "Mistborn Era 4 Book 2",
-                    "series": "Mistborn Era 4",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 4 Book 2",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "mb13",
                     "title": "Mistborn Era 4 Book 3",
-                    "series": "Mistborn Era 4",
-                    "world": "Scadrial",
-                    "system": "Scadrian System",
+                    "title2": "Mistborn Era 4 Book 3",
+                    "series": "<a href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+                    "world": "<a href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ]
@@ -333,10 +378,11 @@
                 {
                     "id": "wb",
                     "title": "Warbreaker",
-                    "series": "Warbreaker",
-                    "world": "Nalthis",
-                    "system": "Nalthian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Warbreaker'>Warbreaker</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Nalthian_system'>Nalthian system</a>",
                     "publication": 6,
+                    "chronology": 11,
                     "categories": [ "phase1", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "significant", "description": "Zahel is Vasher. Szeth's new Shardblade is Nightblood. Mraize's collection in Chapter 43 includes a Tear of Edgli flower." },
@@ -346,9 +392,9 @@
                 {
                     "id": "nb",
                     "title": "Nightblood",
-                    "series": "Warbreaker",
-                    "world": "Nalthis",
-                    "system": "Nalthian System",
+                    "title2": "<a href='https://coppermind.net/wiki/Nightblood_(book)'>Nightblood</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Nalthian_system'>Nalthian system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ]
@@ -358,127 +404,147 @@
                 {
                     "id": "sa1",
                     "title": "The Way of Kings",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Way_of_Kings'>The Way of Kings</a>",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "publication": 7,
+                    "chronology": 12,
                     "categories": [ "phase2", "novel" ]
                 },
                 {
                     "id": "sa2",
                     "title": "Words of Radiance",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/Words_of_Radiance'>Words of Radiance</a>",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "publication": 12,
+                    "chronology": 13,
                     "categories": [ "phase2", "novel" ],
                     "connections": [
-                        { "target": "jasnah", "type": "major", "descrioption": "A deleted scene about Jasnah that contains some canonical elements." },
-                        { "target": "traveler", "type": "significant", "description": "The author of the Part 4 epigraphs is Frost the dragon, who speaks with Hoid."},
-                        { "target": "au", "type": "minor", "description": "The Rosharan System essay covers details about Roshar and makes mentions of Odium's past."}
+                        { "target": "jasnah", "type": "major", "description": "A deleted scene about Jasnah that contains some canonical elements." },
+                        { "target": "traveler", "type": "minor", "description": "The author of the Part 4 epigraphs is Frost the dragon, who speaks with Hoid."},
+                        { "target": "au", "type": "minor", "description": "The <a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a> essay covers details about <a href='https://coppermind.net/wiki/Roshar'>Roshar</a> and makes mentions of Odium's past."}
                     ]
                 },
                 {
                     "id": "sa2.5",
                     "title": "Edgedancer",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/Edgedancer'>Edgedancer</a>",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "padding": 12,
                     "publication": 20,
+                    "chronology": 14,
                     "categories": [ "novella", "phase2" ]
                 },
                 {
                     "id": "sa3",
                     "title": "Oathbringer",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/Oathbringer'>Oathbringer</a>",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "publication": 21,
-                    "categories": [ "phase2" ]
+                    "chronology": 15,
+                    "categories": [ "phase2", "novel" ]
                 },
                 {
                     "id": "sa4",
                     "title": "The Rhythm of War (2020)",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/Stormlight_Archive_4'>The Rhythm of War</a>",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "publication": 24,
+                    "chronology": 16,
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "sa5",
                     "title": "Stormlight Archive 5",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 5",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "lopen",
                     "title": "King Lopen the First of Alethkar",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "King Lopen the First of Alethkar",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "padding": 12,
                     "categories": [ "short", "plan" ]
                 },
                 {
                     "id": "wandersail",
                     "title": "Wandersail",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Wandersail",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "padding": 12,
                     "categories": [ "novella", "plan" ]
                 },
                 {
                     "id": "lunamor",
                     "title": "Lunamor novella",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Lunamor novella",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "padding": 12,
                     "categories": [ "novella", "plan" ]
                 },
                 {
                     "id": "sa6",
                     "title": "Stormlight Archive 6",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 6",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "sa7",
                     "title": "Stormlight Archive 7",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 7",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "sa8",
                     "title": "Stormlight Archive 8",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 8",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "sa9",
                     "title": "Stormlight Archive 9",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 9",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "sa10",
                     "title": "Stormlight Archive 10",
-                    "series": "Stormlight Archive",
-                    "world": "Roshar",
-                    "system": "Rosharan System",
+                    "title2": "Stormlight Archive 10",
+                    "series": "<a href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ],
@@ -486,8 +552,9 @@
                 {
                     "id": "tsd",
                     "title": "The Silence Divine",
-                    "world": "Ashyn",
-                    "system": "Rosharan System",
+                    "title2": "<a href='https://coppermind.net/wiki/The_Silence_Divine'>The Silence Divine</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ]
@@ -497,38 +564,44 @@
                 {
                     "id": "ws1",
                     "title": "White Sand Volume 1",
-                    "series": "White Sand",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "title2": "<a href='https://coppermind.net/wiki/White_Sand_Volume_1'>White Sand Volume 1</a>",
+                    "series": "<a href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "publication": 18,
+                    "chronology": 1,
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "'Kenton Street' in Chapter 17 (also mentioned in Well of Ascension) is a reference to Kenton." },
-                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a vial of sand from Taldain." },
-                        { "target": "au", "type": "minor", "description": "The Taldain System essay discusses Taldain and sand mastery." }
+                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a vial of sand from <a href='https://coppermind.net/wiki/Taldain'>Taldain</a>." },
+                        { "target": "au", "type": "minor", "description": "The <a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a> essay discusses <a href='https://coppermind.net/wiki/Taldain'>Taldain</a> and sand mastery." }
                     ]
                 },
                 {
                     "id": "ws2",
                     "title": "White Sand Volume 2",
-                    "series": "White Sand",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "title2": "<a href='https://coppermind.net/wiki/White_Sand_Volume 2'>White Sand Volume 2</a>",
+                    "series": "<a href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "publication": 22,
+                    "chronology": 2,
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "Trell the foreman is connected to Trelagism." },
                         { "target": "mb4", "type": "minor", "description": "Trell the foreman is connected to the god Trell." },
-                        { "target": "sa3", "type": "egg", "description": "Wit has a jar of black sand from Taldain in Chapter 67, which turns white after Shallan Lightweaves." }
+                        { "target": "sa3", "type": "egg", "description": "Wit has a jar of black sand from <a href='https://coppermind.net/wiki/Taldain'>Taldain</a> in Chapter 67, which turns white after Shallan Lightweaves." }
                     ]
                 },
                 {
                     "id": "ws3",
                     "title": "White Sand Volume 3",
-                    "series": "White Sand",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "title2": "<a href='https://coppermind.net/wiki/White_Sand_Volume_3'>White Sand Volume 3</a>",
+                    "series": "<a href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "publication": 23,
+                    "chronology": 3,
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "sa1", "type": "egg", "description": "Baon appears in Interlude I-1 as 'Blunt'." }
@@ -539,25 +612,29 @@
                 {
                     "id": "ds1",
                     "title": "Darkside graphic novel Volume 1",
+                    "title2": "Darkside graphic novel Volume 1",
                     "series": "Darkside graphic novels",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "au": "Excerpt included in Arcanum Unbounded.",
                     "categories": [ "plan", "graphic" ]
                 },
                 {
                     "id": "ds2",
                     "title": "Darkside graphic novel Volume 2",
+                    "title2": "Darkside graphic novel Volume 2",
                     "series": "Darkside graphic novels",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "categories": [ "plan", "graphic" ]
                 },
                 {
                     "id": "ds3",
                     "title": "Darkside graphic novel Volume 3",
+                    "title2": "Darkside graphic novel Volume 3",
                     "series": "Darkside graphic novels",
-                    "world": "Taldain",
-                    "system": "Taldain System",
+                    "world": "<a href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "categories": [ "plan", "graphic" ]
                 }
             ]
@@ -567,15 +644,18 @@
                 {
                     "id": "sfs",
                     "title": "Shadows for Silence",
-                    "world": "Threnody",
-                    "system": "Threnodite System",
+                    "title2": "<a href='https://coppermind.net/wiki/Shadows_for_Silence_in_the_Forests_of_Hell'>Shadows for Silence in the Forests of Hell</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "publication": 11,
+                    "publication": 11.5,
                     "categories": [ "novella", "phase1b" ],
                     "connections": [
-                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a silver knife from Threnody." },
-                        { "target": "sa3", "type": "egg", "description": "The silvery chain in Celebrant is from Threnody." },
-                        { "target": "msh", "type": "minor", "description": "Kelsier causes the Ire to suspect Shades from Threnody are nearby." },
-                        { "target": "au", "type": "minor", "description": "The Threnodite System essay discusses the history of Threnody." }
+                        { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes a silver knife from <a href='https://coppermind.net/wiki/Threnody'>Threnody</a>." },
+                        { "target": "sa3", "type": "egg", "description": "The silvery chain in Celebrant is from <a href='https://coppermind.net/wiki/Threnody'>Threnody</a>." },
+                        { "target": "msh", "type": "minor", "description": "Kelsier causes the Ire to suspect Shades from <a href='https://coppermind.net/wiki/Threnody'>Threnody</a> are nearby." },
+                        { "target": "au", "type": "minor", "description": "The <a href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a> essay discusses the history of <a href='https://coppermind.net/wiki/Threnody'>Threnody</a>." }
                     ]
                 }
             ],
@@ -583,8 +663,9 @@
                 {
                     "id": "db",
                     "title": "The Dust Brigade",
-                    "world": "Threnody",
-                    "system": "Threnodite System",
+                    "title2": "The Dust Brigade",
+                    "world": "<a href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
                     "categories": [ "plan", "novel" ]
                 }
             ]
@@ -594,22 +675,24 @@
                 {
                     "id": "sotd",
                     "title": "Sixth of the Dusk",
-                    "series": "Sixth of the Dusk",
-                    "world": "First of the Sun",
-                    "system": "Drominad System",
+                    "title": "<a href='https://coppermind.net/wiki/Sixth_of_the_Dusk'>Sixth of the Dusk</a>",
+                    "world": "<a href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "publication": 14,
+                    "chronology": 22,
                     "categories": [ "novella", "phase1b" ],
                     "connections": [
                         { "target": "sa3", "type": "minor", "description": "Mraize's chicken, mentioned in Chapter 22, is an Aviar. Patji is referenced obliquely in Autonomy's letter to Hoid in the Part 2 epigraphs." },
-                        { "target": "au", "type": "minor", "description": "The Taldain System essay discusses Taldain and sand mastery." }
+                        { "target": "au", "type": "minor", "description": "The <a href='https://coppermind.net/wiki/Taldain_system'>Drominad system</a> essay discusses First of the Sun and its magic." }
                     ]
                 },
                 {
                     "id": "sotd2",
                     "title": "Sixth of the Dusk sequel",
-                    "series": "Sixth of the Dusk",
-                    "world": "First of the Sun",
-                    "system": "Drominad System",
+                    "title2": "Sixth of the Dusk sequel",
+                    "world": "<a href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                    "system": "<a href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                     "categories": [ "novella", "plan" ]
                 }
             ]
@@ -619,24 +702,27 @@
                 {
                     "id": "d1",
                     "title": "Dragonsteel 1",
-                    "series": "Dragonsteel",
-                    "world": "Yolen",
+                    "title2": "Dragonsteel 1",
+                    "series": "<a href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>",
+                    "world": "<a href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
                     "system": "Yolish System",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "d2",
                     "title": "Dragonsteel 2",
+                    "title2": "Dragonsteel 2",
                     "series": "Dragonsteel",
-                    "world": "Yolen",
+                    "world": "<a href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
                     "system": "Yolish System",
                     "categories": [ "plan", "novel" ]
                 },
                 {
                     "id": "d3",
                     "title": "Dragonsteel 3",
+                    "title2": "Dragonsteel 3",
                     "series": "Dragonsteel",
-                    "world": "Yolen",
+                    "world": "<a href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
                     "system": "Yolish System",
                     "categories": [ "plan", "novel" ]
                 }
@@ -647,6 +733,7 @@
                 {
                     "id": "silverlight",
                     "title": "Silverlight novella",
+                    "title2": "Silverlight novella",
                     "categories": [ "novella", "plan" ]
                 }
             ]
@@ -655,8 +742,11 @@
             [
                 {
                     "id": "au",
-                    "title": "Arcanum Unbounded essays",
+                    "title": "Arcanum Unbounded (essays)",
+                    "title2": "<a href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded (essays)</a>",
+                    "au": "Included in Arcanum Unbounded.",
                     "publication": 19,
+                    "chronology": 21,
                     "categories": [ "short", "phase2" ]
                 }
             ]
@@ -666,19 +756,29 @@
                 {
                     "id": "imperial-fool",
                     "title": "Imperial Fool",
+                    "title2": "Imperial Fool",
+                    "link": "<a href='https://brandonsanderson.com/the-emperors-soul-deleted-prologue-imperial-fool'>Full text on Brandon's website.</a>",
                     "publication": 10.5,
+                    "chronology": 5.9,
                     "categories": [ "short", "uncanonical" ]
                 },
                 {
                     "id": "jasnah",
                     "title": "Jasnah deleted scene",
+                    "title2": "Jasnah deleted scene",
+                    "link": "<a href='https://www.tor.com/2014/08/06/stormlight-archive-scene-after-words-of-radiance'>Full text on Tor.com.</a>",
                     "publication": 12.5,
+                    "chronology": 13.5,
                     "categories": [ "short", "uncanonical" ]
                 },
                 {
                     "id": "wsp",
                     "title": "White Sand (prose)",
+                    "title2": "<a href='https://coppermind.net/wiki/White_Sand_(prose)'>White Sand (prose)</a>",
+                    "au": "Excerpt included in Arcanum Unbounded.",
+                    "link": "<a href='https://brandonsanderson.com/newsletter-signup/'>Full text link via Brandon's newsletter</a>",
                     "publication": 12.6,
+                    "chronology": 1.5,
                     "categories": [ "novel", "uncanonical" ],
                     "connections": [
                         { "target": "ws1", "type": "minor", "description": "The White Sand graphic novels are based on the prose version." }
@@ -687,8 +787,10 @@
                 {
                     "id": "aon",
                     "title": "Aether of Night",
-                    "categories": [ "uncanonical", "novel" ],
+                    "title2": "<a href='https://coppermind.net/wiki/Aether_of_Night'>Aether of Night</a>",
+                    "link": "<a href='https://www.17thshard.com/forum/topic/60219-aether-of-night-manuscript-requests/'>Full text via 17th Shard</a>",
                     "publication": 20.5,
+                    "categories": [ "uncanonical", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "Mraize's collection in Chapter 43 includes pink aether." },
                         { "target": "sa3", "type": "egg", "description": "Mraize mentions his suit was stained with aether." }
@@ -697,7 +799,10 @@
                 {
                     "id": "traveler",
                     "title": "The Traveler",
+                    "title2": "The Traveler",
+                    "link": "<a href='https://wob.coppermind.net/events/332/#e9518'>Full text on Arcanum</a>",
                     "publication": 22.5,
+                    "chronology": 10.5,
                     "categories": [ "short", "uncanonical" ]
                 }
             ]
