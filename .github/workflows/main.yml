@@ -2,8 +2,9 @@ name: CI
 
 on:
   push:
-    branches: 
+    branches:
       - master
+  pull_request:
 
 jobs:
   build:
@@ -26,6 +27,10 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
+    - name: Test
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: test:unit
     - name: Build for production
       uses: Borales/actions-yarn@v2.1.0
       with:
@@ -33,7 +38,7 @@ jobs:
 
     - name: Deploy
       uses: maxheld83/ghpages@v0.2.1
-      if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[deploy]')
+      if: github.event == 'push' && github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[deploy]')
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
         BUILD_DIR: dist/

@@ -44,6 +44,20 @@ function sortBooks(books, field) {
   }), {});
 }
 
+function verify(books, connections) {
+  Object.values(books).forEach((b) => {
+    (b.connections || []).forEach((c) => {
+      if (connections[c.type] === undefined) {
+        throw new Error(`Book ${b.id} has connection of unknown type '${c.type}' targeting ${c.target}`);
+      }
+
+      if (books[c.target] === undefined) {
+        throw new Error(`Book ${b.id} has connection of type ${c.type} with unknown target '${c.target}'`);
+      }
+    });
+  });
+}
+
 export default (
   {
     'base-separation': baseSeparation,
@@ -69,7 +83,14 @@ export default (
   walk(
     nested,
     (b, angle) => {
-      const bookCategories = b.categories.map(c => groupedCategories[c]);
+      const bookCategories = b.categories.map(c => {
+        const category = groupedCategories[c];
+        if (category === undefined) {
+          throw new Error(`Book ${b.id} references unknown category '${c}'`);
+        }
+
+        return category;
+      });
       books[b.id] = {
         ...b,
         categories: bookCategories,
@@ -84,6 +105,8 @@ export default (
     1,
     0,
   );
+
+  verify(books, connectionTypes);
 
   const flatBooks = Object.values(books);
   const sorted = sorting.map(s => ({ ...s, books: sortBooks(flatBooks, s.id) }));
