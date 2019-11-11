@@ -17,4 +17,15 @@ body {
   padding: 0;
   margin: 0;
 }
+
+a {
+  color: #b4b4b4;
+  text-decoration: none;
+  border-bottom: 1px dotted #b4b4b4;
+
+  &:hover, &:focus, &:active {
+    color: #919191;
+    border: none;
+  }
+}
 </style>

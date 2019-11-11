@@ -10,6 +10,11 @@ Vue.config.productionTip = false;
 Vue.use(CustomDirectives);
 Vue.use(VTooltip);
 
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+});
+
 new Vue({
   router,
   render: h => h(App),

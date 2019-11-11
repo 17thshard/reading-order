@@ -84,7 +84,7 @@ export default {
     },
     bgStyles() {
       return {
-        stroke: this.connection.type.color,
+        stroke: this.connection.type.highlightColor,
         strokeWidth: 10,
       };
     },
