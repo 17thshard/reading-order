@@ -67,12 +67,12 @@
         {
             "id": "plan",
             "description": "Unpublished - Future Plans",
-            "details": "Includes all planned, future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
+            "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
             "color": "#505050"
         },
         {
-            "id": "uncanonical",
-            "description": "Unpublished - Uncanonical",
+            "id": "apocryphal",
+            "description": "Unpublished - Apocryphal",
             "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
             "color": "#735a45"
         },
@@ -607,7 +607,7 @@
                     "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Silence_Divine'>The Silence Divine</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-					"link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303>Excerpt on Arcanum.</a>",
+                    "link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303>Excerpt on Arcanum.</a>",
                     "categories": [ "plan", "novella" ]
                 }
             ]
@@ -797,8 +797,8 @@
                     "id": "silverlight",
                     "title": "Silverlight novella",
                     "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=silverlight+novella'>Silverlight novella</a>",
-					"world": "<a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>",
-					"system": "N/A",
+                    "world": "<a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>",
+                    "system": "N/A",
                     "categories": [ "novella", "plan" ]
                 }
             ]
@@ -809,8 +809,8 @@
                     "id": "au",
                     "title": "Arcanum Unbounded (essays)",
                     "title2": "<a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded (essays)</a>",
-					"world": "N/A",
-					"system": "N/A",
+                    "world": "N/A",
+                    "system": "N/A",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                     "sorting": {
                         "publication": 19,
@@ -833,7 +833,7 @@
                         "publication": 10.5,
                         "chronology": 5.9
                     },
-                    "categories": [ "short", "uncanonical" ]
+                    "categories": [ "short", "apocryphal" ]
                 },
                 {
                     "id": "jasnah",
@@ -847,7 +847,7 @@
                         "publication": 12.5,
                         "chronology": 13.5
                     },
-                    "categories": [ "short", "uncanonical" ]
+                    "categories": [ "short", "apocryphal" ]
                 },
                 {
                     "id": "wsp",
@@ -861,7 +861,7 @@
                         "publication": 12.6,
                         "chronology": 0.9
                     },
-                    "categories": [ "novel", "uncanonical" ],
+                    "categories": [ "novel", "apocryphal" ],
                     "connections": [
                         { "target": "ws1", "type": "minor", "description": "The <a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a> graphic novels are based on the prose version." }
                     ]
@@ -875,7 +875,7 @@
                     "link": "<a target='_blank' href='https://www.17thshard.com/forum/topic/60219-aether-of-night-manuscript-requests/'>Full text available from the 17th Shard.</a>",
                     "sorting": {
                         "publication": 20.5
-                    }, "categories": [ "uncanonical", "novel" ],
+                    }, "categories": [ "apocryphal", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes pink <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>." },
                         { "target": "sa3", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a> mentions his suit was stained with <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>." }
@@ -892,7 +892,7 @@
                         "publication": 22.5,
                         "chronology": 10.5
                     },
-                    "categories": [ "short", "uncanonical" ]
+                    "categories": [ "short", "apocryphal" ]
                 }
             ]
         ]
