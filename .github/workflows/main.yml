@@ -8,11 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v1
     - name: Skip if no-ci
       uses: veggiemonk/skip-commit@1.0.0
       env:
-        COMMIT_FILTER: '[no-ci]'
-    - uses: actions/checkout@v1
+        COMMIT_FILTER: '\[no-ci\]'
+
     - name: Cache node modules
       uses: actions/cache@v1
       with:
@@ -34,7 +35,7 @@ jobs:
     - name: Skip if not to deploy
       uses: veggiemonk/skip-commit@1.0.0
       env:
-        COMMIT_FILTER: '[deploy]'
+        COMMIT_FILTER: '\[deploy\]'
     - name: Deploy
       uses: maxheld83/ghpages@v0.2.1
       if: github.ref == 'master'
