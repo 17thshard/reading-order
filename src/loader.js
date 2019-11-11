@@ -83,7 +83,7 @@ export default (
   walk(
     nested,
     (b, angle) => {
-      const bookCategories = b.categories.map(c => {
+      const bookCategories = b.categories.map((c) => {
         const category = groupedCategories[c];
         if (category === undefined) {
           throw new Error(`Book ${b.id} references unknown category '${c}'`);
