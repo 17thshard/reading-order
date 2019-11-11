@@ -1,0 +1,43 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Skip if no-ci
+      uses: veggiemonk/skip-commit@1.0.0
+      env:
+        COMMIT_FILTER: '[no-ci]'
+    - uses: actions/checkout@v1
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-build-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.OS }}-build-${{ env.cache-name }}-
+          ${{ runner.OS }}-build-
+          ${{ runner.OS }}-
+    - name: Install dependencies
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: install
+    - name: Build for production
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: build
+
+    - name: Skip if not to deploy
+      uses: veggiemonk/skip-commit@1.0.0
+      env:
+        COMMIT_FILTER: '[deploy]'
+    - name: Deploy
+      uses: maxheld83/ghpages@v0.2.1
+      if: github.ref == 'master'
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+        BUILD_DIR: dist/
