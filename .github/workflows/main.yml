@@ -1,6 +1,9 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
@@ -9,10 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Skip if no-ci
-      uses: veggiemonk/skip-commit@1.0.0
-      env:
-        COMMIT_FILTER: '\[no-ci\]'
 
     - name: Cache node modules
       uses: actions/cache@v1
@@ -32,13 +31,9 @@ jobs:
       with:
         cmd: build
 
-    - name: Skip if not to deploy
-      uses: veggiemonk/skip-commit@1.0.0
-      env:
-        COMMIT_FILTER: '\[deploy\]'
     - name: Deploy
       uses: maxheld83/ghpages@v0.2.1
-      if: github.ref == 'master'
+      if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[deploy]'
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
         BUILD_DIR: dist/
