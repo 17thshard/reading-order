@@ -109,6 +109,12 @@
             "description": "Cosmere timeline"
         }
     ],
+    "appearances": [
+        {
+            "id": "hoid",
+            "initial": "H"
+        }
+    ],
     "books": [
         [
             [
@@ -119,10 +125,16 @@
                     "series": "Elantris",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                    "publication": "April 2005",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/298/#e9926'>Occurs long before Mistborn Era 1, but not thousands of years before.</a>",
                     "sorting": {
                         "publication": 2005.04,
                         "chronology": 3.1
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>'s first appearance. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar that works with <a target='_blank' href='https://coppermind.net/wiki/Sarene'>Sarene</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Chapter_58'>Chapter 58</a>. The tenth anniversary edition includes <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Postscript'>a postscript</a> with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in it."}
+                        
+                    ],
                     "categories": [ "phase1", "novel" ],
                     "connections": [
                         { "target": "tes", "type": "minor", "description": "The map in <a target='_blank' href='https://coppermind.net/wiki/Elantris'>Elantris</a> refers to '<a target='_blank' href='https://coppermind.net/wiki/Rose_Empire'>Rose Barbarians</a>'. There are mentions of <a target='_blank' href='https://coppermind.net/wiki/Svorden'>Svorden</a>, <a target='_blank' href='https://coppermind.net/wiki/Teod'>Teod</a>, and <a target='_blank' href='https://coppermind.net/wiki/Sycla'>Sycla</a>. When escaping the palace, <a target='_blank' href='https://coppermind.net/wiki/Shai'>Shai</a> runs into a <a target='_blank' href='https://coppermind.net/wiki/Shu-Dereth'>Derethi priest</a> (wearing red armor). When she steals the painting she inscribes an <a target='_blank' href='https://coppermind.net/wiki/Aon'>Aon Reo</a> in its place." },
@@ -142,6 +154,8 @@
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                     "link": "<a target='_blank' href='https://brandonsanderson.com/elantris-the-hope-of-elantris'>Full text on Brandon's website.</a>",
                     "padding": 12,
+                    "publication": "January 2006",
+                    "chronology": "Shortly after the events of Elantris, and concerning events during the end of that book.",
                     "sorting": {
                         "publication": 2006.01,
                         "chronology": 3.11
@@ -155,6 +169,7 @@
                     "series": "Elantris",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/395/#e13072'>A short time jump is planned between Elantris books, with the original main characters still being alive.</a>",
                     "sorting": {
                         "chronology": 3.2
                     },
@@ -167,6 +182,7 @@
                     "series": "Elantris",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/395/#e13072'>A short time jump is planned between Elantris books, with the original main characters still being alive.</a>",
                     "sorting": {
                         "chronology": 3.3
                     },
@@ -181,10 +197,16 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "November 2012",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/109/#e1410'>After Elantris, but within the characters' lifetimes.</a> Note this could place it prior to Elantris 2 and/or 3.",
                     "sorting": {
                         "publication": 2012.11,
                         "chronology": 3.5
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "mention", "description": "The 'Imperial Fool' is <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>."}
+                        
+                    ],
                     "categories": [ "phase1", "novella" ],
                     "connections": [
                         { "target": "imperial-fool", "type": "major", "description": "A deleted prologue that contains some canonical elements." },
@@ -202,10 +224,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "July 2006",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/176/#e8494'>Mistborn Era 1 occurs prior to The Stormlight Archive.",
                     "sorting": {
                         "publication": 2006.07,
                         "chronology": 4.1
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire#Chapter_19'>Chapter 19</a>."}
+                        
+                    ],
                     "categories": [ "phase1", "novel" ]
                 },
                 {
@@ -217,6 +245,8 @@
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                     "padding": 12,
+                    "publication": "December 2011",
+                    "chronology": "Concerns Kelsier's training, years before Mistborn: The Final Empire.",
                     "sorting": {
                         "publication": 2011.12,
                         "chronology": 4.09
@@ -230,10 +260,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "August 2007",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/176/#e8494'>Mistborn Era 1 occurs prior to The Stormlight Archive.",
                     "sorting": {
                         "publication": 2007.08,
                         "chronology": 4.2
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is among the <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terris</a> refugees in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_56'>Chapter 56</a>, <a target='_blank' href='https://wob.coppermind.net/events/130/#e1552'>according to Brandon</a>."}
+                    ],
                     "categories": [ "phase1", "novel" ],
                     "connections": [
                         { "target": "wb", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Lemex%27s_nurse'>Lemex's nurse</a> is a <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terriswoman</a>." }
@@ -246,10 +281,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 1)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "October 2008",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/176/#e8494'>Mistborn Era 1 occurs prior to The Stormlight Archive.",
                     "sorting": {
                         "publication": 2008.10,
                         "chronology": 4.3
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "mention", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the informant that <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> was supposed to meet with in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Hero_of_Ages#Chapter_27'>Chapter 27</a>."}
+                        
+                    ],
                     "categories": [ "phase1", "novel" ],
                     "connections": [
                         { "target": "sa1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Demoux'>Demoux</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Thinker'; <a target='_blank' href='https://coppermind.net/wiki/Ishikk'>Ishikk</a> mishears his name as 'Temoo'. <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin</a>'s <a target='_blank' href='https://coppermind.net/wiki/vessel'>vessel</a>, <a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a>, is mentioned in the <a target='_blank' href='https://coppermind.net/wiki/https://coppermind.net/wiki/The_Way_of_Kings/Epigraphs#The_Letter'>Chapter 18 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Felt'>Felt</a> worked for the <a target='_blank' href='https://coppermind.net/wiki/House_Venture'>House Venture</a> on <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>." },
@@ -266,10 +307,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "November 2011",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                     "sorting": {
                         "publication": 2011.11,
                         "chronology": 8.1
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar speaking with <a target='_blank' href='https://coppermind.net/wiki/Joshin_Yomen'>Lord Joshin</a> and <a target='_blank' href='https://coppermind.net/wiki/Mi%27chelle_Yomen'>Lady Mi'chelle</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Alloy_of_Law#Chapter_4'>Chapter 4</a>."}
+                        
+                    ],
                     "categories": [ "phase2", "novel" ]
                 },
                 {
@@ -281,6 +328,8 @@
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                     "padding": 12,
+                    "publication": "August 2014",
+                    "chronology": "Jak's adventures in Eltania are referenced in <a target='_blank' href='https://coppermind.net/wiki/The_House_Record'>The House Record</a>, suggesting that they occurred some time prior to The Alloy of Law. May have occurred shortly after The Alloy of Law.",
                     "sorting": {
                         "publication": 2014.08,
                         "chronology": 8.05
@@ -294,10 +343,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "October 2015",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                     "sorting": {
                         "publication": 2015.10,
                         "chronology": 8.2
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a>'s coachman, named in <a target='_blank' href='https://coppermind.net/wiki/Summary:Shadows_of_Self#Chapter_7'>Chapter 7</a>."}
+                        
+                    ],
                     "categories": [ "phase2", "novel" ]
                 },
                 {
@@ -307,10 +362,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "January 2016",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                     "sorting": {
                         "publication": 2016.01,
                         "chronology": 8.3
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar who gives <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a> a special coin in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Bands_of_Mourning#Chapter_11'>Chapter 11</a>."}
+                        
+                    ],
                     "categories": [ "phase2", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a> is from <a target='_blank' href='https://coppermind.net/wiki/Southern_Scadrial'>Southern Scadrial</a>." },
@@ -324,6 +385,8 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "publication": "2021 (tentative)",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                     "sorting": {
                         "publication": 2021,
                         "chronology": 8.4
@@ -340,10 +403,16 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "January 2016",
+                    "chronology": "Happens concurrently with Mistborn Era 1.",
                     "sorting": {
                         "publication": 2016.01,
                         "chronology": 4.11
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."}
+                        
+                    ],
                     "categories": [ "novella", "phase2" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>." },
@@ -368,6 +437,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
                     "sorting": {
                         "chronology": 10.1
                     },
@@ -380,6 +450,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
                     "sorting": {
                         "chronology": 10.2
                     },
@@ -392,6 +463,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
                     "sorting": {
                         "chronology": 10.3
                     },
@@ -406,6 +478,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 13.1
                     },
@@ -418,6 +491,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 13.2
                     },
@@ -430,6 +504,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 13.3
                     },
@@ -445,10 +520,16 @@
                     "title2": "<a target='_blank' href='https://coppermind.net/wiki/Warbreaker'>Warbreaker</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Nalthian_system'>Nalthian system</a>",
+                    "publication": "June 2009",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and before The Stormlight Archive.</a>",
                     "sorting": {
                         "publication": 2009.06,
                         "chronology": 5.1
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the master storyteller in <a target='_blank' href='https://coppermind.net/wiki/Summary:Warbreaker#Chapter_32'>Chapter 32</a>."}
+                        
+                    ],
                     "categories": [ "phase1", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "significant", "description": "Zahel is <a target='_blank' href='https://coppermind.net/wiki/Vasher'>Vasher</a>. <a target='_blank' href='https://coppermind.net/wiki/Szeth'>Szeth</a>'s new <a target='_blank' href='https://coppermind.net/wiki/Shardblade'>Shardblade</a> is <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a>. <a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a <a target='_blank' href='https://coppermind.net/wiki/Tears_of_Edgli'>Tear of Edgli</a> flower." },
@@ -461,6 +542,8 @@
                     "title2": "<a target='_blank' href='https://coppermind.net/wiki/Nightblood_(book)'>Nightblood</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Nalthian_system'>Nalthian system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/87/#e5657'>This sequel occurs prior to The Stormlight Archive.</a>",
+                    
                     "sorting": {
                         "chronology": 5.2
                     },
@@ -477,10 +560,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "publication": "August 2010",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                     "sorting": {
                         "publication": 2010.08,
                         "chronology": 7.01
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
+                    ],
                     "categories": [ "phase2", "novel" ]
                 },
                 {
@@ -490,10 +578,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "publication": "March 2014",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                     "sorting": {
                         "publication": 2014.03,
                         "chronology": 7.02
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
+                    ],
                     "categories": [ "phase2", "novel" ],
                     "connections": [
                         { "target": "jasnah", "type": "major", "description": "A deleted scene about <a target='_blank' href='https://coppermind.net/wiki/Jasnah_Kholin'>Jasnah</a> that contains some canonical elements." },
@@ -510,10 +603,15 @@
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                     "padding": 12,
+                    "publication": "November 2016",
+                    "chronology": "Occurs after Words of Radiance and concurrently with the early events of Oathbringer.",
                     "sorting": {
                         "publication": 2016.11,
                         "chronology": 7.025
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "mention", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Ol' Whitehair', mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:Edgedancer#Chapter_12'>Chapter 12</a>."}
+                    ],
                     "categories": [ "novella", "phase2" ]
                 },
                 {
@@ -523,10 +621,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "publication": "November 2017",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                     "sorting": {
                         "publication": 2017.11,
                         "chronology": 7.03
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
+                    ],
                     "categories": [ "phase2", "novel" ]
                 },
                 {
@@ -536,6 +639,8 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "publication": "December 2020 (tentative)",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                     "sorting": {
                         "publication": 2020,
                         "chronology": 7.04
@@ -549,6 +654,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.05
                     },
@@ -561,6 +667,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/31/#e1703'>Occurs concurrently with the final events of Words of Radiance.</a>",
                     "padding": 12,
                     "sorting": {
                         "chronology": 7.022
@@ -585,6 +692,7 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "padding": 12,
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/379/#e12765'>Occurs after Oathbringer.</a>",
                     "sorting": {
                         "chronology": 7.031
                     },
@@ -597,6 +705,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.06
                     },
@@ -609,6 +718,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.07
                     },
@@ -621,6 +731,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.08
                     },
@@ -633,6 +744,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.09
                     },
@@ -645,6 +757,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
                     "sorting": {
                         "chronology": 7.10
                     },
@@ -661,10 +774,16 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "June 2016",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
                     "sorting": {
                         "publication": 2016.06,
                         "chronology": 2.1
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who first appears in <a target='_blank' href='https://coppermind.net/wiki/Ais'>Ais</a>'s first scene in the middle of <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_1#Chapter_4:_Divides'>Chapter 4</a>."}
+                    ],
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "'Kenton Street' in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_17'>Chapter 17</a> (also mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Well_of_Ascension'>The Well of Ascension) is a reference to <a target='_blank' href='https://coppermind.net/wiki/Kenton'>Kenton</a>." },
@@ -679,10 +798,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "publication": "February 2018",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
                     "sorting": {
                         "publication": 2018.02,
                         "chronology": 2.2
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument."}
+                    ],
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>." },
@@ -697,10 +821,15 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "publication": "October 2019",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
                     "sorting": {
                         "publication": 2019.10,
                         "chronology": 2.3
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who plays a song in the <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_3#Epilogue'>Epilogue</a>."}
+                    ],
                     "categories": [ "phase1", "graphic" ],
                     "connections": [
                         { "target": "sa1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Baon'>Baon</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Blunt'." }
@@ -715,7 +844,10 @@
                     "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-                    "au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
+                    "sorting": {
+                        "chronology": 2.5
+                    },
                     "categories": [ "plan", "graphic" ]
                 },
                 {
@@ -725,6 +857,10 @@
                     "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
+                    "sorting": {
+                        "chronology": 2.6
+                    },
                     "categories": [ "plan", "graphic" ]
                 },
                 {
@@ -734,6 +870,10 @@
                     "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+                    "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
+                    "sorting": {
+                        "chronology": 2.7
+                    },
                     "categories": [ "plan", "graphic" ]
                 }
             ]
@@ -747,6 +887,8 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "December 2013",
+                    "chronology": "Occurs <a target='_blank' href='https://wob.coppermind.net/events/216/#e6445'>before Stormlight Archive</a> but <a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>after Warbreaker</a>.",
                     "sorting": {
                         "publication": 2013.12,
                         "chronology": 6.1
@@ -780,6 +922,8 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "June 2014",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 4.</a>",
                     "sorting": {
                         "publication": 2014.06,
                         "chronology": 13.0
@@ -796,6 +940,7 @@
                     "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=sixth+of+the+dusk+sequel'>Sixth of the Dusk sequel</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
+                    "chronology": "After Sixth of the Dusk and within Dusk's lifetime.",
                     "sorting": {
                         "chronology": 13.01
                     },
@@ -811,7 +956,8 @@
                     "title2": "Dragonsteel 1",
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
-                    "system": "Yolish System",
+                    "system": "Yolish system",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/103/#e1024'>Dragonsteel is the first series in the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 1.1
                     },
@@ -823,7 +969,8 @@
                     "title2": "Dragonsteel 2",
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
-                    "system": "Yolish System",
+                    "system": "Yolish system",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/103/#e1024'>Dragonsteel is the first series in the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 1.2
                     },
@@ -835,7 +982,8 @@
                     "title2": "Dragonsteel 3",
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
-                    "system": "Yolish System",
+                    "system": "Yolish system",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/103/#e1024'>Dragonsteel is the first series in the cosmere storyline.</a>",
                     "sorting": {
                         "chronology": 1.3
                     },
@@ -853,6 +1001,20 @@
                     "system": "N/A",
                     "categories": [ "novella", "plan" ]
                 }
+            ],
+            [
+                {
+                    "id": "kite",
+                    "title": "Kite-based magic story",
+                    "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=kite+magic'>Kite-based magic story</a>",
+                    "world": "Unknown",
+                    "system": "Unknown",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/379/#e12466'>Planned to take place between Mistborn Era 3 and 4.</a>",
+                    "sorting": {
+                        "chronology": 11.0
+                    },
+                    "categories": [ "novella", "plan" ]
+                }
             ]
         ],
         [
@@ -864,6 +1026,8 @@
                     "world": "N/A",
                     "system": "N/A",
                     "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                    "publication": "November 2016",
+                    "chronology": "a target='_blank' href='https://wob.coppermind.net/events/36/#e1491'>The essays were written before the events of Sixth of the Dusk.</a> They could potentially be as early as Mistborn Era 3.",
                     "sorting": {
                         "publication": 2016.11,
                         "chronology": 12.0
@@ -882,6 +1046,8 @@
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                     "au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded.</a>.",
                     "link": "<a target='_blank' href='https://brandonsanderson.com/newsletter-signup/'>Link to full text found in Brandon's newsletter.</a>",
+                    "publication": "June 2009 (upon request)",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
                     "sorting": {
                         "publication": 2009.06,
                         "chronology": 2.0
@@ -898,6 +1064,7 @@
                     "world": "Unknown",
                     "system": "Unknown",
                     "link": "<a target='_blank' href='https://www.17thshard.com/forum/topic/60219-aether-of-night-manuscript-requests/'>Full text available from the 17th Shard.</a>",
+                    "publication": "June 2009 (upon request)",
                     "sorting": {
                         "publication": 2009.06
                     }, 
@@ -914,10 +1081,15 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                     "link": "<a target='_blank' href='https://brandonsanderson.com/the-emperors-soul-deleted-prologue-imperial-fool'>Full text on Brandon's website.</a>",
+                    "publication": "November 2012",
+                    "chronology": "Concerns events shortly before the events of The Emperor's Soul.",
                     "sorting": {
                         "publication": 2012.11,
                         "chronology": 3.4
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the 'Imperial Fool'."}
+                    ],
                     "categories": [ "short", "apocryphal" ]
                 },
                 {
@@ -926,7 +1098,9 @@
                     "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Silence_Divine'>The Silence Divine</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                    "link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303>Excerpt on Arcanum.</a>",
+                    "link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303'>Excerpt on Arcanum.</a>",
+                    "publication": "March 2014",
+                    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/370/#e11901'>Occurs late in the Stormlight Archive era, around book 8.</a>"
                     "sorting": {
                         "publication": 2014.03,
                         "chronology": 7.081
@@ -941,6 +1115,8 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "link": "<a target='_blank' href='https://www.tor.com/2014/08/06/stormlight-archive-scene-after-words-of-radiance'>Full text on Tor.com.</a>",
+                    "publication": "August 2014",
+                    "chronology": "Occurs during the early events of Words of Radiance.",
                     "sorting": {
                         "publication": 2014.08,
                         "chronology": 7.021
@@ -954,10 +1130,15 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
                     "system": "Yolish system",
                     "link": "<a target='_blank' href='https://wob.coppermind.net/events/332/#e9518'>Full text on Arcanum.</a>",
+                    "publication": "April 2018",
+                    "chronology": "Occurs shortly after Mistborn Era 1.",
                     "sorting": {
                         "publication": 2018.04,
                         "chronology": 4.5
                     },
+                    "appearances": [
+                        { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'the Traveler'."}
+                    ],
                     "categories": [ "short", "apocryphal" ]
                 }
             ]
