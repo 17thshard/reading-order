@@ -25,7 +25,6 @@
         to the greater cosmere), and can be taken as additional reading order advice. Hover mouse on
         books to highlight related arrows. Hover mouse on arrows to see details.</p>
       <p>(4) Unpublished books may or may not be eventually published.</p>
-      <p>Click arrows and categories in the keys to the right to control visibility.</p>
     </div>
 
     <div class="legend-intro-close" @click="introToggled = false">
