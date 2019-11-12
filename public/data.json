@@ -43,25 +43,25 @@
         {
             "id": "phase1",
             "description": "Phase 1 - Essential",
-            "details": "Essential Phase 1 works should be read before moving to Phase 2.",
+            "details": "Essential Phase 1 stories should be read before moving to Phase 2.",
             "color": "#00b02b"
         },
         {
             "id": "phase1b",
             "description": "Phase 1 - Secondary",
-            "details": "Secondary Phase 1 works may be read during Phase 1 or anytime after.",
+            "details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
             "color": "#7bb088"
         },
         {
             "id": "phase2",
             "description": "Phase 2 - Essential",
-            "details": "Essential Phase 2 works should be read after all essential Phase 1 works and before moving to Phase 3.",
+            "details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
             "color": "#0094d4"
         },
         {
             "id": "phase2b",
             "description": "Phase 2 - Secondary",
-            "details": "Secondary Phase 2 works may be read during Phase 2 or anytime after.",
+            "details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
             "color": "#8abdd4"
         },
         {
