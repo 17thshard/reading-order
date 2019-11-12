@@ -4,7 +4,7 @@
         {
             "id": "major",
             "description": "Major Connections",
-            "details": "There is at least one major connection between the books which will enhance your understanding of the plot and the Cosmere. Reading in this order is highly recommended, and reading out of order may be spoilery.",
+            "details": "There is at least one major connection between the stories which will enhance your understanding of the plot and the Cosmere. Reading in this order is highly recommended, and reading out of order may be spoilery.",
             "color": "#770000",
             "highlightColor": "#DB1E1E",
             "width": 2
@@ -12,7 +12,7 @@
         {
             "id": "significant",
             "description": "Significant Connections",
-            "details": "There is at least one significant connection between the books which may enhance your understanding of the plot and the Cosmere. Reading in this order is recommended.",
+            "details": "There is at least one significant connection between the stories which may enhance your understanding of the plot and the Cosmere. Reading in this order is recommended.",
             "color": "#a0470d",
             "highlightColor": "#a0470d",
             "width": 2,
@@ -21,7 +21,7 @@
         {
             "id": "minor",
             "description": "Minor Connections",
-            "details": "There is at least one minor connection between the books which may enhance your understanding of the plot and Cosmere in a small way.",
+            "details": "There is at least one minor connection between the stories which may enhance your understanding of the plot and Cosmere in a small way.",
             "color": "#a09713",
             "highlightColor": "#a09713",
             "width": 1,
@@ -31,7 +31,7 @@
         {
             "id": "egg",
             "description": "Easter Eggs",
-            "details": "There is at least one subtle reference between the books which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
+            "details": "There is at least one subtle reference between the stories which may hint at something bigger going on. Easter eggs may be very difficult to spot unaided.",
             "color": "#4d4d4d",
             "highlightColor": "#4d4d4d",
             "width": 1,
