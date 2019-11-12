@@ -177,7 +177,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>'s first appearance. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar that works with <a target='_blank' href='https://coppermind.net/wiki/Sarene'>Sarene</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Chapter_58'>Chapter 58</a>. The tenth anniversary edition includes <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Postscript'>a postscript</a> with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in it."}
                         
                     ],
-                    "categories": [ "phase1", "novel", "elantris" ],
+                    "categories": [ "elantris", "phase1", "novel" ],
                     "connections": [
                         { "target": "tes", "type": "minor", "description": "The map in <a target='_blank' href='https://coppermind.net/wiki/Elantris'>Elantris</a> refers to '<a target='_blank' href='https://coppermind.net/wiki/Rose_Empire'>Rose Barbarians</a>'. There are mentions of <a target='_blank' href='https://coppermind.net/wiki/Svorden'>Svorden</a>, <a target='_blank' href='https://coppermind.net/wiki/Teod'>Teod</a>, and <a target='_blank' href='https://coppermind.net/wiki/Sycla'>Sycla</a>. When escaping the palace, <a target='_blank' href='https://coppermind.net/wiki/Shai'>Shai</a> runs into a <a target='_blank' href='https://coppermind.net/wiki/Shu-Dereth'>Derethi priest</a> (wearing red armor). When she steals the painting she inscribes an <a target='_blank' href='https://coppermind.net/wiki/Aon'>Aon Reo</a> in its place." },
                         { "target": "msh", "type": "significant", "description": "The <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a> are <a target='_blank' href='https://coppermind.net/wiki/Elantrian'>Elantrians</a>. Their symbol is <a target='_blank' href='https://coppermind.net/wiki/Aon'>Aon Ire</a>." },
@@ -202,7 +202,7 @@
                         "publication": 2006.01,
                         "chronology": 3.11
                     },
-                    "categories": [ "phase1b", "short", "elantris" ]
+                    "categories": [ "elantris", "phase1b", "short" ]
                 },
                 {
                     "id": "elantris2",
@@ -215,7 +215,7 @@
                     "sorting": {
                         "chronology": 3.2
                     },
-                    "categories": [ "plan", "novel", "elantris" ]
+                    "categories": [ "elantris", "plan", "novel" ]
                 },
                 {
                     "id": "elantris3",
@@ -228,7 +228,7 @@
                     "sorting": {
                         "chronology": 3.3
                     },
-                    "categories": [ "plan", "novel", "elantris" ]
+                    "categories": [ "elantris", "plan", "novel" ]
                 }
             ],
             [
@@ -249,7 +249,7 @@
                         { "id": "hoid", "type": "mention", "description": "The 'Imperial Fool' is <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>."}
                         
                     ],
-                    "categories": [ "phase1", "novella", "no-series" ],
+                    "categories": [ "no-series", "phase1", "novella" ],
                     "connections": [
                         { "target": "imperial-fool", "type": "major", "description": "A deleted prologue that contains some canonical elements." },
                         { "target": "au", "type": "minor", "description": "The nature of <a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay." }
@@ -276,7 +276,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire#Chapter_19'>Chapter 19</a>."}
                         
                     ],
-                    "categories": [ "phase1", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "phase1", "novel" ]
                 },
                 {
                     "id": "11m",
@@ -293,7 +293,7 @@
                         "publication": 2011.12,
                         "chronology": 4.09
                     },
-                    "categories": [ "short", "phase1b", "mistborn" ]
+                    "categories": [ "mistborn", "short", "phase1b" ]
                 },
                 {
                     "id": "mb2",
@@ -311,7 +311,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is among the <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terris</a> refugees in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_56'>Chapter 56</a>, <a target='_blank' href='https://wob.coppermind.net/events/130/#e1552'>according to Brandon</a>."}
                     ],
-                    "categories": [ "phase1", "novel", "mistborn" ],
+                    "categories": [ "mistborn", "phase1", "novel" ],
                     "connections": [
                         { "target": "wb", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Lemex%27s_nurse'>Lemex's nurse</a> is a <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terriswoman</a>." }
                     ]
@@ -333,7 +333,7 @@
                         { "id": "hoid", "type": "mention", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the informant that <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> was supposed to meet with in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Hero_of_Ages#Chapter_27'>Chapter 27</a>."}
                         
                     ],
-                    "categories": [ "phase1", "novel", "mistborn" ],
+                    "categories": [ "mistborn", "phase1", "novel"],
                     "connections": [
                         { "target": "sa1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Demoux'>Demoux</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Thinker'; <a target='_blank' href='https://coppermind.net/wiki/Ishikk'>Ishikk</a> mishears his name as 'Temoo'. <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin</a>'s <a target='_blank' href='https://coppermind.net/wiki/vessel'>vessel</a>, <a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a>, is mentioned in the <a target='_blank' href='https://coppermind.net/wiki/https://coppermind.net/wiki/The_Way_of_Kings/Epigraphs#The_Letter'>Chapter 18 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Felt'>Felt</a> worked for the <a target='_blank' href='https://coppermind.net/wiki/House_Venture'>House Venture</a> on <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>." },
                         { "target": "sa3", "type": "significant", "description": "The <a target='_blank' href='https://coppermind.net/wiki/Oathbringer/Epigraphs#Letters'>Part 2 epigraphs</a> include <a target='_blank' href='https://coppermind.net/wiki/Letters#Third_Oathbringer_Letter'>a letter</a> from <a target='_blank' href='https://coppermind.net/wiki/Sazed'>Sazed</a> to <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>. <a target='_blank' href='https://coppermind.net/wiki/Felt'>Felt</a> reveals he is from another world." },
@@ -359,7 +359,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar speaking with <a target='_blank' href='https://coppermind.net/wiki/Joshin_Yomen'>Lord Joshin</a> and <a target='_blank' href='https://coppermind.net/wiki/Mi%27chelle_Yomen'>Lady Mi'chelle</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Alloy_of_Law#Chapter_4'>Chapter 4</a>."}
                         
                     ],
-                    "categories": [ "phase2", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "phase2", "novel" ]
                 },
                 {
                     "id": "jak",
@@ -376,7 +376,7 @@
                         "publication": 2014.08,
                         "chronology": 8.05
                     },
-                    "categories": [ "short", "phase2b", "mistborn" ]
+                    "categories": [ "mistborn", "short", "phase2b" ]
                 },
                 {
                     "id": "mb5",
@@ -395,7 +395,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a>'s coachman, named in <a target='_blank' href='https://coppermind.net/wiki/Summary:Shadows_of_Self#Chapter_7'>Chapter 7</a>."}
                         
                     ],
-                    "categories": [ "phase2", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "phase2", "novel" ]
                 },
                 {
                     "id": "mb6",
@@ -414,7 +414,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar who gives <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a> a special coin in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Bands_of_Mourning#Chapter_11'>Chapter 11</a>."}
                         
                     ],
-                    "categories": [ "phase2", "novel", "mistborn" ],
+                    "categories": [ "mistborn", "phase2", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a> is from <a target='_blank' href='https://coppermind.net/wiki/Southern_Scadrial'>Southern Scadrial</a>." },
                         { "target": "msh", "type": "major", "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>'s survival is revealed in <a target='_blank' href='https://coppermind.net/wiki/The_Bands_of_Mourning'>The Bands of Mourning</a>." }
@@ -433,7 +433,7 @@
                         "publication": 2021,
                         "chronology": 8.4
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 }
             ],
             [
@@ -455,7 +455,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."}
                         
                     ],
-                    "categories": [ "novella", "phase2", "mistborn" ],
+                    "categories": [ "mistborn", "novella", "phase2" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>." },
                         { "target": "traveler", "type": "major", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)." }
@@ -468,7 +468,7 @@
                     "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                    "categories": [ "novella", "plan", "mistborn" ]
+                    "categories": [ "mistborn", "novella", "plan" ]
                 }
             ],
             [
@@ -483,7 +483,7 @@
                     "sorting": {
                         "chronology": 10.1
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 },
                 {
                     "id": "mb9",
@@ -496,7 +496,7 @@
                     "sorting": {
                         "chronology": 10.2
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 },
                 {
                     "id": "mb10",
@@ -509,7 +509,7 @@
                     "sorting": {
                         "chronology": 10.3
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 }
             ],
             [
@@ -524,7 +524,7 @@
                     "sorting": {
                         "chronology": 13.1
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 },
                 {
                     "id": "mb12",
@@ -537,7 +537,7 @@
                     "sorting": {
                         "chronology": 13.2
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 },
                 {
                     "id": "mb13",
@@ -550,7 +550,7 @@
                     "sorting": {
                         "chronology": 13.3
                     },
-                    "categories": [ "plan", "novel", "mistborn" ]
+                    "categories": [ "mistborn", "plan", "novel" ]
                 }
             ]
         ],
@@ -572,7 +572,7 @@
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the master storyteller in <a target='_blank' href='https://coppermind.net/wiki/Summary:Warbreaker#Chapter_32'>Chapter 32</a>."}
                         
                     ],
-                    "categories": [ "phase1", "novel", "warbreaker" ],
+                    "categories": [ "warbreaker", "phase1", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "significant", "description": "Zahel is <a target='_blank' href='https://coppermind.net/wiki/Vasher'>Vasher</a>. <a target='_blank' href='https://coppermind.net/wiki/Szeth'>Szeth</a>'s new <a target='_blank' href='https://coppermind.net/wiki/Shardblade'>Shardblade</a> is <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a>. <a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a <a target='_blank' href='https://coppermind.net/wiki/Tears_of_Edgli'>Tear of Edgli</a> flower." },
                         { "target": "sa3", "type": "major", "description": "Azure is <a target='_blank' href='https://coppermind.net/wiki/Vivenna'>Vivenna</a>; she uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> on several occaisions and has an Awakened sword. <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> and <a target='_blank' href='https://coppermind.net/wiki/Vasher'>Vasher</a> make significant appearances. <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Denth'>Denth</a>, <a target='_blank' href='https://coppermind.net/wiki/Shashara'>Shashara</a>, and <a target='_blank' href='https://coppermind.net/wiki/Vivenna'>Vivenna</a> by name. A painting from the <a target='_blank' href='https://coppermind.net/wiki/Court_of_Gods'>Court of Gods</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Chapter_102:_Celebrant'>Chapter 102</a>. <a target='_blank' href='https://coppermind.net/wiki/Riino'>Riino</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Heightening'>Heightenings</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in the <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Epilogue:_Great_Art'>Epilogue</a>." }
@@ -589,7 +589,7 @@
                     "sorting": {
                         "chronology": 5.2
                     },
-                    "categories": [ "plan", "novel", "warbreaker" ]
+                    "categories": [ "warbreaker", "plan", "novel" ]
                 }
             ]
         ],
@@ -611,7 +611,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
                     ],
-                    "categories": [ "phase2", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "phase2", "novel" ]
                 },
                 {
                     "id": "sa2",
@@ -629,7 +629,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
                     ],
-                    "categories": [ "phase2", "novel", "stormlight" ],
+                    "categories": [ "stormlight", "phase2", "novel" ],
                     "connections": [
                         { "target": "jasnah", "type": "major", "description": "A deleted scene about <a target='_blank' href='https://coppermind.net/wiki/Jasnah_Kholin'>Jasnah</a> that contains some canonical elements." },
                         { "target": "traveler", "type": "minor", "description": "The man <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> speaks with is <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a>, who responded to <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> with similar opinions in the <a target='_blank' href='https://coppermind.net/wiki/Words_of_Radiance/Epigraphs#The_Second_Letter'>Words of Radiance Part 4 epigraphs</a>." },
@@ -654,7 +654,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "mention", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Ol' Whitehair', mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:Edgedancer#Chapter_12'>Chapter 12</a>."}
                     ],
-                    "categories": [ "novella", "phase2", "stormlight" ]
+                    "categories": [ "stormlight", "novella", "phase2" ]
                 },
                 {
                     "id": "sa3",
@@ -672,7 +672,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."}
                     ],
-                    "categories": [ "phase2", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "phase2", "novel" ]
                 },
                 {
                     "id": "sa4",
@@ -687,7 +687,7 @@
                         "publication": 2020,
                         "chronology": 7.04
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "sa5",
@@ -700,7 +700,7 @@
                     "sorting": {
                         "chronology": 7.05
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "lopen",
@@ -714,7 +714,7 @@
                     "sorting": {
                         "chronology": 7.022
                     },
-                    "categories": [ "short", "plan", "stormlight" ]
+                    "categories": [ "stormlight", "short", "plan" ]
                 },
                 {
                     "id": "wandersail",
@@ -724,7 +724,7 @@
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                     "padding": 12,
-                    "categories": [ "novella", "plan", "stormlight" ]
+                    "categories": [ "stormlight", "novella", "plan" ]
                 },
                 {
                     "id": "lunamor",
@@ -738,7 +738,7 @@
                     "sorting": {
                         "chronology": 7.031
                     },
-                    "categories": [ "novella", "plan", "stormlight" ]
+                    "categories": [ "stormlight", "novella", "plan" ]
                 },
                 {
                     "id": "sa6",
@@ -751,7 +751,7 @@
                     "sorting": {
                         "chronology": 7.06
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "sa7",
@@ -764,7 +764,7 @@
                     "sorting": {
                         "chronology": 7.07
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "sa8",
@@ -777,7 +777,7 @@
                     "sorting": {
                         "chronology": 7.08
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "sa9",
@@ -790,7 +790,7 @@
                     "sorting": {
                         "chronology": 7.09
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 },
                 {
                     "id": "sa10",
@@ -803,7 +803,7 @@
                     "sorting": {
                         "chronology": 7.10
                     },
-                    "categories": [ "plan", "novel", "stormlight" ]
+                    "categories": [ "stormlight", "plan", "novel" ]
                 }
             ]
         ],
@@ -826,7 +826,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who first appears in <a target='_blank' href='https://coppermind.net/wiki/Ais'>Ais</a>'s first scene in the middle of <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_1#Chapter_4:_Divides'>Chapter 4</a>."}
                     ],
-                    "categories": [ "phase1", "graphic", "white-sand" ],
+                    "categories": [ "white-sand", "phase1", "graphic"],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "'Kenton Street' in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_17'>Chapter 17</a> (also mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Well_of_Ascension'>The Well of Ascension) is a reference to <a target='_blank' href='https://coppermind.net/wiki/Kenton'>Kenton</a>." },
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a vial of sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>." },
@@ -849,7 +849,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument."}
                     ],
-                    "categories": [ "phase1", "graphic", "white-sand" ],
+                    "categories": [ "white-sand", "phase1", "graphic" ],
                     "connections": [
                         { "target": "mb1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>." },
                         { "target": "mb4", "type": "minor", "description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to the god <a target='_blank' href='https://coppermind.net/wiki/Trellism'>Trell</a>." },
@@ -872,7 +872,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who plays a song in the <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_3#Epilogue'>Epilogue</a>."}
                     ],
-                    "categories": [ "phase1", "graphic", "white-sand" ],
+                    "categories": [ "white-sand", "phase1", "graphic" ],
                     "connections": [
                         { "target": "sa1", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Baon'>Baon</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Blunt'." }
                     ]
@@ -890,7 +890,7 @@
                     "sorting": {
                         "chronology": 2.5
                     },
-                    "categories": [ "plan", "graphic", "white-sand" ]
+                    "categories": [ "white-sand", "plan", "graphic" ]
                 },
                 {
                     "id": "ds2",
@@ -903,7 +903,7 @@
                     "sorting": {
                         "chronology": 2.6
                     },
-                    "categories": [ "plan", "graphic", "white-sand" ]
+                    "categories": [ "white-sand", "plan", "graphic" ]
                 },
                 {
                     "id": "ds3",
@@ -916,7 +916,7 @@
                     "sorting": {
                         "chronology": 2.7
                     },
-                    "categories": [ "plan", "graphic", "white-sand" ]
+                    "categories": [ "white-sand", "plan", "graphic" ]
                 }
             ]
         ],
@@ -935,7 +935,7 @@
                         "publication": 2013.12,
                         "chronology": 6.1
                     },
-                    "categories": [ "novella", "phase1b", "no-series" ],
+                    "categories": [ "no-series", "novella", "phase1b" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a silver knife from <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>." },
                         { "target": "sa3", "type": "egg", "description": "The silvery chain in <a target='_blank' href='https://coppermind.net/wiki/Celebrant'>Celebrant</a> is from <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>." },
@@ -951,7 +951,7 @@
                     "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=the+dust+brigade'>The Dust Brigade</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
                     "system": "<a target='_blank' href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
-                    "categories": [ "plan", "novel", "no-series" ]
+                    "categories": [ "no-series", "plan", "novel" ]
                 }
             ]
         ],
@@ -970,7 +970,7 @@
                         "publication": 2014.06,
                         "chronology": 13.0
                     },
-                    "categories": [ "novella", "phase1b", "no-series" ],
+                    "categories": [ "no-series", "novella", "phase1b" ],
                     "connections": [
                         { "target": "sa3", "type": "minor", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s chicken, mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Chapter_22:_The_Darkness_Within'>Chapter 22</a>, is an <a target='_blank' href='https://coppermind.net/wiki/Aviar'>Aviar</a>. <a target='_blank' href='https://coppermind.net/wiki/Patji'>Patji</a> is referenced obliquely in <a target='_blank' href='https://coppermind.net/wiki/Autonomy'>Autonomy</a>'s <a target='_blank' href='https://coppermind.net/wiki/Letters#Second_Oathbringer_Letter'>letter</a> to <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in the <a target='_blank' href='https://coppermind.net/wiki/Oathbringer/Epigraphs#Letters'>Part 2 epigraphs</a>." },
                         { "target": "au", "type": "minor", "description": "The <a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a> and its magic." }
@@ -986,7 +986,7 @@
                     "sorting": {
                         "chronology": 13.01
                     },
-                    "categories": [ "novella", "plan", "no-series" ]
+                    "categories": [ "no-series", "novella", "plan" ]
                 }
             ]
         ],
@@ -1003,7 +1003,7 @@
                     "sorting": {
                         "chronology": 1.1
                     },
-                    "categories": [ "plan", "novel", "dragonsteel" ]
+                    "categories": [ "dragonsteel", "plan", "novel" ]
                 },
                 {
                     "id": "d2",
@@ -1016,7 +1016,7 @@
                     "sorting": {
                         "chronology": 1.2
                     },
-                    "categories": [ "plan", "novel", "dragonsteel" ]
+                    "categories": [ "dragonsteel", "plan", "novel" ]
                 },
                 {
                     "id": "d3",
@@ -1029,7 +1029,7 @@
                     "sorting": {
                         "chronology": 1.3
                     },
-                    "categories": [ "plan", "novel", "dragonsteel" ]
+                    "categories": [ "dragonsteel", "plan", "novel" ]
                 }
             ]
         ],
@@ -1041,7 +1041,7 @@
                     "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=silverlight+novella'>Silverlight novella</a>",
                     "world": "<a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>",
                     "system": "N/A",
-                    "categories": [ "novella", "plan", "no-series" ]
+                    "categories": [ "no-series", "novella", "plan" ]
                 }
             ],
             [
@@ -1055,7 +1055,7 @@
                     "sorting": {
                         "chronology": 11.0
                     },
-                    "categories": [ "novella", "plan", "no-series" ]
+                    "categories": [ "no-series", "novella", "plan" ]
                 }
             ]
         ],
@@ -1074,7 +1074,7 @@
                         "publication": 2016.11,
                         "chronology": 12.0
                     },
-                    "categories": [ "short", "phase2", "no-series" ]
+                    "categories": [ "no-series", "short", "phase2" ]
                 }
             ]
         ],
@@ -1094,7 +1094,7 @@
                         "publication": 2009.06,
                         "chronology": 2.0
                     },
-                    "categories": [ "novel", "apocryphal", "white-sand" ],
+                    "categories": [ "white-sand", "novel", "apocryphal" ],
                     "connections": [
                         { "target": "ws1", "type": "minor", "description": "The <a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a> graphic novels are based on the prose version." }
                     ]
@@ -1110,7 +1110,7 @@
                     "sorting": {
                         "publication": 2009.06
                     }, 
-                    "categories": [ "apocryphal", "novel", "no-series" ],
+                    "categories": [ "no-series", "apocryphal", "novel" ],
                     "connections": [
                         { "target": "sa2", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes pink <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>." },
                         { "target": "sa3", "type": "egg", "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a> mentions his suit was stained with <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>." }
@@ -1132,7 +1132,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the 'Imperial Fool'."}
                     ],
-                    "categories": [ "short", "apocryphal", "no-series" ]
+                    "categories": [ "no-series", "short", "apocryphal" ]
                 },
                 {
                     "id": "tsd",
@@ -1147,7 +1147,7 @@
                         "publication": 2014.03,
                         "chronology": 7.081
                     },
-                    "categories": [ "apocryphal", "novella", "no-series" ]
+                    "categories": [ "no-series", "apocryphal", "novella" ]
                 },
                 {
                     "id": "jasnah",
@@ -1163,7 +1163,7 @@
                         "publication": 2014.08,
                         "chronology": 7.021
                     },
-                    "categories": [ "short", "apocryphal", "stormlight" ]
+                    "categories": [ "stormlight", "short", "apocryphal" ]
                 },
                 {
                     "id": "traveler",
@@ -1181,7 +1181,7 @@
                     "appearances": [
                         { "id": "hoid", "type": "appearance", "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'the Traveler'."}
                     ],
-                    "categories": [ "short", "apocryphal", "no-series" ]
+                    "categories": [ "no-series", "short", "apocryphal" ]
                 }
             ]
         ]
