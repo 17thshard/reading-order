@@ -130,6 +130,7 @@
         },
         {
             "name": "Formats",
+            "startCollapsed": true,
             "categories": [
                 {
                     "id": "novel",
@@ -169,6 +170,7 @@
     "appearances": [
         {
             "id": "hoid",
+            "description": "Hoid",
             "initial": "H"
         }
     ],
