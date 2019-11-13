@@ -1,11 +1,11 @@
 <template>
-<g class="appearance-group">
+<transition-group tag="g" name="fade-fast" class="appearance-group">
   <Appearance
     :appearance="appearance"
     :rotation="rotation" :position="direction * index * 25"
     v-for="(appearance, index) in appearances" :key="`${appearance.type}-${appearance.initial}`"
   ></Appearance>
-</g>
+</transition-group>
 </template>
 
 <script>
@@ -21,3 +21,13 @@ export default {
   },
 };
 </script>
+
+<style>
+.fade-fast-enter-active, .fade-fast-leave-active {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fade-fast-enter, .fade-fast-leave-to {
+  opacity: 0 !important;
+}
+</style>

@@ -2,7 +2,7 @@
 <g
   :class="['appearance', `appearance-${appearance.type}`]"
   :transform="`translate(0, ${position}) rotate(${rotation})`"
-  :style="{'--appearance-color': appearance.color}"
+  :style="{'--appearance-color': appearance.ref.color}"
   v-tooltip="{
     content: showSpoilers
       ? appearance.description
@@ -17,7 +17,7 @@
     dominant-baseline="central" text-anchor="middle"
     font-size="0.8rem"
   >
-    {{ appearance.initial }}
+    {{ appearance.ref.initial }}
   </text>
 </g>
 </template>

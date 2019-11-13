@@ -8,6 +8,7 @@
   <Legend
     :connection-types="Object.values(connectionTypes)"
     :layers="layers"
+    :appearances="appearances"
     :sorted-books="sortedBooks"
     @sort="sort"
   >
@@ -37,6 +38,7 @@ export default {
       sortedBooks: [],
       connectionTypes: {},
       layers: [],
+      appearances: [],
     };
   },
   async mounted() {
@@ -46,13 +48,14 @@ export default {
   methods: {
     loadData(data) {
       const {
-        books, sorted, connectionTypes, layers,
+        books, sorted, connectionTypes, layers, appearances,
       } = loader(data);
       this.entries = books;
       this.books = books;
       this.sortedBooks = sorted;
       this.connectionTypes = connectionTypes;
       this.layers = layers;
+      this.appearances = appearances;
     },
     sort(books) {
       this.entries = books === false ? this.books : books;

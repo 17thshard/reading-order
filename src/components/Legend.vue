@@ -88,6 +88,14 @@
         <h2>Categories</h2>
         <Layer :layer="layer" :key="layer.name" v-for="layer in layers"></Layer>
       </div>
+      <div class="legend-appearances">
+        <h2>Appearances</h2>
+        <AppearancePreview
+          :appearance="appearance" :key="appearance.id"
+          v-for="appearance in appearances"
+        >
+        </AppearancePreview>
+      </div>
     </div>
   </div>
 </div>
@@ -97,13 +105,15 @@
 import { mapState } from 'vuex';
 import ConnectionPreview from '@/components/ConnectionPreview.vue';
 import Layer from '@/components/Layer.vue';
+import AppearancePreview from '@/components/AppearancePreview.vue';
 
 export default {
   name: 'Legend',
-  components: { Layer, ConnectionPreview },
+  components: { AppearancePreview, Layer, ConnectionPreview },
   props: {
     connectionTypes: Array,
     layers: Array,
+    appearances: Array,
     sortedBooks: Array,
   },
   data() {
@@ -138,6 +148,7 @@ export default {
 
   h2 {
     margin: 0.5rem 0;
+    font-size: 1.2rem;
   }
 
   &-intro, &-keys {

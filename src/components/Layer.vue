@@ -1,5 +1,5 @@
 <template>
-<details class="layer">
+<details class="layer" :open="layer.startCollapsed !== true">
   <summary>
     {{ layer.name }}
     <EyeIcon

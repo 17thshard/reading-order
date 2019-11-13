@@ -103,7 +103,7 @@ export default (
 
   const groupedAppearances = appearances.reduce((acc, a) => ({
     ...acc,
-    [a.id]: { ...a },
+    [a.id]: { ...a, active: false },
   }), {});
 
   walk(
@@ -126,7 +126,7 @@ export default (
           throw new Error(`Book ${b.id} references unknown appearance '${a.id}'`);
         }
 
-        return { ...a, ...appearance };
+        return { ...a, ref: appearance };
       });
       books[b.id] = {
         ...b,
@@ -154,5 +154,6 @@ export default (
     sorted,
     connectionTypes,
     layers: resolvedLayers,
+    appearances: Object.values(groupedAppearances),
   };
 };

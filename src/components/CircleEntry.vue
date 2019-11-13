@@ -23,7 +23,7 @@
     </text>
   </Tooltip>
   <AppearanceGroup
-    :appearances="entry.appearances"
+    :appearances="entry.appearances.filter(a => a.ref.active)"
     :rotation="-renderedAngle"
     :direction="sign"
     :transform="`translate(0, -${radius + renderedPadding + textWidth + 15})`"
