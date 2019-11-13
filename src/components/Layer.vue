@@ -38,7 +38,7 @@ export default {
 .layer {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start !important;
 
   summary {
     display: flex;

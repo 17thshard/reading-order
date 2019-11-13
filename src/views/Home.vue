@@ -8,16 +8,13 @@
   <Legend
     :connection-types="Object.values(connectionTypes)"
     :layers="layers"
-    :explain-connections="explainConnections"
     :sorted-books="sortedBooks"
     @sort="sort"
-    @toggleExplanations="toggleExplanations"
   >
   </Legend>
   <CircleDiagram
     :entries="entries"
     :connection-types="connectionTypes"
-    :explain-connections="explainConnections"
   />
 </div>
 </template>
@@ -40,7 +37,6 @@ export default {
       sortedBooks: [],
       connectionTypes: {},
       layers: [],
-      explainConnections: window.localStorage.getItem('explainConnections') === 'true',
     };
   },
   async mounted() {
@@ -60,10 +56,6 @@ export default {
     },
     sort(books) {
       this.entries = books === false ? this.books : books;
-    },
-    toggleExplanations(value) {
-      this.explainConnections = value;
-      window.localStorage.setItem('explainConnections', value);
     },
     loadLocalFile(event) {
       const file = event.dataTransfer.files[0];

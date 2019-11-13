@@ -70,11 +70,11 @@
         </span>
         <span class="legend-options-item">
           <input id="show-connection-explanations" type="checkbox"
-                 :checked="explainConnections"
-                 @input="$emit('toggleExplanations', $event.target.checked)">
+                 :checked="showSpoilers"
+                 @input="$store.commit('toggleExplanations', $event.target.checked)">
           <label for="show-connection-explanations">
-            Explain connection details<br>
-            <small>Might contain spoilers!</small>
+            Show spoilers<br>
+            <small>Explain connection & appearance details</small>
           </label>
         </span>
       </div>
@@ -94,6 +94,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import ConnectionPreview from '@/components/ConnectionPreview.vue';
 import Layer from '@/components/Layer.vue';
 
@@ -103,7 +104,6 @@ export default {
   props: {
     connectionTypes: Array,
     layers: Array,
-    explainConnections: Boolean,
     sortedBooks: Array,
   },
   data() {
@@ -114,6 +114,7 @@ export default {
       selectedSort: null,
     };
   },
+  computed: mapState(['showSpoilers']),
   watch: {
     selectedSort(newSort) {
       if (newSort === null) {
@@ -233,7 +234,11 @@ export default {
 
   &-options-item {
     display: flex;
-    align-items: center;
+    margin-bottom: 0.25rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     label {
       margin: 0.2rem;
@@ -244,7 +249,7 @@ export default {
     }
 
     input[type="checkbox"] {
-      margin: 0.2rem;
+      margin: 0.1rem 0.2rem;
 
       & + label {
         margin: 0;

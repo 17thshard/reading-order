@@ -4,7 +4,7 @@ import App from './App.vue';
 import router from './router';
 import './registerServiceWorker';
 import CustomDirectives from './custom-directives';
-import store from './store'
+import store from './store';
 
 Vue.config.productionTip = false;
 
@@ -19,5 +19,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app');

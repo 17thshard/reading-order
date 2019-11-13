@@ -4,7 +4,9 @@
   :transform="`translate(0, ${position}) rotate(${rotation})`"
   :style="{'--appearance-color': appearance.color}"
   v-tooltip="{
-    content: appearance.description,
+    content: showSpoilers
+      ? appearance.description
+      : 'Spoilers ahead! Enable spoilers in the options to the right to see them!',
     autoHide: false,
     hideOnTargetClick: false,
     trigger: 'click hover',
@@ -21,6 +23,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'Appearance',
   props: {
@@ -28,6 +32,7 @@ export default {
     position: Number,
     rotation: Number,
   },
+  computed: mapState(['showSpoilers']),
 };
 </script>
 

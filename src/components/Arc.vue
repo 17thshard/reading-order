@@ -8,9 +8,9 @@
   }
 ]">
   <Tooltip
-    :text="explain
+    :text="showSpoilers
       ? connection.description
-      : 'Spoilers ahead! Enable connection details in the options to the right to see them!'
+      : 'Spoilers ahead! Enable spoilers in the options to the right to see them!'
     "
     :options="{
       autoHide: false,
@@ -46,6 +46,7 @@
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
+import { mapState } from 'vuex';
 import Tooltip from '@/components/Tooltip.vue';
 import { angleDifference, normalizeAngle } from '@/utils';
 
@@ -64,7 +65,6 @@ export default {
     },
     mute: Boolean,
     highlight: Boolean,
-    explain: Boolean,
   },
   data() {
     return {
@@ -75,6 +75,7 @@ export default {
     };
   },
   computed: {
+    ...mapState(['showSpoilers']),
     styles() {
       return {
         stroke: this.connection.type.color,

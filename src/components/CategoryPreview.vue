@@ -1,6 +1,6 @@
 <template>
 <div :class="['category-preview', {'category-preview-active': category.active}]"
-     :style="styles" v-tooltip="category.details">
+     :style="styles" v-tooltip.left="{ content: category.details, boundariesElement: 'viewport' }">
   <input type="checkbox" :id="`chk-category-${category.id}`" v-model="category.active">
   <label :for="`chk-category-${category.id}`">{{category.description}}</label>
 </div>
