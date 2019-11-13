@@ -7,7 +7,7 @@
 >
   <Legend
     :connection-types="Object.values(connectionTypes)"
-    :categories="Object.values(categories)"
+    :layers="layers"
     :explain-connections="explainConnections"
     :sorted-books="sortedBooks"
     @sort="sort"
@@ -39,7 +39,7 @@ export default {
       books: {},
       sortedBooks: [],
       connectionTypes: {},
-      categories: {},
+      layers: [],
       explainConnections: window.localStorage.getItem('explainConnections') === 'true',
     };
   },
@@ -50,13 +50,13 @@ export default {
   methods: {
     loadData(data) {
       const {
-        books, sorted, connectionTypes, categories,
+        books, sorted, connectionTypes, layers,
       } = loader(data);
       this.entries = books;
       this.books = books;
       this.sortedBooks = sorted;
       this.connectionTypes = connectionTypes;
-      this.categories = categories;
+      this.layers = layers;
     },
     sort(books) {
       this.entries = books === false ? this.books : books;

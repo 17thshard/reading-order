@@ -78,10 +78,12 @@ export default {
       return this.renderedAngle > 180 ? 'end' : 'start';
     },
     styles() {
-      const merged = this.entry.categories.reduce((acc, c) => ({
-        ...acc,
-        ...c,
-      }));
+      const merged = this.entry.categories
+        .filter(c => c.layer.active)
+        .reduce((acc, c) => ({
+          ...acc,
+          ...c,
+        }));
 
       return {
         fill: merged.color,
@@ -174,6 +176,10 @@ export default {
 <style lang="scss">
 .circle-entry {
   transition: opacity 0.2s ease-in-out;
+
+  & > text {
+    fill: #fafafa;
+  }
 
   & > text:hover {
     cursor: pointer;

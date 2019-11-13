@@ -86,8 +86,7 @@
       </div>
       <div class="legend-categories">
         <h2>Categories</h2>
-        <CategoryPreview :category="category" :key="category.id" v-for="category in categories">
-        </CategoryPreview>
+        <Layer :layer="layer" :key="layer.name" v-for="layer in layers"></Layer>
       </div>
     </div>
   </div>
@@ -96,14 +95,14 @@
 
 <script>
 import ConnectionPreview from '@/components/ConnectionPreview.vue';
-import CategoryPreview from '@/components/CategoryPreview.vue';
+import Layer from '@/components/Layer.vue';
 
 export default {
   name: 'Legend',
-  components: { CategoryPreview, ConnectionPreview },
+  components: { Layer, ConnectionPreview },
   props: {
     connectionTypes: Array,
-    categories: Array,
+    layers: Array,
     explainConnections: Boolean,
     sortedBooks: Array,
   },
@@ -226,6 +225,10 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &-categories {
+    align-items: stretch;
   }
 
   &-options-item {

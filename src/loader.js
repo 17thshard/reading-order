@@ -63,7 +63,7 @@ export default (
     'base-separation': baseSeparation,
     books: nested,
     connections,
-    categories,
+    layers,
     sorting,
     appearances,
   },
@@ -76,10 +76,30 @@ export default (
     [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
   }), {});
 
-  const groupedCategories = categories.reduce((acc, c) => ({
-    ...acc,
-    [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
-  }), {});
+  let groupedCategories = {};
+
+  const resolvedLayers = layers.map((l, index) => {
+    const layer = {
+      ...l,
+      order: index,
+      active: l.activeByDefault !== undefined ? l.activeByDefault : true,
+    };
+    layer.categories = l.categories.map(c => ({
+      ...c,
+      layer,
+      active: c.activeByDefault !== undefined ? c.activeByDefault : true,
+    }));
+
+    groupedCategories = {
+      ...groupedCategories,
+      ...layer.categories.reduce((acc, c) => ({
+        ...acc,
+        [c.id]: c,
+      }), {}),
+    };
+
+    return layer;
+  });
 
   const groupedAppearances = appearances.reduce((acc, a) => ({
     ...acc,
@@ -97,6 +117,9 @@ export default (
 
         return category;
       });
+
+      bookCategories.sort((c1, c2) => c2.layer.order - c1.layer.order);
+
       const bookAppearances = (b.appearances || []).map((a) => {
         const appearance = groupedAppearances[a.id];
         if (appearance === undefined) {
@@ -127,6 +150,9 @@ export default (
   const sorted = sorting.map(s => ({ ...s, books: sortBooks(flatBooks, s.id) }));
 
   return {
-    books, sorted, connectionTypes, categories: groupedCategories,
+    books,
+    sorted,
+    connectionTypes,
+    layers: resolvedLayers,
   };
 };

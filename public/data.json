@@ -39,106 +39,121 @@
             "activeByDefault": false
         }
     ],
-    "categories": [
+    "layers": [
         {
-            "id": "phase1",
-            "description": "Phase 1 - Essential",
-            "details": "Essential Phase 1 stories should be read before moving to Phase 2.",
-            "color": "#00b02b"
+            "name": "Phases",
+            "categories": [
+                {
+                    "id": "phase1",
+                    "description": "Phase 1 - Essential",
+                    "details": "Essential Phase 1 stories should be read before moving to Phase 2.",
+                    "color": "#00b02b"
+                },
+                {
+                    "id": "phase1b",
+                    "description": "Phase 1 - Secondary",
+                    "details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
+                    "color": "#7bb088"
+                },
+                {
+                    "id": "phase2",
+                    "description": "Phase 2 - Essential",
+                    "details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
+                    "color": "#0094d4"
+                },
+                {
+                    "id": "phase2b",
+                    "description": "Phase 2 - Secondary",
+                    "details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
+                    "color": "#8abdd4"
+                },
+                {
+                    "id": "plan",
+                    "description": "Unpublished - Future Plans",
+                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
+                    "color": "#505050"
+                },
+                {
+                    "id": "apocryphal",
+                    "description": "Unpublished - Apocryphal",
+                    "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
+                    "color": "#735a45"
+                }
+            ]
         },
         {
-            "id": "phase1b",
-            "description": "Phase 1 - Secondary",
-            "details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
-            "color": "#7bb088"
+            "name": "Series",
+            "categories": [
+                {
+                    "id": "elantris",
+                    "description": "Elantris",
+                    "details": "Elantris and its sequels.",
+                    "color": "#58b06e"
+                },
+                {
+                    "id": "mistborn",
+                    "description": "Mistborn",
+                    "details": "Mistborn (all eras)",
+                    "color": "#9973bf"
+                },
+                {
+                    "id": "warbreaker",
+                    "description": "Warbreaker",
+                    "details": "Warbreaker and its sequel.",
+                    "color": "#de4343"
+                },
+                {
+                    "id": "stormlight",
+                    "description": "Stormlight Archive",
+                    "details": "The Stormlight Archive",
+                    "color": "#2aa1d4"
+                },
+                {
+                    "id": "white-sand",
+                    "description": "White Sand",
+                    "details": "White Sand and its sequels.",
+                    "color": "#d4c955"
+                },
+                {
+                    "id": "dragonsteel",
+                    "description": "Dragonsteel",
+                    "details": "Dragonsteel",
+                    "color": "#d98a41"
+                },
+                {
+                    "id": "no-series",
+                    "description": "Non-series Stories",
+                    "details": "Stories not part of a series.",
+                    "color": "#A0A0A0"
+                }
+            ]
         },
         {
-            "id": "phase2",
-            "description": "Phase 2 - Essential",
-            "details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
-            "color": "#0094d4"
-        },
-        {
-            "id": "phase2b",
-            "description": "Phase 2 - Secondary",
-            "details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
-            "color": "#8abdd4"
-        },
-        {
-            "id": "plan",
-            "description": "Unpublished - Future Plans",
-            "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
-            "color": "#505050"
-        },
-        {
-            "id": "apocryphal",
-            "description": "Unpublished - Apocryphal",
-            "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
-            "color": "#735a45"
-        },
-        {
-            "id": "novel",
-            "description": "Novels",
-            "details": "Full novels."
-        },
-        {
-            "id": "graphic",
-            "description": "Graphic Novels",
-            "details": "Graphic novels."
-        },
-        {
-            "id": "novella",
-            "description": "Novellas",
-            "details": "Novellas.",
-            "style": "italic"
-        },
-        {
-            "id": "short",
-            "description": "Short Stories",
-            "details": "Short stories.",
-            "style": "italic"
-        },
-        {
-            "id": "elantris",
-            "description": "Elantris",
-            "details": "Elantris and its sequels.",
-            "color": "#58b06e"
-        },
-        {
-            "id": "mistborn",
-            "description": "Mistborn",
-            "details": "Mistborn (all eras)",
-            "color": "#9973bf"
-        },
-        {
-            "id": "warbreaker",
-            "description": "Warbreaker",
-            "details": "Warbreaker and its sequel.",
-            "color": "#de4343"
-        },
-        {
-            "id": "stormlight",
-            "description": "Stormlight Archive",
-            "details": "The Stormlight Archive",
-            "color": "#2aa1d4"
-        },
-        {
-            "id": "white-sand",
-            "description": "White Sand",
-            "details": "White Sand and its sequels.",
-            "color": "#d4c955"
-        },
-        {
-            "id": "dragonsteel",
-            "description": "Dragonsteel",
-            "details": "Dragonsteel",
-            "color": "#d98a41"
-        },
-        {
-            "id": "no-series",
-            "description": "Non-series Stories",
-            "details": "Stories not part of a series.",
-            "color": "#A0A0A0"
+            "name": "Formats",
+            "categories": [
+                {
+                    "id": "novel",
+                    "description": "Novels",
+                    "details": "Full novels."
+                },
+                {
+                    "id": "graphic",
+                    "description": "Graphic Novels",
+                    "details": "Graphic novels."
+                },
+                {
+                    "id": "novella",
+                    "description": "Novellas",
+                    "details": "Novellas.",
+                    "style": "italic"
+                },
+                {
+                    "id": "short",
+                    "description": "Short Stories",
+                    "details": "Short stories.",
+                    "style": "italic"
+                }
+            ]
         }
     ],
     "sorting": [
