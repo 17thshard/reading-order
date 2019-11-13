@@ -21,7 +21,7 @@
       <span
         class="legend-intro-content-toggle"
         @click="introContentCollapsed = !introContentCollapsed"
-        v-html="introContentCollapsed ? 'More info' : 'Less info'"
+        v-html="introContentCollapsed ? 'More details' : 'Less details'"
       ></span>
       <div class="legend-intro-content-more">
         <p>(1) Books are grouped by series, world, and star system by default, and are listed in
