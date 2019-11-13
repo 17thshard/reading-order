@@ -57,10 +57,10 @@
         <h2>Options</h2>
         <span class="legend-options-item">
           <label for="sort">Order by</label>
-          <select id="sort" v-model="selectedSort">
+          <select id="sort" @change="changeSort">
             <option :value="null" :selected="selectedSort === null">Series</option>
             <option
-              :value="sort" :selected="selectedSort === sort"
+              :value="sort.id" :selected="selectedSort === sort"
               :key="sort.id"
               v-for="sort in sortedBooks"
             >
@@ -122,6 +122,7 @@ export default {
       introContentCollapsed: true,
       keysToggled: false,
       selectedSort: null,
+      sortInitialized: false,
     };
   },
   computed: mapState(['showSpoilers']),
@@ -131,6 +132,26 @@ export default {
         this.$emit('sort', false);
       } else {
         this.$emit('sort', newSort.books);
+      }
+    },
+    sortedBooks(newBooks) {
+      if (!this.sortInitialized) {
+        this.selectedSort = newBooks.find(s => s.id === this.$route.params.sort) || null;
+        this.sortInitialized = true;
+      }
+    },
+    $route(to, from) {
+      if (to.params.sort !== from.params.sort) {
+        this.selectedSort = this.sortedBooks.find(s => s.id === to.params.sort) || null;
+      }
+    },
+  },
+  methods: {
+    changeSort(event) {
+      if (event.target.value === '') {
+        this.$router.replace('/');
+      } else {
+        this.$router.replace(`/${event.target.value}`);
       }
     },
   },
