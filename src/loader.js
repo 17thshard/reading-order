@@ -65,6 +65,7 @@ export default (
     connections,
     categories,
     sorting,
+    appearances,
   },
 ) => {
   const books = {};
@@ -80,6 +81,11 @@ export default (
     [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
   }), {});
 
+  const groupedAppearances = appearances.reduce((acc, a) => ({
+    ...acc,
+    [a.id]: { ...a },
+  }), {});
+
   walk(
     nested,
     (b, angle) => {
@@ -91,9 +97,18 @@ export default (
 
         return category;
       });
+      const bookAppearances = (b.appearances || []).map((a) => {
+        const appearance = groupedAppearances[a.id];
+        if (appearance === undefined) {
+          throw new Error(`Book ${b.id} references unknown appearance '${a.id}'`);
+        }
+
+        return { ...a, ...appearance };
+      });
       books[b.id] = {
         ...b,
         categories: bookCategories,
+        appearances: bookAppearances,
         angle,
         get active() {
           return bookCategories.reduce((active, c) => active && c.active, true);

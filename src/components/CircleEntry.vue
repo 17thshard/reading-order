@@ -12,13 +12,23 @@
     :follow-mouse="true"
     :disabled="mute"
   >
-    <text dominant-baseline="central" :text-anchor="anchor" :style="styles"
-          :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
-          v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
-          @mouseover="select" @mouseout="unselect" @click="toggle">
+    <text
+      dominant-baseline="central" :text-anchor="anchor" :style="styles"
+      :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
+      v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
+      @mouseover="select" @mouseout="unselect" @click="toggle"
+      ref="text"
+    >
       <slot></slot>
     </text>
   </Tooltip>
+  <AppearanceGroup
+    :appearances="entry.appearances"
+    :rotation="-renderedAngle"
+    :direction="sign"
+    :transform="`translate(0, -${radius + renderedPadding + textWidth + 15})`"
+    v-if="textWidth >= 0"
+  ></AppearanceGroup>
 </g>
 </template>
 
@@ -26,6 +36,7 @@
 import { TweenLite } from 'gsap/TweenLite';
 import Tooltip from '@/components/Tooltip.vue';
 import { normalizeAngle, quadrant } from '@/utils';
+import AppearanceGroup from '@/components/AppearanceGroup.vue';
 
 function anyComponent(node, f) {
   if (f(node)) {
@@ -41,7 +52,7 @@ function anyComponent(node, f) {
 
 export default {
   name: 'CircleEntry',
-  components: { Tooltip },
+  components: { AppearanceGroup, Tooltip },
   props: {
     entry: Object,
     angle: Number,
@@ -55,6 +66,7 @@ export default {
     return {
       renderedAngle: normalizeAngle(this.angle),
       renderedPadding: this.entry.padding || 0,
+      textWidth: -1,
       clicked: false,
     };
   },
@@ -109,6 +121,9 @@ export default {
       );
     },
   },
+  mounted() {
+    this.textWidth = this.$refs.text.getComputedTextLength();
+  },
   methods: {
     toggle() {
       if (!this.entry.active) {
@@ -160,7 +175,7 @@ export default {
 .circle-entry {
   transition: opacity 0.2s ease-in-out;
 
-  text:hover {
+  & > text:hover {
     cursor: pointer;
   }
 

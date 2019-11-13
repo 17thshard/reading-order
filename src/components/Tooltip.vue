@@ -95,7 +95,7 @@ export default {
   z-index: 10000;
 
   .tooltip-inner {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     color: #b4b4b4;
     border-radius: 0.25rem;
     padding: 0.5rem;
@@ -108,7 +108,7 @@ export default {
     border-style: solid;
     position: absolute;
     margin: 5px;
-    border-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.9);
     z-index: 1;
   }
 

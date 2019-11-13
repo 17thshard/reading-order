@@ -27,6 +27,8 @@ export default {
             return;
           }
 
+          multiTouch = false;
+
           e.stopPropagation();
           const { handler, exclude } = binding.value;
 
