@@ -16,6 +16,7 @@
   <CircleDiagram
     :entries="entries"
     :connection-types="connectionTypes"
+    :labels="entries === books ? labels : []"
   />
 </div>
 </template>
@@ -39,6 +40,7 @@ export default {
       connectionTypes: {},
       layers: [],
       appearances: [],
+      labels: [],
     };
   },
   async mounted() {
@@ -48,7 +50,7 @@ export default {
   methods: {
     loadData(data) {
       const {
-        books, sorted, connectionTypes, layers, appearances,
+        books, sorted, connectionTypes, layers, appearances, labels,
       } = loader(data);
       this.entries = books;
       this.books = books;
@@ -56,6 +58,7 @@ export default {
       this.connectionTypes = connectionTypes;
       this.layers = layers;
       this.appearances = appearances;
+      this.labels = labels;
     },
     sort(books) {
       this.entries = books === false ? this.books : books;

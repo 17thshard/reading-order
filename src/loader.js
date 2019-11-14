@@ -1,30 +1,45 @@
 function calcDepth(books) {
-  if (books.length === 0) {
+  if (books.children === undefined) {
     return 0;
   }
 
-  if (!Array.isArray(books[0])) {
-    return 1;
-  }
-
-  return Math.max(...books.map(sub => calcDepth(sub))) + 1;
+  return Math.max(...books.children.map(sub => calcDepth(sub))) + 1;
 }
 
-function walk(entries, f, inc, maxDepth, depth, totalAngle) {
+function walk(entries, f, inc, maxDepth, depth, totalAngle, labels, lastColor) {
   let localAngle = 0;
   let terminal = false;
 
-  entries.forEach((e) => {
-    if (!Array.isArray(e)) {
+  entries.children.forEach((e) => {
+    if (e.children === undefined) {
       f(e, totalAngle + localAngle);
       localAngle += inc;
       terminal = true;
     } else {
-      localAngle += walk(e, f, inc, maxDepth, depth + 1, totalAngle + localAngle);
+      localAngle += walk(
+        e,
+        f,
+        inc,
+        maxDepth,
+        depth + 1,
+        totalAngle + localAngle,
+        labels,
+        entries.color || lastColor,
+      );
     }
   });
 
-  return localAngle + (terminal ? maxDepth - depth + 1 : 1) * inc;
+  if (entries.label) {
+    labels.push({
+      text: entries.label,
+      color: entries.color || lastColor,
+      start: totalAngle,
+      end: totalAngle + localAngle - (maxDepth - depth) * inc,
+      depth,
+    });
+  }
+
+  return localAngle + (terminal ? maxDepth - depth : 1) * inc;
 }
 
 function sortBooks(books, field) {
@@ -68,8 +83,10 @@ export default (
     appearances,
   },
 ) => {
+  const entries = { children: nested };
   const books = {};
-  const maxDepth = calcDepth(nested);
+  const labels = [];
+  const maxDepth = calcDepth(entries);
 
   const connectionTypes = connections.reduce((acc, c) => ({
     ...acc,
@@ -107,7 +124,7 @@ export default (
   }), {});
 
   walk(
-    nested,
+    entries,
     (b, angle) => {
       const bookCategories = b.categories.map((c) => {
         const category = groupedCategories[c];
@@ -140,8 +157,9 @@ export default (
     },
     baseSeparation,
     maxDepth,
-    1,
     0,
+    0,
+    labels,
   );
 
   verify(books, connectionTypes);
@@ -155,5 +173,6 @@ export default (
     connectionTypes,
     layers: resolvedLayers,
     appearances: Object.values(groupedAppearances),
+    labels,
   };
 };

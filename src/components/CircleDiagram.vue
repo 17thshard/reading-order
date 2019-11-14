@@ -41,7 +41,7 @@
                     .some(c => connectionTypes[c.type].active && c.target === selectedEntry)"
         @select="select(entry.id, $event)"
         @unselect="unselect(entry.id)"
-        :key="entry.id"
+        :key="`entry-${entry.id}`"
         v-for="entry in entries">
         {{entry.title}}
       </CircleEntry>
@@ -50,8 +50,13 @@
                   && selectedEntry !== c.startId && selectedEntry !== c.endId"
            :highlight="selectedEntry !== null
                        && (selectedEntry === c.startId || selectedEntry === c.endId)"
-           :key="`${c.startId}.${c.endId}`"
+           :key="`arc-${c.startId}.${c.endId}`"
            v-for="c in connections"></Arc>
+      <CircleLabel
+        :label="label"
+        :key="`label-${i}`"
+        v-for="(label, i) in labels"
+      ></CircleLabel>
     </transition-group>
   </svg>
 </SvgPanZoom>
@@ -62,16 +67,20 @@ import Hammer from 'hammerjs';
 import SvgPanZoom from 'vue-svg-pan-zoom';
 import CircleEntry from '@/components/CircleEntry.vue';
 import Arc from '@/components/Arc.vue';
+import CircleLabel from '@/components/CircleLabel.vue';
 
 export default {
   name: 'CircleDiagram',
-  components: { SvgPanZoom, CircleEntry, Arc },
+  components: {
+    CircleLabel, SvgPanZoom, CircleEntry, Arc,
+  },
   props: {
     entries: {
       type: Object,
       required: true,
     },
     connectionTypes: Object,
+    labels: Array,
   },
   data() {
     const panEventHandler = {
