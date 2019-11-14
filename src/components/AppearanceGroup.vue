@@ -2,8 +2,8 @@
 <transition-group tag="g" name="fade-fast" class="appearance-group">
   <Appearance
     :appearance="appearance"
-    :rotation="rotation" :position="direction * index * 25"
-    v-for="(appearance, index) in appearances" :key="`${appearance.type}-${appearance.initial}`"
+    :rotation="rotation" :position="index * 25"
+    v-for="(appearance, index) in appearances" :key="`${appearance.type}-${appearance.id}`"
   ></Appearance>
 </transition-group>
 </template>
@@ -17,7 +17,6 @@ export default {
   props: {
     appearances: Array,
     rotation: Number,
-    direction: Number,
   },
 };
 </script>

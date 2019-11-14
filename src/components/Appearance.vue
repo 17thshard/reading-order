@@ -1,7 +1,7 @@
 <template>
 <g
   :class="['appearance', `appearance-${appearance.type}`]"
-  :transform="`translate(0, ${position}) rotate(${rotation})`"
+  :transform="`translate(0, ${-position}) rotate(${rotation})`"
   :style="{'--appearance-color': appearance.ref.color}"
   v-tooltip="{
     content: showSpoilers
