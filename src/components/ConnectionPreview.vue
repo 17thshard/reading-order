@@ -1,6 +1,14 @@
 <template>
-<div :class="['connection-preview', {'connection-preview-active': type.active}]"
-     v-tooltip.left="{ content: type.details, boundariesElement: 'viewport' }">
+<div
+  :class="['connection-preview', {'connection-preview-active': type.active}]"
+  v-tooltip.left="{
+    content: type.details,
+    trigger: 'click hover',
+    autoHide: false,
+    hideOnTargetClick: false,
+    boundariesElement: 'viewport'
+  }"
+>
   <input type="checkbox" :id="`chk-connection-${type.id}`" v-model="type.active">
   <label :for="`chk-connection-${type.id}`">
     <svg width="15" height="10" viewBox="0 0 15 5" class="connection-preview-icon">

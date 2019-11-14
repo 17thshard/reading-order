@@ -1,5 +1,14 @@
 <template>
-<div :class="['appearance-preview', {'appearance-preview-active': appearance.active}]">
+<div
+  :class="['appearance-preview', {'appearance-preview-active': appearance.active}]"
+  v-tooltip.left="{
+    content: appearance.details,
+    trigger: 'click hover',
+    autoHide: false,
+    hideOnTargetClick: false,
+    boundariesElement: 'viewport'
+  }"
+>
   <input type="checkbox" :id="`chk-appearance-${appearance.id}`" v-model="appearance.active">
   <label :for="`chk-appearance-${appearance.id}`">
     <svg width="18" height="18" viewBox="0 0 18 18" class="appearance-preview-icon">
