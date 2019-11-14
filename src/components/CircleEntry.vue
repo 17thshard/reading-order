@@ -82,7 +82,7 @@ export default {
         .reduce((acc, c) => ({
           ...acc,
           ...c,
-        }));
+        }), {});
 
       return {
         fill: merged.color,
