@@ -41,7 +41,7 @@
     ],
     "layers": [
         {
-            "name": "Phases",
+            "name": "Reading Order",
             "categories": [
                 {
                     "id": "phase1",
@@ -171,7 +171,30 @@
         {
             "id": "hoid",
             "description": "Hoid",
-            "initial": "H"
+            "initial": "H",
+            "color": "#A0A0A0",
+            "details": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>'s appearances (solid) and mentions (outline)."
+        },
+        {
+            "id": "khriss",
+            "description": "Khriss",
+            "initial": "K",
+            "color": "#A0A0A0",
+            "details": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a>'s appearances (solid) and mentions (outline), not counting the <a target='_blank' href='https://coppermind.net/wiki/Ars_Arcanum'>Ars Arcanum</a>."
+        },
+        {
+            "id": "nazh",
+            "description": "Nazh",
+            "initial": "N",
+            "color": "#A0A0A0",
+            "details": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a>'s appearances (solid) and mentions (outline)."
+        },
+        {
+            "id": "ars",
+            "description": "Ars Arcanum",
+            "initial": "A",
+            "color": "#A0A0A0",
+            "details": "Stories that include an <a target='_blank' href='https://coppermind.net/wiki/Ars_Arcanum'>Ars Arcanum</a>."
         }
     ],
     "books": [
@@ -195,6 +218,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>'s first appearance. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar that works with <a target='_blank' href='https://coppermind.net/wiki/Sarene'>Sarene</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Chapter_58'>Chapter 58</a>. The tenth anniversary edition includes <a target='_blank' href='https://coppermind.net/wiki/Summary:Elantris#Postscript'>a postscript</a> with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in it."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a>'s annotations can be found on the map of <a target='_blank' href='https://coppermind.net/wiki/Sycla'>Sycla</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "elantris", "phase1", "novel" ],
@@ -328,6 +360,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire#Chapter_19'>Chapter 19</a>."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "Annotations by <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> can be found on the map of <a target='_blank' href='https://coppermind.net/wiki/Luthadel'>Luthadel</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase1", "novel" ]
@@ -367,6 +408,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is among the <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terris</a> refugees in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_56'>Chapter 56</a>, <a target='_blank' href='https://wob.coppermind.net/events/130/#e1552'>according to Brandon</a>."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "Annotations by <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> can be found on the map of <a target='_blank' href='https://coppermind.net/wiki/Luthadel'>Luthadel</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase1", "novel" ],
@@ -396,6 +446,15 @@
                             "id": "hoid",
                             "type": "mention",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the informant that <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> was supposed to meet with in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Hero_of_Ages#Chapter_27'>Chapter 27</a>."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "Annotations by <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> can be found on the map of <a target='_blank' href='https://coppermind.net/wiki/Luthadel'>Luthadel</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase1", "novel" ],
@@ -437,6 +496,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar speaking with <a target='_blank' href='https://coppermind.net/wiki/Joshin_Yomen'>Lord Joshin</a> and <a target='_blank' href='https://coppermind.net/wiki/Mi%27chelle_Yomen'>Lady Mi'chelle</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Alloy_of_Law#Chapter_4'>Chapter 4</a>."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "Annotations by <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> can be found on the map of <a target='_blank' href='https://coppermind.net/wiki/Elendel'>Elendel</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase2", "novel" ]
@@ -476,6 +544,10 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a>'s coachman, named in <a target='_blank' href='https://coppermind.net/wiki/Summary:Shadows_of_Self#Chapter_7'>Chapter 7</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase2", "novel" ]
@@ -498,6 +570,20 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the beggar who gives <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a> a special coin in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Bands_of_Mourning#Chapter_11'>Chapter 11</a>."
+                        },
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is the woman who dances with <a target='_blank' href='https://coppermind.net/wiki/Waxillium_Laddrian'>Wax</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Bands_of_Mourning#Chapter_12'>Chapter 12</a>. <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> are also the 'K or N' referred to in the 'Do your metal tools speak to you?' ad in <a target='_blank' href='https://coppermind.net/wiki/The_New_Ascendancy'>The New Ascendancy</a> broadsheet."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> is 'the huanted man' in 'The Ghastly Gondola!' story in <a target='_blank' href='https://coppermind.net/wiki/The_New_Ascendancy'>The New Ascendancy</a> broadsheet. (note his 'shadows' curse) <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> are also the 'K or N' referred to in the 'Do your metal tools speak to you?' ad in the broadsheet."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "mistborn", "phase2", "novel" ],
@@ -550,6 +636,16 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."
+                        },
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
                         }
                     ],
                     "categories": [ "mistborn", "novella", "phase2" ],
@@ -678,6 +774,10 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the master storyteller in <a target='_blank' href='https://coppermind.net/wiki/Summary:Warbreaker#Chapter_32'>Chapter 32</a>."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "warbreaker", "phase1", "novel" ],
@@ -728,6 +828,10 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "stormlight", "phase2", "novel" ]
@@ -750,6 +854,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> is the <a target='_blank' href='https://coppermind.net/wiki/Ardent'>ardent</a> trying to get a sketch of <a target='_blank' href='https://coppermind.net/wiki/Bridge_Four'>Bridge Four</a>'s tattoo in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_31:_The_Stillness_Before'>Chapter 31</a>. Several drawings and sketches also include his annotations."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "stormlight", "phase2", "novel" ],
@@ -813,6 +926,15 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."
+                        },
+                        {
+                            "id": "nazh",
+                            "type": "mention",
+                            "description": "Several drawings and sketches include <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a>'s annotations. Most notably, the <a target='_blank' href='https://coppermind.net/wiki/Glyphs'>glyphs</a> page is entirely written by him."
+                        },
+                        {
+                            "id": "ars",
+                            "type": "appearance"
                         }
                     ],
                     "categories": [ "stormlight", "phase2", "novel" ]
@@ -971,6 +1093,11 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who first appears in <a target='_blank' href='https://coppermind.net/wiki/Ais'>Ais</a>'s first scene in the middle of <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_1#Chapter_4:_Divides'>Chapter 4</a>."
+                        },
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                         }
                     ],
                     "categories": [ "white-sand", "phase1", "graphic" ],
@@ -1010,6 +1137,11 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument."
+                        },
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                         }
                     ],
                     "categories": [ "white-sand", "phase1", "graphic" ],
@@ -1049,6 +1181,11 @@
                             "id": "hoid",
                             "type": "appearance",
                             "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who plays a song in the <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_3#Epilogue'>Epilogue</a>."
+                        },
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                         }
                     ],
                     "categories": [ "white-sand", "phase1", "graphic" ],
@@ -1281,6 +1418,13 @@
                         "publication": 2016.11,
                         "chronology": 12.0
                     },
+                    "appearances": [
+                        {
+                            "id": "khriss",
+                            "type": "mention",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is the author of the essays."
+                        }
+                    ],
                     "categories": [ "no-series", "short", "phase2" ]
                 }
             ]
@@ -1301,6 +1445,13 @@
                         "publication": 2009.06,
                         "chronology": 2.0
                     },
+                    "appearances": [
+                        {
+                            "id": "khriss",
+                            "type": "appearance",
+                            "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
+                        }
+                    ],
                     "categories": [ "white-sand", "novel", "apocryphal" ],
                     "connections": [
                         {
