@@ -787,6 +787,8 @@
             "color": "#de4343",
             "children": [
                 {
+                    "label": "Nalthis",
+                    "color": "#de4343",
                     "children": [
                         {
                             "id": "wb",
@@ -1291,7 +1293,7 @@
         },
         {
             "label": "Threnody",
-            "color": "#7632ff",
+            "color": "#6633cc",
             "children": [
                 {
                     "children": [
@@ -1399,7 +1401,7 @@
         },
         {
             "label": "Yolen",
-            "color": "#ff6a00",
+            "color": "#d98a41",
             "children": [
                 {
                     "label": "Dragonsteel",
@@ -1448,6 +1450,8 @@
             ]
         },
         {
+            "label": "Other",
+            "color": "#a0a0a0",
             "children": [
                 {
                     "children": [
@@ -1476,11 +1480,7 @@
                             "categories": [ "no-series", "novella", "plan" ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "children": [
+                },
                 {
                     "children": [
                         {
@@ -1510,6 +1510,8 @@
             ]
         },
         {
+            "label": "Mixed",
+            "color": "#a0a0a0",
             "children": [
                 {
                     "children": [
