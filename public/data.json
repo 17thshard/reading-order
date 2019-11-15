@@ -135,24 +135,28 @@
                 {
                     "id": "novel",
                     "description": "Novels",
-                    "details": "Full novels."
+                    "details": "Full novels.",
+                    "color": "#fc4422"
                 },
                 {
                     "id": "graphic",
                     "description": "Graphic Novels",
-                    "details": "Graphic novels."
+                    "details": "Graphic novels.",
+                    "color": "#fe8062"
                 },
                 {
                     "id": "novella",
                     "description": "Novellas",
                     "details": "Novellas.",
-                    "style": "italic"
+                    "style": "italic",
+                    "color": "#ffc8ba"
                 },
                 {
                     "id": "short",
                     "description": "Short Stories",
                     "details": "Short stories.",
-                    "style": "italic"
+                    "style": "italic",
+                    "color": "#fbe8e6"
                 }
             ]
         }
