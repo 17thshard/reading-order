@@ -58,9 +58,9 @@
         <span class="legend-options-item">
           <label for="sort">Order by</label>
           <select id="sort" @change="changeSort">
-            <option :value="null" :selected="selectedSort === null">Series</option>
+            <option :value="null" :selected="selectedOrder === null">Series</option>
             <option
-              :value="sort.id" :selected="selectedSort === sort"
+              :value="sort.id" :selected="selectedOrder === sort"
               :key="sort.id"
               v-for="sort in sortedBooks"
             >
@@ -121,37 +121,37 @@ export default {
       introToggled: false,
       introContentCollapsed: true,
       keysToggled: false,
-      selectedSort: null,
+      selectedOrder: null,
       sortInitialized: false,
     };
   },
   computed: mapState(['showSpoilers']),
   watch: {
-    selectedSort(newSort) {
-      if (newSort === null) {
+    selectedOrder(newOrder) {
+      if (newOrder === null) {
         this.$emit('sort', false);
       } else {
-        this.$emit('sort', newSort.books);
+        this.$emit('sort', newOrder.books);
       }
     },
     sortedBooks(newBooks) {
       if (!this.sortInitialized) {
-        this.selectedSort = newBooks.find(s => s.id === this.$route.params.sort) || null;
+        this.selectedOrder = newBooks.find(s => s.id === this.$route.query.order) || null;
         this.sortInitialized = true;
       }
     },
     $route(to, from) {
-      if (to.params.sort !== from.params.sort) {
-        this.selectedSort = this.sortedBooks.find(s => s.id === to.params.sort) || null;
+      if (to.query.order !== from.query.order) {
+        this.selectedOrder = this.sortedBooks.find(s => s.id === to.query.order) || null;
       }
     },
   },
   methods: {
     changeSort(event) {
       if (event.target.value === '') {
-        this.$router.replace('/');
+        this.$router.replace({ query: { ...this.$route.query, order: undefined } });
       } else {
-        this.$router.replace(`/${event.target.value}`);
+        this.$router.replace({ query: { ...this.$route.query, order: event.target.value } });
       }
     },
   },
