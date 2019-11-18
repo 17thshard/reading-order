@@ -29,6 +29,18 @@ export default {
       };
     },
   },
+  watch: {
+    'category.active': function handle(active) {
+      this.$emit('update-route', { id: this.category.id, active });
+    },
+    $route(to) {
+      if (to.query.categories === 'all' || to.query.categories === 'none') {
+        this.category.active = to.query.categories === 'all';
+      } else if (to.query[`categories.${this.category.id}`] !== undefined) {
+        this.category.active = to.query[`categories.${this.category.id}`] === 'true';
+      }
+    },
+  },
 };
 </script>
 

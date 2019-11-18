@@ -32,6 +32,18 @@ export default {
   props: {
     appearance: Object,
   },
+  watch: {
+    'appearance.active': function handle(active) {
+      this.$emit('update-route', { id: this.appearance.id, active });
+    },
+    $route(to) {
+      if (to.query.appearances === 'all' || to.query.appearances === 'none') {
+        this.appearance.active = to.query.appearances === 'all';
+      } else if (to.query[`appearances.${this.appearance.id}`] !== undefined) {
+        this.appearance.active = to.query[`appearances.${this.appearance.id}`] === 'true';
+      }
+    },
+  },
 };
 </script>
 

@@ -41,6 +41,7 @@
     ],
     "layers": [
         {
+            "id": "reading-order",
             "name": "Reading Order",
             "categories": [
                 {
@@ -82,6 +83,7 @@
             ]
         },
         {
+            "id": "series",
             "name": "Series",
             "categories": [
                 {
@@ -129,6 +131,7 @@
             ]
         },
         {
+            "id": "formats",
             "name": "Formats",
             "startCollapsed": true,
             "categories": [

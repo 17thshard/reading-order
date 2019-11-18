@@ -26,6 +26,32 @@ import CircleDiagram from '@/components/CircleDiagram.vue';
 import loader from '@/loader';
 import Legend from '@/components/Legend.vue';
 
+function buildDefaultSettings(query) {
+  const defaultSettings = {};
+  const categories = ['connections', 'layers', 'categories', 'appearances'];
+
+  categories.forEach((c) => {
+    defaultSettings[c] = {};
+  });
+
+  Object.keys(query || {}).forEach((k) => {
+    categories.forEach((c) => {
+      if (k === c && (query[k] === 'all' || query[k] === 'none')) {
+        defaultSettings[c] = query[k];
+        return;
+      }
+      if (!k.startsWith(`${c}.`) || !(defaultSettings[c] instanceof Object)) {
+        return;
+      }
+
+      const id = k.substring(c.length + 1);
+      defaultSettings[c][id] = query[k] === 'true';
+    });
+  });
+
+  return defaultSettings;
+}
+
 export default {
   name: 'home',
   components: {
@@ -51,7 +77,7 @@ export default {
     loadData(data) {
       const {
         books, sorted, connectionTypes, layers, appearances, labels,
-      } = loader(data);
+      } = loader(data, buildDefaultSettings(this.$route.query));
       this.entries = books;
       this.books = books;
       this.sortedBooks = sorted;

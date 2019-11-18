@@ -81,17 +81,28 @@
 
       <div class="legend-connections">
         <h2>Arrows</h2>
-        <ConnectionPreview :type="type" :key="type.id" v-for="type in connectionTypes">
+        <ConnectionPreview
+          :type="type" :key="type.id"
+          @update-route="updateRoute('connections', connectionTypes, $event)"
+          v-for="type in connectionTypes"
+        >
         </ConnectionPreview>
       </div>
       <div class="legend-categories">
         <h2>Categories</h2>
-        <Layer :layer="layer" :key="layer.name" v-for="layer in layers"></Layer>
+        <Layer
+          :layer="layer"
+          :key="layer.name"
+          @update-route="updateRoute('layers', layers, $event)"
+          @update-category-route="updateRoute('categories', flatCategories, $event)"
+          v-for="layer in layers"
+        ></Layer>
       </div>
       <div class="legend-appearances">
         <h2>Appearances</h2>
         <AppearancePreview
           :appearance="appearance" :key="appearance.id"
+          @update-route="updateRoute('appearances', appearances, $event)"
           v-for="appearance in appearances"
         >
         </AppearancePreview>
@@ -125,7 +136,12 @@ export default {
       sortInitialized: false,
     };
   },
-  computed: mapState(['showSpoilers']),
+  computed: {
+    ...mapState(['showSpoilers']),
+    flatCategories() {
+      return this.layers.reduce((acc, layer) => [...acc, ...layer.categories], []);
+    },
+  },
   watch: {
     selectedOrder(newOrder) {
       if (newOrder === null) {
@@ -153,6 +169,29 @@ export default {
       } else {
         this.$router.replace({ query: { ...this.$route.query, order: event.target.value } });
       }
+    },
+    updateRoute(category, elements, trigger) {
+      const allActive = elements.every(e => e.active);
+      const noneActive = !elements.some(e => e.active);
+      const oldQuery = this.$route.query;
+
+      if (allActive || noneActive) {
+        Object.keys(oldQuery).forEach((k) => {
+          if (k.startsWith(`${category}.`)) {
+            delete oldQuery[k];
+          }
+        });
+        this.$router.replace({ query: { ...oldQuery, [category]: allActive ? 'all' : 'none' } });
+        return;
+      }
+
+      this.$router.replace({
+        query: {
+          ...oldQuery,
+          [category]: undefined,
+          [`${category}.${trigger.id}`]: trigger.active.toString(),
+        },
+      });
     },
   },
 };

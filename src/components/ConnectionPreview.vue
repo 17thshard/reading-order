@@ -28,6 +28,18 @@ export default {
   props: {
     type: Object,
   },
+  watch: {
+    'type.active': function handle(active) {
+      this.$emit('update-route', { id: this.type.id, active });
+    },
+    $route(to) {
+      if (to.query.connections === 'all' || to.query.connections === 'none') {
+        this.type.active = to.query.connections === 'all';
+      } else if (to.query[`connections.${this.type.id}`] !== undefined) {
+        this.type.active = to.query[`connections.${this.type.id}`] === 'true';
+      }
+    },
+  },
 };
 </script>
 

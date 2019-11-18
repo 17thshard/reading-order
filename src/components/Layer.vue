@@ -15,6 +15,7 @@
   </summary>
   <CategoryPreview
     :category="category" :key="category.id"
+    @update-route="$emit('update-category-route', $event)"
     v-for="category in layer.categories"
   >
   </CategoryPreview>
@@ -30,6 +31,18 @@ export default {
   components: { CategoryPreview, EyeIcon, EyeOffIcon },
   props: {
     layer: Object,
+  },
+  watch: {
+    'layer.active': function handle(active) {
+      this.$emit('update-route', { id: this.layer.id, active });
+    },
+    $route(to) {
+      if (to.query.layers === 'all' || to.query.layers === 'none') {
+        this.layer.active = to.query.layers === 'all';
+      } else if (to.query[`layers.${this.layer.id}`] !== undefined) {
+        this.layer.active = to.query[`layers.${this.layer.id}`] === 'true';
+      }
+    },
   },
 };
 </script>

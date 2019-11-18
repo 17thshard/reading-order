@@ -73,6 +73,32 @@ function verify(books, connections) {
   });
 }
 
+function getDefaultSetting(defaultSettings, category, element, fallback) {
+  fallback = fallback === undefined ? true : fallback;
+  const elementDefault = element.activeByDefault !== undefined
+    ? element.activeByDefault
+    : fallback;
+
+  if (defaultSettings === undefined) {
+    return elementDefault;
+  }
+
+  const categorySettings = defaultSettings[category];
+  if (categorySettings === undefined) {
+    return elementDefault;
+  }
+
+  if (!(categorySettings instanceof Object)) {
+    return categorySettings === 'all';
+  }
+
+  if (categorySettings[element.id] === undefined) {
+    return elementDefault;
+  }
+
+  return categorySettings[element.id] === true;
+}
+
 export default (
   {
     'base-separation': baseSeparation,
@@ -82,6 +108,7 @@ export default (
     sorting,
     appearances,
   },
+  defaultSettings,
 ) => {
   const entries = { children: nested };
   const books = {};
@@ -90,7 +117,10 @@ export default (
 
   const connectionTypes = connections.reduce((acc, c) => ({
     ...acc,
-    [c.id]: { ...c, active: c.activeByDefault !== undefined ? c.activeByDefault : true },
+    [c.id]: {
+      ...c,
+      active: getDefaultSetting(defaultSettings, 'connections', c),
+    },
   }), {});
 
   let groupedCategories = {};
@@ -99,12 +129,12 @@ export default (
     const layer = {
       ...l,
       order: index,
-      active: l.activeByDefault !== undefined ? l.activeByDefault : true,
+      active: getDefaultSetting(defaultSettings, 'layers', l),
     };
     layer.categories = l.categories.map(c => ({
       ...c,
       layer,
-      active: c.activeByDefault !== undefined ? c.activeByDefault : true,
+      active: getDefaultSetting(defaultSettings, 'categories', c),
     }));
 
     groupedCategories = {
@@ -120,7 +150,10 @@ export default (
 
   const groupedAppearances = appearances.reduce((acc, a) => ({
     ...acc,
-    [a.id]: { ...a, active: false },
+    [a.id]: {
+      ...a,
+      active: getDefaultSetting(defaultSettings, 'appearances', a, false),
+    },
   }), {});
 
   walk(
