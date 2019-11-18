@@ -5,8 +5,11 @@
     {
       'circle-label-top': label.depth === 1,
       'circle-label-sub': label.depth > 1,
+      'circle-label-hover': hoverDepth !== null && hoverDepth <= label.depth
     }
   ]"
+  @mouseenter="$emit('begin-hover', label.depth)"
+  @mouseleave="$emit('end-hover')"
 >
   <defs>
     <path
@@ -17,18 +20,22 @@
     ></path>
   </defs>
   <path
+    :d="bgPath"
+    fill="transparent"
+  ></path>
+  <path
     :d="path"
     fill="none"
     :stroke="label.color"
     stroke-width="7"
   ></path>
   <text
-    :fill="label.color" font-size="1.5em" text-anchor="middle"
+    :fill="label.color" text-anchor="middle"
     :dominant-baseline="flip ? 'hanging' : 'baseline'"
   >
     <textPath
       :xlink:href="`#circle-label-${radius}-${renderedStart}-${renderedEnd}-line${i}`"
-      startOffset="50%" :key="i"
+      font-size="1.5em" startOffset="50%" :key="i"
       v-for="(line, i) in lines"
     >
       {{ line }}
@@ -54,6 +61,7 @@ export default {
   name: 'CircleLabel',
   props: {
     label: Object,
+    hoverDepth: Number,
   },
   data() {
     return {
@@ -70,6 +78,26 @@ export default {
     },
     radius() {
       return this.label.depth > 1 ? 580 : 680;
+    },
+    bgPath() {
+      const diff = angleDifference(this.renderedEnd, this.renderedStart);
+      const outerRadius = this.radius + this.lines.length * 24 + 16;
+
+      const { x: x1, y: y1 } = calculatePosition(this.renderedStart - 3, this.radius - 3);
+      const { x: x2, y: y2 } = calculatePosition(this.renderedEnd + 3, this.radius - 3);
+
+      const { x: x3, y: y3 } = calculatePosition(this.renderedEnd + 3, outerRadius);
+      const { x: x4, y: y4 } = calculatePosition(this.renderedStart - 3, outerRadius);
+
+      return `
+      M ${x1} ${y1}
+      A ${this.radius} ${this.radius} 0 ${diff > 0 ? 1 : 0} 1
+        ${x2} ${y2}
+      L ${x3} ${y3}
+      A ${outerRadius} ${outerRadius} 0 ${diff > 0 ? 1 : 0} 0
+        ${x4} ${y4}
+      Z
+      `;
     },
     path() {
       const diff = angleDifference(this.renderedEnd, this.renderedStart);
@@ -128,9 +156,13 @@ export default {
 <style lang="scss">
 .circle-label {
   transition: opacity 0.2s ease-in-out;
-  opacity: 1;
+  opacity: 0.1;
 
-  &-top {
+  &-hover {
+    opacity: 1;
+  }
+
+  &-top > text {
     font-size: 1.5rem;
     font-variant-caps: small-caps;
   }

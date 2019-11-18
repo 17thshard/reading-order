@@ -54,6 +54,9 @@
            v-for="c in connections"></Arc>
       <CircleLabel
         :label="label"
+        :hover-depth="labelHoverDepth"
+        @begin-hover="labelHoverDepth = $event"
+        @end-hover="labelHoverDepth = null"
         :key="`label-${i}`"
         v-for="(label, i) in labels"
       ></CircleLabel>
@@ -130,6 +133,7 @@ export default {
     return {
       selectedEntry: null,
       selectionLock: false,
+      labelHoverDepth: null,
       panEventHandler,
     };
   },
