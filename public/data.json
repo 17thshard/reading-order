@@ -642,64 +642,6 @@
                     ]
                 },
                 {
-                    "children": [
-                        {
-                            "id": "msh",
-                            "title": "Mistborn: Secret History",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>",
-                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
-                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
-                            "publication": "January 2016",
-                            "chronology": "Happens concurrently with Mistborn Era 1.",
-                            "sorting": {
-                                "publication": 2016.01,
-                                "chronology": 4.11
-                            },
-                            "appearances": [
-                                {
-                                    "id": "hoid",
-                                    "type": "appearance",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."
-                                },
-                                {
-                                    "id": "khriss",
-                                    "type": "appearance",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
-                                },
-                                {
-                                    "id": "nazh",
-                                    "type": "appearance",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
-                                }
-                            ],
-                            "categories": [ "mistborn", "novella", "phase2" ],
-                            "connections": [
-                                {
-                                    "target": "sa2",
-                                    "type": "egg",
-                                    "description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
-                                },
-                                {
-                                    "target": "traveler",
-                                    "type": "major",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)."
-                                }
-                            ]
-                        },
-                        {
-                            "id": "msh2",
-                            "title": "Mistborn: Secret History 2",
-                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn%3A+secret+history+2'>Mistborn: Secret History 2</a>",
-                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
-                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "categories": [ "mistborn", "novella", "plan" ]
-                        }
-                    ]
-                },
-                {
                     "label": "Mistborn<br>Era 3",
                     "children": [
                         {
@@ -786,6 +728,65 @@
                             "categories": [ "mistborn", "plan", "novel" ]
                         }
                     ]
+                },
+                {
+                    "label": "Other<br>Mistborn",
+                    "children": [
+                        {
+                            "id": "msh",
+                            "title": "Mistborn: Secret History",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                            "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+                            "publication": "January 2016",
+                            "chronology": "Happens concurrently with Mistborn Era 1.",
+                            "sorting": {
+                                "publication": 2016.01,
+                                "chronology": 4.11
+                            },
+                            "appearances": [
+                                {
+                                    "id": "hoid",
+                                    "type": "appearance",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."
+                                },
+                                {
+                                    "id": "khriss",
+                                    "type": "appearance",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
+                                },
+                                {
+                                    "id": "nazh",
+                                    "type": "appearance",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
+                                }
+                            ],
+                            "categories": [ "mistborn", "novella", "phase2" ],
+                            "connections": [
+                                {
+                                    "target": "sa2",
+                                    "type": "egg",
+                                    "description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
+                                },
+                                {
+                                    "target": "traveler",
+                                    "type": "major",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "msh2",
+                            "title": "Mistborn: Secret History 2",
+                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn%3A+secret+history+2'>Mistborn: Secret History 2</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                            "categories": [ "mistborn", "novella", "plan" ]
+                        }
+                    ]
                 }
             ]
         },
@@ -794,7 +795,7 @@
             "color": "#de4343",
             "children": [
                 {
-                    "label": "Nalthis",
+                    "label": "Warbreaker",
                     "color": "#de4343",
                     "children": [
                         {
