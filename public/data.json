@@ -1,5 +1,5 @@
 {
-    "base-separation": 4,
+    "base-separation": 3.8,
     "connections": [
         {
             "id": "major",
@@ -145,6 +145,7 @@
                     "id": "graphic",
                     "description": "Graphic Novels",
                     "details": "Graphic novels.",
+                    "style": "italic",
                     "color": "#fe8062"
                 },
                 {
@@ -638,6 +639,16 @@
                                 "chronology": 8.4
                             },
                             "categories": [ "mistborn", "plan", "novel" ]
+                        },
+                        {
+                            "id": "nicki",
+                            "title": "Nicki Savage story",
+                            "title2": "<a target='_blank' href='https://wob.coppermind.net/events/396/#e12985'>Nicki Savage story</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                            "padding": 12,
+                            "categories": [ "mistborn", "short", "plan" ]
                         }
                     ]
                 },
@@ -785,6 +796,19 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "categories": [ "mistborn", "novella", "plan" ]
+                        },
+						{
+                            "id": "mb-cyberpunk",
+                            "title": "Cyberpunk Mistborn",
+                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?query=cyberpunk%2Bmistborn&date_from=2003-12-05&date_to=2019-11-20&speaker=&ordering=rank'>Cyberpunk Mistborn</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                            "chronology": "A cyberpunk Mistborn series would be in a <a target='_blank' href='https://wob.coppermind.net/events/34/#e1782'>near-future setting</a>, between Eras 3 and 4.",
+                            "sorting": {
+                                "chronology": 10.7
+                            },
+                            "categories": [ "mistborn", "plan", "novel" ]
                         }
                     ]
                 }
@@ -1052,6 +1076,26 @@
                                 "chronology": 7.031
                             },
                             "categories": [ "stormlight", "novella", "plan" ]
+                        },
+                        {
+                            "id": "tgwlu",
+                            "title": "The Girl Who Looked Up",
+                            "title2": "<a target='_blank' href='https://wob.coppermind.net/events/394/#e12991'>The Girl Who Looked Up picture book</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "padding": 12,
+                            "categories": [ "stormlight", "plan", "graphic" ]
+                        },
+                        {
+                            "id": "sa-art",
+                            "title": "Stormlight Archive art book",
+                            "title2": "<a target='_blank' href='https://wob.coppermind.net/events/396/#e13175'>Stormlight Archive art book</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "padding": 12,
+                            "categories": [ "stormlight", "plan", "graphic" ]
                         },
                         {
                             "id": "sa6",
