@@ -1247,12 +1247,12 @@
                             "connections": [
                                 {
                                     "target": "mb1",
-                                    "type": "egg",
+                                    "type": "minor",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>."
                                 },
                                 {
                                     "target": "mb4",
-                                    "type": "minor",
+                                    "type": "significant",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to the god <a target='_blank' href='https://coppermind.net/wiki/Trellism'>Trell</a>."
                                 },
                                 {
