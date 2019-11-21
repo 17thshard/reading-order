@@ -55,8 +55,10 @@
       <CircleLabel
         :label="label"
         :hover-depth="labelHoverDepth"
-        @begin-hover="labelHoverDepth = $event"
-        @end-hover="labelHoverDepth = null"
+        @begin-hover="beginLabelHover"
+        @end-hover="endLabelHover"
+        @toggle-hover-lock="toggleLabelHoverLock"
+        @end-hover-lock="endLabelHoverLock"
         :key="`label-${i}`"
         v-for="(label, i) in labels"
       ></CircleLabel>
@@ -134,6 +136,7 @@ export default {
       selectedEntry: null,
       selectionLock: false,
       labelHoverDepth: null,
+      labelHoverLockDepth: null,
       panEventHandler,
     };
   },
@@ -182,6 +185,35 @@ export default {
 
       this.selectedEntry = null;
       this.selectionLock = false;
+    },
+    beginLabelHover(depth) {
+      if (this.labelHoverLockDepth === null) {
+        this.labelHoverDepth = depth;
+      } else if (depth < this.labelHoverLockDepth) {
+        this.labelHoverDepth = depth;
+      }
+    },
+    endLabelHover() {
+      if (this.labelHoverLockDepth === null) {
+        this.labelHoverDepth = null;
+      } else {
+        this.labelHoverDepth = this.labelHoverLockDepth;
+      }
+    },
+    toggleLabelHoverLock(depth) {
+      if (this.labelHoverLockDepth === null) {
+        this.labelHoverLockDepth = depth;
+      } else if (depth !== this.labelHoverLockDepth) {
+        this.labelHoverLockDepth = depth;
+        this.labelHoverDepth = depth;
+      } else {
+        this.labelHoverLockDepth = null;
+        this.labelHoverDepth = null;
+      }
+    },
+    endLabelHoverLock() {
+      this.labelHoverDepth = null;
+      this.labelHoverLockDepth = null;
     },
   },
 };

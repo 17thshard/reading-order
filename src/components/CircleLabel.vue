@@ -10,6 +10,8 @@
   ]"
   @mouseenter="$emit('begin-hover', label.depth)"
   @mouseleave="$emit('end-hover')"
+  @click="$emit('toggle-hover-lock', label.depth)"
+  v-closable="{ handler: handleOutsideClick, exclude: shouldNotHide }"
 >
   <defs>
     <path
@@ -47,7 +49,7 @@
 <script>
 import { TweenLite } from 'gsap/TweenLite';
 import { mapState } from 'vuex';
-import { angleDifference, normalizeAngle } from '@/utils';
+import { angleDifference, anyComponent, normalizeAngle } from '@/utils';
 
 function calculatePosition(angle, radius) {
   const radians = Math.PI * (angle - 90) / 180;
@@ -148,6 +150,20 @@ export default {
         1,
         { renderedEnd: normalizeAngle(newEnd), ease: 'Power1.easeInOut' },
       );
+    },
+  },
+  methods: {
+    handleOutsideClick() {
+      if (this.hoverDepth !== null) {
+        this.$emit('end-hover-lock', this.label.depth);
+      }
+    },
+    shouldNotHide(target) {
+      if (this.hoverDepth !== null) {
+        return anyComponent(target, node => (node.$props || {}).hoverDepth !== undefined);
+      }
+
+      return false;
     },
   },
 };

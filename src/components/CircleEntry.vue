@@ -34,20 +34,8 @@
 <script>
 import { TweenLite } from 'gsap/TweenLite';
 import Tooltip from '@/components/Tooltip.vue';
-import { normalizeAngle, quadrant } from '@/utils';
+import { anyComponent, normalizeAngle, quadrant } from '@/utils';
 import AppearanceGroup from '@/components/AppearanceGroup.vue';
-
-function anyComponent(node, f) {
-  if (f(node)) {
-    return true;
-  }
-
-  if (node.$parent === undefined) {
-    return false;
-  }
-
-  return anyComponent(node.$parent, f);
-}
 
 export default {
   name: 'CircleEntry',
@@ -160,10 +148,8 @@ export default {
       }
     },
     shouldNotClose(target) {
-      // eslint-disable-next-line no-underscore-dangle
-      const component = target.__vue__;
-      if (this.clicked && component) {
-        return anyComponent(component, node => (node.$props || {}).mute === false);
+      if (this.clicked) {
+        return anyComponent(target, node => (node.$props || {}).mute === false);
       }
 
       return false;
