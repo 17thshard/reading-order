@@ -62,6 +62,9 @@
         :key="`label-${i}`"
         v-for="(label, i) in labels"
       ></CircleLabel>
+      <ChartBar :angle="entry.angle" height="180"
+                :key="`chart-${entry.id}`"
+                v-for="entry in entries"></ChartBar>
     </transition-group>
   </svg>
 </SvgPanZoom>
@@ -73,11 +76,16 @@ import SvgPanZoom from 'vue-svg-pan-zoom';
 import CircleEntry from '@/components/CircleEntry.vue';
 import Arc from '@/components/Arc.vue';
 import CircleLabel from '@/components/CircleLabel.vue';
+import ChartBar from '@/components/ChartBar.vue';
 
 export default {
   name: 'CircleDiagram',
   components: {
-    CircleLabel, SvgPanZoom, CircleEntry, Arc,
+    ChartBar,
+    CircleLabel,
+    SvgPanZoom,
+    CircleEntry,
+    Arc,
   },
   props: {
     entries: {
