@@ -1,5 +1,5 @@
 {
-    "base-separation": 3.8,
+    "base-separation": 3.6,
     "connections": [
         {
             "id": "major",
@@ -121,6 +121,12 @@
                     "description": "Dragonsteel",
                     "details": "Dragonsteel",
                     "color": "#d98a41"
+                },
+                {
+                    "id": "aether",
+                    "description": "Ather",
+                    "details": "Aether series",
+                    "color": "#A0A0A0"
                 },
                 {
                     "id": "no-series",
@@ -322,7 +328,7 @@
                         {
                             "id": "tes",
                             "title": "The Emperor's Soul",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Emperor's_Soul>The Emperor's Soul</a>",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Emperor&#39s_Soul'>The Emperor's Soul</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                             "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
@@ -352,6 +358,14 @@
                                     "description": "The nature of <a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay."
                                 }
                             ]
+                        },
+                        {
+                            "id": "tes2",
+                            "title": "Shai story",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Untitled Shai story</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                            "categories": [ "no-series", "plan", "novella" ]
                         }
                     ]
                 }
@@ -1064,9 +1078,9 @@
                             "categories": [ "stormlight", "novella", "plan" ]
                         },
                         {
-                            "id": "lunamor",
-                            "title": "Lunamor novella",
-                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=lunamor+novella'>Lunamor novella</a>",
+                            "id": "horneater",
+                            "title": "Horneater",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Horneater</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
@@ -1412,7 +1426,8 @@
                             "id": "sotd",
                             "title": "Sixth of the Dusk",
                             "title2": "<a target='_blank' href='https://coppermind.net/wiki/Sixth_of_the_Dusk'>Sixth of the Dusk</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                            "series": "Sixth of<br>the Dusk",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                             "publication": "June 2014",
@@ -1439,6 +1454,7 @@
                             "id": "sotd2",
                             "title": "Sixth of the Dusk sequel",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=sixth+of+the+dusk+sequel'>Sixth of the Dusk sequel</a>",
+                            "series": "Sixth of<br>the Dusk",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "chronology": "After Sixth of the Dusk and within Dusk's lifetime.",
@@ -1448,6 +1464,18 @@
                             "categories": [ "no-series", "novella", "plan" ]
                         }
                     ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "fots",
+                            "title": "First of the Sun YA novel",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>First of the Sun YA novel</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
+                            "categories": [ "no-series", "novel", "plan" ]
+                        }
+				    ]
                 }
             ]
         },
@@ -1508,6 +1536,34 @@
                 {
                     "children": [
                         {
+                            "id": "aether1",
+                            "title": "Aether 1",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        },
+                        {
+                            "id": "aether2",
+                            "title": "Aether 2",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        },
+                        {
+                            "id": "aether3",
+                            "title": "Aether 3",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
                             "id": "silverlight",
                             "title": "Silverlight novella",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=silverlight+novella'>Silverlight novella</a>",
@@ -1521,7 +1577,7 @@
                     "children": [
                         {
                             "id": "kite",
-                            "title": "Kite-based magic story",
+                            "title": "Magic Kites YA story",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=kite+magic'>Kite-based magic story</a>",
                             "world": "Unknown",
                             "system": "Unknown",
