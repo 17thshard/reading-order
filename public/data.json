@@ -124,7 +124,7 @@
                 },
                 {
                     "id": "aether",
-                    "description": "Ather",
+                    "description": "Aether",
                     "details": "Aether series",
                     "color": "#A0A0A0"
                 },
@@ -791,6 +791,11 @@
                             "categories": [ "mistborn", "novella", "phase2" ],
                             "connections": [
                                 {
+                                    "target": "sa1",
+                                    "type": "egg",
+                                    "description": "In <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_Secret_History#Chapter_2_5'>Part 5 Chapter 2</a> <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> sees an <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>alerter fabrial</a> (the glowing yellow gemstone in a golden metal lattice)."
+                                },
+                                {
                                     "target": "sa2",
                                     "type": "egg",
                                     "description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
@@ -1027,15 +1032,15 @@
                         },
                         {
                             "id": "sa4",
-                            "title": "The Rhythm of War (2020)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Stormlight_Archive_4'>The Rhythm of War</a>",
+                            "title": "Rhythm of War (2020)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Stormlight_Archive_4'>Rhythm of War</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "publication": "December 2020 (tentative)",
+                            "publication": "November 2020 (planned)",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
-                                "publication": 2020,
+                                "publication": 2020.11,
                                 "chronology": 7.04
                             },
                             "categories": [ "stormlight", "plan", "novel" ]
