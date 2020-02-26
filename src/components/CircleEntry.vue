@@ -171,11 +171,11 @@ export default {
   }
 
   &-inactive {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   &-muted {
-    opacity: 0.2;
+    opacity: 0.1;
     pointer-events: none;
   }
 }
