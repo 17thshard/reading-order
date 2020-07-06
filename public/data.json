@@ -1327,7 +1327,7 @@
                         }
                     ]
                 },
-                {
+                    "label": "The Arcanist",
                     "children": [
                         {
                             "id": "ta1",
