@@ -1,5 +1,5 @@
 {
-    "base-separation": 3.8,
+    "base-separation": 3.6,
     "connections": [
         {
             "id": "major",
@@ -121,6 +121,12 @@
                     "description": "Dragonsteel",
                     "details": "Dragonsteel",
                     "color": "#d98a41"
+                },
+                {
+                    "id": "aether",
+                    "description": "Aether",
+                    "details": "Aether series",
+                    "color": "#A0A0A0"
                 },
                 {
                     "id": "no-series",
@@ -322,7 +328,7 @@
                         {
                             "id": "tes",
                             "title": "The Emperor's Soul",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Emperor's_Soul>The Emperor's Soul</a>",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Emperor&#39s_Soul'>The Emperor's Soul</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                             "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
@@ -352,6 +358,14 @@
                                     "description": "The nature of <a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay."
                                 }
                             ]
+                        },
+                        {
+                            "id": "tes2",
+                            "title": "Shai story",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Untitled Shai story</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
+                            "categories": [ "no-series", "plan", "novella" ]
                         }
                     ]
                 }
@@ -627,15 +641,15 @@
                         },
                         {
                             "id": "mb7",
-                            "title": "The Lost Metal (2021)",
+                            "title": "The Lost Metal (2022)",
                             "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "publication": "2021 (tentative)",
+                            "publication": "mid 2021 (planned)",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                             "sorting": {
-                                "publication": 2021,
+                                "publication": 2022.07,
                                 "chronology": 8.4
                             },
                             "categories": [ "mistborn", "plan", "novel" ]
@@ -648,6 +662,9 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "padding": 12,
+                            "sorting": {
+                                "chronology": 8.5
+                            },
                             "categories": [ "mistborn", "short", "plan" ]
                         }
                     ]
@@ -776,6 +793,11 @@
                             ],
                             "categories": [ "mistborn", "novella", "phase2" ],
                             "connections": [
+                                {
+                                    "target": "sa1",
+                                    "type": "egg",
+                                    "description": "In <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_Secret_History#Chapter_2_5'>Part 5 Chapter 2</a> <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> sees an <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>alerter fabrial</a> (the glowing yellow gemstone in a golden metal lattice)."
+                                },
                                 {
                                     "target": "sa2",
                                     "type": "egg",
@@ -1012,29 +1034,60 @@
                             "categories": [ "stormlight", "phase2", "novel" ]
                         },
                         {
-                            "id": "sa4",
-                            "title": "The Rhythm of War (2020)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Stormlight_Archive_4'>The Rhythm of War</a>",
+                            "id": "rysn",
+                            "title": "Rysn novella (2020)",
+                            "title2": "Rysn novella (citation needed)",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "publication": "December 2020 (tentative)",
+                            "publication": "October 2020 (planned)",
+                            "padding": 12,
+                            "sorting": {
+                                "publication": 2020.10,
+                                "chronology": 7.035
+                            },
+                            "categories": [ "stormlight", "novella", "plan" ]
+                        },
+                        {
+                            "id": "sa4",
+                            "title": "Rhythm of War (2020)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Stormlight_Archive_4'>Rhythm of War</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "publication": "November 2020 (planned)",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
-                                "publication": 2020,
+                                "publication": 2020.11,
                                 "chronology": 7.04
                             },
                             "categories": [ "stormlight", "plan", "novel" ]
                         },
                         {
+                            "id": "horneater",
+                            "title": "Horneater",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Horneater</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "padding": 12,
+                            "chronology": "Citation needed",
+                            "sorting": {
+                                "chronology": 7.045
+                            },
+                            "categories": [ "stormlight", "novella", "plan" ]
+                        },
+                        {
                             "id": "sa5",
-                            "title": "Stormlight Archive 5",
+                            "title": "Stormlight Archive 5 (2023)",
                             "title2": "Stormlight Archive 5",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+			    "publication": "late 2023 (citation needed)",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
+				"publication": 2023.11,
                                 "chronology": 7.05
                             },
                             "categories": [ "stormlight", "plan", "novel" ]
@@ -1052,30 +1105,6 @@
                                 "chronology": 7.022
                             },
                             "categories": [ "stormlight", "short", "plan" ]
-                        },
-                        {
-                            "id": "wandersail",
-                            "title": "Wandersail",
-                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=wandersail'>Wandersail</a>",
-                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "padding": 12,
-                            "categories": [ "stormlight", "novella", "plan" ]
-                        },
-                        {
-                            "id": "lunamor",
-                            "title": "Lunamor novella",
-                            "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=lunamor+novella'>Lunamor novella</a>",
-                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "padding": 12,
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/379/#e12765'>Occurs after Oathbringer.</a>",
-                            "sorting": {
-                                "chronology": 7.031
-                            },
-                            "categories": [ "stormlight", "novella", "plan" ]
                         },
                         {
                             "id": "tgwlu",
@@ -1298,13 +1327,14 @@
                         }
                     ]
                 },
-                {
+		{    
+                    "label": "The Arcanist",
                     "children": [
                         {
-                            "id": "ds1",
-                            "title": "Darkside graphic novel Volume 1",
-                            "title2": "Darkside graphic novel Volume 1",
-                            "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
+                            "id": "ta1",
+                            "title": "The Arcanist Volume 1",
+                            "title2": "The Arcanist Volume 1",
+                            "series": "The Arcanist (citation needed)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                             "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
@@ -1314,10 +1344,10 @@
                             "categories": [ "white-sand", "plan", "graphic" ]
                         },
                         {
-                            "id": "ds2",
-                            "title": "Darkside graphic novel Volume 2",
-                            "title2": "Darkside graphic novel Volume 2",
-                            "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
+                            "id": "ta2",
+                            "title": "The Arcanist Volume 2",
+                            "title2": "The Arcanist Volume 2",
+                            "series": "The Arcanist (citation needed)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                             "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
@@ -1327,10 +1357,10 @@
                             "categories": [ "white-sand", "plan", "graphic" ]
                         },
                         {
-                            "id": "ds3",
-                            "title": "Darkside graphic novel Volume 3",
-                            "title2": "Darkside graphic novel Volume 3",
-                            "series": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=darkside+graphic+novels'>Darkside graphic novels</a>",
+                            "id": "ta3",
+                            "title": "The Arcanist Volume 3",
+                            "title2": "The Arcanist Volume 3",
+                            "series": "The Arcanist (citation needed)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
                             "chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
@@ -1412,7 +1442,8 @@
                             "id": "sotd",
                             "title": "Sixth of the Dusk",
                             "title2": "<a target='_blank' href='https://coppermind.net/wiki/Sixth_of_the_Dusk'>Sixth of the Dusk</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                            "series": "Sixth of<br>the Dusk",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                             "publication": "June 2014",
@@ -1439,6 +1470,7 @@
                             "id": "sotd2",
                             "title": "Sixth of the Dusk sequel",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=sixth+of+the+dusk+sequel'>Sixth of the Dusk sequel</a>",
+                            "series": "Sixth of<br>the Dusk",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "chronology": "After Sixth of the Dusk and within Dusk's lifetime.",
@@ -1448,6 +1480,18 @@
                             "categories": [ "no-series", "novella", "plan" ]
                         }
                     ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "fots",
+                            "title": "First of the Sun YA novel",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>First of the Sun YA novel</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
+                            "categories": [ "no-series", "novel", "plan" ]
+                        }
+				    ]
                 }
             ]
         },
@@ -1508,6 +1552,34 @@
                 {
                     "children": [
                         {
+                            "id": "aether1",
+                            "title": "Aether 1",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        },
+                        {
+                            "id": "aether2",
+                            "title": "Aether 2",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        },
+                        {
+                            "id": "aether3",
+                            "title": "Aether 3",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "categories": [ "aether", "novel", "plan" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
                             "id": "silverlight",
                             "title": "Silverlight novella",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=silverlight+novella'>Silverlight novella</a>",
@@ -1521,7 +1593,7 @@
                     "children": [
                         {
                             "id": "kite",
-                            "title": "Kite-based magic story",
+                            "title": "Magic Kites YA story",
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=kite+magic'>Kite-based magic story</a>",
                             "world": "Unknown",
                             "system": "Unknown",
