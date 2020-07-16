@@ -10,5 +10,9 @@ module.exports = {
     manifestOptions: {
       background_color: '#FFFFFF',
     },
+    workboxOptions: {
+      skipWaiting: true,
+      clientsClaim: true,
+    },
   },
 };
