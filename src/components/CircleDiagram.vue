@@ -57,8 +57,6 @@
         :hover-depth="labelHoverDepth"
         @begin-hover="beginLabelHover"
         @end-hover="endLabelHover"
-        @toggle-hover-lock="toggleLabelHoverLock"
-        @end-hover-lock="endLabelHoverLock"
         :key="`label-${i}`"
         v-for="(label, i) in labels"
       ></CircleLabel>
@@ -70,6 +68,7 @@
 <script>
 import Hammer from 'hammerjs';
 import SvgPanZoom from 'vue-svg-pan-zoom';
+import { mapState } from 'vuex';
 import CircleEntry from '@/components/CircleEntry.vue';
 import Arc from '@/components/Arc.vue';
 import CircleLabel from '@/components/CircleLabel.vue';
@@ -141,6 +140,7 @@ export default {
     };
   },
   computed: {
+    ...mapState(['highlightSeries']),
     incomingConnections() {
       const connections = {};
 
@@ -168,6 +168,20 @@ export default {
             nodesActive: e.active && this.entries[c.target].active,
           })));
     },
+  },
+  watch: {
+    highlightSeries(value) {
+      if (value) {
+        this.setLabelHoverLock(1);
+      } else {
+        this.endLabelHoverLock();
+      }
+    },
+  },
+  mounted() {
+    if (this.highlightSeries) {
+      this.setLabelHoverLock(1);
+    }
   },
   methods: {
     select(entry, lock) {
@@ -200,16 +214,9 @@ export default {
         this.labelHoverDepth = this.labelHoverLockDepth;
       }
     },
-    toggleLabelHoverLock(depth) {
-      if (this.labelHoverLockDepth === null) {
-        this.labelHoverLockDepth = depth;
-      } else if (depth !== this.labelHoverLockDepth) {
-        this.labelHoverLockDepth = depth;
-        this.labelHoverDepth = depth;
-      } else {
-        this.labelHoverLockDepth = null;
-        this.labelHoverDepth = null;
-      }
+    setLabelHoverLock(depth) {
+      this.labelHoverLockDepth = depth;
+      this.labelHoverDepth = depth;
     },
     endLabelHoverLock() {
       this.labelHoverDepth = null;

@@ -72,31 +72,37 @@
           <input id="show-connection-explanations" type="checkbox"
                  :checked="showSpoilers"
                  @input="$store.commit('toggleExplanations', $event.target.checked)">
-          <label for="show-connection-explanations">
-            Show spoilers<br>
-            <small>Explain connection & appearance details</small>
+          <label for="show-connection-explanations" title="Explain connection & appearance details">
+            Show spoilers
+          </label>
+        </span>
+        <span class="legend-options-item">
+          <input id="highlight-series" type="checkbox"
+                 :checked="highlightSeries"
+                 @input="$store.commit('toggleSeriesHighlight', $event.target.checked)">
+          <label for="highlight-series" title="Activate arches around diagram">
+            Activate series and planets
           </label>
         </span>
       </div>
 
+      <div class="legend-categories">
+        <h2>Categories</h2>
+        <Layer
+          :layer="layer"
+          :key="layer.name"
+          @update-category-route="updateRoute('categories', flatCategories, $event)"
+          v-for="layer in layers"
+        ></Layer>
+      </div>
       <div class="legend-connections">
-        <h2>Arrows</h2>
+        <h2>Connections</h2>
         <ConnectionPreview
           :type="type" :key="type.id"
           @update-route="updateRoute('connections', connectionTypes, $event)"
           v-for="type in connectionTypes"
         >
         </ConnectionPreview>
-      </div>
-      <div class="legend-categories">
-        <h2>Categories</h2>
-        <Layer
-          :layer="layer"
-          :key="layer.name"
-          @update-route="updateRoute('layers', layers, $event)"
-          @update-category-route="updateRoute('categories', flatCategories, $event)"
-          v-for="layer in layers"
-        ></Layer>
       </div>
       <div class="legend-appearances">
         <h2>Appearances</h2>
@@ -137,7 +143,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(['showSpoilers']),
+    ...mapState(['showSpoilers', 'highlightSeries']),
     flatCategories() {
       return this.layers.reduce((acc, layer) => [...acc, ...layer.categories], []);
     },
@@ -340,6 +346,14 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &-categories, &-connections, &-appearances {
+    padding-left: 0.5rem;
+
+    h2 {
+      margin-left: -0.5rem;
+    }
   }
 
   &-categories {

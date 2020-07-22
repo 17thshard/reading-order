@@ -65,16 +65,29 @@ export default {
       return this.renderedAngle > 180 ? 'end' : 'start';
     },
     styles() {
-      const merged = this.entry.categories
-        .filter(c => c.layer.active)
-        .reduce((acc, c) => ({
-          ...acc,
-          ...c,
-        }), {});
+      let color;
+      for (let i = 0; i < this.entry.categories.length; i += 1) {
+        const category = this.entry.categories[i];
+        if (category.layer.active && category.color !== undefined) {
+          // eslint-disable-next-line prefer-destructuring
+          color = category.color;
+          break;
+        }
+      }
+
+      let style;
+      for (let i = 0; i < this.entry.categories.length; i += 1) {
+        const category = this.entry.categories[i];
+        if (category.style !== undefined) {
+          // eslint-disable-next-line prefer-destructuring
+          style = category.style;
+          break;
+        }
+      }
 
       return {
-        fill: merged.color,
-        fontStyle: merged.style,
+        fill: color,
+        fontStyle: style,
       };
     },
     tooltipPosition() {

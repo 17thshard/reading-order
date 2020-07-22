@@ -6,6 +6,7 @@ Vue.use(Vuex);
 const initialState = {
   showSpoilers: window.localStorage.getItem('showSpoilers') === 'true'
     || window.localStorage.getItem('explainConnections') === 'true',
+  highlightSeries: window.localStorage.getItem('highlightSeries') === 'true',
 };
 
 // Migrate from "explain connections" to "show spoilers"
@@ -18,6 +19,10 @@ export default new Vuex.Store({
     toggleExplanations(state, value) {
       state.showSpoilers = value;
       window.localStorage.setItem('showSpoilers', value);
+    },
+    toggleSeriesHighlight(state, value) {
+      state.highlightSeries = value;
+      window.localStorage.setItem('highlightSeries', value);
     },
   },
 });

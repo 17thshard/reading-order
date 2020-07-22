@@ -43,6 +43,7 @@
         {
             "id": "reading-order",
             "name": "Reading Order",
+            "startActive": true,
             "categories": [
                 {
                     "id": "phase1",
@@ -1327,7 +1328,7 @@
                         }
                     ]
                 },
-		{    
+		{
                     "label": "The Arcanist",
                     "children": [
                         {

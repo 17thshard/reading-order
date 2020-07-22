@@ -129,7 +129,7 @@ export default (
     const layer = {
       ...l,
       order: index,
-      active: getDefaultSetting(defaultSettings, 'layers', l),
+      active: l.startActive,
     };
     layer.categories = l.categories.map(c => ({
       ...c,
@@ -168,7 +168,7 @@ export default (
         return category;
       });
 
-      bookCategories.sort((c1, c2) => c2.layer.order - c1.layer.order);
+      bookCategories.sort((c1, c2) => c1.layer.order - c2.layer.order);
 
       const bookAppearances = (b.appearances || []).map((a) => {
         const appearance = groupedAppearances[a.id];
