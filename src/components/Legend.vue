@@ -1,17 +1,17 @@
 <template>
 <div v-show="!hideCompletely" class="legend">
   <div
-    :class="['legend-intro', {'legend-intro-open': introToggled}]"
-    v-closable="{handler: () => { if (this.introToggled) this.introToggled = false; }}"
+    :class="['legend__intro', {'legend__intro--open': introToggled}]"
+    v-closable="{ handler: handleIntroOutsideClick }"
   >
-    <div class="legend-intro-toggle" @click="introToggled = !introToggled">
+    <div class="legend__intro-toggle" @click="introToggled = !introToggled">
       info
     </div>
 
     <div
       :class="[
-        'legend-intro-content',
-        { 'legend-intro-content-collapsed': introContentCollapsed }
+        'legend__intro-content',
+        { 'legend__intro-content-collapsed': introContentCollapsed }
       ]"
     >
       <h1>Cosmere Reading Guide</h1>
@@ -19,11 +19,11 @@
         reading order guidance, (3) show connections between stories, and (4) provide awareness of
         unpublished works.</p>
       <span
-        class="legend-intro-content-toggle"
+        class="legend__intro-content-toggle"
         @click="introContentCollapsed = !introContentCollapsed"
         v-html="introContentCollapsed ? 'More details' : 'Less details'"
       ></span>
-      <div class="legend-intro-content-more">
+      <div class="legend__intro-content-more">
         <p>(1) Books are grouped by series, world, and star system by default, and are listed in
           the clockwise direction.</p>
         <p>(2) There is no 'right way' to read the Cosmere. This method strives to balance
@@ -40,19 +40,19 @@
       </div>
     </div>
 
-    <div class="legend-intro-close" @click="introToggled = false">
+    <div class="legend__intro-close" @click="introToggled = false">
       x
     </div>
   </div>
   <div
-    :class="['legend-keys', {'legend-keys-open': keysToggled}]"
-    v-closable="{handler: () => { if (this.keysToggled) this.keysToggled = false; }}"
+    :class="['legend__keys', {'legend__keys--open': keysToggled}]"
+    v-closable="{ handler: handleKeysOutsideClick }"
   >
-    <div class="legend-keys-toggle" @click="keysToggled = !keysToggled">
+    <div class="legend__keys-toggle" @click="keysToggled = !keysToggled">
       legend
     </div>
 
-    <div class="legend-keys-content">
+    <div class="legend__keys-content">
       <div class="legend-options">
         <h2>Options</h2>
         <span class="legend-options-item">
@@ -129,9 +129,9 @@ export default {
   },
   data() {
     return {
-      introToggled: false,
+      introToggled: !this.areClosablesHiddenByDefault(),
       introContentCollapsed: true,
-      keysToggled: false,
+      keysToggled: !this.areClosablesHiddenByDefault(),
       selectedOrder: null,
       sortInitialized: false,
     };
@@ -172,6 +172,19 @@ export default {
     document.removeEventListener('keyup', this.toggleUi);
   },
   methods: {
+    handleIntroOutsideClick() {
+      if (this.introToggled && this.areClosablesHiddenByDefault()) {
+        this.introToggled = false;
+      }
+    },
+    handleKeysOutsideClick() {
+      if (this.keysToggled && this.areClosablesHiddenByDefault()) {
+        this.keysToggled = false;
+      }
+    },
+    areClosablesHiddenByDefault() {
+      return window.matchMedia('(max-width: 1000px)').matches;
+    },
     toggleUi(event) {
       if (event.code !== 'KeyH') {
         return;
@@ -231,11 +244,16 @@ export default {
     font-size: 1.2rem;
   }
 
-  &-intro, &-keys {
+  &__intro, &__keys {
     max-height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+
+    &--open {
+      transform: translateX(0) !important;
+    }
 
     &-content {
       overflow-y: auto;
@@ -243,22 +261,26 @@ export default {
     }
 
     &-toggle, &-close {
-      display: none;
       background: rgba(0, 0, 0, 0.5);
       position: absolute;
       padding: 0.5rem;
       z-index: 11;
       cursor: pointer;
     }
+
+    &-close {
+      display: none;
+    }
   }
 
-  &-intro {
+  &__intro {
     position: fixed;
     left: 0;
     top: 0;
     width: 450px;
     box-sizing: border-box;
     z-index: 12;
+    transform: translateX(-100%);
 
     &-toggle {
       left: 100%;
@@ -276,7 +298,7 @@ export default {
       }
     }
 
-    &-content-collapsed .legend-intro-content-more {
+    &-content-collapsed .legend__intro-content-more {
       display: none;
     }
 
@@ -288,7 +310,7 @@ export default {
     }
   }
 
-  &-intro p {
+  &__intro p {
     padding: 0.5rem 0;
     margin: 0;
 
@@ -301,12 +323,13 @@ export default {
     }
   }
 
-  &-keys {
+  &__keys {
     position: fixed;
     box-sizing: border-box;
     right: 0;
     top: 0;
     z-index: 10;
+    transform: translateX(100%);
 
     &-toggle {
       right: 100%;
@@ -349,20 +372,7 @@ export default {
   }
 
   @media (max-width: 1000px) {
-    &-intro, &-keys {
-      transition: transform 0.2s ease-in-out;
-
-      &-toggle {
-        display: block;
-      }
-
-      &-open {
-        transform: translateX(0) !important;
-      }
-    }
-
-    &-intro {
-      transform: translateX(-100%);
+    &__intro {
       height: 100%;
 
       &-content {
@@ -370,26 +380,22 @@ export default {
           display: none;
         }
 
-        &-collapsed .legend-intro-content-more {
+        &-collapsed .legend__intro-content-more {
           display: block;
         }
       }
     }
-
-    &-keys {
-      transform: translateX(100%);
-    }
   }
 
   @media (max-width: 640px) {
-    &-intro {
+    &__intro {
       width: 100%;
 
       &-close {
         display: block;
       }
 
-      &-open + .legend-keys .legend-keys-toggle {
+      &--open + .legend__keys .legend__keys-toggle {
         display: none;
       }
     }
