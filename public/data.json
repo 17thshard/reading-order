@@ -41,51 +41,36 @@
     ],
     "layers": [
         {
-            "id": "reading-order",
-            "name": "Reading Order",
+            "id": "pub-status",
+            "name": "Publication Status",
             "startActive": true,
             "categories": [
                 {
-                    "id": "phase1",
-                    "description": "Phase 1 - Essential",
-                    "details": "Essential Phase 1 stories should be read before moving to Phase 2.",
-                    "color": "#00b02b"
+                    "id": "published",
+                    "description": "Published",
+                    "details": "Published, canonical works."
                 },
                 {
-                    "id": "phase1b",
-                    "description": "Phase 1 - Secondary",
-                    "details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
-                    "color": "#7bb088"
+                    "id": "forthcoming",
+                    "description": "Forthcoming",
+                    "details": "Forthcoming works which a planned release month or which are being actively worked on. Expected publication dates may be in parenthesis. Titles may be tentative."
                 },
                 {
-                    "id": "phase2",
-                    "description": "Phase 2 - Essential",
-                    "details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
-                    "color": "#0094d4"
+                    "id": "unpublished",
+                    "description": "Future Plans",
+                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Expected publication dates may be in parenthesis. Titles are tentative."
                 },
                 {
-                    "id": "phase2b",
-                    "description": "Phase 2 - Secondary",
-                    "details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
-                    "color": "#8abdd4"
-                },
-                {
-                    "id": "plan",
-                    "description": "Unpublished - Future Plans",
-                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
-                    "color": "#505050"
-                },
-                {
-                    "id": "apocryphal",
-                    "description": "Unpublished - Apocryphal",
-                    "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
-                    "color": "#735a45"
+                    "id": "noncanon",
+                    "description": "Other",
+                    "details": "Uncanonical works which are publicly available, both excerpts and complete."
                 }
             ]
         },
         {
             "id": "series",
             "name": "Series",
+            "startActive": true,
             "categories": [
                 {
                     "id": "elantris",
@@ -134,6 +119,49 @@
                     "description": "Non-series Stories",
                     "details": "Stories not part of a series.",
                     "color": "#A0A0A0"
+                }
+            ]
+        },
+        {
+            "id": "reading-order",
+            "name": "Reading Order",
+            "startActive": true,
+            "categories": [
+                {
+                    "id": "phase1",
+                    "description": "Phase 1 - Essential",
+                    "details": "Essential Phase 1 stories should be read before moving to Phase 2.",
+                    "color": "#00b02b"
+                },
+                {
+                    "id": "phase1b",
+                    "description": "Phase 1 - Secondary",
+                    "details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
+                    "color": "#7bb088"
+                },
+                {
+                    "id": "phase2",
+                    "description": "Phase 2 - Essential",
+                    "details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
+                    "color": "#0094d4"
+                },
+                {
+                    "id": "phase2b",
+                    "description": "Phase 2 - Secondary",
+                    "details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
+                    "color": "#8abdd4"
+                },
+                {
+                    "id": "plan",
+                    "description": "Unpublished - Future Plans",
+                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
+                    "color": "#505050"
+                },
+                {
+                    "id": "apocryphal",
+                    "description": "Unpublished - Apocryphal",
+                    "details": "Includes unpublished, apocryphal stories. Some elements may be part of the official continuity. Some may be published in the future while others will not.",
+                    "color": "#735a45"
                 }
             ]
         },
@@ -249,7 +277,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "elantris", "phase1", "novel" ],
+                            "categories": [ "elantris", "phase1", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "tes",
@@ -294,7 +322,7 @@
                                 "publication": 2006.01,
                                 "chronology": 3.11
                             },
-                            "categories": [ "elantris", "phase1b", "short" ]
+                            "categories": [ "elantris", "phase1b", "published", "short" ]
                         },
                         {
                             "id": "elantris2",
@@ -307,7 +335,7 @@
                             "sorting": {
                                 "chronology": 3.2
                             },
-                            "categories": [ "elantris", "plan", "novel" ]
+                            "categories": [ "elantris", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "elantris3",
@@ -320,7 +348,7 @@
                             "sorting": {
                                 "chronology": 3.3
                             },
-                            "categories": [ "elantris", "plan", "novel" ]
+                            "categories": [ "elantris", "plan", "unpublished", "novel" ]
                         }
                     ]
                 },
@@ -346,7 +374,7 @@
                                     "description": "The 'Imperial Fool' is <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>."
                                 }
                             ],
-                            "categories": [ "no-series", "phase1", "novella" ],
+                            "categories": [ "no-series", "phase1", "published", "novella" ],
                             "connections": [
                                 {
                                     "target": "imperial-fool",
@@ -366,7 +394,7 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Untitled Shai story</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
-                            "categories": [ "no-series", "plan", "novella" ]
+                            "categories": [ "no-series", "plan", "unpublished", "novella" ]
                         }
                     ]
                 }
@@ -408,7 +436,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase1", "novel" ]
+                            "categories": [ "mistborn", "phase1", "published", "novel" ]
                         },
                         {
                             "id": "11m",
@@ -425,7 +453,7 @@
                                 "publication": 2011.12,
                                 "chronology": 4.09
                             },
-                            "categories": [ "mistborn", "short", "phase1b" ]
+                            "categories": [ "mistborn", "short", "phase1b", "published" ]
                         },
                         {
                             "id": "mb2",
@@ -456,7 +484,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase1", "novel" ],
+                            "categories": [ "mistborn", "phase1", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "wb",
@@ -494,7 +522,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase1", "novel" ],
+                            "categories": [ "mistborn", "phase1", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "sa1",
@@ -547,7 +575,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase2", "novel" ]
+                            "categories": [ "mistborn", "phase2", "published", "novel" ]
                         },
                         {
                             "id": "jak",
@@ -564,7 +592,7 @@
                                 "publication": 2014.08,
                                 "chronology": 8.05
                             },
-                            "categories": [ "mistborn", "short", "phase2b" ]
+                            "categories": [ "mistborn", "short", "phase2b", "published" ]
                         },
                         {
                             "id": "mb5",
@@ -590,7 +618,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase2", "novel" ]
+                            "categories": [ "mistborn", "phase2", "published", "novel" ]
                         },
                         {
                             "id": "mb6",
@@ -626,7 +654,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "mistborn", "phase2", "novel" ],
+                            "categories": [ "mistborn", "phase2", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "sa2",
@@ -653,7 +681,7 @@
                                 "publication": 2022.07,
                                 "chronology": 8.4
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "nicki",
@@ -666,7 +694,7 @@
                             "sorting": {
                                 "chronology": 8.5
                             },
-                            "categories": [ "mistborn", "short", "plan" ]
+                            "categories": [ "mistborn", "short", "plan", "unpublished" ]
                         }
                     ]
                 },
@@ -684,7 +712,7 @@
                             "sorting": {
                                 "chronology": 10.1
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "mb9",
@@ -697,7 +725,7 @@
                             "sorting": {
                                 "chronology": 10.2
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "mb10",
@@ -710,7 +738,7 @@
                             "sorting": {
                                 "chronology": 10.3
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         }
                     ]
                 },
@@ -728,7 +756,7 @@
                             "sorting": {
                                 "chronology": 13.1
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "mb12",
@@ -741,7 +769,7 @@
                             "sorting": {
                                 "chronology": 13.2
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "mb13",
@@ -754,7 +782,7 @@
                             "sorting": {
                                 "chronology": 13.3
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         }
                     ]
                 },
@@ -792,7 +820,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
                                 }
                             ],
-                            "categories": [ "mistborn", "novella", "phase2" ],
+                            "categories": [ "mistborn", "novella", "phase2", "published" ],
                             "connections": [
                                 {
                                     "target": "sa1",
@@ -818,7 +846,7 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "categories": [ "mistborn", "novella", "plan" ]
+                            "categories": [ "mistborn", "novella", "plan", "unpublished" ]
                         },
 						{
                             "id": "mb-cyberpunk",
@@ -831,7 +859,7 @@
                             "sorting": {
                                 "chronology": 10.7
                             },
-                            "categories": [ "mistborn", "plan", "novel" ]
+                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         }
                     ]
                 }
@@ -868,7 +896,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "warbreaker", "phase1", "novel" ],
+                            "categories": [ "warbreaker", "phase1", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "sa2",
@@ -892,7 +920,7 @@
                             "sorting": {
                                 "chronology": 5.2
                             },
-                            "categories": [ "warbreaker", "plan", "novel" ]
+                            "categories": [ "warbreaker", "plan", "unpublished", "novel" ]
                         }
                     ]
                 }
@@ -929,7 +957,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "stormlight", "phase2", "novel" ]
+                            "categories": [ "stormlight", "phase2", "published", "novel" ]
                         },
                         {
                             "id": "sa2",
@@ -960,7 +988,7 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "stormlight", "phase2", "novel" ],
+                            "categories": [ "stormlight", "phase2", "published", "novel" ],
                             "connections": [
                                 {
                                     "target": "jasnah",
@@ -1001,7 +1029,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Ol' Whitehair', mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:Edgedancer#Chapter_12'>Chapter 12</a>."
                                 }
                             ],
-                            "categories": [ "stormlight", "novella", "phase2" ]
+                            "categories": [ "stormlight", "novella", "phase2", "published" ]
                         },
                         {
                             "id": "sa3",
@@ -1032,7 +1060,14 @@
                                     "type": "appearance"
                                 }
                             ],
-                            "categories": [ "stormlight", "phase2", "novel" ]
+                            "categories": [ "stormlight", "phase2", "published", "novel" ],
+                            "connections": [
+                                {
+                                    "target": "twokp",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings_Prime'>The Way of Kings Prime</a>, written in 2002, is the original draft of <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>The Way of Kings</a>. Only small excerpts were released prior to <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>Oathbringer</a> as Brandon felt it contained spoilers for certain ideas through that book. It was self-published as a Sanderson Curiosity in July 2020."
+                                }
+                            ]
                         },
                         {
                             "id": "sa3.5",
@@ -1048,7 +1083,7 @@
                                 "publication": 2020.10,
                                 "chronology": 7.035
                             },
-                            "categories": [ "stormlight", "novella", "plan" ]
+                            "categories": [ "stormlight", "novella", "plan", "unpublished" ]
                         },
                         {
                             "id": "sa4",
@@ -1063,7 +1098,7 @@
                                 "publication": 2020.11,
                                 "chronology": 7.04
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "horneater",
@@ -1077,7 +1112,7 @@
                             "sorting": {
                                 "chronology": 7.045
                             },
-                            "categories": [ "stormlight", "novella", "plan" ]
+                            "categories": [ "stormlight", "novella", "plan", "unpublished" ]
                         },
                         {
                             "id": "sa5",
@@ -1092,7 +1127,7 @@
 				"publication": 2023.11,
                                 "chronology": 7.05
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "lopen",
@@ -1106,7 +1141,7 @@
                             "sorting": {
                                 "chronology": 7.022
                             },
-                            "categories": [ "stormlight", "short", "plan" ]
+                            "categories": [ "stormlight", "short", "plan", "unpublished" ]
                         },
                         {
                             "id": "tgwlu",
@@ -1116,7 +1151,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                             "padding": 12,
-                            "categories": [ "stormlight", "plan", "graphic" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "graphic" ]
                         },
                         {
                             "id": "sa-art",
@@ -1126,7 +1161,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                             "padding": 12,
-                            "categories": [ "stormlight", "plan", "graphic" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "graphic" ]
                         },
                         {
                             "id": "sa6",
@@ -1139,7 +1174,7 @@
                             "sorting": {
                                 "chronology": 7.06
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "sa7",
@@ -1152,7 +1187,7 @@
                             "sorting": {
                                 "chronology": 7.07
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "sa8",
@@ -1165,7 +1200,7 @@
                             "sorting": {
                                 "chronology": 7.08
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "sa9",
@@ -1178,7 +1213,7 @@
                             "sorting": {
                                 "chronology": 7.09
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "sa10",
@@ -1191,7 +1226,7 @@
                             "sorting": {
                                 "chronology": 7.10
                             },
-                            "categories": [ "stormlight", "plan", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         }
                     ]
                 }
@@ -1230,7 +1265,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "graphic" ],
+                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "mb1",
@@ -1274,7 +1309,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "graphic" ],
+                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "mb1",
@@ -1318,7 +1353,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "graphic" ],
+                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "sa1",
@@ -1343,7 +1378,7 @@
                             "sorting": {
                                 "chronology": 2.5
                             },
-                            "categories": [ "white-sand", "plan", "graphic" ]
+                            "categories": [ "white-sand", "plan", "unpublished", "graphic" ]
                         },
                         {
                             "id": "ta2",
@@ -1356,7 +1391,7 @@
                             "sorting": {
                                 "chronology": 2.6
                             },
-                            "categories": [ "white-sand", "plan", "graphic" ]
+                            "categories": [ "white-sand", "plan", "unpublished", "graphic" ]
                         },
                         {
                             "id": "ta3",
@@ -1369,7 +1404,7 @@
                             "sorting": {
                                 "chronology": 2.7
                             },
-                            "categories": [ "white-sand", "plan", "graphic" ]
+                            "categories": [ "white-sand", "plan", "unpublished", "graphic" ]
                         }
                     ]
                 }
@@ -1394,7 +1429,7 @@
                                 "publication": 2013.12,
                                 "chronology": 6.1
                             },
-                            "categories": [ "no-series", "novella", "phase1b" ],
+                            "categories": [ "no-series", "novella", "phase1b", "published" ],
                             "connections": [
                                 {
                                     "target": "sa2",
@@ -1428,7 +1463,7 @@
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=the+dust+brigade'>The Dust Brigade</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
-                            "categories": [ "no-series", "plan", "novel" ]
+                            "categories": [ "no-series", "plan", "unpublished", "novel" ]
                         }
                     ]
                 }
@@ -1454,7 +1489,7 @@
                                 "publication": 2014.06,
                                 "chronology": 13.0
                             },
-                            "categories": [ "no-series", "novella", "phase1b" ],
+                            "categories": [ "no-series", "novella", "phase1b", "published" ],
                             "connections": [
                                 {
                                     "target": "sa3",
@@ -1479,7 +1514,7 @@
                             "sorting": {
                                 "chronology": 13.01
                             },
-                            "categories": [ "no-series", "novella", "plan" ]
+                            "categories": [ "no-series", "novella", "plan", "unpublished" ]
                         }
                     ]
                 },
@@ -1491,7 +1526,7 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>First of the Sun YA novel</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
-                            "categories": [ "no-series", "novel", "plan" ]
+                            "categories": [ "no-series", "novel", "plan", "unpublished" ]
                         }
 				    ]
                 }
@@ -1515,7 +1550,7 @@
                             "sorting": {
                                 "chronology": 1.1
                             },
-                            "categories": [ "dragonsteel", "plan", "novel" ]
+                            "categories": [ "dragonsteel", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "d2",
@@ -1528,7 +1563,7 @@
                             "sorting": {
                                 "chronology": 1.2
                             },
-                            "categories": [ "dragonsteel", "plan", "novel" ]
+                            "categories": [ "dragonsteel", "plan", "unpublished", "novel" ]
                         },
                         {
                             "id": "d3",
@@ -1541,7 +1576,7 @@
                             "sorting": {
                                 "chronology": 1.3
                             },
-                            "categories": [ "dragonsteel", "plan", "novel" ]
+                            "categories": [ "dragonsteel", "plan", "unpublished", "novel" ]
                         }
                     ]
                 }
@@ -1559,7 +1594,7 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
                             "world": "Unknown",
                             "system": "Unknown",
-                            "categories": [ "aether", "novel", "plan" ]
+                            "categories": [ "aether", "novel", "plan", "unpublished" ]
                         },
                         {
                             "id": "aether2",
@@ -1567,7 +1602,7 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
                             "world": "Unknown",
                             "system": "Unknown",
-                            "categories": [ "aether", "novel", "plan" ]
+                            "categories": [ "aether", "novel", "plan", "unpublished" ]
                         },
                         {
                             "id": "aether3",
@@ -1575,7 +1610,7 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
                             "world": "Unknown",
                             "system": "Unknown",
-                            "categories": [ "aether", "novel", "plan" ]
+                            "categories": [ "aether", "novel", "plan", "unpublished" ]
                         }
                     ]
                 },
@@ -1587,7 +1622,7 @@
                             "title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=silverlight+novella'>Silverlight novella</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>",
                             "system": "N/A",
-                            "categories": [ "no-series", "novella", "plan" ]
+                            "categories": [ "no-series", "novella", "plan", "unpublished" ]
                         }
                     ]
                 },
@@ -1603,7 +1638,7 @@
                             "sorting": {
                                 "chronology": 11.0
                             },
-                            "categories": [ "no-series", "novella", "plan" ]
+                            "categories": [ "no-series", "novella", "plan", "unpublished" ]
                         }
                     ]
                 },
@@ -1629,7 +1664,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is the author of the essays."
                                 }
                             ],
-                            "categories": [ "no-series", "short", "phase2" ]
+                            "categories": [ "no-series", "short", "phase2", "published" ]
                         }
                     ]
                 }
@@ -1662,7 +1697,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "novel", "apocryphal" ],
+                            "categories": [ "white-sand", "novel", "apocryphal", "noncanon" ],
                             "connections": [
                                 {
                                     "target": "ws1",
@@ -1682,7 +1717,7 @@
                             "sorting": {
                                 "publication": 2009.06
                             },
-                            "categories": [ "no-series", "apocryphal", "novel" ],
+                            "categories": [ "no-series", "apocryphal", "noncanon", "novel" ],
                             "connections": [
                                 {
                                     "target": "sa2",
@@ -1716,7 +1751,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the 'Imperial Fool'."
                                 }
                             ],
-                            "categories": [ "no-series", "short", "apocryphal" ]
+                            "categories": [ "no-series", "short", "apocryphal", "noncanon" ]
                         },
                         {
                             "id": "tsd",
@@ -1731,7 +1766,21 @@
                                 "publication": 2014.03,
                                 "chronology": 7.081
                             },
-                            "categories": [ "no-series", "apocryphal", "novella" ]
+                            "categories": [ "no-series", "apocryphal", "noncanon", "novella" ]
+                        },
+                        {
+                            "id": "twokp",
+                            "title": "The Way of Kings Prime",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings_Prime'>The Way of Kings Prime</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "link": "<a target='_blank' href='https://www.brandonsanderson.com/the-way-of-kings-prime/'>Full novel on Brandon's website.</a>",
+                            "publication": "July 2020",
+                            "sorting": {
+                                "publication": 2020.07
+                            },
+                            "categories": [ "stormlight", "novel", "apocryphal", "noncanon" ]
                         },
                         {
                             "id": "jasnah",
@@ -1747,7 +1796,7 @@
                                 "publication": 2014.08,
                                 "chronology": 7.021
                             },
-                            "categories": [ "stormlight", "short", "apocryphal" ]
+                            "categories": [ "stormlight", "short", "apocryphal", "noncanon" ]
                         },
                         {
                             "id": "traveler",
@@ -1769,7 +1818,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'the Traveler'."
                                 }
                             ],
-                            "categories": [ "no-series", "short", "apocryphal" ]
+                            "categories": [ "no-series", "short", "apocryphal", "noncanon" ]
                         }
                     ]
                 }
