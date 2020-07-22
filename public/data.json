@@ -43,27 +43,30 @@
         {
             "id": "pub-status",
             "name": "Publication Status",
-            "startActive": true,
             "categories": [
                 {
                     "id": "published",
                     "description": "Published",
-                    "details": "Published, canonical works."
+                    "details": "Published, canonical works.",
+                    "color": "#FFFFFF"
                 },
                 {
                     "id": "forthcoming",
                     "description": "Forthcoming",
-                    "details": "Forthcoming works which a planned release month or which are being actively worked on. Expected publication dates may be in parenthesis. Titles may be tentative."
+                    "details": "Forthcoming works which a planned release month or which are being actively worked on. Expected publication dates may be in parenthesis. Titles may be tentative.",
+                    "color": "#888888"
                 },
                 {
                     "id": "unpublished",
                     "description": "Future Plans",
-                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Expected publication dates may be in parenthesis. Titles are tentative."
+                    "details": "Includes all planned future cosmere stories. Likelihood of publication varies. Expected publication dates may be in parenthesis. Titles are tentative.",
+                    "color": "#505050"
                 },
                 {
                     "id": "noncanon",
                     "description": "Other",
-                    "details": "Uncanonical works which are publicly available, both excerpts and complete."
+                    "details": "Uncanonical works which are publicly available, both excerpts and complete.",
+                    "color": "#735a45"
                 }
             ]
         },
@@ -125,7 +128,6 @@
         {
             "id": "reading-order",
             "name": "Reading Order",
-            "startActive": true,
             "categories": [
                 {
                     "id": "phase1",
@@ -681,7 +683,7 @@
                                 "publication": 2022.07,
                                 "chronology": 8.4
                             },
-                            "categories": [ "mistborn", "plan", "unpublished", "novel" ]
+                            "categories": [ "mistborn", "plan", "forthcoming", "novel" ]
                         },
                         {
                             "id": "nicki",
@@ -1083,7 +1085,7 @@
                                 "publication": 2020.10,
                                 "chronology": 7.035
                             },
-                            "categories": [ "stormlight", "novella", "plan", "unpublished" ]
+                            "categories": [ "stormlight", "novella", "plan", "forthcoming" ]
                         },
                         {
                             "id": "sa4",
@@ -1098,7 +1100,7 @@
                                 "publication": 2020.11,
                                 "chronology": 7.04
                             },
-                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
+                            "categories": [ "stormlight", "plan", "forthcoming", "novel" ]
                         },
                         {
                             "id": "horneater",
