@@ -1,5 +1,5 @@
 <template>
-<div class="legend">
+<div v-show="!hideCompletely" class="legend">
   <div
     :class="['legend-intro', {'legend-intro-open': introToggled}]"
     v-closable="{handler: () => { if (this.introToggled) this.introToggled = false; }}"
@@ -141,6 +141,9 @@ export default {
     flatCategories() {
       return this.layers.reduce((acc, layer) => [...acc, ...layer.categories], []);
     },
+    hideCompletely() {
+      return this.$route.query['hide-ui'] === 'true';
+    },
   },
   watch: {
     selectedOrder(newOrder) {
@@ -162,7 +165,24 @@ export default {
       }
     },
   },
+  mounted() {
+    document.addEventListener('keyup', this.toggleUi);
+  },
+  destroyed() {
+    document.removeEventListener('keyup', this.toggleUi);
+  },
   methods: {
+    toggleUi(event) {
+      if (event.code !== 'KeyH') {
+        return;
+      }
+
+      if (this.hideCompletely) {
+        this.$router.replace({ query: { ...this.$route.query, 'hide-ui': undefined } });
+      } else {
+        this.$router.replace({ query: { ...this.$route.query, 'hide-ui': 'true' } });
+      }
+    },
     changeSort(event) {
       if (event.target.value === '') {
         this.$router.replace({ query: { ...this.$route.query, order: undefined } });
