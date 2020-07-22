@@ -88,6 +88,10 @@ export default {
         `<strong>Series:</strong> ${this.entry.series || 'None'}`,
         `<strong>World:</strong> ${this.entry.world || 'None'}`,
         `<strong>System:</strong> ${this.entry.system || 'None'}`,
+        `<strong>Publication:</strong> ${this.entry.publication || 'n/a'}`,
+        this.entry.chronology !== undefined
+          ? `<strong>Chronology:</strong> ${this.entry.chronology}`
+          : undefined,
         this.entry.au !== undefined || this.entry.link !== undefined ? '' : undefined,
         this.entry.au,
         this.entry.link,
