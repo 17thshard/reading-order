@@ -1034,13 +1034,14 @@
                             "categories": [ "stormlight", "phase2", "novel" ]
                         },
                         {
-                            "id": "rysn",
-                            "title": "Rysn novella (2020)",
-                            "title2": "Rysn novella (citation needed)",
+                            "id": "sa3.5",
+                            "title": "Dawnshard (2020)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Dawnshard_(novella)'>Dawnshard</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                             "publication": "October 2020 (planned)",
+			    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/406/#e13986'>Between Oathbringer and Rhythm of War.</a>",
                             "padding": 12,
                             "sorting": {
                                 "publication": 2020.10,
@@ -1051,7 +1052,7 @@
                         {
                             "id": "sa4",
                             "title": "Rhythm of War (2020)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Stormlight_Archive_4'>Rhythm of War</a>",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War'>Rhythm of War</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
