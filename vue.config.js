@@ -13,6 +13,13 @@ module.exports = {
     workboxOptions: {
       skipWaiting: true,
       clientsClaim: true,
+      exclude: ['index.html'],
+      runtimeCaching: [
+        {
+          urlPattern: /^$|^\/$|\/#.*$/,
+          handler: 'NetworkFirst',
+        },
+      ],
     },
   },
 };
