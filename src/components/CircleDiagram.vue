@@ -132,7 +132,6 @@ export default {
     };
 
     return {
-      selectedEntry: null,
       selectionLock: false,
       labelHoverDepth: null,
       labelHoverLockDepth: null,
@@ -140,7 +139,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(['highlightSeries']),
+    ...mapState(['highlightSeries', 'selectedEntry']),
     incomingConnections() {
       const connections = {};
 
@@ -189,7 +188,7 @@ export default {
         return;
       }
 
-      this.selectedEntry = entry;
+      this.$store.commit('selectEntry', entry);
       this.selectionLock = lock;
     },
     unselect(entry) {
@@ -197,7 +196,7 @@ export default {
         return;
       }
 
-      this.selectedEntry = null;
+      this.$store.commit('selectEntry', null);
       this.selectionLock = false;
     },
     beginLabelHover(depth) {

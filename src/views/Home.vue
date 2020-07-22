@@ -18,13 +18,16 @@
     :connection-types="connectionTypes"
     :labels="entries === books ? labels : []"
   />
+  <InfoBox v-if="selectedEntry !== null" :entry="entries[selectedEntry]" />
 </div>
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import CircleDiagram from '@/components/CircleDiagram.vue';
 import loader from '@/loader';
 import Legend from '@/components/Legend.vue';
+import InfoBox from '@/components/InfoBox.vue';
 
 function buildDefaultSettings(query) {
   const defaultSettings = {};
@@ -55,6 +58,7 @@ function buildDefaultSettings(query) {
 export default {
   name: 'home',
   components: {
+    InfoBox,
     Legend,
     CircleDiagram,
   },
@@ -69,6 +73,7 @@ export default {
       labels: [],
     };
   },
+  computed: mapState(['selectedEntry']),
   async mounted() {
     const result = await (await fetch('./data.json')).json();
     this.loadData(result);

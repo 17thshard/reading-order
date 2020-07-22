@@ -1,27 +1,15 @@
 <template>
 <g :class="['circle-entry', {'circle-entry-inactive': !entry.active, 'circle-entry-muted': mute}]"
    :transform="`translate(500, 500) rotate(${renderedAngle})`">
-  <Tooltip
-    :text="tooltipText"
-    :options="{
-      autoHide: false,
-      offset: 10,
-      placement: tooltipPosition,
-      hideOnTargetClick: false,
-    }"
-    :follow-mouse="true"
-    :disabled="mute"
+  <text
+    dominant-baseline="central" :text-anchor="anchor" :style="styles"
+    :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
+    v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
+    @mouseover="select" @mouseout="unselect" @click="toggle"
+    ref="text"
   >
-    <text
-      dominant-baseline="central" :text-anchor="anchor" :style="styles"
-      :transform="`translate(0, -${radius + renderedPadding}) rotate(${sign * 90})`"
-      v-closable="{handler: handleOutsideClick, exclude: shouldNotClose}"
-      @mouseover="select" @mouseout="unselect" @click="toggle"
-      ref="text"
-    >
-      <slot></slot>
-    </text>
-  </Tooltip>
+    <slot></slot>
+  </text>
   <AppearanceGroup
     :appearances="entry.appearances.filter(a => a.ref.active)"
     :rotation="-renderedAngle"
@@ -33,13 +21,12 @@
 
 <script>
 import { TweenLite } from 'gsap/TweenLite';
-import Tooltip from '@/components/Tooltip.vue';
-import { anyComponent, normalizeAngle, quadrant } from '@/utils';
+import { anyComponent, normalizeAngle } from '@/utils';
 import AppearanceGroup from '@/components/AppearanceGroup.vue';
 
 export default {
   name: 'CircleEntry',
-  components: { AppearanceGroup, Tooltip },
+  components: { AppearanceGroup },
   props: {
     entry: Object,
     angle: Number,
@@ -89,26 +76,6 @@ export default {
         fill: color,
         fontStyle: style,
       };
-    },
-    tooltipPosition() {
-      const index = quadrant(normalizeAngle(this.renderedAngle + 45));
-      const positions = ['top', 'right', 'bottom', 'left'];
-      return positions[index];
-    },
-    tooltipText() {
-      return [
-        this.entry.title2,
-        `<strong>Series:</strong> ${this.entry.series || 'None'}`,
-        `<strong>World:</strong> ${this.entry.world || 'None'}`,
-        `<strong>System:</strong> ${this.entry.system || 'None'}`,
-        `<strong>Publication:</strong> ${this.entry.publication || 'n/a'}`,
-        this.entry.chronology !== undefined
-          ? `<strong>Chronology:</strong> ${this.entry.chronology}`
-          : undefined,
-        this.entry.au !== undefined || this.entry.link !== undefined ? '' : undefined,
-        this.entry.au,
-        this.entry.link,
-      ].filter(e => e !== undefined).join('<br>');
     },
   },
   watch: {
@@ -166,7 +133,7 @@ export default {
     },
     shouldNotClose(target) {
       if (this.clicked) {
-        return anyComponent(target, node => (node.$props || {}).mute === false);
+        return anyComponent(target, node => (node.$props || {}).mute === false || node.$el.classList.contains('info-box'));
       }
 
       return false;

@@ -12,10 +12,6 @@ export function angleDifference(a, b) {
   return mod(b - a + 180, 360) - 180;
 }
 
-export function quadrant(angle) {
-  return Math.floor(angle / 90);
-}
-
 export function anyComponent(node, f) {
   if (!(node instanceof Vue)) {
     // eslint-disable-next-line no-underscore-dangle
