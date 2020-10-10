@@ -31,7 +31,7 @@ import InfoBox from '@/components/InfoBox.vue';
 
 function buildDefaultSettings(query) {
   const defaultSettings = {};
-  const categories = ['connections', 'layers', 'categories', 'appearances'];
+  const categories = ['connections', 'categories', 'appearances'];
 
   categories.forEach((c) => {
     defaultSettings[c] = {};
@@ -51,6 +51,10 @@ function buildDefaultSettings(query) {
       defaultSettings[c][id] = query[k] === 'true';
     });
   });
+
+  if (query.layer) {
+    defaultSettings.layer = query.layer;
+  }
 
   return defaultSettings;
 }
