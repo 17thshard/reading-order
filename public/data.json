@@ -883,7 +883,8 @@
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Nalthian_system'>Nalthian system</a>",
                             "publication": "June 2009",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and before The Stormlight Archive.</a>",
-                            "sorting": {
+                            "link": "Full text: <a target='_blank' href='https://www.brandonsanderson.com/warbreaker-rights-and-downloads/'>Brandon's website</a> | <a target='_blank' href='https://github.com/guusj/books'>Alternate file types</a>",
+			    "sorting": {
                                 "publication": 2009.06,
                                 "chronology": 5.1
                             },
