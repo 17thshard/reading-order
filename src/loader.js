@@ -129,7 +129,9 @@ export default (
     const layer = {
       ...l,
       order: index,
-      active: defaultSettings.layer === undefined ? l.startActive : l.id === defaultSettings.layer,
+      active: defaultSettings === undefined || defaultSettings.layer === undefined
+        ? l.startActive
+        : l.id === defaultSettings.layer,
     };
     layer.categories = l.categories.map(c => ({
       ...c,
