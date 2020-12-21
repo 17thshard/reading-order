@@ -1,5 +1,5 @@
 {
-    "base-separation": 3.6,
+    "base-separation": 3.5,
     "connections": [
         {
             "id": "major",
@@ -305,6 +305,11 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The nature of <a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "minor",
+                                    "description": "The communication box used by <a target='_blank' href='https://coppermind.net/wiki/Shallan'>Shallan</a> to communicate with <a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a> and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> contains a <a target='_blank' href='https://coppermind.net/wiki/Seon'>Seon</a>."
                                 }
                             ]
                         },
@@ -376,7 +381,7 @@
                                     "description": "The 'Imperial Fool' is <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>."
                                 }
                             ],
-                            "categories": [ "no-series", "phase1", "published", "novella" ],
+                            "categories": [ "no-series", "phase1b", "published", "novella" ],
                             "connections": [
                                 {
                                     "target": "imperial-fool",
@@ -387,13 +392,18 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The nature of <a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>'s magic is discussed in the <a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a> essay."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "egg",
+                                    "description": "The <a target='_blank' href='https://coppermind.net/wiki/Fused'>Fused</a> refer to <a target='_blank' href='https://coppermind.net/wiki/aluminum'>aluminum</a> as Ralkalest."
                                 }
                             ]
                         },
                         {
                             "id": "tes2",
-                            "title": "Shai story",
-                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Untitled Shai story</a>",
+                            "title": "The Emperor's Soul sequel",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Untitled Emperor's Soul sequel</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Sel'>Sel</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Selish_system'>Selish system</a>",
                             "categories": [ "no-series", "plan", "unpublished", "novella" ]
@@ -540,6 +550,11 @@
                                     "target": "au",
                                     "type": "major",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a> essay discusses the events that occurred in <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a>."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "significant",
+                                    "description": "The <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Part 2 Epigraphs</a> are a letter from <a target='_blank' href='https://coppermind.net/wiki/Harmony'>Harmony</a>. <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>Fabrial</a> metals have similar effects as in the <a target='_blank' href='https://coppermind.net/wiki/Metallic_Arts'>Metalic Arts</a>. <a target='_blank' href='https://coppermind.net/wiki/Gereh'>Gereh</a> and <a target='_blank' href='https://coppermind.net/wiki/Axindweth'>Axindweth</a> are <a target='_blank' href='https://coppermind.net/wiki/Feruchemy'>Feruchemists</a>."
                                 }
                             ]
                         }
@@ -677,10 +692,10 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "publication": "mid 2021 (planned)",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2022</a>",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
                             "sorting": {
-                                "publication": 2022.07,
+                                "publication": 2022.11,
                                 "chronology": 8.4
                             },
                             "categories": [ "mistborn", "plan", "forthcoming", "novel" ]
@@ -711,8 +726,10 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2024 (best guess)</a>",
                             "sorting": {
-                                "chronology": 10.1
+                                "chronology": 10.1,
+								"publication": 2024
                             },
                             "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
@@ -724,8 +741,10 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2025 (best guess)</a>",
                             "sorting": {
-                                "chronology": 10.2
+                                "chronology": 10.2,
+								"publication": 2025
                             },
                             "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         },
@@ -737,8 +756,10 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2026 (best guess)</a>",
                             "sorting": {
-                                "chronology": 10.3
+                                "chronology": 10.3,
+								"publication": 2026
                             },
                             "categories": [ "mistborn", "plan", "unpublished", "novel" ]
                         }
@@ -838,6 +859,11 @@
                                     "target": "traveler",
                                     "type": "major",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "significant",
+                                    "description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between the two in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
                                 }
                             ]
                         },
@@ -884,7 +910,7 @@
                             "publication": "June 2009",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and before The Stormlight Archive.</a>",
                             "link": "Full text: <a target='_blank' href='https://www.brandonsanderson.com/warbreaker-rights-and-downloads/'>Brandon's website</a> | <a target='_blank' href='https://github.com/guusj/books'>Alternate file types</a>",
-			    "sorting": {
+							"sorting": {
                                 "publication": 2009.06,
                                 "chronology": 5.1
                             },
@@ -910,6 +936,16 @@
                                     "target": "sa3",
                                     "type": "major",
                                     "description": "Azure is <a target='_blank' href='https://coppermind.net/wiki/Vivenna'>Vivenna</a>; she uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> on several occaisions and has an Awakened sword. <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> and <a target='_blank' href='https://coppermind.net/wiki/Vasher'>Vasher</a> make significant appearances. <a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Denth'>Denth</a>, <a target='_blank' href='https://coppermind.net/wiki/Shashara'>Shashara</a>, and <a target='_blank' href='https://coppermind.net/wiki/Vivenna'>Vivenna</a> by name. A painting from the <a target='_blank' href='https://coppermind.net/wiki/Court_of_Gods'>Court of Gods</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Chapter_102:_Celebrant'>Chapter 102</a>. <a target='_blank' href='https://coppermind.net/wiki/Riino'>Riino</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Heightening'>Heightenings</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in the <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Epilogue:_Great_Art'>Epilogue</a>."
+                                },
+								{
+                                    "target": "sa3.5",
+                                    "type": "minor",
+                                    "description": "The <a target='_blank' href='https://coppermind.net/wiki/Dawnshard'>Dawnshard</a> causes <a target='_blank' href='https://coppermind.net/wiki/Rysn_Ftori'>Rysn</a> to experience several effects similar to the <a target='_blank' href='https://coppermind.net/wiki/BioChromatic_Breath'>Heightenings associated with Breath</a>."
+                                },
+								{
+                                    "target": "sa4",
+                                    "type": "major",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> is used to kill <a target='_blank' href='https://coppermind.net/wiki/Rayse'>Rayse</a>. <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes mention <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Zahel'>Zahel</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in his fight against <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and explains that he is a <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Shadow>Cognitive Shadow</a>. The coin <a target='_blank' href='https://coppermind.net/wiki/Adolin'>Adolin</a> gives to <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and some merchants in <a target='_blank' href='https://coppermind.net/wiki/Lasting_Integrity'>Lasting Integrity</a> are from <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Endowment'>Endowment</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 24 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> tampers with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid's</a> <a target='_blank' href='https://coppermind.net/wiki/BioChromatic_Breath'>Breath</a> in the Epilogue."
                                 }
                             ]
                         },
@@ -1074,46 +1110,70 @@
                         },
                         {
                             "id": "sa3.5",
-                            "title": "Dawnshard (2020)",
+                            "title": "Dawnshard",
                             "title2": "<a target='_blank' href='https://coppermind.net/wiki/Dawnshard_(novella)'>Dawnshard</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "publication": "October 2020 (planned)",
-			    "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/406/#e13986'>Between Oathbringer and Rhythm of War.</a>",
+                            "publication": "November 2020",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/406/#e13986'>Between Oathbringer and Rhythm of War.</a>",
                             "padding": 12,
                             "sorting": {
-                                "publication": 2020.10,
+                                "publication": 2020.1105,
                                 "chronology": 7.035
                             },
-                            "categories": [ "stormlight", "novella", "plan", "forthcoming" ]
+                            "categories": [ "stormlight", "novella", "published", "phase2" ]
                         },
                         {
                             "id": "sa4",
-                            "title": "Rhythm of War (2020)",
+                            "title": "Rhythm of War",
                             "title2": "<a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War'>Rhythm of War</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "publication": "November 2020 (planned)",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
+                            "publication": "November 2020",
+                            "chronology": "https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
-                                "publication": 2020.11,
+                                "publication": 2020.1117,
                                 "chronology": 7.04
                             },
-                            "categories": [ "stormlight", "plan", "forthcoming", "novel" ]
+                            "appearances": [
+                                {
+                                    "id": "hoid",
+                                    "type": "appearance",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."
+                                },
+                                {
+                                    "id": "nazh",
+                                    "type": "mention",
+                                    "description": "Several drawings and sketches include <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a>'s annotations. Most notably, the <a target='_blank' href='https://coppermind.net/wiki/Glyphs'>glyphs</a> page is entirely written by him."
+                                },
+                                {
+                                    "id": "ars",
+                                    "type": "appearance"
+                                }
+                            ],
+                            "categories": [ "stormlight", "novel", "phase2", "published" ],
+                            "connections": [
+                                {
+                                    "target": "d1",
+                                    "type": "egg",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>."
+                                }
+                            ]
                         },
                         {
-                            "id": "horneater",
-                            "title": "Horneater",
+                            "id": "sa4.5",
+                            "title": "Horneater (2023)",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Horneater</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                             "padding": 12,
-                            "chronology": "Citation needed",
+                            "chronology": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fills in what happened with Rock after the events of Rhythm of War.</a>",
                             "sorting": {
-                                "chronology": 7.045
+                                "publication": 2023.11,
+								"chronology": 7.045
                             },
                             "categories": [ "stormlight", "novella", "plan", "unpublished" ]
                         },
@@ -1124,10 +1184,10 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-			    "publication": "late 2023 (citation needed)",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2023</a>",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
-				"publication": 2023.11,
+								"publication": 2023.11,
                                 "chronology": 7.05
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
@@ -1147,9 +1207,19 @@
                             "categories": [ "stormlight", "short", "plan", "unpublished" ]
                         },
                         {
+                            "id": "tdatd",
+                            "title": "The Dog and the Dragon",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Dog and the Dragon picture book</a>",
+                            "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "padding": 12,
+                            "categories": [ "stormlight", "plan", "unpublished", "graphic" ]
+                        },
+                        {
                             "id": "tgwlu",
                             "title": "The Girl Who Looked Up",
-                            "title2": "<a target='_blank' href='https://wob.coppermind.net/events/394/#e12991'>The Girl Who Looked Up picture book</a>",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Girl Who Looked Up picture book</a>",
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
@@ -1174,8 +1244,10 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2028 (best guess)</a>",
                             "sorting": {
-                                "chronology": 7.06
+                                "chronology": 7.06,
+								"publication": 2028
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
@@ -1232,7 +1304,33 @@
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         }
                     ]
-                }
+                },
+				{
+					"children": [
+                        {
+                            "id": "tsd",
+                            "title": "The Silence Divine",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Silence_Divine'>The Silence Divine</a>",
+                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>",
+                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+                            "link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303'>Excerpt on Arcanum.</a>",
+                            "publication": "March 2014",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/370/#e11901'>Occurs late in the Stormlight Archive era, around book 8.</a>",
+                            "sorting": {
+                                "publication": 2014.03,
+                                "chronology": 7.081
+                            },
+                            "categories": [ "no-series", "plan", "unpublished", "novella" ],
+                            "connections": [
+                                {
+                                    "target": "sa3",
+                                    "type": "minor",
+                                    "description": "The Silence Divine is set on <a target='_blank' href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>, the world that the humans fled to <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> from."
+                                }
+                            ]
+                        }
+					]
+				}
             ]
         },
         {
@@ -1268,7 +1366,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
+                            "categories": [ "white-sand", "phase2b", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "mb1",
@@ -1284,6 +1382,11 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> and <a target='_blank' href='https://coppermind.net/wiki/Sand_mastery'>sand mastery</a>."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes."
                                 }
                             ]
                         },
@@ -1312,7 +1415,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
+                            "categories": [ "white-sand", "phase2b", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "mb1",
@@ -1328,6 +1431,11 @@
                                     "target": "sa3",
                                     "type": "egg",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Wit</a> has a jar of black sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Oathbringer#Chapter_67:_Mishim'>Chapter 67</a>, which turns white after <a target='_blank' href='https://coppermind.net/wiki/Shallan'>Shallan</a> <a target='_blank' href='https://coppermind.net/wiki/Lightweaving'>Lightweaves</a>."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "minor",
+                                    "description": "Sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is used to identify and quantify <a target='_blank' href='https://coppermind.net/wiki/Investiture'>kinetic Investiture</a>, including explicit mention of the fauna which makes the sand special."
                                 }
                             ]
                         },
@@ -1356,7 +1464,7 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
                                 }
                             ],
-                            "categories": [ "white-sand", "phase1", "published", "graphic" ],
+                            "categories": [ "white-sand", "phase2b", "published", "graphic" ],
                             "connections": [
                                 {
                                     "target": "sa1",
@@ -1453,6 +1561,11 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a> essay discusses the history of <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "egg",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Raboniel'>Raboniel's</a> chain from 'the lands of the dead' is likely a <a target='_blank' href='https://coppermind.net/wiki/Silver'>silver</a> chain from <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>."
                                 }
                             ]
                         }
@@ -1503,6 +1616,11 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a> and its magic."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Gereh'>Gereh</a> has an <a target='_blank' href='https://coppermind.net/wiki/Aviar'>Aviar</a>, which <a target='_blank' href='https://coppermind.net/wiki/Lift'>Lift</a> comes into possession of."
                                 }
                             ]
                         },
@@ -1513,20 +1631,33 @@
                             "series": "Sixth of<br>the Dusk",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
-                            "chronology": "After Sixth of the Dusk and within Dusk's lifetime.",
+                            "chronology": "Five years after Sixth of the Dusk.",
                             "sorting": {
                                 "chronology": 13.01
                             },
-                            "categories": [ "no-series", "novella", "plan", "unpublished" ]
+                            "link": "<a target='_blank' href='https://wob.coppermind.net/events/448/#e14408'>Excerpt on Arcanum.</a> (some may consider to be spoilers)",
+                            "categories": [ "no-series", "novella", "plan", "unpublished" ],
+                            "connections": [
+                                {
+                                    "target": "mb10",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
+                                },
+                                {
+                                    "target": "sa10",
+                                    "type": "minor",
+                                    "description": "A <a target='_blank' href='https://coppermind.net/wiki/Knights_Radiant'>Knight Radiant</a> makes an appearance, weilding a 'Shardgun'."
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "children": [
                         {
-                            "id": "fots",
-                            "title": "First of the Sun YA novel",
-                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>First of the Sun YA novel</a>",
+                            "id": "kingmaker",
+                            "title": "Kingmaker",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Kingmaker</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "categories": [ "no-series", "novel", "plan", "unpublished" ]
@@ -1590,10 +1721,11 @@
             "color": "#a0a0a0",
             "children": [
                 {
-                    "children": [
+                    "label": "Aether<br>of Night",
+					"children": [
                         {
                             "id": "aether1",
-                            "title": "Aether 1",
+                            "title": "Aether of Night 1",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
                             "world": "Unknown",
                             "system": "Unknown",
@@ -1601,7 +1733,7 @@
                         },
                         {
                             "id": "aether2",
-                            "title": "Aether 2",
+                            "title": "Aether of Night  2",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
                             "world": "Unknown",
                             "system": "Unknown",
@@ -1609,7 +1741,7 @@
                         },
                         {
                             "id": "aether3",
-                            "title": "Aether 3",
+                            "title": "Aether of Night  3",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
                             "world": "Unknown",
                             "system": "Unknown",
@@ -1667,7 +1799,14 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is the author of the essays."
                                 }
                             ],
-                            "categories": [ "no-series", "short", "phase2", "published" ]
+                            "categories": [ "no-series", "short", "phase2", "published" ],
+                            "connections": [
+                                {
+                                    "target": "sa4",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Devotion'>Devotion</a> and <a target='_blank' href='https://coppermind.net/wiki/Dominion'>Dominion</a> are referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 26 Epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Ambition'>Ambition's</a> struggle with <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 27 Epigraph</a>."
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1731,6 +1870,11 @@
                                     "target": "sa3",
                                     "type": "egg",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a> mentions his suit was stained with <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>."
+                                },
+                                {
+                                    "target": "sa4",
+                                    "type": "egg",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Foil'>Foil</a> is said to be seeking 'control over the <a target='_blank' href='https://coppermind.net/wiki/Aether'>aethers</a>'."
                                 }
                             ]
                         },
@@ -1755,21 +1899,6 @@
                                 }
                             ],
                             "categories": [ "no-series", "short", "apocryphal", "noncanon" ]
-                        },
-                        {
-                            "id": "tsd",
-                            "title": "The Silence Divine",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Silence_Divine'>The Silence Divine</a>",
-                            "world": "<a target='_blank' href='https://coppermind.net/wiki/Ashyn'>Ashyn</a>",
-                            "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "link": "<a target='_blank' href='https://wob.coppermind.net/events/201/#e12303'>Excerpt on Arcanum.</a>",
-                            "publication": "March 2014",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/370/#e11901'>Occurs late in the Stormlight Archive era, around book 8.</a>",
-                            "sorting": {
-                                "publication": 2014.03,
-                                "chronology": 7.081
-                            },
-                            "categories": [ "no-series", "apocryphal", "noncanon", "novella" ]
                         },
                         {
                             "id": "twokp",
