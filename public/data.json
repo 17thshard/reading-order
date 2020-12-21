@@ -115,7 +115,7 @@
                     "id": "aether",
                     "description": "Aether",
                     "details": "Aether series",
-                    "color": "#A0A0A0"
+                    "color": "#e3a1e3"
                 },
                 {
                     "id": "no-series",
@@ -1728,7 +1728,8 @@
             "children": [
                 {
                     "label": "Aether<br>of Night",
-					"children": [
+		    "color": "#e3a1e3",
+		    "children": [
                         {
                             "id": "aether1",
                             "title": "Aether of Night 1",
