@@ -542,6 +542,11 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Demoux'>Demoux</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Thinker'; <a target='_blank' href='https://coppermind.net/wiki/Ishikk'>Ishikk</a> mishears his name as 'Temoo'. <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin</a>'s <a target='_blank' href='https://coppermind.net/wiki/vessel'>vessel</a>, <a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a>, is mentioned in the <a target='_blank' href='https://coppermind.net/wiki/https://coppermind.net/wiki/The_Way_of_Kings/Epigraphs#The_Letter'>Chapter 18 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Felt'>Felt</a> worked for the <a target='_blank' href='https://coppermind.net/wiki/House_Venture'>House Venture</a> on <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>."
                                 },
                                 {
+                                    "target": "sa2",
+                                    "type": "egg",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Wit</a> appears to use <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
+                                },
+                                {
                                     "target": "sa3",
                                     "type": "significant",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Oathbringer/Epigraphs#Letters'>Part 2 epigraphs</a> include <a target='_blank' href='https://coppermind.net/wiki/Letters#Third_Oathbringer_Letter'>a letter</a> from <a target='_blank' href='https://coppermind.net/wiki/Sazed'>Sazed</a> to <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a>. <a target='_blank' href='https://coppermind.net/wiki/Felt'>Felt</a> reveals he is from another world."
@@ -554,7 +559,7 @@
                                 {
                                     "target": "sa4",
                                     "type": "significant",
-                                    "description": "The <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Part 2 Epigraphs</a> are a letter from <a target='_blank' href='https://coppermind.net/wiki/Harmony'>Harmony</a>. <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>Fabrial</a> metals have similar effects as in the <a target='_blank' href='https://coppermind.net/wiki/Metallic_Arts'>Metalic Arts</a>. <a target='_blank' href='https://coppermind.net/wiki/Gereh'>Gereh</a> and <a target='_blank' href='https://coppermind.net/wiki/Axindweth'>Axindweth</a> are <a target='_blank' href='https://coppermind.net/wiki/Feruchemy'>Feruchemists</a>."
+                                    "description": "The <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Part 2 Epigraphs</a> are a letter from <a target='_blank' href='https://coppermind.net/wiki/Harmony'>Harmony</a>. <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>Fabrial</a> metals have similar effects as in the <a target='_blank' href='https://coppermind.net/wiki/Metallic_Arts'>Metalic Arts</a>. <a target='_blank' href='https://coppermind.net/wiki/Gereh'>Gereh</a> and <a target='_blank' href='https://coppermind.net/wiki/Axindweth'>Axindweth</a> are <a target='_blank' href='https://coppermind.net/wiki/Feruchemy'>Feruchemists</a>. <a target='_blank' href='https://coppermind.net/wiki/Raysium'>Raysium</a> is associated with <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> as <a target='_blank' href='https://coppermind.net/wiki/atium'>atium</a> is associated with <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin</a>."
                                 }
                             ]
                         }
@@ -571,7 +576,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "publication": "November 2011",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "sorting": {
                                 "publication": 2011.11,
                                 "chronology": 8.1
@@ -604,7 +609,7 @@
                             "au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
                             "padding": 12,
                             "publication": "August 2014",
-                            "chronology": "Jak's adventures in Eltania are referenced in <a target='_blank' href='https://coppermind.net/wiki/The_House_Record'>The House Record</a>, suggesting that they occurred some time prior to The Alloy of Law. May have occurred shortly after The Alloy of Law.",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "sorting": {
                                 "publication": 2014.08,
                                 "chronology": 8.05
@@ -619,7 +624,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "publication": "October 2015",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "sorting": {
                                 "publication": 2015.10,
                                 "chronology": 8.2
@@ -645,7 +650,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "publication": "January 2016",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "sorting": {
                                 "publication": 2016.01,
                                 "chronology": 8.3
@@ -676,12 +681,17 @@
                                 {
                                     "target": "sa2",
                                     "type": "egg",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a> is from <a target='_blank' href='https://coppermind.net/wiki/Southern_Scadrial'>Southern Scadrial</a>."
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a> is of <a target='_blank' href='https://coppermind.net/wiki/Southern_Scadrial'>Southern Scadrian</a> descent."
                                 },
                                 {
                                     "target": "msh",
                                     "type": "major",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>'s survival is revealed in <a target='_blank' href='https://coppermind.net/wiki/The_Bands_of_Mourning'>The Bands of Mourning</a>."
+                                },
+                                {
+                                    "target": "sotd2",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
                                 }
                             ]
                         },
@@ -693,7 +703,7 @@
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2022</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>Mistborn Era 2 occurs after Stormlight Archive book 5.</a>",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "sorting": {
                                 "publication": 2022.11,
                                 "chronology": 8.4
@@ -707,6 +717,7 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+                            "chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
                             "padding": 12,
                             "sorting": {
                                 "chronology": 8.5
@@ -725,7 +736,7 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2024 (best guess)</a>",
                             "sorting": {
                                 "chronology": 10.1,
@@ -740,7 +751,7 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2025 (best guess)</a>",
                             "sorting": {
                                 "chronology": 10.2,
@@ -755,7 +766,7 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-                            "chronology": "Described as having early computer age technology, placing it within a century of Mistborn Era 2. Prior to Mistborn Era 4.",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2026 (best guess)</a>",
                             "sorting": {
                                 "chronology": 10.3,
@@ -863,7 +874,7 @@
                                 {
                                     "target": "sa4",
                                     "type": "significant",
-                                    "description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between the two in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
+                                    "description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
                                 }
                             ]
                         },
@@ -945,7 +956,7 @@
 								{
                                     "target": "sa4",
                                     "type": "major",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> is used to kill <a target='_blank' href='https://coppermind.net/wiki/Rayse'>Rayse</a>. <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes mention <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Zahel'>Zahel</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in his fight against <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and explains that he is a <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Shadow>Cognitive Shadow</a>. The coin <a target='_blank' href='https://coppermind.net/wiki/Adolin'>Adolin</a> gives to <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and some merchants in <a target='_blank' href='https://coppermind.net/wiki/Lasting_Integrity'>Lasting Integrity</a> are from <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Endowment'>Endowment</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 24 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> tampers with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid's</a> <a target='_blank' href='https://coppermind.net/wiki/BioChromatic_Breath'>Breath</a> in the Epilogue."
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> is used to kill <a target='_blank' href='https://coppermind.net/wiki/Rayse'>Rayse</a>. <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes mention <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Zahel'>Zahel</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in his fight against <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and explains that he is a <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Shadow'>Cognitive Shadow</a>. The coin <a target='_blank' href='https://coppermind.net/wiki/Adolin'>Adolin</a> gives to <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and some merchants in <a target='_blank' href='https://coppermind.net/wiki/Lasting_Integrity'>Lasting Integrity</a> are from <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Endowment'>Endowment</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 24 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> tampers with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid's</a> <a target='_blank' href='https://coppermind.net/wiki/BioChromatic_Breath'>Breath</a> in the Epilogue."
                                 }
                             ]
                         },
@@ -1173,7 +1184,7 @@
                             "chronology": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fills in what happened with Rock after the events of Rhythm of War.</a>",
                             "sorting": {
                                 "publication": 2023.11,
-								"chronology": 7.045
+				"chronology": 7.045
                             },
                             "categories": [ "stormlight", "novella", "plan", "unpublished" ]
                         },
@@ -1187,7 +1198,7 @@
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2023</a>",
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
                             "sorting": {
-								"publication": 2023.11,
+				"publication": 2023.11,
                                 "chronology": 7.05
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
@@ -1243,11 +1254,11 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Occurs after Mistborn Era 2 and before Mistborn Era 3.</a>",
                             "publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>2028 (best guess)</a>",
                             "sorting": {
-                                "chronology": 7.06,
-								"publication": 2028
+                                "chronology": 9.06,
+				"publication": 2028
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
@@ -1258,9 +1269,9 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Occurs after Mistborn Era 2 and before Mistborn Era 3.</a>",
                             "sorting": {
-                                "chronology": 7.07
+                                "chronology": 9.07
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
@@ -1271,9 +1282,9 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Occurs after Mistborn Era 2 and before Mistborn Era 3.</a>",
                             "sorting": {
-                                "chronology": 7.08
+                                "chronology": 9.08
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
@@ -1284,9 +1295,9 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Occurs after Mistborn Era 2 and before Mistborn Era 3.</a>",
                             "sorting": {
-                                "chronology": 7.09
+                                "chronology": 9.09
                             },
                             "categories": [ "stormlight", "plan", "unpublished", "novel" ]
                         },
@@ -1297,11 +1308,18 @@
                             "series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>May occur concurrently with or after Mistborn Era 2.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/61/#e1300'>There's a roughly 15 year gap between Stormlight 5 and 6.</a> <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Occurs after Mistborn Era 2 and before Mistborn Era 3.</a>",
                             "sorting": {
-                                "chronology": 7.10
+                                "chronology": 9.10
                             },
-                            "categories": [ "stormlight", "plan", "unpublished", "novel" ]
+                            "categories": [ "stormlight", "plan", "unpublished", "novel" ],
+                            "connections": [
+                                {
+                                    "target": "sotd2",
+                                    "type": "minor",
+                                    "description": "A <a target='_blank' href='https://coppermind.net/wiki/Knights_Radiant'>Knight Radiant</a> makes an appearance, weilding a 'Shardgun'."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1318,7 +1336,7 @@
                             "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/370/#e11901'>Occurs late in the Stormlight Archive era, around book 8.</a>",
                             "sorting": {
                                 "publication": 2014.03,
-                                "chronology": 7.081
+                                "chronology": 9.081
                             },
                             "categories": [ "no-series", "plan", "unpublished", "novella" ],
                             "connections": [
@@ -1329,8 +1347,8 @@
                                 }
                             ]
                         }
-					]
-				}
+		    ]
+		}
             ]
         },
         {
@@ -1636,19 +1654,7 @@
                                 "chronology": 13.01
                             },
                             "link": "<a target='_blank' href='https://wob.coppermind.net/events/448/#e14408'>Excerpt on Arcanum.</a> (some may consider to be spoilers)",
-                            "categories": [ "no-series", "novella", "plan", "unpublished" ],
-                            "connections": [
-                                {
-                                    "target": "mb10",
-                                    "type": "minor",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
-                                },
-                                {
-                                    "target": "sa10",
-                                    "type": "minor",
-                                    "description": "A <a target='_blank' href='https://coppermind.net/wiki/Knights_Radiant'>Knight Radiant</a> makes an appearance, weilding a 'Shardgun'."
-                                }
-                            ]
+                            "categories": [ "no-series", "novella", "plan", "unpublished" ]
                         }
                     ]
                 },
