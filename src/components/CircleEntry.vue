@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { TweenLite } from 'gsap/TweenLite';
+import { TweenLite } from 'gsap/gsap-core';
 import { anyComponent, normalizeAngle } from '@/utils';
 import AppearanceGroup from '@/components/AppearanceGroup.vue';
 

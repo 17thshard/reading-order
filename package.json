@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
-    "gsap": "^2.1.3",
+    "gsap": "^3.6.0",
     "hammerjs": "^2.0.8",
     "register-service-worker": "^1.6.2",
     "v-tooltip": "^2.0.2",

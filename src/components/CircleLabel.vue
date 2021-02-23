@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { TweenLite } from 'gsap/TweenLite';
+import { TweenLite } from 'gsap/gsap-core';
 import { mapState } from 'vuex';
 import { angleDifference, normalizeAngle } from '@/utils';
 
