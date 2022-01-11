@@ -1679,7 +1679,7 @@
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
                             "chronology": "Five years after Sixth of the Dusk.",
                             "sorting": {
-                                "chronology": 13.01
+                                "chronology": 13.02
                             },
                             "link": "<a target='_blank' href='https://wob.coppermind.net/events/448/#e14408'>Excerpt on Arcanum.</a> (some may consider to be spoilers)",
                             "categories": [ "no-series", "novella", "plan", "unpublished" ]
@@ -1694,6 +1694,11 @@
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Kingmaker</a>",
                             "world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
                             "system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
+                            "link": "<a target='_blank' href='https://wob.coppermind.net/events/479/#e15153'>Reading on Arcanum.</a>",
+                            "chronology": "<a target='_blank' href='https://wob.coppermind.net/events/479/#e15153'>The reading suggests a setting not long after Sixth of the Dusk.</a>",
+                            "sorting": {
+                                "chronology": 13.01
+                            },
                             "categories": [ "no-series", "novel", "plan", "unpublished" ]
                         }
 				    ]
