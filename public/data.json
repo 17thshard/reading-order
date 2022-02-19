@@ -1760,12 +1760,12 @@
             "color": "#a0a0a0",
             "children": [
                 {
-                    "label": "Aether<br>of Night",
+                    "label": "Aether Series",
 		    "color": "#e3a1e3",
 		    "children": [
                         {
                             "id": "aether1",
-                            "title": "Aether of Night 1",
+                            "title": "Aether 1",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
                             "world": "Unknown",
                             "system": "Unknown",
@@ -1773,7 +1773,7 @@
                         },
                         {
                             "id": "aether2",
-                            "title": "Aether of Night  2",
+                            "title": "Aether 2",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
                             "world": "Unknown",
                             "system": "Unknown",
@@ -1781,7 +1781,7 @@
                         },
                         {
                             "id": "aether3",
-                            "title": "Aether of Night  3",
+                            "title": "Aether 3",
                             "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
                             "world": "Unknown",
                             "system": "Unknown",
