@@ -1,5 +1,5 @@
 {
-    "base-separation": 3.5,
+    "base-separation": 3.21,
     "connections": [
         {
             "id": "major",
@@ -1750,6 +1750,82 @@
                                 "chronology": 1.3
                             },
                             "categories": [ "dragonsteel", "plan", "unpublished", "novel" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Lumar",
+            "color": "#50c878",
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "secret1",
+                            "title": "Tress of the Emerald Sea (2023)",
+                            "title2": "Tress of the Emerald Sea",
+                            "world": "Lumar",
+                            "system": "Unknown",
+                            "publication": "January 2023",
+                            "appearances": [
+                                {
+                                    "id": "hoid",
+                                    "type": "appearance",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the story teller."
+                                }
+                            ],
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ],
+                            "connections": [
+                                {
+                                    "target": "msh",
+                                    "type": "minor",
+                                    "description": "Triss collects an Iriali cup"
+                                },
+                                {
+                                    "target": "aether1",
+                                    "type": "significant",
+                                    "description": "The spores on Lumar are a type of Aether"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Secret<br>Project<br>#3",
+            "color": "#a0a0a0",
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "secret3",
+                            "title": "Unknown (2023)",
+                            "title2": "Unknown",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "publication": "July 2023",
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Secret<br>Project<br>#4",
+            "color": "#a0a0a0",
+            "children": [
+                {
+                    "children": [
+                        {
+                            "id": "secret4",
+                            "title": "Unknown (2023)",
+                            "title2": "Unknown",
+                            "world": "Unknown",
+                            "system": "Unknown",
+                            "publication": "October 2023",
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
                         }
                     ]
                 }
