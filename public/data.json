@@ -1,5 +1,5 @@
 {
-    "base-separation": 3.5,
+    "base-separation": 3.21,
     "connections": [
         {
             "id": "major",
@@ -1791,6 +1791,45 @@
                             "world": "Unknown",
                             "system": "Unknown",
                             "categories": [ "aether", "novel", "plan", "unpublished" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret1",
+                            "title": "Secret Project #1 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_One'>Secret Project #1</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "January 2023",
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret3",
+                            "title": "Secret Project #3 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Three'>Secret Project #3</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "July 2023",
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret4",
+                            "title": "Secret Project #4 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Four'>Secret Project #4</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "October 2023",
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
                         }
                     ]
                 },

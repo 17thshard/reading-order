@@ -116,6 +116,7 @@ export default {
         try {
           this.loadData(JSON.parse(result));
         } catch (error) {
+          // eslint-disable-next-line no-alert
           alert(`Could not load data JSON: ${error}`);
         }
       };
