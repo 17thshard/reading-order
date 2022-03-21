@@ -1193,6 +1193,11 @@
                                     "target": "d1",
                                     "type": "egg",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>."
+                                },
+                                {
+                                    "target": "mb2",
+                                    "type": "minor",
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a> speaks to <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> and others with <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>. The <a target='_blank' href='https://coppermind.net/wiki/Well_of_Ascension'>Well of Ascension</a> pulses with <a target='_blank' href='https://coppermind.net/wiki/Preservation'>Preservation's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>"
                                 }
                             ]
                         },
