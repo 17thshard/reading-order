@@ -1765,7 +1765,7 @@
             "color": "#a0a0a0",
             "children": [
                 {
-                    "label": "Aether Series",
+                    "label": "Aether<br>Series",
 		    "color": "#e3a1e3",
 		    "children": [
                         {
@@ -1798,11 +1798,15 @@
                     "children": [
                         {
                             "id": "secret1",
-                            "title": "Secret Project #1 (2023)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_One'>Secret Project #1</a>",
+                            "title": "Secret Project 1 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_One'>Secret Project 1</a>",
                             "world": "Spoiler",
                             "system": "Spoiler",
                             "publication": "January 2023",
+                            "sorting": {
+                                "publication": 2023.01
+                            },
+                            "link": "Chapters 1-5 available on <a target='_blank' href='brandonsanderson.com/first-look-at-secret-project-1'>Brandon's website</a> and <a target='_blank' href='https://youtu.be/bBUVXcIE0E0'>YouTube</a>. (some may consider to be spoilers)",
                             "categories": [ "no-series", "novel", "plan", "forthcoming" ]
                         }
                     ]
@@ -1811,11 +1815,15 @@
                     "children": [
                         {
                             "id": "secret3",
-                            "title": "Secret Project #3 (2023)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Three'>Secret Project #3</a>",
+                            "title": "Secret Project 3 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Three'>Secret Project 3</a>",
                             "world": "Spoiler",
                             "system": "Spoiler",
                             "publication": "July 2023",
+                            "sorting": {
+                                "publication": 2023.07
+                            },
+                            "link": "Chapters 1-7 available on <a target='_blank' href='brandonsanderson.com/first-look-at-secret-project-3'>Brandon's website</a> and <a target='_blank' href='https://youtu.be/cFGDcvtRdz0'>YouTube</a>. (some may consider to be spoilers)",
                             "categories": [ "no-series", "novel", "plan", "forthcoming" ]
                         }
                     ]
@@ -1824,11 +1832,14 @@
                     "children": [
                         {
                             "id": "secret4",
-                            "title": "Secret Project #4 (2023)",
-                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Four'>Secret Project #4</a>",
+                            "title": "Secret Project 4 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Four'>Secret Project 4</a>",
                             "world": "Spoiler",
                             "system": "Spoiler",
                             "publication": "October 2023",
+                            "sorting": {
+                                "publication": 2023.10
+                            },
                             "categories": [ "no-series", "novel", "plan", "forthcoming" ]
                         }
                     ]
