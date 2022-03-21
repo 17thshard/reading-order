@@ -1770,24 +1770,24 @@
 		    "children": [
                         {
                             "id": "aether1",
-                            "title": "Aether 1",
-                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 1</a>",
+                            "title": "Aether Book 1",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 1</a>",
                             "world": "Unknown",
                             "system": "Unknown",
                             "categories": [ "aether", "novel", "plan", "unpublished" ]
                         },
                         {
                             "id": "aether2",
-                            "title": "Aether 2",
-                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 2</a>",
+                            "title": "Aether Book 2",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 2</a>",
                             "world": "Unknown",
                             "system": "Unknown",
                             "categories": [ "aether", "novel", "plan", "unpublished" ]
                         },
                         {
                             "id": "aether3",
-                            "title": "Aether 3",
-                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether 3</a>",
+                            "title": "Aether Book 3",
+                            "title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 3</a>",
                             "world": "Unknown",
                             "system": "Unknown",
                             "categories": [ "aether", "novel", "plan", "unpublished" ]
