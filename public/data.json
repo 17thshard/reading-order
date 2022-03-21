@@ -1756,82 +1756,6 @@
             ]
         },
         {
-            "label": "Lumar",
-            "color": "#50c878",
-            "children": [
-                {
-                    "children": [
-                        {
-                            "id": "secret1",
-                            "title": "Tress of the Emerald Sea (2023)",
-                            "title2": "Tress of the Emerald Sea",
-                            "world": "Lumar",
-                            "system": "Unknown",
-                            "publication": "January 2023",
-                            "appearances": [
-                                {
-                                    "id": "hoid",
-                                    "type": "appearance",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the story teller."
-                                }
-                            ],
-                            "categories": [ "no-series", "novel", "plan", "forthcoming" ],
-                            "connections": [
-                                {
-                                    "target": "msh",
-                                    "type": "minor",
-                                    "description": "Triss collects an Iriali cup"
-                                },
-                                {
-                                    "target": "aether1",
-                                    "type": "significant",
-                                    "description": "The spores on Lumar are a type of Aether"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Secret<br>Project<br>#3",
-            "color": "#a0a0a0",
-            "children": [
-                {
-                    "children": [
-                        {
-                            "id": "secret3",
-                            "title": "Unknown (2023)",
-                            "title2": "Unknown",
-                            "world": "Unknown",
-                            "system": "Unknown",
-                            "publication": "July 2023",
-                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Secret<br>Project<br>#4",
-            "color": "#a0a0a0",
-            "children": [
-                {
-                    "children": [
-                        {
-                            "id": "secret4",
-                            "title": "Unknown (2023)",
-                            "title2": "Unknown",
-                            "world": "Unknown",
-                            "system": "Unknown",
-                            "publication": "October 2023",
-                            "categories": [ "no-series", "novel", "plan", "forthcoming" ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "label": "Other",
             "color": "#a0a0a0",
             "children": [
@@ -1862,6 +1786,48 @@
                             "world": "Unknown",
                             "system": "Unknown",
                             "categories": [ "aether", "novel", "plan", "unpublished" ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret1",
+                            "title": "Secret Project #1 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_One'>Secret Project #1</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "January 2023",
+                            ],
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ],
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret3",
+                            "title": "Secret Project #3 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Three'>Secret Project #3</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "July 2023",
+                            ],
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ],
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "id": "secret4",
+                            "title": "Secret Project #4 (2023)",
+                            "title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Four'>Secret Project #4</a>",
+                            "world": "Spoiler",
+                            "system": "Spoiler",
+                            "publication": "October 2023",
+                            ],
+                            "categories": [ "no-series", "novel", "plan", "forthcoming" ],
                         }
                     ]
                 },
