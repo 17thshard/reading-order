@@ -113,6 +113,15 @@
         >
         </AppearancePreview>
       </div>
+      <div class="legend-feedback">
+        <h2>Feedback</h2>
+        <ul class="feedback">
+          <li><a href="mailto:jharkey4@gmail.com">Email</a></li>
+          <li><a href="https://www.reddit.com/user/jofwu/">Reddit</a></li>
+          <li><a href="https://www.17thshard.com/forum/profile/18320-jofwu/">17th Shard</a></li>
+          <li><a href="https://github.com/17thshard/reading-order/issues/new">Github</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -348,11 +357,16 @@ export default {
     align-items: flex-start;
   }
 
-  &-categories, &-connections, &-appearances {
+  &-categories, &-connections, &-appearances, &-feedback {
     padding-left: 0.5rem;
 
     h2 {
       margin-left: -0.5rem;
+    }
+
+    ul {
+      margin-block: 0;
+      padding-inline-start: 27px;
     }
   }
 
