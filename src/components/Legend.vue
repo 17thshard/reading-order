@@ -116,10 +116,10 @@
       <div class="legend-feedback">
         <h2>Feedback</h2>
         <ul class="feedback">
-          <li><a href="mailto:jharkey4@gmail.com">Email</a></li>
-          <li><a href="https://www.reddit.com/user/jofwu/">Reddit</a></li>
-          <li><a href="https://www.17thshard.com/forum/profile/18320-jofwu/">17th Shard</a></li>
+          <li><a href="mailto:joshua@17thshard.com">Email</a></li>
           <li><a href="https://github.com/17thshard/reading-order/issues/new">Github</a></li>
+          <li><a href="https://www.17thshard.com/forum/profile/18320-jofwu/">17th Shard</a></li>
+          <li><a href="https://www.reddit.com/message/compose/?to=jofwu">Reddit</a></li>
         </ul>
       </div>
     </div>
