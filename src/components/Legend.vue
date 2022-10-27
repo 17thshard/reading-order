@@ -4,7 +4,7 @@
     :class="['legend__intro', {'legend__intro--open': introToggled}]"
     v-closable="{ handler: handleIntroOutsideClick }"
   >
-    <div class="legend__intro-toggle" @click="introToggled = !introToggled">
+    <div class="legend__intro-toggle" @click="introToggleHandler">
       info
     </div>
 
@@ -20,7 +20,7 @@
         unpublished works.</p>
       <span
         class="legend__intro-content-toggle"
-        @click="introContentCollapsed = !introContentCollapsed"
+        @click="introMoreInfoToggleHandler"
         v-html="introContentCollapsed ? 'More details' : 'Less details'"
       ></span>
       <div class="legend__intro-content-more">
@@ -57,7 +57,7 @@
     :class="['legend__keys', {'legend__keys--open': keysToggled}]"
     v-closable="{ handler: handleKeysOutsideClick }"
   >
-    <div class="legend__keys-toggle" @click="keysToggled = !keysToggled">
+    <div class="legend__keys-toggle" @click="legendKeysToggleHandler">
       legend
     </div>
 
@@ -144,9 +144,9 @@ export default {
   },
   data() {
     return {
-      introToggled: !this.areClosablesHiddenByDefault(),
-      introContentCollapsed: true,
-      keysToggled: !this.areClosablesHiddenByDefault(),
+      introToggled: !this.isInfoHiddenByDefault(),
+      introContentCollapsed: !this.isIntroContentCollapsedByDefault(),
+      keysToggled: !this.isLegendHiddenByDefault(),
       selectedOrder: null,
       sortInitialized: false,
     };
@@ -189,16 +189,48 @@ export default {
   methods: {
     handleIntroOutsideClick() {
       if (this.introToggled && this.areClosablesHiddenByDefault()) {
+        localStorage.setItem('introToggled', false);
         this.introToggled = false;
       }
     },
     handleKeysOutsideClick() {
       if (this.keysToggled && this.areClosablesHiddenByDefault()) {
+        localStorage.setItem('keysToggled', false);
         this.keysToggled = false;
       }
     },
+    isLegendHiddenByDefault() {
+      let keysToggled = localStorage.getItem('keysToggled');
+      if (keysToggled === undefined) {
+        keysToggled = this.areClosablesHiddenByDefault();
+      }
+      return !(keysToggled === 'true');
+    },
+    isInfoHiddenByDefault() {
+      let introToggled = localStorage.getItem('introToggled');
+      if (introToggled === undefined) {
+        introToggled = this.areClosablesHiddenByDefault();
+      }
+      return !(introToggled === 'true');
+    },
+    isIntroContentCollapsedByDefault() {
+      const introContentCollapsed = localStorage.getItem('introContentCollapsed');
+      return introContentCollapsed === undefined ? true : introContentCollapsed;
+    },
     areClosablesHiddenByDefault() {
       return window.matchMedia('(max-width: 1000px)').matches;
+    },
+    introToggleHandler() {
+      localStorage.setItem('introToggled', !this.introToggled);
+      this.introToggled = !this.introToggled;
+    },
+    legendKeysToggleHandler() {
+      localStorage.setItem('keysToggled', !this.keysToggled);
+      this.keysToggled = !this.keysToggled;
+    },
+    introMoreInfoToggleHandler() {
+      localStorage.setItem('introContentCollapsed', !this.introContentCollapsed);
+      this.introContentCollapsed = !this.introContentCollapsed;
     },
     toggleUi(event) {
       if (event.code !== 'KeyH') {
