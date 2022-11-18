@@ -315,7 +315,12 @@
                                     "target": "sa4",
                                     "type": "minor",
                                     "description": "The communication box used by <a target='_blank' href='https://coppermind.net/wiki/Shallan'>Shallan</a> to communicate with <a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a> and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> contains a <a target='_blank' href='https://coppermind.net/wiki/Seon'>Seon</a>."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "major",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -404,7 +409,12 @@
                                     "target": "sa4",
                                     "type": "egg",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Fused'>Fused</a> refer to <a target='_blank' href='https://coppermind.net/wiki/aluminum'>aluminum</a> as Ralkalest."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "major",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -684,7 +694,7 @@
                                 {
                                     "id": "nazh",
                                     "type": "mention",
-                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> is 'the huanted man' in 'The Ghastly Gondola!' story in <a target='_blank' href='https://coppermind.net/wiki/The_New_Ascendancy'>The New Ascendancy</a> broadsheet. (note his 'shadows' curse) <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> are also the 'K or N' referred to in the 'Do your metal tools speak to you?' ad in the broadsheet."
+                                    "description": "<a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> is 'the haunted man' in 'The Ghastly Gondola!' story in <a target='_blank' href='https://coppermind.net/wiki/The_New_Ascendancy'>The New Ascendancy</a> broadsheet. (note his 'shadows' curse) <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> are also the 'K or N' referred to in the 'Do your metal tools speak to you?' ad in the broadsheet."
                                 },
                                 {
                                     "id": "ars",
@@ -723,6 +733,22 @@
                                 "publication": 2022.11,
                                 "chronology": 8.4
                             },
+                            "appearances": [
+                                {
+                                    "id": "hoid",
+                                    "type": "appearance",
+                                    "description": "WIP"
+                                },
+                                {
+                                    "id": "nazh",
+                                    "type": "mention",
+                                    "description": "WIP"
+                                },
+                                {
+                                    "id": "ars",
+                                    "type": "appearance"
+                                }
+                            ],
                             "categories": [ "mistborn", "plan", "forthcoming", "novel" ]
                         },
                         {
@@ -891,7 +917,12 @@
                                     "target": "sa4",
                                     "type": "significant",
                                     "description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "significant",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -974,7 +1005,12 @@
                                     "target": "sa4",
                                     "type": "major",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Nightblood'>Nightblood</a> is used to kill <a target='_blank' href='https://coppermind.net/wiki/Rayse'>Rayse</a>. <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes mention <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Zahel'>Zahel</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a> in his fight against <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and explains that he is a <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Shadow'>Cognitive Shadow</a>. The coin <a target='_blank' href='https://coppermind.net/wiki/Adolin'>Adolin</a> gives to <a target='_blank' href='https://coppermind.net/wiki/Kaladin'>Kaladin</a> and some merchants in <a target='_blank' href='https://coppermind.net/wiki/Lasting_Integrity'>Lasting Integrity</a> are from <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a>. <a target='_blank' href='https://coppermind.net/wiki/Endowment'>Endowment</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 24 epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> tampers with <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid's</a> <a target='_blank' href='https://coppermind.net/wiki/BioChromatic_Breath'>Breath</a> in the Epilogue."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "significant",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1073,7 +1109,12 @@
                                     "target": "au",
                                     "type": "minor",
                                     "description": "The <a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a> essay covers details about <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> and makes mentions of <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a>'s past."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "minor",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1137,7 +1178,12 @@
                                     "target": "twokp",
                                     "type": "minor",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings_Prime'>The Way of Kings Prime</a>, written in 2002, is the original draft of <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>The Way of Kings</a>. Only small excerpts were released prior to <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>Oathbringer</a> as Brandon felt it contained spoilers for certain ideas through that book. It was self-published as a Sanderson Curiosity in July 2020."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "minor",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1198,7 +1244,12 @@
                                     "target": "mb2",
                                     "type": "minor",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a> speaks to <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> and others with <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>. The <a target='_blank' href='https://coppermind.net/wiki/Well_of_Ascension'>Well of Ascension</a> pulses with <a target='_blank' href='https://coppermind.net/wiki/Preservation'>Preservation's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>"
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "significant",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1434,7 +1485,12 @@
                                     "target": "sa4",
                                     "type": "minor",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "minor",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1728,7 +1784,14 @@
                             "sorting": {
                                 "chronology": 1.1
                             },
-                            "categories": [ "dragonsteel", "plan", "unpublished", "novel" ]
+                            "categories": [ "dragonsteel", "plan", "unpublished", "novel" ],
+			    "connections": [
+				{
+				    "target": "mb7",
+				    "type": "egg",
+				    "description": "WIP"
+				}
+			]
                         },
                         {
                             "id": "d2",
@@ -1901,7 +1964,12 @@
                                     "target": "sa4",
                                     "type": "minor",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Devotion'>Devotion</a> and <a target='_blank' href='https://coppermind.net/wiki/Dominion'>Dominion</a> are referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 26 Epigraph</a>. <a target='_blank' href='https://coppermind.net/wiki/Ambition'>Ambition's</a> struggle with <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> is referenced in the <a target='_blank' href='https://coppermind.net/wiki/Rhythm_of_War/Epigraphs'>Chapter 27 Epigraph</a>."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "minor",
+				    "description": "WIP"
+				}
                             ]
                         }
                     ]
@@ -1973,7 +2041,12 @@
                                     "target": "sa4",
                                     "type": "egg",
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Foil'>Foil</a> is said to be seeking 'control over the <a target='_blank' href='https://coppermind.net/wiki/Aether'>aethers</a>'."
-                                }
+                                },
+				{
+				    "target": "mb7",
+				    "type": "minor",
+				    "description": "WIP"
+				}
                             ]
                         },
                         {
@@ -1997,7 +2070,14 @@
                                     "description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the 'Imperial Fool'."
                                 }
                             ],
-                            "categories": [ "no-series", "short", "apocryphal", "noncanon" ]
+                            "categories": [ "no-series", "short", "apocryphal", "noncanon" ],
+			    "connections":[
+				{
+				    "target": "mb7",
+				    "type": "egg",
+				    "description": "WIP"
+				}
+			    ]
                         },
                         {
                             "id": "twokp",
