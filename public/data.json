@@ -324,7 +324,7 @@
 								{
 									"target": "mb7",
 									"type": "major",
-									"description": "(WIP) Codenames is Kaise; she communicate with Kelsier using Seon Dao in chapter 40. Shay-I (Moonlight) uses AonDor in chapter 54."
+									"description": "(WIP) Codenames is Kaise; she communicate with Kelsier using Seon Dao in Chapter 40. Shay-I (Moonlight) uses AonDor in Chapter 54."
 								}
 							]
 						},
@@ -1141,7 +1141,7 @@
 								{
 									"target": "mb7",
 									"type": "significant",
-									"description": "(WIP) Nalthis is mentionned in chapter 39. Moonlight describes an Awakened lock in chapter 40."
+									"description": "(WIP) Nalthis is mentionned in Chapter 39. Moonlight describes an Awakened lock in Chapter 40."
 								}
 							]
 						},
@@ -1208,7 +1208,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) Moonlight mentions Odium in chapter 20. Wayne buys some chouta from a street vendor in chapter 32. Codenames mentions Roshar and the Thaylen language in chapter 39."
+									"description": "(WIP) Moonlight mentions Odium in Chapter 20. Codenames mentions Roshar and the Thaylen language in Chapter 39."
 								}
 							]
 						},
@@ -1267,7 +1267,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "(WIP) Dlavil is Iyatil's Brother"
+									"description": "(WIP) Wayne buys some chouta from a street vendor in Chapter 32. Dlavil is Iyatil's Brother"
 								}
 							]
 						},
@@ -2302,7 +2302,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) Moonlight references the death of Devotion and Dominion in chapter 40. Autonomy currently resides in the Taldain system."
+									"description": "(WIP) Moonlight references the death of Devotion and Dominion in Chapter 40. Autonomy currently resides in the Taldain system."
 								}
 							]
 						}
