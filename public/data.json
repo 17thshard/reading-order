@@ -323,8 +323,8 @@
 								},
 								{
 									"target": "mb7",
-									"type": "major",
-									"description": "(WIP) Codenames is Kaise; she communicate with Kelsier using Seon Dao in Chapter 40. Shay-I (Moonlight) uses AonDor in Chapter 54."
+									"type": "significant",
+									"description": "Codenames is <a target='_blank' href='https://coppermind.net/wiki/Kaise'>Kaise</a>; she communicate with <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> using <a target='_blank' href='https://coppermind.net/wiki/Seon'>Seon Dao</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>. <a target='_blank' href='https://coppermind.net/wiki/Shay-I'>Shay-I (Moonlight)</a> uses <a target='_blank' href='https://coppermind.net/wiki/AonDor'>AonDor</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_54'>Chapter 54</a>."
 								}
 							]
 						},
@@ -438,7 +438,7 @@
 								{
 									"target": "mb7",
 									"type": "major",
-									"description": "(WIP) Moonlight is Shai; she uses Forgery on several occasions and takes on the name Shay-I after using her essence mark."
+									"description": "Moonlight is <a target='_blank' href='https://coppermind.net/wiki/Shai'>Shai</a>; she uses <a target='_blank' href='https://coppermind.net/wiki/Forgery'>Forgery</a> on several occasions and takes on the name 'Shay-I' after using her <a target='_blank' href='https://coppermind.net/wiki/Essence_Mark'>Essence Mark</a>."
 								}
 							]
 						},
@@ -821,15 +821,15 @@
 							],
 							"categories": [
 								"mistborn",
-								"plan",
-								"forthcoming",
+								"phase2",
+								"published",
 								"novel"
 							],
 							"connections": [
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "(WIP) The glowing jars the Ire are using might be purified Dor."
+									"description": "The glowing jars the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a> are using might be purified <a target='_blank' href='https://coppermind.net/wiki/Dor'>Dor</a>."
 								}
 							]
 						},
@@ -1140,8 +1140,8 @@
 								},
 								{
 									"target": "mb7",
-									"type": "significant",
-									"description": "(WIP) Nalthis is mentionned in Chapter 39. Moonlight describes an Awakened lock in Chapter 40."
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a> is mentionned in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. <a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> describes an <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakened</a> lock in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>."
 								}
 							]
 						},
@@ -1208,7 +1208,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) Moonlight mentions Odium in Chapter 20. Codenames mentions Roshar and the Thaylen language in Chapter 39."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_20'>Chapter 20</a>. <a target='_blank' href='https://coppermind.net/wiki/Codenames'>Codenames</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> and the <a target='_blank' href='https://coppermind.net/wiki/Thaylen_script'>Thaylen script</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>."
 								}
 							]
 						},
@@ -1267,7 +1267,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "(WIP) Wayne buys some chouta from a street vendor in Chapter 32. Dlavil is Iyatil's Brother"
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s Brother"
 								}
 							]
 						},
@@ -2068,7 +2068,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "(WIP) Jan Ven, mentioned in the epilogue, is a Sho Del–a race of beings first mentioned in Dragonsteel."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>–a species of beings first mentioned in Dragonsteel."
 								}
 							]
 						},
@@ -2302,7 +2302,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) Moonlight references the death of Devotion and Dominion in Chapter 40. Autonomy currently resides in the Taldain system."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> references the death of <a target='_blank' href='https://coppermind.net/wiki/Devotion'>Devotion</a> and <a target='_blank' href='https://coppermind.net/wiki/Dominion'>Dominion</a> in Chapter 40. <a target='_blank' href='https://coppermind.net/wiki/Autonomy'>Autonomy</a> currently resides in the <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>."
 								}
 							]
 						}
@@ -2389,7 +2389,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) TwinSoul can manipulate the Aethers."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/TwinSoul'>TwinSoul</a> can manipulate the <a target='_blank' href='https://coppermind.net/wiki/Aether'>Aethers</a>."
 								}
 							]
 						},
