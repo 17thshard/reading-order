@@ -324,7 +324,7 @@
 								{
 									"target": "mb7",
 									"type": "major",
-									"description": "(WIP) Codenames is Kaise. Shay-I (Moonlight) uses AonDor in chapter 54. Codenames communicate with Kelsier using Seon Dao"
+									"description": "(WIP) Codenames is Kaise; she communicate with Kelsier using Seon Dao in chapter 40. Shay-I (Moonlight) uses AonDor in chapter 54."
 								}
 							]
 						},
@@ -438,7 +438,7 @@
 								{
 									"target": "mb7",
 									"type": "major",
-									"description": "(WIP) Moonlight is Shai; she uses Forgery on several occasions and takes on the name Shay-I after using her essence mark"
+									"description": "(WIP) Moonlight is Shai; she uses Forgery on several occasions and takes on the name Shay-I after using her essence mark."
 								}
 							]
 						},
@@ -824,6 +824,13 @@
 								"plan",
 								"forthcoming",
 								"novel"
+							],
+							"connections": [
+								{
+									"target": "mb7",
+									"type": "egg",
+									"description": "(WIP) The glowing jars the Ire are using might be purified Dor."
+								}
 							]
 						},
 						{
@@ -1032,11 +1039,6 @@
 									"target": "sa4",
 									"type": "significant",
 									"description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
-								},
-								{
-									"target": "mb7",
-									"type": "significant",
-									"description": "(WIP) Kelsier's survival is made explicit in Secret History. The glowing jars that the Ire are using are likely purified Dor."
 								}
 							]
 						},
@@ -1712,11 +1714,6 @@
 									"target": "sa4",
 									"type": "minor",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes."
-								},
-								{
-									"target": "mb7",
-									"type": "minor",
-									"description": "(WIP) Aether manipulation drains the body's water supply similarly to Sand mastery."
 								}
 							]
 						},
@@ -2071,7 +2068,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "(WIP) A Sho Del is described in the epilogue."
+									"description": "(WIP) Jan Ven, mentioned in the epilogue, is a Sho Del–a race of beings first mentioned in Dragonsteel."
 								}
 							]
 						},
@@ -2305,7 +2302,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) Moonlight references the death of Devotion and Dominion in chapter 40. Autonomy's original planet is revealed in The Taldain System Essay."
+									"description": "(WIP) Moonlight references the death of Devotion and Dominion in chapter 40. Autonomy currently resides in the Taldain system."
 								}
 							]
 						}
@@ -2392,7 +2389,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "(WIP) TwinSoul can manipulates the Aethers."
+									"description": "(WIP) TwinSoul can manipulate the Aethers."
 								}
 							]
 						},
