@@ -792,14 +792,15 @@
 						},
 						{
 							"id": "mb7",
-							"title": "The Lost Metal (2022)",
+							"title": "The Lost Metal",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 2)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2022</a>",
+							"publication": "Fall 2022",
 							"chronology": "Mistborn Era 2 occurs <a target='_blank' href='https://wob.coppermind.net/events/260/#e8747'>after Stormlight Archive book 5</a> and <a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>before Stormlight Archive book 6</a>.",
 							"sorting": {
+								"order": 2.27
 								"publication": 2022.11,
 								"chronology": 8.4
 							},
@@ -1267,7 +1268,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s Brother"
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s brother"
 								}
 							]
 						},
@@ -1405,9 +1406,9 @@
 							],
 							"connections": [
 								{
-									"target": "d1",
+									"target": "dsp",
 									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel'>Dragonsteel</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel Prime'>Dragonsteel Prime</a>."
 								},
 								{
 									"target": "mb2",
@@ -2419,6 +2420,31 @@
 								"short",
 								"apocryphal",
 								"noncanon"
+							]
+						},
+						{
+							"id": "dsp",
+							"title": "Dragonsteel Prime",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Dragonsteel_Prime'>Dragonsteel Prime</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a>",
+							"system": "Yolish system",
+							"publication": "<a target='_blank' href='https://wob.coppermind.net/events/488/#e15395'>Fall 2023</a>",
+							"sorting": {
+								"order": 2.90,
+								"publication": 2023.09
+							},
+							"categories": [
+								"dragonsteel",
+								"novel",
+								"apocryphal",
+								"noncanon"
+							],
+							"connections": [
+								{
+									"target": "mb7",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>–a species of beings first mentioned in Dragonsteel."
+								}
 							]
 						},
 						{
