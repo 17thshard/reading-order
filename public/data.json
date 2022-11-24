@@ -828,9 +828,14 @@
 							],
 							"connections": [
 								{
-									"target": "mb7",
+									"target": "msh",
 									"type": "egg",
 									"description": "The glowing jars the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a> are using might be purified <a target='_blank' href='https://coppermind.net/wiki/Dor'>Dor</a>."
+								},
+								{
+									"target": "sa1",
+									"type": "egg",
+									"description": "The 'people with golden hair living on the east side', mentioned by <a target='_blank' href='https://coppermind.net/wiki/Maraga_Dulcet'>Maraga</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>, are probably <a target='_blank' href='https://coppermind.net/wiki/Iriali'>Iriali</a>."
 								}
 							]
 						},
