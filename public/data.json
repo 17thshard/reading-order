@@ -438,7 +438,7 @@
 								{
 									"target": "mb7",
 									"type": "major",
-									"description": "Moonlight is <a target='_blank' href='https://coppermind.net/wiki/Shai'>Shai</a>; she uses <a target='_blank' href='https://coppermind.net/wiki/Forgery'>Forgery</a> on several occasions and takes on the name 'Shay-I' after using her <a target='_blank' href='https://coppermind.net/wiki/Essence_Mark'>Essence Mark</a>."
+									"description": "Moonlight is <a target='_blank' href='https://coppermind.net/wiki/Shai'>Shai</a>; she uses <a target='_blank' href='https://coppermind.net/wiki/Forgery'>Forgery</a> on several occasions and takes on the name 'Shay-I' after using her <a target='_blank' href='https://coppermind.net/wiki/Essence_Mark'>Essence Mark</a> to become an <a target='_blank' href='https://coppermind.net/wiki/Elantrian'>Elantrian</a>."
 								}
 							]
 						},
@@ -1142,7 +1142,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a> is mentionned in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. <a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> describes an <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakened</a> lock in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a> is mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. <a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> describes an <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakened</a> lock in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>."
 								}
 							]
 						},
@@ -1268,7 +1268,7 @@
 								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s brother"
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s brother."
 								}
 							]
 						},
@@ -1405,11 +1405,6 @@
 								"published"
 							],
 							"connections": [
-								{
-									"target": "dsp",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel Prime'>Dragonsteel Prime</a>."
-								},
 								{
 									"target": "mb2",
 									"type": "minor",
@@ -2064,13 +2059,6 @@
 								"plan",
 								"unpublished",
 								"novel"
-							],
-							"connections": [
-								{
-									"target": "mb7",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>–a species of beings first mentioned in Dragonsteel."
-								}
 							]
 						},
 						{
@@ -2390,7 +2378,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/TwinSoul'>TwinSoul</a> can manipulate the <a target='_blank' href='https://coppermind.net/wiki/Aether'>Aethers</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/TwinSoul'>TwinSoul</a> can manipulate the <a target='_blank' href='https://coppermind.net/wiki/Aether'>aethers</a>."
 								}
 							]
 						},
@@ -2441,9 +2429,14 @@
 							],
 							"connections": [
 								{
+									"target": "sa4",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Microkinesis'>Microkinesis</a> referes to a type of magic from <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolen</a> in <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel Prime'>Dragonsteel Prime</a>."
+								},
+								{
 									"target": "mb7",
 									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>–a species of beings first mentioned in Dragonsteel."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>a species of beings known previously from <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel_Prime'>Dragonsteel Prime</a>."
 								}
 							]
 						},
