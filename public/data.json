@@ -831,11 +831,6 @@
 									"target": "msh",
 									"type": "egg",
 									"description": "The glowing jars the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a> are using might be purified <a target='_blank' href='https://coppermind.net/wiki/Dor'>Dor</a>."
-								},
-								{
-									"target": "sa1",
-									"type": "egg",
-									"description": "The 'people with golden hair living on the east side', mentioned by <a target='_blank' href='https://coppermind.net/wiki/Maraga_Dulcet'>Maraga</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>, are probably <a target='_blank' href='https://coppermind.net/wiki/Iriali'>Iriali</a>."
 								}
 							]
 						},
@@ -1214,7 +1209,7 @@
 								{
 									"target": "mb7",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_20'>Chapter 20</a>. <a target='_blank' href='https://coppermind.net/wiki/Codenames'>Codenames</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> and the <a target='_blank' href='https://coppermind.net/wiki/Thaylen_script'>Thaylen script</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_20'>Chapter 20</a>. <a target='_blank' href='https://coppermind.net/wiki/Codenames'>Codenames</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> and the <a target='_blank' href='https://coppermind.net/wiki/Thaylen_script'>Thaylen script</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. The 'people with golden hair living on the east side', mentioned by <a target='_blank' href='https://coppermind.net/wiki/Maraga_Dulcet'>Maraga</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>, are probably <a target='_blank' href='https://coppermind.net/wiki/Iriali'>Iriali</a>."
 								}
 							]
 						},
