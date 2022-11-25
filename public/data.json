@@ -1709,7 +1709,7 @@
 								{
 									"target": "sa4",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. <a target='_blank' href='https://coppermind.net/wiki/Navani_Kholin'>Navani</a> uses <a target='_blank' href='https://coppermind.net/wiki/Sand_(Taldain)'>sand from Taldain</a> to measure <a target='_blank' href='https://coppermind.net/wiki/Investiture'>Investiture</a> in her experiments."
 								}
 							]
 						},
@@ -1930,9 +1930,9 @@
 				{
 					"children": [
 						{
-							"id": "db",
-							"title": "The Dust Brigade",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=the+dust+brigade'>The Dust Brigade</a>",
+							"id": "tnb",
+							"title": "The Night Brigade",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=the+night+brigade'>The Night Brigade</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Threnodite_system'>Threnodite system</a>",
 							"categories": [
