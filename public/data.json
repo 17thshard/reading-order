@@ -1668,7 +1668,7 @@
 							"publication": "June 2016",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 2.11,
+								"order": 1.71,
 								"publication": 2016.06,
 								"chronology": 2.1
 							},
@@ -1686,7 +1686,7 @@
 							],
 							"categories": [
 								"white-sand",
-								"phase2b",
+								"phase1b",
 								"published",
 								"graphic"
 							],
@@ -1723,7 +1723,7 @@
 							"publication": "February 2018",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 2.12,
+								"order": 1.72,
 								"publication": 2018.02,
 								"chronology": 2.2
 							},
@@ -1741,7 +1741,7 @@
 							],
 							"categories": [
 								"white-sand",
-								"phase2b",
+								"phase1b",
 								"published",
 								"graphic"
 							],
@@ -1778,7 +1778,7 @@
 							"publication": "October 2019",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 2.13,
+								"order": 1.73,
 								"publication": 2019.10,
 								"chronology": 2.3
 							},
@@ -1796,7 +1796,7 @@
 							],
 							"categories": [
 								"white-sand",
-								"phase2b",
+								"phase1b",
 								"published",
 								"graphic"
 							],
@@ -2265,7 +2265,7 @@
 							"publication": "November 2016",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/36/#e1491'>The essays were written before the events of Sixth of the Dusk.</a> They could potentially be as early as Mistborn Era 3.",
 							"sorting": {
-								"order": 2.3,
+								"order": 2.5,
 								"publication": 2016.11,
 								"chronology": 12.0
 							},
@@ -2316,7 +2316,7 @@
 							"publication": "June 2009 (upon request)",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 2.14,
+								"order": 1.74,
 								"publication": 2009.06,
 								"chronology": 2.0
 							},
