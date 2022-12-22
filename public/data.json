@@ -848,7 +848,7 @@
 							},
 							"categories": [
 								"mistborn",
-								"short",
+								"novella",
 								"plan",
 								"unpublished"
 							]
@@ -1434,15 +1434,15 @@
 						},
 						{
 							"id": "sa5",
-							"title": "Stormlight Archive 5 (2024)",
-							"title2": "Stormlight Archive 5",
+							"title": "Knights of Wind and Truth (2024)",
+							"title2": "Knights of Wind and Truth",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
 							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2023</a>",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
 							"sorting": {
-								"publication": 2023.11,
+								"publication": 2024.11,
 								"chronology": 7.05
 							},
 							"categories": [
