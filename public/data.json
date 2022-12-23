@@ -100,12 +100,6 @@
 					"color": "#2aa1d4"
 				},
 				{
-					"id": "mythos",
-					"description": "Mythos",
-					"details": "Mythos series",
-					"color": "#d4c955"
-				},
-				{
 					"id": "dragonsteel",
 					"description": "Dragonsteel",
 					"details": "Dragonsteel",
@@ -116,6 +110,12 @@
 					"description": "Aether",
 					"details": "Aether series",
 					"color": "#e3a1e3"
+				},
+				{
+					"id": "mythos",
+					"description": "Mythos",
+					"details": "Mythos series",
+					"color": "#d4c955"
 				},
 				{
 					"id": "no-series",
@@ -1652,7 +1652,7 @@
 		},
 		{
 			"label": "Taldain",
-			"color": "#edebce",
+			"color": "#9e9b70",
 			"children": [
 				{
 					"children": [
@@ -1726,11 +1726,7 @@
 									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> and <a target='_blank' href='https://coppermind.net/wiki/Sand_mastery'>sand mastery</a>."
 								}
 							]
-						}
-					]
-				},
-				{
-					"children": [
+						},
 						{
 							"id": "arcanist",
 							"title": "The Arcanist",
@@ -1984,31 +1980,6 @@
 			]
 		},
 		{
-			"label": "Mythos",
-			"color": "#d4c955",
-			"children": [
-				{
-					"label": "Mythos<br>Series",
-					"color": "#d4c955",
-					"children": [
-						{
-							"id": "mythos",
-							"title": "Mythos series",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos series</a>",
-							"world": "Mythos",
-							"system": "Unknown",
-							"categories": [
-								"mythos",
-								"novel",
-								"plan",
-								"unpublished"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"label": "Other",
 			"color": "#a0a0a0",
 			"children": [
@@ -2050,6 +2021,25 @@
 							"system": "Unknown",
 							"categories": [
 								"aether",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						}
+					]
+				},
+				{
+					"label": "Mythos<br>Series",
+					"color": "#d4c955",
+					"children": [
+						{
+							"id": "mythos",
+							"title": "Mythos series",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos series</a>",
+							"world": "Mythos",
+							"system": "Unknown",
+							"categories": [
+								"mythos",
 								"novel",
 								"plan",
 								"unpublished"
