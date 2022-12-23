@@ -100,9 +100,9 @@
 					"color": "#2aa1d4"
 				},
 				{
-					"id": "white-sand",
-					"description": "White Sand",
-					"details": "White Sand and its sequels.",
+					"id": "mythos",
+					"description": "Mythos",
+					"details": "Mythos series",
 					"color": "#d4c955"
 				},
 				{
@@ -848,7 +848,7 @@
 							},
 							"categories": [
 								"mistborn",
-								"novella",
+								"novel",
 								"plan",
 								"unpublished"
 							]
@@ -1652,16 +1652,15 @@
 		},
 		{
 			"label": "Taldain",
-			"color": "#d4c955",
+			"color": "#edebce",
 			"children": [
 				{
-					"label": "White Sand",
 					"children": [
 						{
-							"id": "ws1",
-							"title": "White Sand Volume 1",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand_Volume_1'>White Sand Volume 1</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
+							"id": "ws",
+							"title": "White Sand",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand, Volumes 1-3</a>",
+							"series": "None",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
 							"au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
@@ -1676,7 +1675,7 @@
 								{
 									"id": "hoid",
 									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who first appears in <a target='_blank' href='https://coppermind.net/wiki/Ais'>Ais</a>'s first scene in the middle of <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_1#Chapter_4:_Divides'>Chapter 4</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who first appears in <a target='_blank' href='https://coppermind.net/wiki/Ais'>Ais</a>'s first scene in the middle of <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand#Chapter_4:_Divides'>Chapter 4</a>. He plays a song in the <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand#Epilogue'>Epilogue</a>."
 								},
 								{
 									"id": "khriss",
@@ -1685,62 +1684,7 @@
 								}
 							],
 							"categories": [
-								"white-sand",
-								"phase1b",
-								"published",
-								"graphic"
-							],
-							"connections": [
-								{
-									"target": "mb1",
-									"type": "egg",
-									"description": "'Kenton Street' in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_17'>Chapter 17</a> (also mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Well_of_Ascension'>The Well of Ascension) is a reference to <a target='_blank' href='https://coppermind.net/wiki/Kenton'>Kenton</a>."
-								},
-								{
-									"target": "sa2",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a vial of sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>."
-								},
-								{
-									"target": "au",
-									"type": "minor",
-									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> and <a target='_blank' href='https://coppermind.net/wiki/Sand_mastery'>sand mastery</a>."
-								},
-								{
-									"target": "sa4",
-									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. <a target='_blank' href='https://coppermind.net/wiki/Navani_Kholin'>Navani</a> uses <a target='_blank' href='https://coppermind.net/wiki/Sand_(Taldain)'>sand from Taldain</a> to measure <a target='_blank' href='https://coppermind.net/wiki/Investiture'>Investiture</a> in her experiments."
-								}
-							]
-						},
-						{
-							"id": "ws2",
-							"title": "White Sand Volume 2",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand_Volume 2'>White Sand Volume 2</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-							"publication": "February 2018",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
-							"sorting": {
-								"order": 1.72,
-								"publication": 2018.02,
-								"chronology": 2.2
-							},
-							"appearances": [
-								{
-									"id": "hoid",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument."
-								},
-								{
-									"id": "khriss",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
-								}
-							],
-							"categories": [
-								"white-sand",
+								"no-series",
 								"phase1b",
 								"published",
 								"graphic"
@@ -1749,12 +1693,22 @@
 								{
 									"target": "mb1",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>."
+									"description": "'Kenton Street' in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_17'>Chapter 17</a> (also mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Well_of_Ascension'>The Well of Ascension) is a reference to <a target='_blank' href='https://coppermind.net/wiki/Kenton'>Kenton</a>. <a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>."
 								},
 								{
 									"target": "mb4",
 									"type": "significant",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to the god <a target='_blank' href='https://coppermind.net/wiki/Trellism'>Trell</a>."
+								},
+								{
+									"target": "sa1",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Baon'>Baon</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Blunt'."
+								},
+								{
+									"target": "sa2",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a vial of sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>."
 								},
 								{
 									"target": "sa3",
@@ -1764,60 +1718,24 @@
 								{
 									"target": "sa4",
 									"type": "minor",
-									"description": "Sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is used to identify and quantify <a target='_blank' href='https://coppermind.net/wiki/Investiture'>kinetic Investiture</a>, including explicit mention of the fauna which makes the sand special."
-								}
-							]
-						},
-						{
-							"id": "ws3",
-							"title": "White Sand Volume 3",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand_Volume_3'>White Sand Volume 3</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-							"publication": "October 2019",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
-							"sorting": {
-								"order": 1.73,
-								"publication": 2019.10,
-								"chronology": 2.3
-							},
-							"appearances": [
-								{
-									"id": "hoid",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the hooded man with a stringed instrument who plays a song in the <a target='_blank' href='https://coppermind.net/wiki/Summary:White_Sand_Volume_3#Epilogue'>Epilogue</a>."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. <a target='_blank' href='https://coppermind.net/wiki/Navani_Kholin'>Navani</a> uses <a target='_blank' href='https://coppermind.net/wiki/Sand_(Taldain)'>sand from Taldain</a> to measure <a target='_blank' href='https://coppermind.net/wiki/Investiture'>Investiture</a> in her experiments."
 								},
 								{
-									"id": "khriss",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> is a main character."
-								}
-							],
-							"categories": [
-								"white-sand",
-								"phase1b",
-								"published",
-								"graphic"
-							],
-							"connections": [
-								{
-									"target": "sa1",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Baon'>Baon</a> appears in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Blunt'."
+									"target": "au",
+									"type": "minor",
+									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a> essay discusses <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a> and <a target='_blank' href='https://coppermind.net/wiki/Sand_mastery'>sand mastery</a>."
 								}
 							]
 						}
 					]
 				},
 				{
-					"label": "The Arcanist",
 					"children": [
 						{
-							"id": "ta1",
-							"title": "The Arcanist Volume 1",
-							"title2": "The Arcanist Volume 1",
-							"series": "The Arcanist (citation needed)",
+							"id": "arcanist",
+							"title": "The Arcanist",
+							"title2": "The Arcanist",
+							"series": "None",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
 							"chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
@@ -1825,43 +1743,7 @@
 								"chronology": 2.5
 							},
 							"categories": [
-								"white-sand",
-								"plan",
-								"unpublished",
-								"graphic"
-							]
-						},
-						{
-							"id": "ta2",
-							"title": "The Arcanist Volume 2",
-							"title2": "The Arcanist Volume 2",
-							"series": "The Arcanist (citation needed)",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-							"chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
-							"sorting": {
-								"chronology": 2.6
-							},
-							"categories": [
-								"white-sand",
-								"plan",
-								"unpublished",
-								"graphic"
-							]
-						},
-						{
-							"id": "ta3",
-							"title": "The Arcanist Volume 3",
-							"title2": "The Arcanist Volume 3",
-							"series": "The Arcanist (citation needed)",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-							"chronology": "Described as a sequel, so presumably occurs shortly after White Sand.",
-							"sorting": {
-								"chronology": 2.7
-							},
-							"categories": [
-								"white-sand",
+								"no-series",
 								"plan",
 								"unpublished",
 								"graphic"
@@ -2102,6 +1984,31 @@
 			]
 		},
 		{
+			"label": "Mythos",
+			"color": "#d4c955",
+			"children": [
+				{
+					"label": "Mythos<br>Series",
+					"color": "#d4c955",
+					"children": [
+						{
+							"id": "mythos",
+							"title": "Mythos series",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos series</a>",
+							"world": "Mythos",
+							"system": "Unknown",
+							"categories": [
+								"mythos",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"label": "Other",
 			"color": "#a0a0a0",
 			"children": [
@@ -2328,14 +2235,14 @@
 								}
 							],
 							"categories": [
-								"white-sand",
+								"no-series",
 								"novel",
 								"apocryphal",
 								"noncanon"
 							],
 							"connections": [
 								{
-									"target": "ws1",
+									"target": "ws",
 									"type": "minor",
 									"description": "The <a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a> graphic novels are based on the prose version."
 								}
