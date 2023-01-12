@@ -1475,15 +1475,16 @@
 						},
 						{
 							"id": "sa4.5",
-							"title": "Horneater (2023)",
+							"title": "Horneater (2024)",
 							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Horneater</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
 							"padding": 12,
 							"chronology": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fills in what happened with Rock after the events of Rhythm of War.</a>",
+							"publication": "Unknown. Tentatively to be published <a target='_blank' href='https://wob.coppermind.net/events/472/#e14955'>prior to Knights of Wind and Truth</a>."
 							"sorting": {
-								"publication": 2023.11,
+								"publication": 2024.10,
 								"chronology": 7.045
 							},
 							"categories": [
@@ -1500,7 +1501,7 @@
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>Fall 2023</a>",
+							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>November 2024</a>",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
 							"sorting": {
 								"publication": 2024.11,
