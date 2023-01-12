@@ -26,16 +26,14 @@
       <div class="legend__intro-content-more">
         <p>(1) Books are grouped by series, world, and star system by default, and are listed in
           the clockwise direction.</p>
-        <p>(2) There is no 'right way' to read the Cosmere. This method strives to balance
-          publication order while grouping series together and allowing flexibility for the
-          reader. Read the 'Essential' works in each phase before moving on to the next phase.
-          Stories in a series should be read in the order listed. 'Secondary' books can be read
-          during their phase or skipped until a later time.</p>
+        <p>(2) There is no 'right way' to read the Cosmere. This guide presents and order similar
+          to publication order that also minimizes the amount of jumping between different series.
+          Simply read everything in each phase before moving to the next phase. Series should be
+          read in the order listed. Alternatively, the list can be ordered by publication order.</p>
         <p>(3) Arrows illustrate connections between story. The 'target' includes some reference
           to the first. Different arrow styles note the significance of any references (to the
           story and to the greater cosmere), and can be taken as additional reading order advice.
-          Hover mouse on books to highlight related arrows. Hover mouse on arrows to see
-          details.</p>
+          Click books to see book info and highlight related arrows. Click arrows to see details.</p>
         <p>(4) Unpublished books may or may not be eventually published.</p>
         <div class="legend-feedback">
           <h2>Feedback</h2>
