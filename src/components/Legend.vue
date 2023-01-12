@@ -29,11 +29,11 @@
         <p>(2) There is no 'right way' to read the Cosmere. This guide presents and order similar
           to publication order that also minimizes the amount of jumping between different series.
           Simply read everything in each phase before moving to the next phase. Series should be
-          read in the order listed. Alternatively, the list can be ordered by publication order.</p>
+          read in the order listed. Alternatively, the list can be sorted by publication order.</p>
         <p>(3) Arrows illustrate connections between story. The 'target' includes some reference
           to the first. Different arrow styles note the significance of any references (to the
           story and to the greater cosmere), and can be taken as additional reading order advice.
-          Click books to see book info and highlight related arrows. Click arrows to see details.</p>
+          Click books to see info and highlight related arrows. Click arrows to see details.</p>
         <p>(4) Unpublished books may or may not be eventually published.</p>
         <div class="legend-feedback">
           <h2>Feedback</h2>
