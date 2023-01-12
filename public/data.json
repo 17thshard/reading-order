@@ -154,6 +154,17 @@
 					"color": "#8abdd4"
 				},
 				{
+					"id": "phase3",
+					"description": "Phase 3 - Essential",
+					"details": "Essential Phase 3 stories should be read after all essential Phase 2 works and before moving to Phase 4.",
+					"color": "#e3ae00"
+				},
+				{
+					"id": "phase3b",
+					"description": "Phase 3 - Secondary",
+					"details": "Secondary Phase 3 stories may be read during Phase 3 or anytime after.",
+					"color": "#e3c871",
+				{
 					"id": "plan",
 					"description": "Unpublished - Future Plans",
 					"details": "Includes all planned future cosmere stories. Likelihood of publication varies. Known publication dates may be in parenthesis. Titles are tentative.",
@@ -1841,14 +1852,14 @@
 							"publication": "June 2014",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 4.</a>",
 							"sorting": {
-								"order": 1.6,
+								"order": 2.1,
 								"publication": 2014.06,
 								"chronology": 13.0
 							},
 							"categories": [
 								"no-series",
 								"novella",
-								"phase1b",
+								"phase2b",
 								"published"
 							],
 							"connections": [
@@ -2050,21 +2061,23 @@
 				{
 					"children": [
 						{
-							"id": "secret1",
-							"title": "Secret Project 1 (2023)",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_One'>Secret Project 1</a>",
-							"world": "Spoiler",
-							"system": "Spoiler",
+							"id": "tress",
+							"title": "Tress of the Emerald Sea",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Tress_of_the_Emerald_Sea'>Tress of the Emerald Sea</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a>",
+							"system": "Unknown",
 							"publication": "January 2023",
+							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to Sixth of the Dusk and Mistborn Era 4.",
 							"sorting": {
-								"publication": 2023.01
+								"order": 3.1,
+								"publication": 2023.01,
+								"chronology": 12.1
 							},
-							"link": "Chapters 1-5 available on <a target='_blank' href='brandonsanderson.com/first-look-at-secret-project-1'>Brandon's website</a> and <a target='_blank' href='https://youtu.be/bBUVXcIE0E0'>YouTube</a>. (some may consider to be spoilers)",
 							"categories": [
 								"no-series",
 								"novel",
-								"plan",
-								"forthcoming"
+								"phase3",
+								"published"
 							]
 						}
 					]
@@ -2176,7 +2189,7 @@
 							"categories": [
 								"no-series",
 								"short",
-								"phase2",
+								"phase2b",
 								"published"
 							],
 							"connections": [
