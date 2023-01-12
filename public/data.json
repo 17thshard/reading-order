@@ -1,5 +1,5 @@
 {
-	"base-separation": 3.21,
+	"base-separation": 3.19,
 	"connections": [
 		{
 			"id": "major",
@@ -100,6 +100,12 @@
 					"color": "#2aa1d4"
 				},
 				{
+					"id": "white-sand",
+					"description": "White Sand",
+					"details": "White Sand",
+					"color": "#9e9957"
+				},
+				{
 					"id": "dragonsteel",
 					"description": "Dragonsteel",
 					"details": "Dragonsteel",
@@ -131,39 +137,21 @@
 			"categories": [
 				{
 					"id": "phase1",
-					"description": "Phase 1 - Essential",
-					"details": "Essential Phase 1 stories should be read before moving to Phase 2.",
+					"description": "Phase 1",
+					"details": "The idea of the greater Cosmere plays a small role, with connections generally being little more than easter eggs.",
 					"color": "#00b02b"
 				},
 				{
-					"id": "phase1b",
-					"description": "Phase 1 - Secondary",
-					"details": "Secondary Phase 1 stories may be read during Phase 1 or anytime after.",
-					"color": "#7bb088"
-				},
-				{
 					"id": "phase2",
-					"description": "Phase 2 - Essential",
-					"details": "Essential Phase 2 stories should be read after all essential Phase 1 works and before moving to Phase 3.",
+					"description": "Phase 2",
+					"details": "This phase involves more direct Cosmere references and serves as a transition from Phase 1 to Phase 3.",
 					"color": "#0094d4"
 				},
 				{
-					"id": "phase2b",
-					"description": "Phase 2 - Secondary",
-					"details": "Secondary Phase 2 stories may be read during Phase 2 or anytime after.",
-					"color": "#8abdd4"
-				},
-				{
 					"id": "phase3",
-					"description": "Phase 3 - Essential",
-					"details": "Essential Phase 3 stories should be read after all essential Phase 2 works and before moving to Phase 4.",
+					"description": "Phase 3",
+					"details": "Cosmere connections are common and notable, but series are still mostly isolated and distinct.",
 					"color": "#e3ae00"
-				},
-				{
-					"id": "phase3b",
-					"description": "Phase 3 - Secondary",
-					"details": "Secondary Phase 3 stories may be read during Phase 3 or anytime after.",
-					"color": "#e3c871"
 				},
 				{
 					"id": "plan",
@@ -337,6 +325,11 @@
 									"target": "mb7",
 									"type": "significant",
 									"description": "Codenames is <a target='_blank' href='https://coppermind.net/wiki/Kaise'>Kaise</a>; she communicate with <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> using <a target='_blank' href='https://coppermind.net/wiki/Seon'>Seon Dao</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>. <a target='_blank' href='https://coppermind.net/wiki/Shay-I'>Shay-I (Moonlight)</a> uses <a target='_blank' href='https://coppermind.net/wiki/AonDor'>AonDor</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_54'>Chapter 54</a>."
+								},
+								{
+									"target": "tress",
+									"type": "significant",
+									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Riina'>Sorceress</a> is an <a target='_blank' href='https://coppermind.net/wiki/Elantrian'>Elantrian</a>, and <a target='_blank' href='https://coppermind.net/wiki/Aon'>Aonic text</a> is found in her tower's corridor. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> finally succeeds in becoming an <a target='_blank' href='https://coppermind.net/wiki/Elantrian'>Elantrian</a> after failing to do so in the <a target='_blank' href='https://coppermind.net/wiki/Elantris_(book)'>Elantris</a> postscript. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and the <a target='_blank' href='https://coppermind.net/wiki/Riina'>Sorceress</a> both use <a target='_blank' href='https://coppermind.net/wiki/AonDor'>AonDor</a>."
 								}
 							]
 						},
@@ -359,7 +352,7 @@
 							},
 							"categories": [
 								"elantris",
-								"phase1b",
+								"phase1",
 								"published",
 								"short"
 							]
@@ -427,7 +420,7 @@
 							],
 							"categories": [
 								"no-series",
-								"phase1b",
+								"phase1",
 								"published",
 								"novella"
 							],
@@ -508,6 +501,13 @@
 									"type": "appearance"
 								}
 							],
+							"connections": [
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Steel'>Steel</a> and <a target='_blank' href='https://coppermind.net/wiki/Iron'>iron</a> tools are used to 'push' and 'pull' on <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a>. The 'Push for every Pull' quote in <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_63'>Tress of the Emerald Sea Chapter 63</a> is attributed to <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>."
+								}
+							],
 							"categories": [
 								"mistborn",
 								"phase1",
@@ -534,7 +534,7 @@
 							"categories": [
 								"mistborn",
 								"short",
-								"phase1b",
+								"phase1",
 								"published"
 							]
 						},
@@ -707,7 +707,7 @@
 							"categories": [
 								"mistborn",
 								"short",
-								"phase2b",
+								"phase2",
 								"published"
 							]
 						},
@@ -843,6 +843,11 @@
 									"target": "msh",
 									"type": "egg",
 									"description": "The glowing jars the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a> are using might be purified <a target='_blank' href='https://coppermind.net/wiki/Dor'>Dor</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Ulaam'>Ulaam</a> was first mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a>. 'Death himself, with nails in his eyes' refers to <a target='_blank' href='https://coppermind.net/wiki/Marsh'>Marsh</a>, whose personification as 'Death' is spreading across the <a target='_blank' href='https://coppermind.net/wiki/Cosmere'>cosmere</a> according to the <a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a> Ars Arcanum. <a target='_blank' href='https://coppermind.net/wiki/Rosite'>Rosite</a> is used by <a target='_blank' href='https://coppermind.net/wiki/Prasanva'>TwinSoul</a>. <a target='_blank' href='https://coppermind.net/wiki/Sazed'>Sazed</a> is said to have 'released' the <a target='_blank' href='https://coppermind.net/wiki/Kandra'>kandra</a>, seemingly sometime after <a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a>."
 								}
 							]
 						},
@@ -1052,6 +1057,11 @@
 									"target": "sa4",
 									"type": "significant",
 									"description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Riina'>Riina</a>, the Sorceress, is a member of the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> refers to <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> as an old adversary in <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_63'>Tress of the Emerald Sea Chapter 63</a>."
 								}
 							]
 						},
@@ -1155,6 +1165,11 @@
 									"target": "mb7",
 									"type": "minor",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthis</a> is mentioned in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. <a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> describes an <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakened</a> lock in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_40'>Chapter 40</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Fort'>Fort's</a> tablet is <a target='_blank' href='https://coppermind.net/wiki/Nalthis'>Nalthian</a> technology that utilizees with <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakened</a> predictive <a target='_blank' href='https://coppermind.net/wiki/Connection'>Connection</a> circuits. <a target='_blank' href='https://coppermind.net/wiki/Ulaam'>Ulaam</a> mentions the use of <a target='_blank' href='https://coppermind.net/wiki/Awakening'>'Awakener's arts'</a> to make animals talk. <a target='_blank' href='https://coppermind.net/wiki/Xisisrefliel'>Xisis the dragon</a> uses <a target='_blank' href='https://coppermind.net/wiki/Awakening'>Awakening</a>."
 								}
 							]
 						},
@@ -1222,6 +1237,11 @@
 									"target": "mb7",
 									"type": "significant",
 									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> were first seen in The Way of Kings. <a target='_blank' href='https://coppermind.net/wiki/Moonlight'>Moonlight</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_20'>Chapter 20</a>. <a target='_blank' href='https://coppermind.net/wiki/Codenames'>Codenames</a> mentions <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a> and the <a target='_blank' href='https://coppermind.net/wiki/Thaylen_script'>Thaylen script</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_39'>Chapter 39</a>. The 'people with golden hair living on the east side', mentioned by <a target='_blank' href='https://coppermind.net/wiki/Maraga_Dulcet'>Maraga</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>, are probably <a target='_blank' href='https://coppermind.net/wiki/Iriali'>Iriali</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Midnight_Essence'>Midnight Essence</a> was first seen in <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>The Way of Kings</a>, where it is associated with <a target='_blank' href='https://coppermind.net/wiki/Re-Shephir>Re-Shephir. <a target='_blank' href='https://coppermind.net/wiki/Nahel bond'>Nahel bond</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_31'>Tress of the Emerald Sea chapter 31</a>."
 								}
 							]
 						},
@@ -1281,6 +1301,11 @@
 									"target": "mb7",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Wayne'>Wayne</a> buys some <a target='_blank' href='https://coppermind.net/wiki/Chouta'>chouta</a> from a street vendor in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Chapter_32'>Chapter 32</a>. <a target='_blank' href='https://coppermind.net/wiki/Dlavil'>Dlavil</a> is <a target='_blank' href='https://coppermind.net/wiki/Iyatil'>Iyatil</a>'s brother."
+								},
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a> is a stop on the <a target='_blank' href='https://coppermind.net/wiki/Iriali'>Iriali</a> 'Long Trail' sometime after they leave <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> states that the weather patterns on <a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a> 'aren't specifically <a target='_blank' href='https://coppermind.net/wiki/Investiture'>Invested</a>' and 'aren't self-aware' in the way that <a target='_blank' href='https://coppermind.net/wiki/highstorm'>highstorms</a> are."
 								}
 							]
 						},
@@ -1312,6 +1337,25 @@
 								"novella",
 								"phase2",
 								"published"
+							]
+						},
+						{
+							"id": "lopen",
+							"title": "King Lopen the First",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=king+lopen+the+first+of+alethkar'>King Lopen the First of Alethkar</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/31/#e1703'>Occurs concurrently with the final events of Words of Radiance.</a>",
+							"padding": 12,
+							"sorting": {
+								"chronology": 7.022
+							},
+							"categories": [
+								"stormlight",
+								"short",
+								"plan",
+								"unpublished"
 							]
 						},
 						{
@@ -1421,6 +1465,11 @@
 									"target": "mb2",
 									"type": "minor",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Ati'>Ati</a> speaks to <a target='_blank' href='https://coppermind.net/wiki/Vin'>Vin</a> and others with <a target='_blank' href='https://coppermind.net/wiki/Ruin'>Ruin's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>. The <a target='_blank' href='https://coppermind.net/wiki/Well_of_Ascension'>Well of Ascension</a> pulses with <a target='_blank' href='https://coppermind.net/wiki/Preservation'>Preservation's</a> <a target='_blank' href='https://coppermind.net/wiki/Rhythm#The_Pure_Tones'>Pure Tone</a>"
+								},
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Xisisrefliel'>Xisis</a> is almost certainly the '<a target='_blank' href='https://coppermind.net/wiki/Foil'>Foil</a>' mentioned in the Ars Arcanum who is described as 'deep within his ocean' and wishing 'to achieve control over the <a target='_blank' href='https://coppermind.net/wiki/Aether'>aethers</a>.'"
 								}
 							]
 						},
@@ -1462,70 +1511,6 @@
 								"plan",
 								"forthcoming",
 								"novel"
-							]
-						},
-						{
-							"id": "lopen",
-							"title": "King Lopen the First",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=king+lopen+the+first+of+alethkar'>King Lopen the First of Alethkar</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/31/#e1703'>Occurs concurrently with the final events of Words of Radiance.</a>",
-							"padding": 12,
-							"sorting": {
-								"chronology": 7.022
-							},
-							"categories": [
-								"stormlight",
-								"short",
-								"plan",
-								"unpublished"
-							]
-						},
-						{
-							"id": "tdatd",
-							"title": "The Dog and the Dragon",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Dog and the Dragon picture book</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"padding": 12,
-							"categories": [
-								"stormlight",
-								"plan",
-								"unpublished",
-								"graphic"
-							]
-						},
-						{
-							"id": "tgwlu",
-							"title": "The Girl Who Looked Up",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Girl Who Looked Up picture book</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"padding": 12,
-							"categories": [
-								"stormlight",
-								"plan",
-								"unpublished",
-								"graphic"
-							]
-						},
-						{
-							"id": "sa-art",
-							"title": "Stormlight Archive art book",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/events/396/#e13175'>Stormlight Archive art book</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"padding": 12,
-							"categories": [
-								"stormlight",
-								"plan",
-								"unpublished",
-								"graphic"
 							]
 						},
 						{
@@ -1626,9 +1611,60 @@
 									"description": "A <a target='_blank' href='https://coppermind.net/wiki/Knights_Radiant'>Knight Radiant</a> makes an appearance, weilding a 'Shardgun'."
 								}
 							]
+						},
+						{
+							"id": "tdatd",
+							"title": "The Dog and the Dragon",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Dog and the Dragon picture book</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+							"padding": 12,
+							"categories": [
+								"stormlight",
+								"plan",
+								"unpublished",
+								"graphic"
+							]
+						},
+						{
+							"id": "tgwlu",
+							"title": "The Girl Who Looked Up",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2020/'>The Girl Who Looked Up picture book</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+							"padding": 12,
+							"categories": [
+								"stormlight",
+								"plan",
+								"unpublished",
+								"graphic"
+							]
+						},
+						{
+							"id": "sa-art",
+							"title": "Stormlight Archive art book",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/events/396/#e13175'>Stormlight Archive art book</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+							"padding": 12,
+							"categories": [
+								"stormlight",
+								"plan",
+								"unpublished",
+								"graphic"
+							]
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"label": "Ashyn",
+			"color": "#2aa1d4",
+			"children": [
 				{
 					"children": [
 						{
@@ -1664,15 +1700,17 @@
 		},
 		{
 			"label": "Taldain",
-			"color": "#9e9b70",
+			"color": "#9e9957",
 			"children": [
 				{
+					"label": "White Sand",
+					"color": "#9e9957",
 					"children": [
 						{
 							"id": "ws",
 							"title": "White Sand",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand, Volumes 1-3</a>",
-							"series": "None",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
 							"au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
@@ -1696,8 +1734,8 @@
 								}
 							],
 							"categories": [
-								"no-series",
-								"phase1b",
+								"white-sand",
+								"phase1",
 								"published",
 								"graphic"
 							],
@@ -1751,7 +1789,7 @@
 								"chronology": 2.5
 							},
 							"categories": [
-								"no-series",
+								"white-sand",
 								"plan",
 								"unpublished",
 								"graphic"
@@ -1784,7 +1822,7 @@
 							"categories": [
 								"no-series",
 								"novella",
-								"phase1b",
+								"phase1",
 								"published"
 							],
 							"connections": [
@@ -1812,6 +1850,11 @@
 									"target": "sa4",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Raboniel'>Raboniel's</a> chain from 'the lands of the dead' is likely a <a target='_blank' href='https://coppermind.net/wiki/Silver'>silver</a> chain from <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Silver'>Silver</a> is used to cut <a target='_blank' href='https://coppermind.net/wiki/Aether'>aether</a> and kill <a target='_blank' href='https://coppermind.net/wiki/Aether_spores'>aether spores</a>. <a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar's</a> seas are said to be relatively shallow compared to the <a target='_blank' href='https://coppermind.net/wiki/Lilting_Abyss'>Lilting Abyss</a> on <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>."
 								}
 							]
 						}
@@ -1860,7 +1903,7 @@
 							"categories": [
 								"no-series",
 								"novella",
-								"phase2b",
+								"phase2",
 								"published"
 							],
 							"connections": [
@@ -1878,6 +1921,11 @@
 									"target": "sa4",
 									"type": "minor",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Gereh'>Gereh</a> has an <a target='_blank' href='https://coppermind.net/wiki/Aviar'>Aviar</a>, which <a target='_blank' href='https://coppermind.net/wiki/Lift'>Lift</a> comes into possession of."
+								},
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> refers to a story about <a target='_blank' href='https://coppermind.net/wiki/Linji'>Linji</a>, likely a figure from <a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>, who attempted to travel around the world without the use of <a target='_blank' href='https://coppermind.net/wiki/Aviar'>Aviar</a>."
 								}
 							]
 						},
@@ -1917,6 +1965,145 @@
 							},
 							"categories": [
 								"no-series",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Lumar",
+			"color": "#4b793a",
+			"children": [
+				{
+					"children": [
+						{
+							"id": "tress",
+							"title": "Tress of the Emerald Sea",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Tress_of_the_Emerald_Sea'>Tress of the Emerald Sea</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a>",
+							"system": "Unknown",
+							"publication": "January 2023",
+							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
+							"sorting": {
+								"order": 3.1,
+								"publication": 2023.01,
+								"chronology": 12.1
+							},
+							"appearances": [
+								{
+									"id": "hoid",
+									"type": "appearance",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is the narrator and a prominent character."
+								}
+							],
+							"categories": [
+								"no-series",
+								"novel",
+								"phase3",
+								"published"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Unknown",
+			"color": "#e3a1e3",
+			"children": [
+				{
+					"label": "Aether<br>Series",
+					"color": "#e3a1e3",
+					"children": [
+						{
+							"id": "aether1",
+							"title": "Aether Book 1",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 1</a>",
+							"world": "Unknown",
+							"system": "Unknown",
+							"categories": [
+								"aether",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						},
+						{
+							"id": "aether2",
+							"title": "Aether Book 2",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 2</a>",
+							"world": "Unknown",
+							"system": "Unknown",
+							"categories": [
+								"aether",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						},
+						{
+							"id": "aether3",
+							"title": "Aether Book 3",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 3</a>",
+							"world": "Unknown",
+							"system": "Unknown",
+							"categories": [
+								"aether",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Mythos",
+			"color": "#d4c955",
+			"children": [
+				{
+					"label": "Mythos<br>Series",
+					"color": "#d4c955",
+					"children": [
+						{
+							"id": "mythos1",
+							"title": "Mythos Book 1",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos Book 1</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Mythos'>Mythos</a>",
+							"system": "Unknown",
+							"categories": [
+								"mythos",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						},
+						{
+							"id": "mythos2",
+							"title": "Mythos Book 2",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos Book 2</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Mythos'>Mythos</a>",
+							"system": "Unknown",
+							"categories": [
+								"mythos",
+								"novel",
+								"plan",
+								"unpublished"
+							]
+						},
+						{
+							"id": "mythos3",
+							"title": "Mythos Book 3",
+							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos Book 3</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Mythos'>Mythos</a>",
+							"system": "Unknown",
+							"categories": [
+								"mythos",
 								"novel",
 								"plan",
 								"unpublished"
@@ -1995,94 +2182,6 @@
 			"label": "Other",
 			"color": "#a0a0a0",
 			"children": [
-				{
-					"label": "Aether<br>Series",
-					"color": "#e3a1e3",
-					"children": [
-						{
-							"id": "aether1",
-							"title": "Aether Book 1",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 1</a>",
-							"world": "Unknown",
-							"system": "Unknown",
-							"categories": [
-								"aether",
-								"novel",
-								"plan",
-								"unpublished"
-							]
-						},
-						{
-							"id": "aether2",
-							"title": "Aether Book 2",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 2</a>",
-							"world": "Unknown",
-							"system": "Unknown",
-							"categories": [
-								"aether",
-								"novel",
-								"plan",
-								"unpublished"
-							]
-						},
-						{
-							"id": "aether3",
-							"title": "Aether Book 3",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Aether Book 3</a>",
-							"world": "Unknown",
-							"system": "Unknown",
-							"categories": [
-								"aether",
-								"novel",
-								"plan",
-								"unpublished"
-							]
-						}
-					]
-				},
-				{
-					"label": "Mythos<br>Series",
-					"color": "#d4c955",
-					"children": [
-						{
-							"id": "mythos",
-							"title": "Mythos series",
-							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>Mythos series</a>",
-							"world": "Mythos",
-							"system": "Unknown",
-							"categories": [
-								"mythos",
-								"novel",
-								"plan",
-								"unpublished"
-							]
-						}
-					]
-				},
-				{
-					"children": [
-						{
-							"id": "tress",
-							"title": "Tress of the Emerald Sea",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Tress_of_the_Emerald_Sea'>Tress of the Emerald Sea</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a>",
-							"system": "Unknown",
-							"publication": "January 2023",
-							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to Sixth of the Dusk and Mistborn Era 4.",
-							"sorting": {
-								"order": 3.1,
-								"publication": 2023.01,
-								"chronology": 12.1
-							},
-							"categories": [
-								"no-series",
-								"novel",
-								"phase3",
-								"published"
-							]
-						}
-					]
-				},
 				{
 					"children": [
 						{
@@ -2190,7 +2289,7 @@
 							"categories": [
 								"no-series",
 								"short",
-								"phase2b",
+								"phase2",
 								"published"
 							],
 							"connections": [
@@ -2261,7 +2360,7 @@
 							"link": "<a target='_blank' href='https://www.17thshard.com/forum/topic/60219-aether-of-night-manuscript-requests/'>Full text available from the 17th Shard.</a>",
 							"publication": "June 2009 (upon request)",
 							"sorting": {
-								"order": 2.92,
+								"order": 8.92,
 								"publication": 2009.06
 							},
 							"categories": [
@@ -2288,8 +2387,13 @@
 								},
 								{
 									"target": "mb7",
-									"type": "minor",
+									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/TwinSoul'>TwinSoul</a> can manipulate the <a target='_blank' href='https://coppermind.net/wiki/Aether'>aethers</a>."
+								},
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar's</a> oceans consist of <a target='_blank' href='https://coppermind.net/wiki/Aether_spore'>aether spores</a>."
 								}
 							]
 						},
@@ -2329,7 +2433,7 @@
 							"system": "Yolish system",
 							"publication": "<a target='_blank' href='https://wob.coppermind.net/events/488/#e15395'>Fall 2023</a>",
 							"sorting": {
-								"order": 2.90,
+								"order": 8.90,
 								"publication": 2023.09
 							},
 							"categories": [
@@ -2348,6 +2452,11 @@
 									"target": "mb7",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Jan_Ven'>Jan Ven</a>, mentioned in the <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Lost_Metal#Epilogue_6'>6th Epilogue</a>, is a <a target='_blank' href='https://coppermind.net/wiki/Sho_Del'>Sho Del</a>a species of beings known previously from <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel_Prime'>Dragonsteel Prime</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> refers to the <a target='_blank' href='https://coppermind.net/wiki/Shattering'>Shattering</a> of <a target='_blank' href='https://coppermind.net/wiki/Adonalsium'>Adonalsium</a> in <a target='_blank' href='https://coppermind.net/wiki/Tress_of_the_Emerald_Sea'>Tress of the Emerald Sea</a> <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_39'>chapter 39</a> and <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_56'>chapter 56</a>. The strange metal seen on <a target='_blank' href='https://coppermind.net/wiki/Xisisrefliel'>Xisis</a>, <a target='_blank' href='https://coppermind.net/wiki/Dragonsteel_(metal)'>dragonsteel</a> is what 'Dragonsteel' gets is name from."
 								}
 							]
 						},
@@ -2361,7 +2470,7 @@
 							"link": "<a target='_blank' href='https://www.brandonsanderson.com/the-way-of-kings-prime/'>Full novel on Brandon's website.</a>",
 							"publication": "July 2020",
 							"sorting": {
-								"order": 2.91,
+								"order": 8.91,
 								"publication": 2020.07
 							},
 							"categories": [
