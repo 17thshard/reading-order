@@ -163,7 +163,8 @@
 					"id": "phase3b",
 					"description": "Phase 3 - Secondary",
 					"details": "Secondary Phase 3 stories may be read during Phase 3 or anytime after.",
-					"color": "#e3c871",
+					"color": "#e3c871"
+				},
 				{
 					"id": "plan",
 					"description": "Unpublished - Future Plans",
