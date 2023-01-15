@@ -579,6 +579,11 @@
 									"target": "wb",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Lemex%27s_nurse'>Lemex's nurse</a> is a <a target='_blank' href='https://coppermind.net/wiki/Terris'>Terriswoman</a>."
+								},
+								{
+									"target": "tress",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Ulaam'>Ulaam</a> credits <a target='_blank' href='https://coppermind.net/wiki/Rashek'>'the Father'</a> for the invention of the scalpel."
 								}
 							]
 						},
