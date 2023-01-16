@@ -48,19 +48,25 @@
 					"id": "published",
 					"description": "Published",
 					"details": "Published, canonical works.",
-					"color": "#FFFFFF"
+					"color": "#00c29a"
 				},
 				{
 					"id": "forthcoming",
 					"description": "Forthcoming",
-					"details": "Forthcoming works with a planned release month or which are being actively worked on. Expected publication dates may be in parenthesis. Titles may be tentative.",
-					"color": "#888888"
+					"details": "Forthcoming works with a planned release target or which are being actively worked on. Expected publication dates may be in parenthesis. Titles may be tentative.",
+					"color": "#82ddc3"
 				},
 				{
 					"id": "unpublished",
 					"description": "Future Plans",
-					"details": "Includes all planned future cosmere stories. Likelihood of publication varies. Expected publication dates may be in parenthesis. Titles are tentative.",
-					"color": "#505050"
+					"details": "Future cosmere story plans with a relatively high likelihood of being written, based on the frequency of mentions or other empahasis. Titles are tentative.",
+					"color": "#ffb060"
+				},
+				{
+					"id": "potential",
+					"description": "Potential Plans",
+					"details": "Potential cosmere story ideasa that are less certain, based on the frequency of mentions or other lack of empahasis. Titles are tentative.",
+					"color": "#fe7e61"
 				},
 				{
 					"id": "noncanon",
@@ -176,28 +182,28 @@
 					"id": "novel",
 					"description": "Novels",
 					"details": "Full novels.",
-					"color": "#fc4422"
+					"color": "#01b58a"
 				},
 				{
 					"id": "graphic",
 					"description": "Graphic Novels",
 					"details": "Graphic novels.",
 					"style": "italic",
-					"color": "#fe8062"
+					"color": "#4656cd"
 				},
 				{
 					"id": "novella",
 					"description": "Novellas",
 					"details": "Novellas.",
 					"style": "italic",
-					"color": "#ffc8ba"
+					"color": "#fd8f32"
 				},
 				{
 					"id": "short",
 					"description": "Short Stories",
 					"details": "Short stories.",
 					"style": "italic",
-					"color": "#fbe8e6"
+					"color": "#fb4422"
 				}
 			]
 		}
@@ -456,7 +462,7 @@
 							"categories": [
 								"no-series",
 								"plan",
-								"unpublished",
+								"potential",
 								"novella"
 							]
 						}
@@ -1082,7 +1088,7 @@
 								"mistborn",
 								"novella",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						},
 						{
@@ -1099,7 +1105,7 @@
 							"categories": [
 								"mistborn",
 								"plan",
-								"unpublished",
+								"potential",
 								"novel"
 							]
 						}
@@ -1497,7 +1503,7 @@
 								"stormlight",
 								"novella",
 								"plan",
-								"unpublished"
+								"forthcoming"
 							]
 						},
 						{
@@ -1630,7 +1636,7 @@
 							"categories": [
 								"stormlight",
 								"plan",
-								"unpublished",
+								"potential",
 								"graphic"
 							]
 						},
@@ -1645,7 +1651,7 @@
 							"categories": [
 								"stormlight",
 								"plan",
-								"unpublished",
+								"potential",
 								"graphic"
 							]
 						},
@@ -1660,7 +1666,7 @@
 							"categories": [
 								"stormlight",
 								"plan",
-								"unpublished",
+								"potential",
 								"graphic"
 							]
 						}
@@ -1690,7 +1696,7 @@
 							"categories": [
 								"no-series",
 								"plan",
-								"unpublished",
+								"potential",
 								"novella"
 							],
 							"connections": [
@@ -1798,7 +1804,7 @@
 							"categories": [
 								"white-sand",
 								"plan",
-								"unpublished",
+								"potential",
 								"graphic"
 							]
 						}
@@ -1952,7 +1958,7 @@
 								"no-series",
 								"novella",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						}
 					]
@@ -1974,7 +1980,7 @@
 								"no-series",
 								"novel",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						}
 					]
@@ -2087,7 +2093,7 @@
 								"mythos",
 								"novel",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						},
 						{
@@ -2100,7 +2106,7 @@
 								"mythos",
 								"novel",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						},
 						{
@@ -2113,7 +2119,7 @@
 								"mythos",
 								"novel",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						}
 					]
@@ -2244,7 +2250,7 @@
 								"no-series",
 								"novella",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						}
 					]
@@ -2265,7 +2271,7 @@
 								"no-series",
 								"novella",
 								"plan",
-								"unpublished"
+								"potential"
 							]
 						}
 					]
