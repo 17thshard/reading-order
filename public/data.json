@@ -264,7 +264,7 @@
 							"publication": "April 2005",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/298/#e9926'>Occurs long before Mistborn Era 1, but not thousands of years before.</a>",
 							"sorting": {
-								"order": 1.3,
+								"order": 1.21,
 								"publication": 2005.04,
 								"chronology": 3.1
 							},
@@ -346,7 +346,7 @@
 							"publication": "January 2006",
 							"chronology": "Shortly after the events of Elantris, and concerning events during the end of that book.",
 							"sorting": {
-								"order": 1.31,
+								"order": 1.22,
 								"publication": 2006.01,
 								"chronology": 3.11
 							},
@@ -407,7 +407,7 @@
 							"publication": "November 2012",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/109/#e1410'>After Elantris, but within the characters' lifetimes.</a> Note this could place it prior to Elantris 2 and/or 3.",
 							"sorting": {
-								"order": 1.4,
+								"order": 1.31,
 								"publication": 2012.11,
 								"chronology": 3.5
 							},
@@ -808,6 +808,73 @@
 							]
 						},
 						{
+							"id": "msh",
+							"title": "Mistborn: Secret History",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+							"au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+							"publication": "January 2016",
+							"chronology": "Happens concurrently with Mistborn Era 1.",
+							"padding": 12,
+							"sorting": {
+								"order": 2.25,
+								"publication": 2016.01,
+								"chronology": 4.11
+							},
+							"appearances": [
+								{
+									"id": "hoid",
+									"type": "appearance",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."
+								},
+								{
+									"id": "khriss",
+									"type": "appearance",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
+								},
+								{
+									"id": "nazh",
+									"type": "appearance",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
+								}
+							],
+							"categories": [
+								"mistborn",
+								"novella",
+								"phase2",
+								"published"
+							],
+							"connections": [
+								{
+									"target": "sa1",
+									"type": "egg",
+									"description": "In <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_Secret_History#Chapter_2_5'>Part 5 Chapter 2</a> <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> sees an <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>alerter fabrial</a> (the glowing yellow gemstone in a golden metal lattice)."
+								},
+								{
+									"target": "sa2",
+									"type": "egg",
+									"description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
+								},
+								{
+									"target": "traveler",
+									"type": "major",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)."
+								},
+								{
+									"target": "sa4",
+									"type": "significant",
+									"description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
+								},
+								{
+									"target": "tress",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Riina'>Riina</a>, the Sorceress, is a member of the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> refers to <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> as an old adversary in <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_63'>Tress of the Emerald Sea Chapter 63</a>."
+								}
+							]
+						},
+						{
 							"id": "mb7",
 							"title": "The Lost Metal",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Lost_Metal'>The Lost Metal</a>",
@@ -1005,72 +1072,6 @@
 					"label": "Other<br>Mistborn",
 					"children": [
 						{
-							"id": "msh",
-							"title": "Mistborn: Secret History",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
-							"publication": "January 2016",
-							"chronology": "Happens concurrently with Mistborn Era 1.",
-							"sorting": {
-								"order": 2.25,
-								"publication": 2016.01,
-								"chronology": 4.11
-							},
-							"appearances": [
-								{
-									"id": "hoid",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Drifter'."
-								},
-								{
-									"id": "khriss",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
-								},
-								{
-									"id": "nazh",
-									"type": "appearance",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> meets <a target='_blank' href='https://coppermind.net/wiki/Khrissalla'>Khriss</a> and <a target='_blank' href='https://coppermind.net/wiki/Nazrilof'>Nazh</a> in the <a target='_blank' href='https://coppermind.net/wiki/Cognitive_Realm'>Cognitive Realm</a>."
-								}
-							],
-							"categories": [
-								"mistborn",
-								"novella",
-								"phase2",
-								"published"
-							],
-							"connections": [
-								{
-									"target": "sa1",
-									"type": "egg",
-									"description": "In <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_Secret_History#Chapter_2_5'>Part 5 Chapter 2</a> <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> sees an <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>alerter fabrial</a> (the glowing yellow gemstone in a golden metal lattice)."
-								},
-								{
-									"target": "sa2",
-									"type": "egg",
-									"description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> uses <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
-								},
-								{
-									"target": "traveler",
-									"type": "major",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> and <a target='_blank' href='https://coppermind.net/wiki/Frost'>Frost</a> discuss the events of <a target='_blank' href='https://coppermind.net/wiki/The_Hero_of_Ages'>The Hero of Ages</a> (and <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Mistborn: Secret History</a>)."
-								},
-								{
-									"target": "sa4",
-									"type": "significant",
-									"description": "Thaidakar, leader of the <a target='_blank' href='https://coppermind.net/wiki/Ghostbloods'>Ghostbloods</a> is <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>, with the fight between him and <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> in <a target='_blank' href='https://coppermind.net/wiki/Mistborn:_Secret_History'>Secret History</a> specifically referenced. <a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a> is referenced in <a target='_blank' href='https://coppermind.net/wiki/Ialai'>Ialai's</a> notes. The device used by the <a target='_blank' href='https://coppermind.net/wiki/honorspren'>honorspren</a> to store <a target='_blank' href='https://coppermind.net/wiki/Stormlight'>Stormlight</a> came from the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>."
-								},
-								{
-									"target": "tress",
-									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Riina'>Riina</a>, the Sorceress, is a member of the <a target='_blank' href='https://coppermind.net/wiki/Ire'>Ire</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> refers to <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> as an old adversary in <a target='_blank' href='https://coppermind.net/wiki/Summary:Tress_of_the_Emerald_Sea#Chapter_63'>Tress of the Emerald Sea Chapter 63</a>."
-								}
-							]
-						},
-						{
 							"id": "msh2",
 							"title": "Mistborn: Secret History 2",
 							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn%3A+secret+history+2'>Mistborn: Secret History 2</a>",
@@ -1124,7 +1125,7 @@
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and before The Stormlight Archive.</a>",
 							"link": "Full text: <a target='_blank' href='https://www.brandonsanderson.com/warbreaker-rights-and-downloads/'>Brandon's website</a> | <a target='_blank' href='https://github.com/guusj/books'>Alternate file types</a>",
 							"sorting": {
-								"order": 1.2,
+								"order": 1.41,
 								"publication": 2009.06,
 								"chronology": 5.1
 							},
@@ -1723,7 +1724,7 @@
 							"publication": "June 2016",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 1.71,
+								"order": 1.51,
 								"publication": 2016.06,
 								"chronology": 2.1
 							},
@@ -1821,7 +1822,7 @@
 							"publication": "December 2013",
 							"chronology": "Occurs <a target='_blank' href='https://wob.coppermind.net/events/216/#e6445'>before Stormlight Archive</a> but <a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>after Warbreaker</a>.",
 							"sorting": {
-								"order": 1.5,
+								"order": 1.6,
 								"publication": 2013.12,
 								"chronology": 6.1
 							},
@@ -1902,14 +1903,14 @@
 							"publication": "June 2014",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 4.</a>",
 							"sorting": {
-								"order": 2.1,
+								"order": 1.7,
 								"publication": 2014.06,
 								"chronology": 13.0
 							},
 							"categories": [
 								"no-series",
 								"novella",
-								"phase2",
+								"phase1",
 								"published"
 							],
 							"connections": [
@@ -1995,7 +1996,7 @@
 							"publication": "January 2023",
 							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
 							"sorting": {
-								"order": 3.1,
+								"order": 3.11,
 								"publication": 2023.01,
 								"chronology": 12.1
 							},
@@ -2332,7 +2333,7 @@
 							"publication": "June 2009 (upon request)",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
 							"sorting": {
-								"order": 1.74,
+								"order": 1.54,
 								"publication": 2009.06,
 								"chronology": 2.0
 							},
@@ -2413,7 +2414,7 @@
 							"publication": "November 2012",
 							"chronology": "Concerns events shortly before the events of The Emperor's Soul.",
 							"sorting": {
-								"order": 1.41,
+								"order": 1.31,
 								"publication": 2012.11,
 								"chronology": 3.4
 							},
