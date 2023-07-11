@@ -724,7 +724,7 @@
 							],
 							"connections": [
 								{
-									"target": "mb4",
+									"target": "ws",
 									"type": "significant",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to the god <a target='_blank' href='https://coppermind.net/wiki/Trellism'>Trell</a>."
 								}
