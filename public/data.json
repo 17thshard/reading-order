@@ -1,5 +1,5 @@
 {
-	"base-separation": 3.19,
+	"base-separation": 3.13,
 	"connections": [
 		{
 			"id": "major",
@@ -1555,12 +1555,37 @@
 									"target": "yumi",
 									"type": "major",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Design'>Design</a> plays a significant role in the story, having been given the appearance and semblance of a body with a complex <a target='_blank' href='https://coppermind.net/wiki/Lightweaving'>Lightweaving</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> says 'we all kind of learned our lesson' on giving actual bodies to <a target='_blank' href='https://coppermind.net/wiki/Spren'>spren</a>, which likely refers to <a target='_blank' href='https://coppermind.net/wiki/Ishar'>Ishar's</a> experiments on <a target='_blank' href='https://coppermind.net/wiki/Spren'>spren</a>. <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid's</a> 'protections' that turned him into a statue seem to have been created in response to what happened when <a target='_blank' href='https://coppermind.net/wiki/Odium'>Odium</a> tampered with his memories in the <a target='_blank' href='https://coppermind.net/wiki/Summary:Rhythm_of_War#Epilogue:_Dirty_Tricks'>Rhythm of War epilogue</a>. The <a target='_blank' href='https://coppermind.net/wiki/hijo'>spirits</a> can be bound into devices like <a target='_blank' href='https://coppermind.net/wiki/Spren'>spren</a> into <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>fabrials</a>."
+								},
+								{
+									"target": "tsm",
+									"type": "major",
+									"description": "Nomad/Zellion is <a target='_blank' href='https://coppermind.net/wiki/Sigzil'>Sigzil</a>, sometime after the events of <a target='_blank' href='https://coppermind.net/wiki/Knights_of_Wind_and_Truth'>Wind and Truth</a>."
 								}
 							]
 						},
 						{
-							"id": "sa4.5",
-							"title": "Horneater",
+							"id": "sa5",
+							"title": "Wind and Truth (2024)",
+							"title2": "Wind and Truth",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
+							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>November 2024</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
+							"sorting": {
+								"publication": 2024.11,
+								"chronology": 7.05
+							},
+							"categories": [
+								"stormlight",
+								"plan",
+								"forthcoming",
+								"novel"
+							]
+						},
+						{
+							"id": "sa5.5",
+							"title": "Horneater (2025)",
 							"title2": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2019/'>Horneater</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
@@ -1577,26 +1602,6 @@
 								"novella",
 								"plan",
 								"forthcoming"
-							]
-						},
-						{
-							"id": "sa5",
-							"title": "Knights of Wind and Truth (2024)",
-							"title2": "Knights of Wind and Truth",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/The_Stormlight_Archive'>Stormlight Archive</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Roshar'>Roshar</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Rosharan_system'>Rosharan system</a>",
-							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2022/'>November 2024</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/309/#e10273'>Occurs after Mistborn Era 1 and Warbreaker but before Mistborn Era 2.</a>",
-							"sorting": {
-								"publication": 2024.11,
-								"chronology": 7.05
-							},
-							"categories": [
-								"stormlight",
-								"plan",
-								"forthcoming",
-								"novel"
 							]
 						},
 						{
@@ -1924,6 +1929,11 @@
 									"target": "yumi",
 									"type": "minor",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Design'>Design</a> says that <a target='_blank' href='https://coppermind.net/wiki/Komashi'>Komashi</a> is stranger than any world she's been to, including <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnody</a>."
+								},
+								{
+									"target": "tsm",
+									"type": "significant",
+									"description": "The <a target='_blank' href='https://coppermind.net/wiki/Threnody'>Threnodites</a> were first seen in <a target='_blank' href='https://coppermind.net/wiki/Shadows_for_Silence_in_the_Forests_of_Hell'>Shadows for Silence in the Forests of Hell</a>."
 								}
 							]
 						}
@@ -2088,7 +2098,7 @@
 			]
 		},
 		{
-			"label": "Komashi",
+			"label": "Komashi/<br>UTol",
 			"color": "#f400a0",
 			"children": [
 				{
@@ -2097,7 +2107,7 @@
 							"id": "yumi",
 							"title": "Yumi and the Nightmare Painter",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Yumi_and_the_Nightmare_Painter'>Yumi and the Nightmare Painter</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Komashi'>Komashi</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Komashi'>Komashi/UTol</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/UTol_system'>UTol system</a>",
 							"publication": "July 2023",
 							"chronology": "The story takes place in the space age of the cosmere. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
@@ -2118,6 +2128,43 @@
 								"novel",
 								"phase3",
 								"published"
+							]
+						}
+					]
+				}
+			]
+		},	
+		{
+			"label": "Canticle",
+			"color": "#9a0808",
+			"children": [
+				{
+					"children": [
+						{
+							"id": "tsm",
+							"title": "The Sunlit Man",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/The_Sunlit_Man'>The Sunlit Man</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Canticle'>Canticle</a>",
+							"system": "Unknown",
+							"publication": "October 2023",
+							"chronology": "The story takes place in the space age of the cosmere, at least a few hundred years after Mistborn Era 3. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
+							"sorting": {
+								"order": 3.10,
+								"publication": 2023.10,
+								"chronology": 12.3
+							},
+							"categories": [
+								"no-series",
+								"novel",
+								"plan",
+								"forthcoming"
+							],
+							"appearances": [
+								{
+									"id": "hoid",
+									"type": "appearance",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> is 'Wit'."
+								}
 							]
 						}
 					]
@@ -2295,27 +2342,6 @@
 			"label": "Other",
 			"color": "#a0a0a0",
 			"children": [
-				{
-					"children": [
-						{
-							"id": "secret4",
-							"title": "Secret Project 4 (2023)",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Secret_Project_Four'>Secret Project 4</a>",
-							"world": "Spoiler",
-							"system": "Spoiler",
-							"publication": "October 2023",
-							"sorting": {
-								"publication": 2023.10
-							},
-							"categories": [
-								"no-series",
-								"novel",
-								"plan",
-								"forthcoming"
-							]
-						}
-					]
-				},
 				{
 					"children": [
 						{
