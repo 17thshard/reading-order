@@ -2266,7 +2266,7 @@
 								{
 									"target": "tsm",
 									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Sigzil'>Nomad</a> sees a planetary guidebook and mentions films from <a target='_blank' href='https://coppermind.net/wiki/Silverlight'>Silverlight</a> accent. When seeking to enter the <a target='_blank' href='https://coppermind.net/wiki/TimeKeepers'>TimeKeepers'</a> spaceship, he cites the 'Refugee and Lost Expatriate Bill' under the '<a target='_blank' href='https://coppermind.net/wiki/Silverlight'>Silverlight</a> Codes of Interplanetary Conduct'. <a target='_blank' href='https://coppermind.net/wiki/Zellion'>Zellion</a> is said to be a <a target='_blank' href='https://coppermind.net/wiki/Yolen>Yolish</a> name. <a target='_blank' href='https://coppermind.net/wiki/Sigzil'>Nomad</a> refers to the <a target='_blank' href='https://coppermind.net/wiki/Shattering'>Shattering</a> of <a target='_blank' href='https://coppermind.net/wiki/Adonalsium'>Adonalsium</a>"
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Sigzil'>Nomad</a> sees a planetary guidebook and mentions films from <a target='_blank' href='https://coppermind.net/wiki/Silverlight'>Silverlight</a>. When seeking to enter the <a target='_blank' href='https://coppermind.net/wiki/TimeKeepers'>TimeKeepers'</a> spaceship, he cites the 'Refugee and Lost Expatriate Bill' under the '<a target='_blank' href='https://coppermind.net/wiki/Silverlight'>Silverlight</a> Codes of Interplanetary Conduct'. <a target='_blank' href='https://coppermind.net/wiki/Zellion'>Zellion</a> is said to be a <a target='_blank' href='https://coppermind.net/wiki/Yolen'>Yolish</a> name."
 								}
 							]
 						}
@@ -2343,7 +2343,7 @@
 								"phase3",
 								"published"
 							],
-							"connection": [
+							"connections": [
 								{
 									"target": "tsm",
 									"type": "egg",
