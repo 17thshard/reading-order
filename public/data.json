@@ -520,7 +520,7 @@
 							],
 							"connections": [
 								{
-									"target": "ws",
+									"target": "wsgn",
 									"type": "minor",
 									"description": "'Kenton Street' in <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Well_of_Ascension#Chapter_17'>Chapter 17</a> (also mentioned in <a target='_blank' href='https://coppermind.net/wiki/The_Well_of_Ascension'>The Well of Ascension) is a reference to <a target='_blank' href='https://coppermind.net/wiki/Kenton'>Kenton</a>. <a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to <a target='_blank' href='https://coppermind.net/wiki/Trelagism'>Trelagism</a>."
 								},
@@ -731,7 +731,7 @@
 							],
 							"connections": [
 								{
-									"target": "ws",
+									"target": "wsgn",
 									"type": "significant",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Trell_(Taldain)'>Trell the foreman</a> is connected to the god <a target='_blank' href='https://coppermind.net/wiki/Trellism'>Trell</a>."
 								}
@@ -838,11 +838,6 @@
 									"target": "msh",
 									"type": "major",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a>'s survival is revealed in <a target='_blank' href='https://coppermind.net/wiki/The_Bands_of_Mourning'>The Bands of Mourning</a>."
-								},
-								{
-									"target": "sotd2",
-									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
 								}
 							]
 						},
@@ -1294,7 +1289,7 @@
 									"description": "In <a target='_blank' href='https://coppermind.net/wiki/Summary:Mistborn:_Secret_History#Chapter_2_5'>Part 5 Chapter 2</a> <a target='_blank' href='https://coppermind.net/wiki/Kelsier'>Kelsier</a> sees an <a target='_blank' href='https://coppermind.net/wiki/Fabrial'>alerter fabrial</a> (the glowing yellow gemstone in a golden metal lattice)."
 								},
 								{
-									"target": "ws",
+									"target": "wsgn",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Baon'>Baon</a> appeared in <a target='_blank' href='https://coppermind.net/wiki/The_Way_of_Kings'>The Way of Kings</a> <a target='_blank' href='https://coppermind.net/wiki/Summary:The_Way_of_Kings#Interlude_I-1:_Ishikk'>Interlude I-1</a> as 'Blunt'."
 								},
@@ -1368,7 +1363,7 @@
 									"description": "With powers gained from the <a target='_blank' href='https://coppermind.net/wiki/lerasium'>lerasium</a> he took, <a target='_blank' href='https://coppermind.net/wiki/Hoid'>Hoid</a> used <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>emotional Allomancy</a> in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_45:_Middlefest'>Chapter 45</a>."
 								},
 								{
-									"target": "ws",
+									"target": "wsgn",
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Mraize'>Mraize</a>'s collection in <a target='_blank' href='https://coppermind.net/wiki/Summary:Words_of_Radiance#Chapter_43:_The_Ghostbloods'>Chapter 43</a> includes a vial of sand from <a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>."
 								},
@@ -1723,13 +1718,6 @@
 								"unpublished",
 								"future-plan",
 								"novel"
-							],
-							"connections": [
-								{
-									"target": "sotd2",
-									"type": "minor",
-									"description": "A <a target='_blank' href='https://coppermind.net/wiki/Knights_Radiant'>Knight Radiant</a> makes an appearance, weilding a 'Shardgun'."
-								}
 							]
 						},
 						{
@@ -1790,12 +1778,35 @@
 					"color": "#9e9957",
 					"children": [
 						{
-							"id": "ws",
-							"title": "White Sand",
+							"id": "wsn",
+							"title": "White Sand (2025)",
+							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand novel</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+							"au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
+							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2023/'>December 2025 (planned)</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
+							"sorting": {
+								"order": 1.51,
+								"publication": 2025.12,
+								"chronology": 2.101
+							},
+							"categories": [
+								"white-sand",
+								"unpublished",
+								"future-plan",
+								"novel"
+							]
+						},
+						{
+							"id": "wsgn",
+							"title": "White Sand (graphic novels)",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand, Volumes 1-3</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
+							"padding": 12,
 							"au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
 							"publication": "June 2016",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
@@ -1843,28 +1854,6 @@
 									"type": "egg",
 									"description": "<a target='_blank' href='https://coppermind.net/wiki/Canticle'>Canticle's</a> sun is <a target='_blank' href='https://coppermind.net/wiki/Investiture'>Invested</a> similar to <a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain's</a>."
 								}
-							]
-						},
-						{
-							"id": "wsn",
-							"title": "White Sand novel (2025)",
-							"title2": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand novel</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Taldain'>Taldain</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Taldain_system'>Taldain system</a>",
-							"au": "Excerpt included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
-							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2023/'>December 2025 (planned)</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3878'>White Sand occurs prior to Elantris.</a>",
-							"sorting": {
-								"order": 1.51,
-								"publication": 2025.12,
-								"chronology": 2.101
-							},
-							"categories": [
-								"white-sand",
-								"unpublished",
-								"future-plan",
-								"novel"
 							]
 						},
 						{
@@ -1989,12 +1978,12 @@
 							"id": "sotd",
 							"title": "Sixth of the Dusk",
 							"title2": "<a target='_blank' href='https://coppermind.net/wiki/Sixth_of_the_Dusk'>Sixth of the Dusk</a>",
-							"series": "Sixth of<br>the Dusk",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
 							"au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
 							"publication": "June 2014",
 							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 4.</a>",
+							"padding": 12,
 							"sorting": {
 								"order": 1.7,
 								"publication": 2014.06,
@@ -2030,22 +2019,35 @@
 							]
 						},
 						{
-							"id": "sotd2",
-							"title": "Sixth of the Dusk sequel",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=sixth+of+the+dusk+sequel'>Sixth of the Dusk sequel</a>",
-							"series": "Sixth of<br>the Dusk",
+							"id": "iote",
+							"title": "Isles of the Emberdark (2025)",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/events/533/#e16506'>Isles of the Emberdark</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/First_of_the_Sun'>First of the Sun</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
-							"chronology": "Five years after Sixth of the Dusk.",
+							"chronology": "Five years after Sixth of the Dusk novella.",
 							"sorting": {
+								"order": 3.20,
+								"publication": 2025.04,
 								"chronology": 13.02
 							},
-							"link": "<a target='_blank' href='https://wob.coppermind.net/events/448/#e14408'>Excerpt on Arcanum.</a> (some may consider to be spoilers)",
+							"link": "<a target='_blank' href='https://wob.coppermind.net/events/533-secret-project-5-reveal-and-livestream/>Excerpts on Arcanum.</a>",
 							"categories": [
 								"no-series",
-								"novella",
-								"unpublished",
-								"potential-plan"
+								"novel",
+								"forthcoming",
+								"future-plan"
+							],
+							"connections": [
+								{
+									"target": "mb6",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
+								},
+								{
+									"target": "tsm",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding>Surgebinders</a> are first seen to be in conflict."
+								}
 							]
 						}
 					]
@@ -2413,11 +2415,6 @@
 									"target": "tnb",
 									"type": "minor",
 									"description": "The titular <a target='_blank' href='https://coppermind.net/wiki/Night_Brigade'>Night Brigade</a> first appeared chasing <a target='_blank' href='https://coppermind.net/wiki/Sigzil'>Nomad</a> in <a target='_blank' href='https://coppermind.net/wiki/The_Sunlit_Man'>The Sunlit Man</a> in search of the <a target='_blank' href='https://coppermind.net/wiki/Dawnshard'>Dawnshard</a> he once held."
-								},
-								{
-									"target": "sotd2",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding>Surgebinders</a> are first seen to be in conflict."
 								}
 							]
 						}
@@ -2564,7 +2561,7 @@
 							],
 							"connections": [
 								{
-									"target": "ws",
+									"target": "wsgn",
 									"type": "minor",
 									"description": "The <a target='_blank' href='https://coppermind.net/wiki/White_Sand'>White Sand</a> graphic novels are based on the prose version."
 								}
