@@ -2036,18 +2036,6 @@
 								"novel",
 								"forthcoming",
 								"future-plan"
-							],
-							"connections": [
-								{
-									"target": "mb6",
-									"type": "minor",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
-								},
-								{
-									"target": "tsm",
-									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding'>Surgebinders</a> are first seen to be in conflict."
-								}
 							]
 						}
 					]
