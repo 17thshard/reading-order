@@ -1,0 +1,29 @@
+Had these as Sixth of the Dusk sequel connections and removed. Maybe need to be readded at publication of IotE:
+
+							"connections": [
+								{
+									"target": "mb6",
+									"type": "minor",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrian</a> spaceships powered by <a target='_blank' href='https://coppermind.net/wiki/Allomancy'>Allomancy</a> are seen."
+								},
+								{
+									"target": "tsm",
+									"type": "egg",
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding>Surgebinders</a> are first seen to be in conflict."
+								}
+
+
+Additional Isles of the Emberdark connections:
+
+Obviously the stuff in the prologue with Starling and Frost on Yolen would be Dragonsteel and possibly WoR as that was the first canon mention of Frost.
+Aditil being an aetherbound from Dhatri (connects to TLM at least until AoN releases) using zephyr spores (connects to TotES)
+isis being the owner of the ship (not sure if it would be ToTES, his most prominent appearance, or RoW, his first mention)
+Nazh (so N) is now a shade (SfSitFoH, although I think we might actually see him die in Book of Nails)
+Chrysalis is a Sleepless (similar to Xisis not sure if Dawnshard or Edgedancer)
+Added reference to Kingmakers (Kingmaker obviously)
+Just the name Emberdark which a settlement in the Rosharan subastral shares its name (Oathbringer)
+We have a Skybreaker or at least a bonded shardbearer (not sure which of SA this would go to)
+Patji's Eye being a shardpool might be too general
+Starlight is Hoid's apprentice (so H) who was originally going to be Kite Magic book protagonist (not sure about this one since Brandon isn't sure it will still be her)
+If Sixth of the Dusk is moved to mixed not sure if its lines should be switched to Isles of the Emberdark
+
