@@ -2046,7 +2046,7 @@
 								{
 									"target": "tsm",
 									"type": "egg",
-									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding>Surgebinders</a> are first seen to be in conflict."
+									"description": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrians</a> and <a target='_blank' href='https://coppermind.net/wiki/Roshar'>Rosharan</a> <a target='_blank' href='https://coppermind.net/wiki/Surgebinding'>Surgebinders</a> are first seen to be in conflict."
 								}
 							]
 						}
@@ -2244,7 +2244,7 @@
 			]
 		},
 		{
-			"label": "Other",
+			"label": "Other Worlds",
 			"color": "#a0a0a0",
 			"children": [
 				{
