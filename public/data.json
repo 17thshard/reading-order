@@ -159,6 +159,12 @@
 					"id": "phase3",
 					"description": "Phase 3",
 					"details": "Cosmere connections are common and notable, but series are still mostly isolated and distinct.",
+					"color": "#dd2222"
+				},
+				{
+					"id": "phase4",
+					"description": "Phase 4",
+					"details": "Cosmere connections are heavy, but series are still mostly isolated and distinct.",
 					"color": "#e3ae00"
 				},
 				{
@@ -2075,7 +2081,7 @@
 							"categories": [
 								"no-series",
 								"novel",
-								"forthcoming",
+								"unpublished",
 								"future-plan"
 							]
 						}
