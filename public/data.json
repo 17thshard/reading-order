@@ -1,5 +1,5 @@
 {
-	"base-separation": 3.13,
+	"base-separation": 3.02,
 	"connections": [
 		{
 			"id": "major",
@@ -983,12 +983,12 @@
 					"children": [
 						{
 							"id": "mb8",
-							"title": "Mistborn Era 3 Book 1",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Mistborn Era 3 Book 1</a>",
+							"title": "Ghostbloods 1",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Ghostbloods 1</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 5.",
 							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2023/'>December 2028 (planned)</a>",
 							"sorting": {
 								"chronology": 10.1,
@@ -1003,12 +1003,12 @@
 						},
 						{
 							"id": "mb9",
-							"title": "Mistborn Era 3 Book 2",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Mistborn Era 3 Book 2</a>",
+							"title": "Ghostbloods 2",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Ghostbloods 2</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 5.",
 							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2023/'>December 2029 (planned)</a>",
 							"sorting": {
 								"chronology": 10.2,
@@ -1023,12 +1023,12 @@
 						},
 						{
 							"id": "mb10",
-							"title": "Mistborn Era 3 Book 3",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Mistborn Era 3 Book 3</a>",
+							"title": "Ghostbloods 3",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+3'>Ghostbloods 3</a>",
 							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 3)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 4.",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/454-dragonmount-zoom-call/#e14582'>Fifty to seventy years after Mistborn Era 2. After Stormlight Archive book 10.</a> Prior to Mistborn Era 5.",
 							"publication": "<a target='_blank' href='https://www.brandonsanderson.com/state-of-the-sanderson-2023/'>December 2030 (planned)</a>",
 							"sorting": {
 								"chronology": 10.3,
@@ -1048,12 +1048,71 @@
 					"children": [
 						{
 							"id": "mb11",
-							"title": "Mistborn Era 4 Book 1",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Mistborn Era 4 Book 1</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+							"title": "Cyberpunk Mistborn 1",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?query=cyberpunk%2Bmistborn&date_from=2003-12-05&date_to=2019-11-20&speaker=&ordering=rank'>Cyberpunk Mistborn</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
+							"chronology": "A cyberpunk Mistborn series would be in a <a target='_blank' href='https://wob.coppermind.net/events/34/#e1782'>near-future setting</a>, between Eras 3 and 5.",
+							"sorting": {
+								"chronology": 11.1
+							},
+							"categories": [
+								"mistborn",
+								"unpublished",
+								"future-plan",
+								"novel"
+							]
+						},
+						{
+							"id": "mb12",
+							"title": "Cyberpunk Mistborn 2",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?query=cyberpunk%2Bmistborn&date_from=2003-12-05&date_to=2019-11-20&speaker=&ordering=rank'>Cyberpunk Mistborn</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+							"chronology": "A cyberpunk Mistborn series would be in a <a target='_blank' href='https://wob.coppermind.net/events/34/#e1782'>near-future setting</a>, between Eras 3 and 5.",
+							"sorting": {
+								"chronology": 11.2
+							},
+							"categories": [
+								"mistborn",
+								"unpublished",
+								"future-plan",
+								"novel"
+							]
+						},
+						{
+							"id": "mb13",
+							"title": "Cyberpunk Mistborn 3",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?query=cyberpunk%2Bmistborn&date_from=2003-12-05&date_to=2019-11-20&speaker=&ordering=rank'>Cyberpunk Mistborn</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+							"chronology": "A cyberpunk Mistborn series would be in a <a target='_blank' href='https://wob.coppermind.net/events/34/#e1782'>near-future setting</a>, between Eras 3 and 5.",
+							"sorting": {
+								"chronology": 11.3
+							},
+							"categories": [
+								"mistborn",
+								"unpublished",
+								"future-plan",
+								"novel"
+							]
+						}
+					]
+				},
+				{
+					"label": "Mistborn<br>Era 5",
+					"children": [
+						{
+							"id": "mb14",
+							"title": "Space Age Mistborn 1",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Space Age Mistborn 1</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 5)",
+							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
+							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 5 is the finale of the cosmere storyline.</a>",
 							"sorting": {
 								"chronology": 13.1
 							},
@@ -1065,13 +1124,13 @@
 							]
 						},
 						{
-							"id": "mb12",
-							"title": "Mistborn Era 4 Book 2",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Mistborn Era 4 Book 2</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+							"id": "mb15",
+							"title": "Space Age Mistborn 2",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Space Age Mistborn 2</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 5)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 5 is the finale of the cosmere storyline.</a>",
 							"sorting": {
 								"chronology": 13.2
 							},
@@ -1083,13 +1142,13 @@
 							]
 						},
 						{
-							"id": "mb13",
-							"title": "Mistborn Era 4 Book 3",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Mistborn Era 4 Book 3</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 4)",
+							"id": "mb16",
+							"title": "Space Age Mistborn 3",
+							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=mistborn+era+4'>Space Age Mistborn 3</a>",
+							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a> (Era 5)",
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 4 is the finale of the cosmere storyline.</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/182/#e3884'>Mistborn Era 5 is the finale of the cosmere storyline.</a>",
 							"sorting": {
 								"chronology": 13.3
 							},
@@ -1117,24 +1176,6 @@
 								"novella",
 								"unpublished",
 								"potential-plan"
-							]
-						},
-						{
-							"id": "mb-cyberpunk",
-							"title": "Cyberpunk Mistborn",
-							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?query=cyberpunk%2Bmistborn&date_from=2003-12-05&date_to=2019-11-20&speaker=&ordering=rank'>Cyberpunk Mistborn</a>",
-							"series": "<a target='_blank' href='https://coppermind.net/wiki/Mistborn_(series)'>Mistborn</a>",
-							"world": "<a target='_blank' href='https://coppermind.net/wiki/Scadrial'>Scadrial</a>",
-							"system": "<a target='_blank' href='https://coppermind.net/wiki/Scadrian_system'>Scadrian system</a>",
-							"chronology": "A cyberpunk Mistborn series would be in a <a target='_blank' href='https://wob.coppermind.net/events/34/#e1782'>near-future setting</a>, between Eras 3 and 4.",
-							"sorting": {
-								"chronology": 10.7
-							},
-							"categories": [
-								"mistborn",
-								"unpublished",
-								"potential-plan",
-								"novel"
 							]
 						}
 					]
@@ -1982,7 +2023,7 @@
 							"system": "<a target='_blank' href='https://coppermind.net/wiki/Drominad_system'>Drominad system</a>",
 							"au": "Included in <a target='_blank' href='https://coppermind.net/wiki/Arcanum_Unbounded'>Arcanum Unbounded</a>.",
 							"publication": "June 2014",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 4.</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/60/#e6664'>Shortly before Mistborn Era 5.</a>",
 							"padding": 12,
 							"sorting": {
 								"order": 1.7,
@@ -2293,7 +2334,7 @@
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Lumar'>Lumar</a>",
 							"system": "Unknown",
 							"publication": "January 2023",
-							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
+							"chronology": "The story takes place three hundred years after the Iriali have departed Lumar. It also occurs after Stormlight Archive 1-5 (based on several references) in which the Iriali are present on Roshar still. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 5.",
 							"sorting": {
 								"order": 3.11,
 								"publication": 2023.01,
@@ -2374,7 +2415,7 @@
 							"world": "<a target='_blank' href='https://coppermind.net/wiki/Canticle'>Canticle</a>",
 							"system": "Unknown",
 							"publication": "October 2023",
-							"chronology": "The story takes place in the space age of the cosmere, at least a few hundred years after Mistborn Era 3. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 4.",
+							"chronology": "The story takes place in the space age of the cosmere, at least a few hundred years after Mistborn Era 3. It is unclear where the story falls relative to the Arcanum Unbounded essays, Sixth of the Dusk, and Mistborn Era 5.",
 							"sorting": {
 								"order": 3.10,
 								"publication": 2023.10,
@@ -2498,9 +2539,9 @@
 							"title2": "<a target='_blank' href='https://wob.coppermind.net/adv_search/?tags=kite+magic'>Kite-based magic story</a>",
 							"world": "Unknown",
 							"system": "Unknown",
-							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/379/#e12466'>Planned to take place between Mistborn Era 3 and 4.</a>",
+							"chronology": "<a target='_blank' href='https://wob.coppermind.net/events/379/#e12466'>Planned to take place between Mistborn Era 3 and 5.</a>",
 							"sorting": {
-								"chronology": 11.0
+								"chronology": 11.5
 							},
 							"categories": [
 								"no-series",
